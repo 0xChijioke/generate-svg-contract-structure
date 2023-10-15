@@ -12,6 +12,7 @@
     "account": "yarn workspace @se-2/hardhat account",
     "chain": "yarn workspace @se-2/hardhat chain",
     "fork": "yarn workspace @se-2/hardhat fork",
+    "svg": "yarn workspace @se-2/hardhat svg",
     "deploy": "yarn workspace @se-2/hardhat deploy",
     "verify": "yarn workspace @se-2/hardhat verify",
     "compile": "yarn workspace @se-2/hardhat compile",
@@ -36,5 +37,8 @@
   },
   "resolutions": {
     "usehooks-ts@^2.7.2": "patch:usehooks-ts@npm:^2.7.2#./.yarn/patches/usehooks-ts-npm-2.7.2-fceffe0e43.patch"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
   }
 }
