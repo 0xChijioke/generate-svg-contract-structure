@@ -39,10 +39,6 @@ function _splitByByteSize(input: string, byteLimit: number) {
   return result;
 }
 
-export function formatAsArgs(vars: string[]) {
-  return vars.map(a => `bytes4 ${a}`);
-}
-
 export function createContract(functions: any, title: string | number) {
   const fnStringArray = functions.map((f: FunctionObj) => f.fnString);
   const start = `//SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport './ToColor.sol';\n\ncontract Asset${title} {\n\nusing ToColor for bytes4;\n\n`;
@@ -60,7 +56,6 @@ export function createFunction(data: string[], name: string, visibility = "inter
 
 export function getFunctionCall(name: string, called = false) {
   // If function is in called format then we skip adding types to the args
-  //   const formattedArgs = formatAsArgs(args);
   if (called) {
     return `${name}(colors)`;
   } else {

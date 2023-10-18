@@ -5,7 +5,6 @@ import {
   createContract,
   createFunctionObj,
   createNestingFunctions,
-  // getAllColorArgs,
 } from "./helperFunctions";
 
 const CONTRACT_SIZE_LIMIT = 13000; // TODO: Examine actual contract size vs this number
