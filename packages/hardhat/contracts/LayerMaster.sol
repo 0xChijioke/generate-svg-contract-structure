@@ -1,42 +1,51 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-interface IRenderContract {
-    function renderMain(bytes4[] memory colors) external pure returns (string memory);
-}
+import "./IRenderContract.sol";
 
 contract LayerMaster {
-    
-    uint public layerCount;
+    string public START_TAG;
+    string public END_TAG;
+
     mapping(uint8 => address[]) public assets; // traitType => render contract addresses
-    
-    constructor(uint8[] memory traits, address[][] memory addresses) {
-        require(traits.length == addresses.length, "Lengths don't match");
-        for (uint8 i; i < traits.length; i++){
-            assets[i] = addresses[i];
-        }
+    mapping(uint8 => bytes4[]) public assetColors; // uint8 corresponds to the above mapping
+
+    constructor(string memory _startTag, string memory _endTag) {
+        START_TAG = _startTag;
+        END_TAG = _endTag;
     }
 
     function renderMain(
-        uint8[] memory traits,
-		bytes4[] memory colors
+        uint8[] memory layers,
+        bool includeTags
 	) public view returns (string memory) {
+        // TODO: Make this gas efficient and test limitations
         string memory result;
-        for (uint8 i; i < traits.length; i++) {
-            address[] memory locations = assets[traits[i]];
+        for (uint8 i; i < layers.length; i++) {
+            address[] memory locations = assets[layers[i]];
+            bytes4[] memory colors = assetColors[layers[i]];
             for (uint h; h < locations.length; h++) {
-                IRenderContract asset = IRenderContract(locations[h]);
-                result = string(abi.encodePacked(result, asset.renderMain(colors)));
+                result = string(abi.encodePacked(result, IRenderContract(locations[h]).renderMain(colors)));
             }
         }
-		return result;
+        if (includeTags) {
+    		return string(abi.encodePacked(START_TAG, result, END_TAG));
+        } else {
+		    return result;
+        }
 	}
 
-    function addAssets(uint8[] memory traits, address[][] memory addresses) public {
+    function addAssets(uint8[] memory traits, address[][] memory addresses, bytes4[][] memory colors) public {
         require(traits.length == addresses.length, "Lengths don't match");
         for (uint8 i; i < traits.length; i++){
-            assets[i] = addresses[i];
+            assets[traits[i]] = addresses[i];
+            assetColors[traits[i]] = colors[i];
         }
+    }
+
+    function addAsset(uint8 trait, address[] memory addresses, bytes4[] memory colors) public {
+        assets[trait] = addresses;
+        assetColors[trait] = colors;
     }
 }
 

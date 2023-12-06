@@ -5,13 +5,14 @@
     "account": "hardhat run scripts/listAccount.ts",
     "chain": "hardhat node --network hardhat --no-deploy",
     "compile": "hardhat compile",
-    "svg":"hardhat run scripts/svgToContracts.ts",
+    "svg": "hardhat run scripts/svgToContracts.ts",
     "deploy": "hardhat deploy",
     "fork": "MAINNET_FORKING_ENABLED=true hardhat node --network hardhat --no-deploy",
     "generate": "hardhat run scripts/generateAccount.ts",
     "lint": "eslint --config ./.eslintrc.json --ignore-path ./.eslintignore ./*.ts ./deploy/**/*.ts ./scripts/**/*.ts ./test/**/*.ts",
     "lint-staged": "eslint --config ./.eslintrc.json --ignore-path ./.eslintignore",
     "test": "REPORT_GAS=true hardhat test --network hardhat",
+    "console": "hardhat console",
     "verify": "hardhat etherscan-verify"
   },
   "devDependencies": {
@@ -49,8 +50,11 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.1",
+    "@openzeppelin/contracts-upgradeable": "^5.0.0",
+    "@openzeppelin/hardhat-upgrades": "^2.3.3",
     "dotenv": "^16.0.3",
     "envfile": "^6.18.0",
-    "qrcode": "^1.5.1"
+    "qrcode": "^1.5.1",
+    "svgo": "^3.0.2"
   }
 }

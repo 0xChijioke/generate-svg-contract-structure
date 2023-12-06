@@ -41,7 +41,7 @@ function _splitByByteSize(input: string, byteLimit: number) {
 
 export function createContract(functions: any, title: string | number) {
   const fnStringArray = functions.map((f: FunctionObj) => f.fnString);
-  const start = `//SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport './ToColor.sol';\n\ncontract Asset${title} {\n\nusing ToColor for bytes4;\n\n`;
+  const start = `//SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport './ToColor.sol';\n\ncontract ${title} {\n\nusing ToColor for bytes4;\n\n`;
   const middle = fnStringArray.join("\n\n    ");
   const end = `\n}`;
 
@@ -59,7 +59,7 @@ export function getFunctionCall(name: string, called = false) {
   if (called) {
     return `${name}(colors)`;
   } else {
-    return `${name}(bytes4 memory colors)`;
+    return `${name}(bytes4[] memory colors)`;
   }
 }
 
