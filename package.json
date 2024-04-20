@@ -13,6 +13,7 @@
     "chain": "yarn workspace @se-2/hardhat chain",
     "fork": "yarn workspace @se-2/hardhat fork",
     "svg": "yarn workspace @se-2/hardhat svg",
+    "setupLayerMaster": "yarn workspace @se-2/hardhat setupLayerMaster",
     "deploy": "yarn workspace @se-2/hardhat deploy",
     "verify": "yarn workspace @se-2/hardhat verify",
     "compile": "yarn workspace @se-2/hardhat compile",

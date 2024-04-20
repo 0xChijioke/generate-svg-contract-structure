@@ -17,7 +17,7 @@ const etherscanApiKey = process.env.ETHERSCAN_API_KEY || "DNXJA8RX2Q3VZ4URQIWP7Z
 
 const config: HardhatUserConfig = {
   solidity: {
-    version: "0.8.17",
+    version: "0.8.20",
     settings: {
       optimizer: {
         enabled: true,
@@ -37,8 +37,9 @@ const config: HardhatUserConfig = {
     // View the networks that are pre-configured.
     // If the network you are looking for is not here you can add new network settings
     hardhat: {
+      blockGasLimit: 6_000_000_000,
       forking: {
-        url: `https://eth-mainnet.alchemyapi.io/v2/${providerApiKey}`,
+        url: `https://base-mainnet.g.alchemy.com/v2/${providerApiKey}`, //`https://eth-mainnet.alchemyapi.io/v2/${providerApiKey}`,
         enabled: process.env.MAINNET_FORKING_ENABLED === "true",
       },
     },
@@ -104,6 +105,10 @@ const config: HardhatUserConfig = {
     },
     baseGoerli: {
       url: "https://goerli.base.org",
+      accounts: [deployerPrivateKey],
+    },
+    baseSepolia: {
+      url: "https://sepolia.base.org",
       accounts: [deployerPrivateKey],
     },
   },

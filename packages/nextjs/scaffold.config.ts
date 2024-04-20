@@ -7,6 +7,7 @@ export type ScaffoldConfig = {
   walletConnectProjectId: string;
   onlyLocalBurnerWallet: boolean;
   walletAutoConnect: boolean;
+  fromBlock: bigint;
 };
 
 const scaffoldConfig = {
@@ -38,6 +39,8 @@ const scaffoldConfig = {
    * 2. If user is not connected to any wallet:  On reload, connect to burner wallet if burnerWallet.enabled is true && burnerWallet.onlyLocal is false
    */
   walletAutoConnect: true,
+
+  fromBlock: 0n,
 } satisfies ScaffoldConfig;
 
 export default scaffoldConfig;

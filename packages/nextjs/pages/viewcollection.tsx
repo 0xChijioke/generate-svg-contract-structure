@@ -9,7 +9,7 @@ import { getTargetNetwork } from "~~/utils/scaffold-eth";
 const chain = getTargetNetwork();
 const provider = new JsonRpcProvider(chain.rpcUrls.public.http[0]);
 
-const ExampleUI: NextPage = () => {
+const ViewCollection: NextPage = () => {
   const [svg, setSvg] = useState("");
   const { data: layerMasterData } = useDeployedContractInfo("LayerMaster");
   const [tokenId, setTokenId] = useState(0);
@@ -42,21 +42,6 @@ const ExampleUI: NextPage = () => {
     // console.log(result);
     return result;
   };
-
-  // const getOnchainMech = async (tokenId: number) => {
-  //   const { address: contractAddress, abi: contractAbi } = onchainMechData as { address: string; abi: InterfaceAbi };
-  //   const contract = new Contract(contractAddress, contractAbi, provider);
-  //   const gasEstimate = await contract.tokenURI.estimateGas(tokenId);
-  //   console.log(gasEstimate);
-  //   const result = await contract.tokenURI(tokenId, { gasLimit: gasEstimate + 10000n });
-  //   console.log(result);
-  //   const str = Buffer.from(result.replace("data:application/json;base64,", ""), "base64").toString();
-  //   console.log(str);
-  //   const json = JSON.parse(str);
-  //   console.log(json);
-  //   setSvg(json?.image);
-  //   return result;
-  // };
 
   const getArray = async () => {
     const result = await getUint8Array(tokenId);
@@ -119,4 +104,4 @@ const ExampleUI: NextPage = () => {
   );
 };
 
-export default ExampleUI;
+export default ViewCollection;
