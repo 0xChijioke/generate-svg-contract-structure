@@ -9,7 +9,36 @@
 
 body {
   min-height: 100vh;
+  scroll-behavior: smooth;
+  
 }
+.crawl {
+  font-family: Arial, sans-serif;
+  text-align: justify;
+  margin: 0 auto;
+  font-weight: 800;
+  line-height: 80px;
+  width: 1000px;
+  height: 2000px;
+  transform: perspective(1330px) rotateX(20deg);
+  animation: scrollCrawl 100s linear;
+}
+
+
+@keyframes scrollCrawl {
+  0% {
+    transform: perspective(1250px) rotateX(40deg) translateY(680px);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: perspective(1250px) rotateX(0deg) translateY(-4000px);
+    opacity: 0;
+  }
+}
+
 
 h1,
 h2,
