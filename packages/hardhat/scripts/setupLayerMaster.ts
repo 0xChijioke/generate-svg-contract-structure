@@ -17,6 +17,7 @@ async function main() {
   for (let i = 0; i < Object.keys(assetConfig).length; i++) {
     const assetName = Object.keys(assetConfig)[i];
     const asset = assetConfig[assetName];
+    console.log(asset)
     if (asset.run) {
       console.log(`Skipping asset ${assetName} as it was already run...`);
       continue;

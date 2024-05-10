@@ -12,6 +12,9 @@ body {
   scroll-behavior: smooth;
   
 }
+
+
+
 .crawl {
   font-family: Arial, sans-serif;
   text-align: justify;
@@ -21,13 +24,13 @@ body {
   width: 1000px;
   height: 2000px;
   transform: perspective(1330px) rotateX(20deg);
-  animation: scrollCrawl 100s linear;
+  animation: scrollCrawl 80s linear;
 }
 
 
 @keyframes scrollCrawl {
   0% {
-    transform: perspective(1250px) rotateX(40deg) translateY(680px);
+    transform: perspective(1250px) rotateX(47deg) translateY(680px);
     opacity: 1;
   }
   50% {
@@ -38,6 +41,62 @@ body {
     opacity: 0;
   }
 }
+
+
+
+
+@keyframes scroll {
+  from {
+    transform: translateY(var(--start-position, 0));
+  }
+  to {
+    transform: translateY(var(--end-position, -40%));
+  }
+}
+
+@keyframes scroll-reverse {
+  from {
+    transform: translateY(var(--end-position, -40%));
+  }
+  to {
+    transform: translateY(var(--start-position, 0));
+  }
+}
+
+.black-matter.auto-scroll {
+  animation: scroll 50s linear 1;
+}
+
+.black-matter.auto-scroll.reverse {
+  animation: scroll-reverse 50s linear infinite;
+}
+
+.black-matter.auto-scroll {
+  animation: scroll 50s linear ease-out;
+}
+
+.black-matter.auto-scroll.reverse {
+  animation: scroll-reverse 50s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 h1,

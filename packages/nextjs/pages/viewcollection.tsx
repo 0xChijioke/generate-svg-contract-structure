@@ -27,6 +27,7 @@ const ViewCollection: NextPage = () => {
   const getSVG = async () => {
     //1, 5, 9, 13, 17, 21, 25, 29
     const result = await readLMContract(JSON.parse(uint8Array));
+    console.log(result)
     // Convert to base64
     const svgBase64 = `data:image/svg+xml;base64,${btoa(result as string)}`;
     console.log(svgBase64);
@@ -98,7 +99,11 @@ const ViewCollection: NextPage = () => {
         >
           Click here to load image!
         </button>
-        {svg && <Image alt="svg" src={svg} width={500} height={500} />}
+        {svg && (
+          <div className="flex w-full justify-center">
+            <Image alt="svg" src={svg} width={500} height={500} />
+          </div>          
+          )}
       </div>
     </>
   );

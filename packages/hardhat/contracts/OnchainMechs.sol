@@ -8,6 +8,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Base64.sol";
 import './HexStrings.sol';
+import "hardhat/console.sol";
 
 interface ILayerMaster {
 	function renderMain(
@@ -141,11 +142,13 @@ contract OnchainMechs is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 		uint256 id
 	) public view returns (string memory) {
 		uint8[] memory layers = getLayersForToken(id);
+    	// console.log("Layers for Token ID:", layers);
 		string memory svg = ILayerMaster(layerMaster).renderMain(
 			layers,
 			true
 		);
 
+    console.log("SVG Result for Token ID:", id, svg);
 		return svg;
 	}
 
@@ -160,11 +163,14 @@ contract OnchainMechs is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 			)
 		);
 		tokenSeed[id] = uint256(seedBytes);
+
+		console.log("id", id);
 		
 		return id;
 	}
 
 	function getRarity(uint256 seed) public pure returns (uint) {
+    console.log("Rarity  seed:", seed);
 		if (seed > 997 * ONE_TENTH_PERCENT_MAX_INT) {
 			// Ultra Rare - 0.3% chance
 			return 3;
@@ -184,7 +190,10 @@ contract OnchainMechs is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 		uint256 id
 	) public view returns (uint8[] memory) {
 		uint rarity = getRarity(tokenSeed[id]);
+    console.log("id:", id);
+    console.log("Rarity:", rarity);
 		uint location = tokenLocation[id];
+    	console.log("Location:", location);
 		if (rarity == 1) {
 			return getUncommonArray(location);
 		} else if (rarity == 2) {

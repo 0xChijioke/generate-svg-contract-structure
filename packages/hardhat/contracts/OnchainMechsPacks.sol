@@ -10,6 +10,7 @@ import "@openzeppelin/contracts/utils/Base64.sol";
 import "./HexStrings.sol";
 import "./RLPReader.sol";
 import "./OnchainMechs.sol";
+import "hardhat/console.sol";
 
 contract OnchainMechsPacks is
 	ERC721,
@@ -144,6 +145,14 @@ contract OnchainMechsPacks is
 
 		uint256 blockNumber = ls[8].toUint();
 
+
+
+			// Log pack data
+		console.log("Pack ID: %s", id);
+		console.log("Block Number: %s", pack.blockNumber);
+		console.log("Current Block Number: %s", block.number);
+
+
 		require(
 			blockNumber == pack.blockNumber,
 			"Wrong block"
@@ -153,18 +162,22 @@ contract OnchainMechsPacks is
 			blockhash(blockNumber) == keccak256(rlpBytes),
 			"Wrong block header"
 		);
+		console.log("Hash here: %s");
 
 		bytes32 hash = keccak256(
 			abi.encodePacked(difficulty, address(this), msg.sender)
 		);
+		console.log("Hash: %s");
 		// burn pack
 		_burn(id);
+		console.log("Hash here: %s");
 		// mint cards in OnchainMechs.sol // TODO: erc721a and send the command to mint multiple
 		for (uint i = 0; i < packCardCount; i++) {
 			onchainMechs.mintItem(
 				msg.sender,
 				hash
 			);
+		console.log("Hash here: %s");
 		}
 	}
 

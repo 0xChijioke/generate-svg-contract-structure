@@ -38,16 +38,18 @@ const MintPage: NextPage = () => {
     transport: http(),
   });
 
-  const { writeAsync, isLoading, isMining } = useScaffoldContractWrite({
+  const { writeAsync, isLoading, isMining, data } = useScaffoldContractWrite({
     contractName: "OnchainMechsPacks",
     functionName: "mintPack",
     // args: [],
     value: "0.0015",
     onBlockConfirmation: txnReceipt => {
       console.log("Transaction blockHash", txnReceipt.blockHash);
+      console.log("Transaction blockHash", txnReceipt.status);
       setMinted(true);
     },
   });
+  console.log("data", data)
 
   const { data: mintPackEvents } = useScaffoldEventHistory({
     contractName: "OnchainMechsPacks",
@@ -74,6 +76,12 @@ const MintPage: NextPage = () => {
     functionName: "tokenOfOwnerByIndex",
     args: [address, 0n],
   });
+  const { data: balance } = useScaffoldContractRead({
+    contractName: "OnchainMechsPacks",
+    functionName: "balanceOf",
+    args: [address],
+  });
+  console.log(balance)
 
   const { writeAsync: refreshPack } = useScaffoldContractWrite({
     contractName: "OnchainMechsPacks",
@@ -198,16 +206,19 @@ const MintPage: NextPage = () => {
       console.log("tokenId", tokenId);
       const makeWrite = () => packsContract.write.openPack([rlpEncodedValues, tokenId as bigint]);
 
-      await writeTx(makeWrite as unknown as SendTransactionParameters, {
+      const res = await writeTx(makeWrite as unknown as SendTransactionParameters, {
         onBlockConfirmation: txnReceipt => {
           console.log("Transaction blockHash", txnReceipt.blockHash);
+          console.log("Transaction ", txnReceipt);
           setRolled(true);
         },
       });
+      console.log(res)
       setRolling(false);
     }
   };
 
+  mintCardEvents && console.log("mint card event: ", mintCardEvents)
   return (
     <>
       <MetaHeader />
@@ -255,8 +266,8 @@ const MintPage: NextPage = () => {
               {mintPackEvents &&
                 mintPackEvents.map((event, index) => (
                   <div key={index} className="mt-0">
-                    <Address address={event.args.player} />
-                    Bet: {event.args.number}
+                    <Address address={event.args.to} />
+                    Bet: {event.args.tokenId}
                   </div>
                 ))}
             </div>
@@ -265,8 +276,8 @@ const MintPage: NextPage = () => {
               {mintCardEvents &&
                 mintCardEvents.map((event, index) => (
                   <div key={index} className="mt-0">
-                    <Address address={event.args.player} />
-                    Number: {event.args.number}
+                    <Address address={event.args.to} />
+                    Number: {event.args.tokenId}
                   </div>
                 ))}
             </div>
