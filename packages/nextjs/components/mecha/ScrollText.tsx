@@ -13,6 +13,8 @@ const ScrollText = ({ scrollPosition }: { scrollPosition: number }) => {
         const scrollHeight = textContainer.scrollHeight - textContainer.clientHeight;
         const scrollFraction = scrollTop / scrollHeight;
 
+        console.log(scrollFraction)
+
         // Update animation based on scroll position
         // You can adjust the animation based on scrollFraction
         // For example, you can move the text content up or down
