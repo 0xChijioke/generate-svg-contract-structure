@@ -33,10 +33,10 @@ const ViewCollection: NextPage = () => {
     setSvg(svgBase64);
   };
 
-  const { data: onchainMechData } = useDeployedContractInfo("OnchainMechs");
+  const { data: basedMechaData } = useDeployedContractInfo("BasedMecha");
 
   const getUint8Array = async (num: number) => {
-    const { address: contractAddress, abi: contractAbi } = onchainMechData as { address: string; abi: InterfaceAbi };
+    const { address: contractAddress, abi: contractAbi } = basedMechaData as { address: string; abi: InterfaceAbi };
     const contract = new Contract(contractAddress, contractAbi, provider);
     const result = await contract.getLayersForToken(num);
     // console.log(result);
@@ -49,7 +49,7 @@ const ViewCollection: NextPage = () => {
   };
 
   // const getTokenId = async () => {
-  //   const result = await getOnchainMech(tokenId);
+  //   const result = await getBasedMecha(tokenId);
   //   console.log(result);
   // };
 

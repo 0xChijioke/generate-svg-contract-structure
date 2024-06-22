@@ -33,18 +33,18 @@ const ExampleUI: NextPage = () => {
     setSvg(svgBase64);
   };
 
-  const { data: onchainMechData } = useDeployedContractInfo("OnchainMechs");
+  const { data: basedMechaData } = useDeployedContractInfo("BasedMecha");
 
   const getUint8Array = async (num: number) => {
-    const { address: contractAddress, abi: contractAbi } = onchainMechData as { address: string; abi: InterfaceAbi };
+    const { address: contractAddress, abi: contractAbi } = basedMechaData as { address: string; abi: InterfaceAbi };
     const contract = new Contract(contractAddress, contractAbi, provider);
     const result = await contract.getLayersForToken(num);
     // console.log(result);
     return result;
   };
 
-  // const getOnchainMech = async (tokenId: number) => {
-  //   const { address: contractAddress, abi: contractAbi } = onchainMechData as { address: string; abi: InterfaceAbi };
+  // const getBasedMecha = async (tokenId: number) => {
+  //   const { address: contractAddress, abi: contractAbi } = basedMechaData as { address: string; abi: InterfaceAbi };
   //   const contract = new Contract(contractAddress, contractAbi, provider);
   //   const gasEstimate = await contract.tokenURI.estimateGas(tokenId);
   //   console.log(gasEstimate);
@@ -64,7 +64,7 @@ const ExampleUI: NextPage = () => {
   };
 
   // const getTokenId = async () => {
-  //   const result = await getOnchainMech(tokenId);
+  //   const result = await getBasedMecha(tokenId);
   //   console.log(result);
   // };
 

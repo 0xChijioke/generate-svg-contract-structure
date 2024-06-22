@@ -1,6 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
+// ██████╗  █████╗ ███████╗███████╗██████╗     ███╗   ███╗███████╗ ██████╗██╗  ██╗ █████╗ 
+// ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗    ████╗ ████║██╔════╝██╔════╝██║  ██║██╔══██╗
+// ██████╔╝███████║███████╗█████╗  ██║  ██║    ██╔████╔██║█████╗  ██║     ███████║███████║
+// ██╔══██╗██╔══██║╚════██║██╔══╝  ██║  ██║    ██║╚██╔╝██║██╔══╝  ██║     ██╔══██║██╔══██║
+// ██████╔╝██║  ██║███████║███████╗██████╔╝    ██║ ╚═╝ ██║███████╗╚██████╗██║  ██║██║  ██║
+// ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═════╝     ╚═╝     ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝                                                                       
+
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
@@ -16,7 +23,7 @@ interface ILayerMaster {
 	) external view returns (string memory);
 }
 
-contract OnchainMechs is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
+contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	using Strings for uint256;
   	using HexStrings for uint160;
 
@@ -41,7 +48,7 @@ contract OnchainMechs is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	constructor(
 		address _layerMaster,
 		address _mintingContract
-	) ERC721("Onchain Mechs", "MECH") Ownable(msg.sender) {
+	) ERC721("Based Mecha", "MECH") Ownable(msg.sender) {
 		layerMaster = _layerMaster;
 		mintingContract = _mintingContract;
 	}
