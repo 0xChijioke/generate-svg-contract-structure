@@ -3460,171 +3460,6 @@ const contracts = {
             },
           ],
         },
-        LayerMaster: {
-          address: "0x927b167526bAbB9be047421db732C663a0b77B11",
-          abi: [
-            {
-              inputs: [
-                {
-                  internalType: "string",
-                  name: "_startTag",
-                  type: "string",
-                },
-                {
-                  internalType: "string",
-                  name: "_endTag",
-                  type: "string",
-                },
-              ],
-              stateMutability: "nonpayable",
-              type: "constructor",
-            },
-            {
-              inputs: [],
-              name: "END_TAG",
-              outputs: [
-                {
-                  internalType: "string",
-                  name: "",
-                  type: "string",
-                },
-              ],
-              stateMutability: "view",
-              type: "function",
-            },
-            {
-              inputs: [],
-              name: "START_TAG",
-              outputs: [
-                {
-                  internalType: "string",
-                  name: "",
-                  type: "string",
-                },
-              ],
-              stateMutability: "view",
-              type: "function",
-            },
-            {
-              inputs: [
-                {
-                  internalType: "uint8",
-                  name: "trait",
-                  type: "uint8",
-                },
-                {
-                  internalType: "address[]",
-                  name: "addresses",
-                  type: "address[]",
-                },
-                {
-                  internalType: "bytes4[]",
-                  name: "colors",
-                  type: "bytes4[]",
-                },
-              ],
-              name: "addAsset",
-              outputs: [],
-              stateMutability: "nonpayable",
-              type: "function",
-            },
-            {
-              inputs: [
-                {
-                  internalType: "uint8[]",
-                  name: "traits",
-                  type: "uint8[]",
-                },
-                {
-                  internalType: "address[][]",
-                  name: "addresses",
-                  type: "address[][]",
-                },
-                {
-                  internalType: "bytes4[][]",
-                  name: "colors",
-                  type: "bytes4[][]",
-                },
-              ],
-              name: "addAssets",
-              outputs: [],
-              stateMutability: "nonpayable",
-              type: "function",
-            },
-            {
-              inputs: [
-                {
-                  internalType: "uint8",
-                  name: "",
-                  type: "uint8",
-                },
-                {
-                  internalType: "uint256",
-                  name: "",
-                  type: "uint256",
-                },
-              ],
-              name: "assetColors",
-              outputs: [
-                {
-                  internalType: "bytes4",
-                  name: "",
-                  type: "bytes4",
-                },
-              ],
-              stateMutability: "view",
-              type: "function",
-            },
-            {
-              inputs: [
-                {
-                  internalType: "uint8",
-                  name: "",
-                  type: "uint8",
-                },
-                {
-                  internalType: "uint256",
-                  name: "",
-                  type: "uint256",
-                },
-              ],
-              name: "assets",
-              outputs: [
-                {
-                  internalType: "address",
-                  name: "",
-                  type: "address",
-                },
-              ],
-              stateMutability: "view",
-              type: "function",
-            },
-            {
-              inputs: [
-                {
-                  internalType: "uint8[]",
-                  name: "layers",
-                  type: "uint8[]",
-                },
-                {
-                  internalType: "bool",
-                  name: "includeTags",
-                  type: "bool",
-                },
-              ],
-              name: "renderMain",
-              outputs: [
-                {
-                  internalType: "string",
-                  name: "",
-                  type: "string",
-                },
-              ],
-              stateMutability: "view",
-              type: "function",
-            },
-          ],
-        },
         BasedMecha: {
           address: "0x01c1DeF3b91672704716159C9041Aeca392DdFfb",
           abi: [
@@ -3885,6 +3720,19 @@ const contracts = {
               type: "event",
             },
             {
+              inputs: [],
+              name: "ONE_TENTH_PERCENT_MAX_INT",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
               inputs: [
                 {
                   internalType: "address",
@@ -4081,6 +3929,25 @@ const contracts = {
               inputs: [
                 {
                   internalType: "uint256",
+                  name: "seed",
+                  type: "uint256",
+                },
+              ],
+              name: "getRarity",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
                   name: "location",
                   type: "uint256",
                 },
@@ -4150,30 +4017,6 @@ const contracts = {
                 },
               ],
               stateMutability: "view",
-              type: "function",
-            },
-            {
-              inputs: [
-                {
-                  internalType: "uint256[]",
-                  name: "toBurn",
-                  type: "uint256[]",
-                },
-                {
-                  internalType: "uint8[]",
-                  name: "customArray",
-                  type: "uint8[]",
-                },
-              ],
-              name: "mintCustomItem",
-              outputs: [
-                {
-                  internalType: "uint256",
-                  name: "",
-                  type: "uint256",
-                },
-              ],
-              stateMutability: "nonpayable",
               type: "function",
             },
             {
@@ -4386,24 +4229,6 @@ const contracts = {
                 },
               ],
               name: "setApprovalForAll",
-              outputs: [],
-              stateMutability: "nonpayable",
-              type: "function",
-            },
-            {
-              inputs: [
-                {
-                  internalType: "uint256",
-                  name: "id",
-                  type: "uint256",
-                },
-                {
-                  internalType: "uint8[]",
-                  name: "array",
-                  type: "uint8[]",
-                },
-              ],
-              name: "setCustomArray",
               outputs: [],
               stateMutability: "nonpayable",
               type: "function",
@@ -4989,6 +4814,19 @@ const contracts = {
               type: "function",
             },
             {
+              inputs: [],
+              name: "basedMecha",
+              outputs: [
+                {
+                  internalType: "contract BasedMecha",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
               inputs: [
                 {
                   internalType: "uint256",
@@ -5129,19 +4967,6 @@ const contracts = {
                   internalType: "string",
                   name: "",
                   type: "string",
-                },
-              ],
-              stateMutability: "view",
-              type: "function",
-            },
-            {
-              inputs: [],
-              name: "basedMecha",
-              outputs: [
-                {
-                  internalType: "contract BasedMecha",
-                  name: "",
-                  type: "address",
                 },
               ],
               stateMutability: "view",
@@ -5516,6 +5341,171 @@ const contracts = {
               name: "transferOwnership",
               outputs: [],
               stateMutability: "nonpayable",
+              type: "function",
+            },
+          ],
+        },
+        LayerMaster: {
+          address: "0x927b167526bAbB9be047421db732C663a0b77B11",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "string",
+                  name: "_startTag",
+                  type: "string",
+                },
+                {
+                  internalType: "string",
+                  name: "_endTag",
+                  type: "string",
+                },
+              ],
+              stateMutability: "nonpayable",
+              type: "constructor",
+            },
+            {
+              inputs: [],
+              name: "END_TAG",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "START_TAG",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "trait",
+                  type: "uint8",
+                },
+                {
+                  internalType: "address[]",
+                  name: "addresses",
+                  type: "address[]",
+                },
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "addAsset",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "traits",
+                  type: "uint8[]",
+                },
+                {
+                  internalType: "address[][]",
+                  name: "addresses",
+                  type: "address[][]",
+                },
+                {
+                  internalType: "bytes4[][]",
+                  name: "colors",
+                  type: "bytes4[][]",
+                },
+              ],
+              name: "addAssets",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "assetColors",
+              outputs: [
+                {
+                  internalType: "bytes4",
+                  name: "",
+                  type: "bytes4",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "assets",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "layers",
+                  type: "uint8[]",
+                },
+                {
+                  internalType: "bool",
+                  name: "includeTags",
+                  type: "bool",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
               type: "function",
             },
           ],
@@ -9149,7 +9139,7 @@ const contracts = {
             },
           ],
         },
-        BasedMecha: {
+        OnchainMechs: {
           address: "0x515cF3aDBa2B5e3255126C5210ec5e8412e685CC",
           abi: [
             {
