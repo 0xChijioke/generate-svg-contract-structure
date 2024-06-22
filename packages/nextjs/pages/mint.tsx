@@ -39,7 +39,7 @@ const MintPage: NextPage = () => {
   });
 
   const { writeAsync, isLoading, isMining } = useScaffoldContractWrite({
-    contractName: "OnchainMechsPacks",
+    contractName: "BasedMechaPacks",
     functionName: "mintPack",
     // args: [],
     value: "0.0015",
@@ -50,14 +50,14 @@ const MintPage: NextPage = () => {
   });
 
   const { data: mintPackEvents } = useScaffoldEventHistory({
-    contractName: "OnchainMechsPacks",
+    contractName: "BasedMechaPacks",
     eventName: "Transfer",
     fromBlock: scaffoldConfig.fromBlock,
     filters: { from: "0x0000000000000000000000000000000000000000", to: address },
   });
 
   const { data: mintCardEvents } = useScaffoldEventHistory({
-    contractName: "OnchainMechs",
+    contractName: "BasedMecha",
     eventName: "Transfer",
     fromBlock: scaffoldConfig.fromBlock,
     filters: { from: "0x0000000000000000000000000000000000000000", to: address },
@@ -65,18 +65,18 @@ const MintPage: NextPage = () => {
 
   const { data: walletClient } = useWalletClient();
   const { data: packsContract } = useScaffoldContract({
-    contractName: "OnchainMechsPacks",
+    contractName: "BasedMechaPacks",
     walletClient,
   });
 
   const { data: tokenId } = useScaffoldContractRead({
-    contractName: "OnchainMechsPacks",
+    contractName: "BasedMechaPacks",
     functionName: "tokenOfOwnerByIndex",
     args: [address, 0n],
   });
 
   const { writeAsync: refreshPack } = useScaffoldContractWrite({
-    contractName: "OnchainMechsPacks",
+    contractName: "BasedMechaPacks",
     functionName: "refreshPack",
     args: [tokenId as bigint],
     onBlockConfirmation: txnReceipt => {
@@ -86,7 +86,7 @@ const MintPage: NextPage = () => {
   });
 
   const { data: betData } = useScaffoldContractRead({
-    contractName: "OnchainMechsPacks",
+    contractName: "BasedMechaPacks",
     functionName: "packs",
     args: [tokenId],
   }) as { data: [bigint, bigint, boolean, bigint] | undefined };

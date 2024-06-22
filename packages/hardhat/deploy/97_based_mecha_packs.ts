@@ -1,16 +1,16 @@
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { DeployFunction } from "hardhat-deploy/types";
 
-const deployOnchainMechsPacks: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
+const deployBasedMechaPacks: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const { deployer } = await hre.getNamedAccounts();
   const { deploy } = hre.deployments;
-  await deploy("OnchainMechsPacks", {
+  await deploy("BasedMechaPacks", {
     from: deployer,
     log: true,
     args: [7000],
     autoMine: true,
   });
 };
-export default deployOnchainMechsPacks;
+export default deployBasedMechaPacks;
 
-deployOnchainMechsPacks.tags = ["OnchainMechsPacks"];
+deployBasedMechaPacks.tags = ["BasedMechaPacks"];

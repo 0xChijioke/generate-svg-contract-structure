@@ -16,7 +16,7 @@ interface ILayerMaster {
 	) external view returns (string memory);
 }
 
-contract OnchainMechs is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
+contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	using Strings for uint256;
   	using HexStrings for uint160;
 
@@ -41,7 +41,7 @@ contract OnchainMechs is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	constructor(
 		address _layerMaster,
 		address _mintingContract
-	) ERC721("Onchain Mechs", "MECH") Ownable(msg.sender) {
+	) ERC721("Based Mecha", "MECH") Ownable(msg.sender) {
 		layerMaster = _layerMaster;
 		mintingContract = _mintingContract;
 	}

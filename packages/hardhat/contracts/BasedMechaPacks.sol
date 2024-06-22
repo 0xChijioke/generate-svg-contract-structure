@@ -9,9 +9,9 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Base64.sol";
 import "./HexStrings.sol";
 import "./RLPReader.sol";
-import "./OnchainMechs.sol";
+import "./BasedMecha.sol";
 
-contract OnchainMechsPacks is
+contract BasedMechaPacks is
 	ERC721,
 	ERC721Enumerable,
 	ERC721Burnable,
@@ -31,20 +31,20 @@ contract OnchainMechsPacks is
 
 	uint public currentEdition;
 	mapping(uint => uint) public editionCount; // Edition => count
-	OnchainMechs public onchainMechs;
+	BasedMecha public basedMecha;
 
 	uint public constant futureBlocks = 2;
-	uint public packPrice = 0.0015 ether;
+	uint public packPrice = 0.000777 ether;
 	uint public packCardCount = 3;
 
 	constructor(
 		uint _editionCount
-	) ERC721("Onchain Mechs Pack", "PACK") Ownable(msg.sender) {
+	) ERC721("Based Mecha Pack", "PACK") Ownable(msg.sender) {
 		addEdition(_editionCount);
 	}
 
-	function setMechsContract(address _onchainMechs) public onlyOwner {
-		onchainMechs = OnchainMechs(_onchainMechs);
+	function setMechaContract(address _basedMecha) public onlyOwner {
+		basedMecha = BasedMecha(_basedMecha);
 	}
 
 	// The following functions are overrides required by Solidity.
@@ -159,9 +159,9 @@ contract OnchainMechsPacks is
 		);
 		// burn pack
 		_burn(id);
-		// mint cards in OnchainMechs.sol // TODO: erc721a and send the command to mint multiple
+		// mint cards in BasedMecha.sol // TODO: erc721a and send the command to mint multiple
 		for (uint i = 0; i < packCardCount; i++) {
-			onchainMechs.mintItem(
+			basedMecha.mintItem(
 				msg.sender,
 				hash
 			);
