@@ -19,7 +19,6 @@ contract LayerMaster {
         uint8[] memory layers,
         bool includeTags
 	) public view returns (string memory) {
-        // TODO: Make this gas efficient and test limitations
         string memory result;
         for (uint8 i; i < layers.length; i++) {
             address[] memory locations = assets[layers[i]];

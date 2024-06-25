@@ -7,7 +7,7 @@ const deployBasedMechaPacks: DeployFunction = async function (hre: HardhatRuntim
   await deploy("BasedMechaPacks", {
     from: deployer,
     log: true,
-    args: [7000],
+    args: [],
     autoMine: true,
   });
 };

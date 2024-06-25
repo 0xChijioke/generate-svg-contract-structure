@@ -7,7 +7,7 @@ pragma solidity ^0.8.20;
 // ██╔══██╗██╔══██║╚════██║██╔══╝  ██║  ██║    ██║╚██╔╝██║██╔══╝  ██║     ██╔══██║██╔══██║    ██╔═══╝ ██╔══██║██║     ██╔═██╗ ╚════██║
 // ██████╔╝██║  ██║███████║███████╗██████╔╝    ██║ ╚═╝ ██║███████╗╚██████╗██║  ██║██║  ██║    ██║     ██║  ██║╚██████╗██║  ██╗███████║
 // ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═════╝     ╚═╝     ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝
-                                                                                                                                   
+
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
@@ -18,12 +18,7 @@ import "./HexStrings.sol";
 import "./RLPReader.sol";
 import "./BasedMecha.sol";
 
-contract BasedMechaPacks is
-	ERC721,
-	ERC721Enumerable,
-	ERC721Burnable,
-	Ownable
-{
+contract BasedMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	using Strings for uint256;
 	using HexStrings for uint160;
 	using RLPReader for RLPReader.RLPItem;
@@ -36,19 +31,15 @@ contract BasedMechaPacks is
 
 	mapping(uint => Pack) public packs;
 
-	uint public currentEdition;
-	mapping(uint => uint) public editionCount; // Edition => count
 	BasedMecha public basedMecha;
+    address public layerMaster;
+	uint8[] public unopenedPackLayers;
 
 	uint public constant futureBlocks = 2;
-	uint public packPrice = 0.000777 ether;
+	uint public packPrice = 0.0007777777 ether;
 	uint public packCardCount = 3;
 
-	constructor(
-		uint _editionCount
-	) ERC721("Based Mecha Pack", "PACK") Ownable(msg.sender) {
-		addEdition(_editionCount);
-	}
+	constructor() ERC721("Based Mecha Pack", "PACK") Ownable(msg.sender) {}
 
 	function setMechaContract(address _basedMecha) public onlyOwner {
 		basedMecha = BasedMecha(_basedMecha);
@@ -80,9 +71,12 @@ contract BasedMechaPacks is
 		uint256 id
 	) public view override(ERC721) returns (string memory) {
 		_requireOwned(id);
-		string memory name = string(abi.encodePacked("Mech #", id.toString()));
-		string memory description = string(abi.encodePacked("This is ", name));
-		string memory image = Base64.encode(bytes(generateSVGofTokenById(id)));
+		string memory name = "Unopened Based Mecha Pack of Cards";
+		string
+			memory description = "This is an unopened pack of Based Mecha cards. Go to BasedMecha.xyz to open it!";
+		string memory image = Base64.encode(
+			bytes((generateSVGofTokenById()))
+		);
 
 		return
 			string(
@@ -95,12 +89,10 @@ contract BasedMechaPacks is
 								name,
 								'", "description":"',
 								description,
-								'", "external_url":"https://burnyboys.com/token/',
+								'", "external_url":"https://basedmecha.xyz/pack/',
 								id.toString(),
-								'", "attributes": [{"trait_type": "rarity", "value": "super-rare',
-								'"},{"trait_type": "chubbiness", "value": ',
-								'"pretty chubby"',
-								'}], "owner":"',
+								'", "attributes": [{"trait_type": "condition", "value": "unopened',
+								'"}], "owner":"',
 								(uint160(ownerOf(id))).toHexString(20),
 								'", "image": "',
 								"data:image/svg+xml;base64,",
@@ -113,15 +105,16 @@ contract BasedMechaPacks is
 			);
 	}
 
-	function generateSVGofTokenById(
-		uint256 id
-	) public pure returns (string memory) {
-		string memory svg = "";
+	function generateSVGofTokenById() public view returns (string memory) {
+		string memory svg = ILayerMaster(layerMaster).renderMain(unopenedPackLayers, true);
+
 		return svg;
 	}
 
 	function mintPack() public payable returns (uint256) {
-		uint256 id = totalSupply();
+		require(basedMecha.akuShardsFound() < 7, "7 Aku shards have been found. Minting has been disabled");
+
+		uint256 id = uint256(keccak256(abi.encodePacked(msg.sender, block.number, totalSupply())));
 		_mint(msg.sender, id);
 
 		packs[id].blockNumber = block.number + futureBlocks;
@@ -135,76 +128,64 @@ contract BasedMechaPacks is
 		// Check if pack is owned by sender
 		require(ownerOf(id) == msg.sender, "You do not own that pack");
 		Pack memory pack = packs[id];
-		require(
-			block.number >= pack.blockNumber,
-			"Too soon to open pack"
-		);
-		require(
-			block.number < pack.blockNumber + 256,
-			"Too late to open pack"
-		);
-		RLPReader.RLPItem[] memory ls = rlpBytes.toRlpItem().toList();
-
-		// uint256 difficulty = ls[7].toUint();
-		// we have to use mixHash on PoS networks -> https://eips.ethereum.org/EIPS/eip-4399
-		bytes memory difficulty = ls[13].toBytes();
-
-		uint256 blockNumber = ls[8].toUint();
-
-		require(
-			blockNumber == pack.blockNumber,
-			"Wrong block"
-		);
-
-		require(
-			blockhash(blockNumber) == keccak256(rlpBytes),
-			"Wrong block header"
-		);
-
-		bytes32 hash = keccak256(
-			abi.encodePacked(difficulty, address(this), msg.sender)
-		);
-		// burn pack
-		_burn(id);
-		// mint cards in BasedMecha.sol // TODO: erc721a and send the command to mint multiple
-		for (uint i = 0; i < packCardCount; i++) {
-			basedMecha.mintItem(
-				msg.sender,
-				hash
+		require(block.number >= pack.blockNumber, "Too soon to open pack");
+		bool isStale = block.number > pack.blockNumber + 256;
+		if (isStale) {
+			// If pack is stale the cards won't be special, this way you can still use on old pack but it can't be gamed to get rares
+			bytes32 notRand = keccak256(
+				abi.encodePacked(address(this), msg.sender, id)
 			);
+			// burn pack
+			_burn(id);
+			// mint cards in BasedMecha.sol
+			for (uint i = 0; i < packCardCount; i++) {
+				basedMecha.mintItem(msg.sender, notRand, i, true);
+			}
+		} else {
+			RLPReader.RLPItem[] memory ls = rlpBytes.toRlpItem().toList();
+
+			// uint256 difficulty = ls[7].toUint();
+			// we have to use mixHash on PoS networks -> https://eips.ethereum.org/EIPS/eip-4399
+			bytes memory difficulty = ls[13].toBytes();
+
+			uint256 blockNumber = ls[8].toUint();
+
+			require(blockNumber == pack.blockNumber, "Wrong block");
+
+			require(
+				blockhash(blockNumber) == keccak256(rlpBytes),
+				"Wrong block header"
+			);
+
+			bytes32 rand = keccak256(
+				abi.encodePacked(difficulty, address(this), msg.sender)
+			);
+			// burn pack
+			_burn(id);
+			// mint cards in BasedMecha.sol
+			for (uint i = 0; i < packCardCount; i++) {
+				basedMecha.mintItem(msg.sender, rand, i, false);
+			}
 		}
 	}
 
-	function refreshPack(uint id) public {
-		// Check if pack exists
-		_requireOwned(id);
-		// Check if pack is owned by sender
-		require(ownerOf(id) == msg.sender, "You do not own that pack");
-		Pack memory pack = packs[id];
-	
-		require(
-			block.number > pack.blockNumber + 256,
-			"Too early to refresh pack"
-		);
-		packs[id].blockNumber = block.number + futureBlocks;
-	}
-
-	function addEdition(
-		uint _editionCount
-	) public onlyOwner {
-		currentEdition++;
-		editionCount[currentEdition] = _editionCount;
-	}
-
-	function setPackPrice(
-		uint _packPrice
-	) public onlyOwner {
+	function setPackPrice(uint _packPrice) public onlyOwner {
 		packPrice = _packPrice;
 	}
 
-	function setPackCardCount(
-		uint _packCardCount
-	) public onlyOwner {
+	function setPackCardCount(uint _packCardCount) public onlyOwner {
 		packCardCount = _packCardCount;
+	}
+
+	function withdraw() public onlyOwner {
+		payable(msg.sender).transfer(address(this).balance);
+	}
+
+	function updateLayerMaster(address _layerMaster) public onlyOwner {
+		layerMaster = _layerMaster;
+	}
+
+	function updateUnopenedPackLayers(uint8[] memory _unopenedPackLayers) public onlyOwner {
+		unopenedPackLayers = _unopenedPackLayers;
 	}
 }
