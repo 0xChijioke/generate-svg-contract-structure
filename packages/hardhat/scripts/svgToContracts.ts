@@ -22,7 +22,6 @@ const END_TAG = "</svg>";
 
 // Get assets from directories
 const layers = readdirSync("layers");
-console.log(layers);
 for (const layer of layers) {
   const segments = readdirSync(path.join("layers", layer));
   for (const segment of segments) {

@@ -47,7 +47,7 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 
 	uint public akuShardsFound;
 	bool public doomsdayTriggered;
-	uint8[] public DOOMSDAY_LAYERS;
+	uint8 public DOOMSDAY_LAYER;
 
 
 	constructor(
@@ -205,11 +205,12 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	function getLayersForToken(
 		uint256 id
 	) public view returns (uint8[] memory) {
-		if (doomsdayTriggered) {
-			return DOOMSDAY_LAYERS;
-		}
 		uint8 rarity = getRarity(id);
-		return getLayersByRarity(id, rarity);
+		uint8[] memory layers = getLayersByRarity(id, rarity);
+		if (doomsdayTriggered) {
+			layers[layers.length] = DOOMSDAY_LAYER;
+		}
+		return layers;
 	}
 
 	// Visibility is `public` to enable it being called by other contracts for composition.
@@ -258,10 +259,10 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 				(4 * HERO_COUNT)
 		);
 		// Foreground arms - should be same randomNumber as background arms
-		layers[6] = uint8(
+		layers[7] = uint8(
 			(randomNumber % HERO_COUNT) +
 				(COMMON_ASSET_START_INDEX) +
-				(6 * HERO_COUNT)
+				(7 * HERO_COUNT)
 		);
 		randomNumber /= HERO_COUNT;
 		// Body
@@ -340,19 +341,19 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 				uint8(SUPER_RARE_ASSET_START_INDEX) +
 				(4 * SUPER_RARE_MECHA_COUNT);
 			// Foreground arms - should be same as background arms
-			layers[6] =
+			layers[7] =
 				uint8(superRareMechaNumber) +
 				uint8(SUPER_RARE_ASSET_START_INDEX) +
-				(6 * SUPER_RARE_MECHA_COUNT);
+				(7 * SUPER_RARE_MECHA_COUNT);
 		} else {
 			layers[4] =
 				uint8(rareMechaNumber) +
 				uint8(RARE_ASSET_START_INDEX) +
 				(4 * HERO_COUNT);
-			layers[6] =
+			layers[7] =
 				uint8(rareMechaNumber) +
 				uint8(RARE_ASSET_START_INDEX) +
-				(6 * HERO_COUNT);
+				(7 * HERO_COUNT);
 		}
 
 		if (layerToReplace == 5) {
@@ -369,10 +370,10 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 		}
 
 		// Kanji from a rare mecha
-		layers[7] =
+		layers[6] =
 			uint8((randomNumber /= HERO_COUNT) % SUPER_RARE_MECHA_COUNT) +
 			uint8(SUPER_RARE_ASSET_START_INDEX) +
-			(7 * SUPER_RARE_MECHA_COUNT);
+			(6 * SUPER_RARE_MECHA_COUNT);
 
 		return layers;
 	}
@@ -448,7 +449,7 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 		layerMaster = _layerMaster;
 	}
 
-	function updateDoomsDayLayers(uint8[] calldata _doomsdayLayers) public onlyOwner {
-		DOOMSDAY_LAYERS = _doomsdayLayers;
+	function updateDoomsDayLayers(uint8 _doomsdayLayer) public onlyOwner {
+		DOOMSDAY_LAYER = _doomsdayLayer;
 	}
 }

@@ -1,4 +1,4 @@
-import { MouseEventHandler, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import type { NextPage } from "next";
 import { SendTransactionParameters, createPublicClient, http, keccak256, toRlp } from "viem";
 import { useAccount } from "wagmi";
@@ -24,7 +24,6 @@ const MintPage: NextPage = () => {
   const [minted, setMinted] = useState<boolean>(false);
   const [rollDisabled, setRollDisabled] = useState<boolean>(false);
   const [showRollNotice, setShowRollNotice] = useState<boolean>(false);
-  const [missedWindow, setMissedWindow] = useState<boolean>(false);
   const [rolled, setRolled] = useState<boolean>(false);
   const [betted, setBetted] = useState<boolean>(false);
   const [rolling, setRolling] = useState<boolean>(false);
@@ -75,16 +74,6 @@ const MintPage: NextPage = () => {
     args: [address, 0n],
   });
 
-  const { writeAsync: refreshPack } = useScaffoldContractWrite({
-    contractName: "BasedMechaPacks",
-    functionName: "refreshPack",
-    args: [tokenId as bigint],
-    onBlockConfirmation: txnReceipt => {
-      console.log("Transaction blockHash", txnReceipt.blockHash);
-      setMinted(true);
-    },
-  });
-
   const { data: betData } = useScaffoldContractRead({
     contractName: "BasedMechaPacks",
     functionName: "packs",
@@ -115,18 +104,13 @@ const MintPage: NextPage = () => {
     if (blockNumber && targetBlockNumber) {
       const show = blockNumber < targetBlockNumber;
       setShowRollNotice(show);
-      const missed = blockNumber > targetBlockNumber + 256n && betData !== undefined && !betData[2];
-      setMissedWindow(missed);
-      // const disabled = show || missed || (betData !== undefined && betData[2]);
-      // setRollDisabled(disabled);
     } else {
       setShowRollNotice(false);
-      setMissedWindow(false);
       setRollDisabled(false);
     }
   }, [blockNumber, targetBlockNumber, betData]);
 
-  const betDisabled = isLoading || isMining || (betted && !missedWindow && !rolled);
+  const betDisabled = isLoading || isMining || (betted && !rolled);
 
   const rollTheDice = async () => {
     console.log("Roll the dice: ", blockNumber);
@@ -192,7 +176,6 @@ const MintPage: NextPage = () => {
     }
 
     setRolling(true);
-    // setRollDisabled(true);
 
     if (packsContract !== undefined) {
       console.log("tokenId", tokenId);
@@ -235,12 +218,8 @@ const MintPage: NextPage = () => {
                   {showRollNotice && targetBlockNumber && blockNumber && (
                     <p>Wait for {(targetBlockNumber - blockNumber).toString()} blocks to roll the dice</p>
                   )}
-                  {missedWindow && <p className="text-l font-bold">You missed the window to roll the dice</p>}
                   <button className="btn btn-primary" disabled={rollDisabled} onClick={rollTheDice}>
                     Open Pack
-                  </button>
-                  <button className="btn btn-primary" onClick={refreshPack as MouseEventHandler<HTMLButtonElement>}>
-                    Refresh Pack
                   </button>
                 </>
               )}
