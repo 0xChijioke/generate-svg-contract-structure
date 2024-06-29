@@ -3100,7 +3100,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_beefeater_0: {
+        Asset_01_true_06_KANJI_beefeater_0: {
           address: "0x2a810409872AfC346F9B5b26571Fd6eC42EA4849",
           abi: [
             {
@@ -3124,7 +3124,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_beefeater_1: {
+        Asset_01_true_06_KANJI_boulderdash_0: {
           address: "0xb9bEECD1A582768711dE1EE7B0A1d582D9d72a6C",
           abi: [
             {
@@ -3148,7 +3148,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_boulderdash_0: {
+        Asset_01_true_06_KANJI_fewocious_0: {
           address: "0x8A93d247134d91e0de6f96547cB0204e5BE8e5D8",
           abi: [
             {
@@ -3172,7 +3172,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_fewocious_0: {
+        Asset_01_true_06_KANJI_gunner_0: {
           address: "0x40918Ba7f132E0aCba2CE4de4c4baF9BD2D7D849",
           abi: [
             {
@@ -3196,7 +3196,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_fewocious_1: {
+        Asset_01_true_06_KANJI_samarai_0: {
           address: "0xF32D39ff9f6Aa7a7A64d7a4F00a54826Ef791a55",
           abi: [
             {
@@ -3220,7 +3220,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_gunner_0: {
+        Asset_01_true_06_KANJI_squido_0: {
           address: "0xd6e1afe5cA8D00A2EFC01B89997abE2De47fdfAf",
           abi: [
             {
@@ -3244,7 +3244,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_gunner_1: {
+        Asset_01_true_06_KANJI_tweetybord_0: {
           address: "0x99dBE4AEa58E518C50a1c04aE9b48C9F6354612f",
           abi: [
             {
@@ -3268,7 +3268,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_gunner_2: {
+        Asset_01_true_07_ARMS_FRONT_beefeater_0: {
           address: "0x6F6f570F45833E249e27022648a26F4076F48f78",
           abi: [
             {
@@ -3292,7 +3292,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_samarai_0: {
+        Asset_01_true_07_ARMS_FRONT_beefeater_1: {
           address: "0xCA8c8688914e0F7096c920146cd0Ad85cD7Ae8b9",
           abi: [
             {
@@ -3316,7 +3316,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_samarai_1: {
+        Asset_01_true_07_ARMS_FRONT_boulderdash_0: {
           address: "0xB0f05d25e41FbC2b52013099ED9616f1206Ae21B",
           abi: [
             {
@@ -3340,7 +3340,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_squido_0: {
+        Asset_01_true_07_ARMS_FRONT_fewocious_0: {
           address: "0x5FeaeBfB4439F3516c74939A9D04e95AFE82C4ae",
           abi: [
             {
@@ -3364,7 +3364,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_06_ARMS_FRONT_tweetybord_0: {
+        Asset_01_true_07_ARMS_FRONT_fewocious_1: {
           address: "0x976fcd02f7C4773dd89C309fBF55D5923B4c98a1",
           abi: [
             {
@@ -3388,7 +3388,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_07_KANJI_beefeater_0: {
+        Asset_01_true_07_ARMS_FRONT_gunner_0: {
           address: "0x19cEcCd6942ad38562Ee10bAfd44776ceB67e923",
           abi: [
             {
@@ -3412,7 +3412,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_07_KANJI_boulderdash_0: {
+        Asset_01_true_07_ARMS_FRONT_gunner_1: {
           address: "0xD42912755319665397FF090fBB63B1a31aE87Cee",
           abi: [
             {
@@ -3436,7 +3436,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_07_KANJI_fewocious_0: {
+        Asset_01_true_07_ARMS_FRONT_gunner_2: {
           address: "0xfcDB4564c18A9134002b9771816092C9693622e3",
           abi: [
             {
@@ -3460,7 +3460,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_07_KANJI_gunner_0: {
+        Asset_01_true_07_ARMS_FRONT_samarai_0: {
           address: "0x927b167526bAbB9be047421db732C663a0b77B11",
           abi: [
             {
@@ -3484,7 +3484,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_07_KANJI_samarai_0: {
+        Asset_01_true_07_ARMS_FRONT_samarai_1: {
           address: "0x32EEce76C2C2e8758584A83Ee2F522D4788feA0f",
           abi: [
             {
@@ -3508,7 +3508,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_07_KANJI_squido_0: {
+        Asset_01_true_07_ARMS_FRONT_squido_0: {
           address: "0x01c1DeF3b91672704716159C9041Aeca392DdFfb",
           abi: [
             {
@@ -3532,7 +3532,7 @@ const contracts = {
             },
           ],
         },
-        Asset_01_true_07_KANJI_tweetybord_0: {
+        Asset_01_true_07_ARMS_FRONT_tweetybord_0: {
           address: "0x02b0B4EFd909240FCB2Eb5FAe060dC60D112E3a4",
           abi: [
             {
@@ -7372,7 +7372,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_beefeater_0: {
+        Asset_02_rare_06_KANJI_beefeater_0: {
           address: "0x158d291D8b47F056751cfF47d1eEcd19FDF9B6f8",
           abi: [
             {
@@ -7396,7 +7396,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_beefeater_1: {
+        Asset_02_rare_06_KANJI_boulderdash_0: {
           address: "0x2F54D1563963fC04770E85AF819c89Dc807f6a06",
           abi: [
             {
@@ -7420,7 +7420,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_boulderdash_0: {
+        Asset_02_rare_06_KANJI_fewocious_0: {
           address: "0xF342E904702b1D021F03f519D6D9614916b03f37",
           abi: [
             {
@@ -7444,7 +7444,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_fewocious_0: {
+        Asset_02_rare_06_KANJI_gunner_0: {
           address: "0x9849832a1d8274aaeDb1112ad9686413461e7101",
           abi: [
             {
@@ -7468,7 +7468,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_fewocious_1: {
+        Asset_02_rare_06_KANJI_samarai_0: {
           address: "0xa4E00CB342B36eC9fDc4B50b3d527c3643D4C49e",
           abi: [
             {
@@ -7492,7 +7492,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_gunner_0: {
+        Asset_02_rare_06_KANJI_squido_0: {
           address: "0x8ac5eE52F70AE01dB914bE459D8B3d50126fd6aE",
           abi: [
             {
@@ -7516,7 +7516,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_gunner_1: {
+        Asset_02_rare_06_KANJI_tweetybord_0: {
           address: "0x325c8Df4CFb5B068675AFF8f62aA668D1dEc3C4B",
           abi: [
             {
@@ -7540,7 +7540,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_gunner_2: {
+        Asset_02_rare_07_ARMS_FRONT_beefeater_0: {
           address: "0x4eaB29997D332A666c3C366217Ab177cF9A7C436",
           abi: [
             {
@@ -7564,7 +7564,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_gunner_3: {
+        Asset_02_rare_07_ARMS_FRONT_beefeater_1: {
           address: "0x5Ffe31E4676D3466268e28a75E51d1eFa4298620",
           abi: [
             {
@@ -7588,7 +7588,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_samarai_0: {
+        Asset_02_rare_07_ARMS_FRONT_boulderdash_0: {
           address: "0x627b9A657eac8c3463AD17009a424dFE3FDbd0b1",
           abi: [
             {
@@ -7612,7 +7612,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_samarai_1: {
+        Asset_02_rare_07_ARMS_FRONT_fewocious_0: {
           address: "0xa62835D1A6bf5f521C4e2746E1F51c923b8f3483",
           abi: [
             {
@@ -7636,7 +7636,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_samarai_2: {
+        Asset_02_rare_07_ARMS_FRONT_fewocious_1: {
           address: "0x8E45C0936fa1a65bDaD3222bEFeC6a03C83372cE",
           abi: [
             {
@@ -7660,7 +7660,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_squido_0: {
+        Asset_02_rare_07_ARMS_FRONT_gunner_0: {
           address: "0xBEe6FFc1E8627F51CcDF0b4399a1e1abc5165f15",
           abi: [
             {
@@ -7684,7 +7684,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_06_ARMS_FRONT_tweetybord_0: {
+        Asset_02_rare_07_ARMS_FRONT_gunner_1: {
           address: "0xC32609C91d6B6b51D48f2611308FEf121B02041f",
           abi: [
             {
@@ -7708,7 +7708,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_07_KANJI_beefeater_0: {
+        Asset_02_rare_07_ARMS_FRONT_gunner_2: {
           address: "0x262e2b50219620226C5fB5956432A88fffd94Ba7",
           abi: [
             {
@@ -7732,7 +7732,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_07_KANJI_boulderdash_0: {
+        Asset_02_rare_07_ARMS_FRONT_gunner_3: {
           address: "0x10e38eE9dd4C549b61400Fc19347D00eD3edAfC4",
           abi: [
             {
@@ -7756,7 +7756,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_07_KANJI_fewocious_0: {
+        Asset_02_rare_07_ARMS_FRONT_samarai_0: {
           address: "0xd753c12650c280383Ce873Cc3a898F6f53973d16",
           abi: [
             {
@@ -7780,7 +7780,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_07_KANJI_gunner_0: {
+        Asset_02_rare_07_ARMS_FRONT_samarai_1: {
           address: "0xd710a67624Ad831683C86a48291c597adE30F787",
           abi: [
             {
@@ -7804,7 +7804,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_07_KANJI_samarai_0: {
+        Asset_02_rare_07_ARMS_FRONT_samarai_2: {
           address: "0xd30bF3219A0416602bE8D482E0396eF332b0494E",
           abi: [
             {
@@ -7828,7 +7828,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_07_KANJI_squido_0: {
+        Asset_02_rare_07_ARMS_FRONT_squido_0: {
           address: "0x06b3244b086cecC40F1e5A826f736Ded68068a0F",
           abi: [
             {
@@ -7852,7 +7852,7 @@ const contracts = {
             },
           ],
         },
-        Asset_02_rare_07_KANJI_tweetybord_0: {
+        Asset_02_rare_07_ARMS_FRONT_tweetybord_0: {
           address: "0xAD2935E147b61175D5dc3A9e7bDa93B0975A43BA",
           abi: [
             {
@@ -9556,7 +9556,7 @@ const contracts = {
             },
           ],
         },
-        Asset_03_superrare_06_ARMS_FRONT_01_0: {
+        Asset_03_superrare_06_KANJI_01_0: {
           address: "0x75b0B516B47A27b1819D21B26203Abf314d42CCE",
           abi: [
             {
@@ -9580,7 +9580,7 @@ const contracts = {
             },
           ],
         },
-        Asset_03_superrare_06_ARMS_FRONT_01_1: {
+        Asset_03_superrare_06_KANJI_02_0: {
           address: "0x906B067e392e2c5f9E4f101f36C0b8CdA4885EBf",
           abi: [
             {
@@ -9604,7 +9604,7 @@ const contracts = {
             },
           ],
         },
-        Asset_03_superrare_06_ARMS_FRONT_02_0: {
+        Asset_03_superrare_06_KANJI_03_0: {
           address: "0xD94A92749C0bb33c4e4bA7980c6dAD0e3eFfb720",
           abi: [
             {
@@ -9628,7 +9628,7 @@ const contracts = {
             },
           ],
         },
-        Asset_03_superrare_06_ARMS_FRONT_02_1: {
+        Asset_03_superrare_07_ARMS_FRONT_01_0: {
           address: "0xDf951d2061b12922BFbF22cb17B17f3b39183570",
           abi: [
             {
@@ -9652,7 +9652,7 @@ const contracts = {
             },
           ],
         },
-        Asset_03_superrare_06_ARMS_FRONT_02_2: {
+        Asset_03_superrare_07_ARMS_FRONT_01_1: {
           address: "0x4f42528B7bF8Da96516bECb22c1c6f53a8Ac7312",
           abi: [
             {
@@ -9676,7 +9676,7 @@ const contracts = {
             },
           ],
         },
-        Asset_03_superrare_06_ARMS_FRONT_02_3: {
+        Asset_03_superrare_07_ARMS_FRONT_02_0: {
           address: "0x8f119cd256a0FfFeed643E830ADCD9767a1d517F",
           abi: [
             {
@@ -9700,7 +9700,7 @@ const contracts = {
             },
           ],
         },
-        Asset_03_superrare_06_ARMS_FRONT_03_0: {
+        Asset_03_superrare_07_ARMS_FRONT_02_1: {
           address: "0xe14058B1c3def306e2cb37535647A04De03Db092",
           abi: [
             {
@@ -9724,7 +9724,7 @@ const contracts = {
             },
           ],
         },
-        Asset_03_superrare_06_ARMS_FRONT_03_1: {
+        Asset_03_superrare_07_ARMS_FRONT_02_2: {
           address: "0x74ef2B06A1D2035C33244A4a263FF00B84504865",
           abi: [
             {
@@ -9748,7 +9748,7 @@ const contracts = {
             },
           ],
         },
-        Asset_03_superrare_07_KANJI_01_0: {
+        Asset_03_superrare_07_ARMS_FRONT_02_3: {
           address: "0xF5b81Fe0B6F378f9E6A3fb6A6cD1921FCeA11799",
           abi: [
             {
@@ -9772,7 +9772,7 @@ const contracts = {
             },
           ],
         },
-        Asset_03_superrare_07_KANJI_02_0: {
+        Asset_03_superrare_07_ARMS_FRONT_03_0: {
           address: "0x67baFF31318638F497f4c4894Cd73918563942c8",
           abi: [
             {
@@ -9796,7 +9796,7 @@ const contracts = {
             },
           ],
         },
-        Asset_03_superrare_07_KANJI_03_0: {
+        Asset_03_superrare_07_ARMS_FRONT_03_1: {
           address: "0x6533158b042775e2FdFeF3cA1a782EFDbB8EB9b1",
           abi: [
             {
@@ -10156,7 +10156,7 @@ const contracts = {
             },
           ],
         },
-        Asset_04_aku_06_ARMS_FRONT_aku_0: {
+        Asset_04_aku_06_KANJI_aku_0: {
           address: "0xd977422c9eE9B646f64A4C4389a6C98ad356d8C4",
           abi: [
             {
@@ -10180,7 +10180,7 @@ const contracts = {
             },
           ],
         },
-        Asset_04_aku_07_KANJI_aku_0: {
+        Asset_04_aku_07_ARMS_FRONT_aku_0: {
           address: "0x1eB5C49630E08e95Ba7f139BcF4B9BA171C9a8C7",
           abi: [
             {
@@ -10634,14 +10634,8 @@ const contracts = {
               type: "function",
             },
             {
-              inputs: [
-                {
-                  internalType: "uint256",
-                  name: "",
-                  type: "uint256",
-                },
-              ],
-              name: "DOOMSDAY_LAYERS",
+              inputs: [],
+              name: "DOOMSDAY_LAYER",
               outputs: [
                 {
                   internalType: "uint8",
@@ -11372,9 +11366,9 @@ const contracts = {
             {
               inputs: [
                 {
-                  internalType: "uint8[]",
-                  name: "_doomsdayLayers",
-                  type: "uint8[]",
+                  internalType: "uint8",
+                  name: "_doomsdayLayer",
+                  type: "uint8",
                 },
               ],
               name: "updateDoomsDayLayers",

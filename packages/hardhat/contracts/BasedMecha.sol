@@ -44,6 +44,7 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 
 	address public layerMaster;
 	address public mintingContract;
+	address public customMechaContract;
 
 	uint public akuShardsFound;
 	bool public doomsdayTriggered;
@@ -410,8 +411,8 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 
 	function doomsDay(uint[] calldata shards) public {
 		// require that the caller has 7 Aku shards
-		require(akuShardsFound == 7, "Not enough Aku shards exist");
-		require(shards.length == 7, "You must have all 7 shards");
+		require(akuShardsFound >= 3, "Not enough Aku shards exist");
+		require(shards.length == 3, "You must have at least 3 shards");
 
 		uint lastShardId;
 		for (uint i; i < shards.length; i++) {
@@ -425,6 +426,19 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 		}
 
 		doomsdayTriggered = true; // 😱
+	}
+
+	function claimCustomMecha(uint[] calldata tokenIds) public {
+		require(customMechaContract != address(0), "Custom Mecha contract not set");
+		require(tokenIds.length == HERO_COUNT, "Invalid number of tokens");
+		for (uint i; i < tokenIds.length; i++) {
+			uint token = tokenIds[i];
+			require(ownerOf(token) == msg.sender, "Not the owner of all tokens");
+			require(getMechaType(token) == i + 1, "Must pass complete collection of 7 heroes");
+			_burn(token);
+		}
+		(bool success,) = customMechaContract.call(abi.encodeWithSignature("mint(address)", msg.sender));
+		require(success, "Minting failed");
 	}
 
 	function updateStartIndexes(
@@ -447,6 +461,10 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 
 	function updateLayerMaster(address _layerMaster) public onlyOwner {
 		layerMaster = _layerMaster;
+	}
+
+	function updateCustomMechaContract(address _customMechaContract) public onlyOwner {
+		customMechaContract = _customMechaContract;
 	}
 
 	function updateDoomsDayLayers(uint8 _doomsdayLayer) public onlyOwner {
