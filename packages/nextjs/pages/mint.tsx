@@ -1,10 +1,12 @@
 import { MouseEventHandler, useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import type { NextPage } from "next";
 import { SendTransactionParameters, createPublicClient, http, keccak256, toRlp } from "viem";
 import { useAccount } from "wagmi";
 import { useBlockNumber } from "wagmi";
 import { useWalletClient } from "wagmi";
 import { MetaHeader } from "~~/components/MetaHeader";
+import { RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
 import { Address } from "~~/components/scaffold-eth";
 import {
   useScaffoldContract,
@@ -15,6 +17,10 @@ import {
 } from "~~/hooks/scaffold-eth";
 import scaffoldConfig from "~~/scaffold.config";
 import { notification } from "~~/utils/scaffold-eth";
+
+const Mint = dynamic(() => import("~~/components/mecha/Mint"), { ssr: false });
+const MintButton = dynamic(() => import("~~/components/mecha/MintButton"), { ssr: false });
+const Connect = dynamic(() => import("~~/components/mecha/Connect"), { ssr: false });
 
 const MintPage: NextPage = () => {
   // const [number, setNumber] = useState<string | bigint>("");
@@ -49,7 +55,7 @@ const MintPage: NextPage = () => {
       setMinted(true);
     },
   });
-  console.log("data", data)
+  // console.log("data", data);
 
   const { data: mintPackEvents } = useScaffoldEventHistory({
     contractName: "OnchainMechsPacks",
@@ -81,7 +87,7 @@ const MintPage: NextPage = () => {
     functionName: "balanceOf",
     args: [address],
   });
-  console.log(balance)
+  // console.log(balance);
 
   const { writeAsync: refreshPack } = useScaffoldContractWrite({
     contractName: "OnchainMechsPacks",
@@ -213,75 +219,22 @@ const MintPage: NextPage = () => {
           setRolled(true);
         },
       });
-      console.log(res)
+      console.log(res);
       setRolling(false);
     }
   };
 
-  mintCardEvents && console.log("mint card event: ", mintCardEvents)
+  mintCardEvents && console.log("mint card event: ", mintCardEvents);
   return (
     <>
-      <MetaHeader />
-      <div className="flex items-center flex-col flex-grow pt-10">
-        <div className="px-5">
-          <div className="text-center text-lg">
-            <>
-              <button
-                className="btn btn-primary mt-2"
-                onClick={() => {
-                  writeAsync();
-                }}
-                disabled={betDisabled}
-              >
-                Mint Pack
-              </button>
-            </>
-            <>
-              {betData && betData[0] !== 0n && (
-                <>
-                  <p className="text-xl font-bold">First pack valid block: {betData[0].toString()}</p>
-                  <p className="text-xl font-bold">Current block: {blockNumber?.toString() || 0}</p>
-                  {rolled && !rolling && <p className="text-xl font-bold">Rolled: {betData[3].toString()}</p>}
-                  {rolling && <p className="text-xl font-bold">Rolling...</p>}
-                  {showRollNotice && targetBlockNumber && blockNumber && (
-                    <p>Wait for {(targetBlockNumber - blockNumber).toString()} blocks to roll the dice</p>
-                  )}
-                  {missedWindow && <p className="text-l font-bold">You missed the window to roll the dice</p>}
-                  <button className="btn btn-primary" disabled={rollDisabled} onClick={rollTheDice}>
-                    Open Pack
-                  </button>
-                  <button className="btn btn-primary" onClick={refreshPack as MouseEventHandler<HTMLButtonElement>}>
-                    Refresh Pack
-                  </button>
-                </>
-              )}
-            </>
-          </div>
+      <MetaHeader title="Mint | Onchain Mecha" description="Open pack and mint" />
+      <div className="flex w-[100vw] h-[100vh] items-center justify-center relative">
+        <div className="absolute left-[10%] top-[38%]">
+          <MintButton />
         </div>
-
-        <div className="flex-grow bg-base-300 w-full mt-16 px-8 py-12">
-          <div className="flex justify-center items-start gap-12 flex-col sm:flex-row">
-            <div className="flex flex-col bg-base-100 px-10 text-center items-center max-w-xs rounded-3xl">
-              <p className="text-2xl font-bold">Bets</p>
-              {mintPackEvents &&
-                mintPackEvents.map((event, index) => (
-                  <div key={index} className="mt-0">
-                    <Address address={event.args.to} />
-                    Bet: {event.args.tokenId}
-                  </div>
-                ))}
-            </div>
-            <div className="flex flex-col bg-base-100 px-10 text-center items-center max-w-xs rounded-3xl">
-              <p className="text-2xl font-bold">Rolls</p>
-              {mintCardEvents &&
-                mintCardEvents.map((event, index) => (
-                  <div key={index} className="mt-0">
-                    <Address address={event.args.to} />
-                    Number: {event.args.tokenId}
-                  </div>
-                ))}
-            </div>
-          </div>
+        <Mint />
+        <div className="absolute right-[8%] top-[38%]">
+          <RainbowKitCustomConnectButton />
         </div>
       </div>
     </>

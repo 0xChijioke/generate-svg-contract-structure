@@ -1,257 +1,226 @@
-import { useEffect, useRef, useState } from 'react';
-import { AnimatePresence, motion, useAnimation, useScroll } from 'framer-motion';
-import useScrollAnimation from '~~/hooks/useScrollAnimation';
-import { Footer } from './Footer';
-import Head from './Head';
-import Squid from './Squid';
-import BadGuy from './BadGuy';
-import Gunner from './Gunner';
-import useScreen from '~~/hooks/scaffold-eth/useScreen';
-import Samurai from './Samurai';
-import Japanese from './Japanese';
-import Connect from './Connect';
-import MechaOnChain from './MechaOnChain';
-import BlackMatter from './BlackMatter';
-import MintSection from './MintSection';
-import ScrollText from './ScrollText';
+import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
+import { svgBase64String } from "./Akubase64";
+import { C1, C2, C3, C4, C5, C6, C7, C8 } from "./Characters";
+import EasedCanvasAnimation from "./EasedCanvasAnimation";
+import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
 
-
-const BREAKPOINT = 5000;
-// breakpoint for showing/hiding the MintSection
-const MINT_SECTION_BREAKPOINT = 2250;
-
-
+const AkuEntrance = dynamic(() => import("./AkuEntrance"), { ssr: false });
+const MechFighters = dynamic(() => import("./MechFighters"), { ssr: false });
+const ScatteredMechs = dynamic(() => import("./ScatteredMechs"), { ssr: false });
+const AkuMech = dynamic(() => import("./AkuMech"), { ssr: false });
+const FracturedAku = dynamic(() => import("./FracturedAku"), { ssr: false });
+const Explosion = dynamic(() => import("./Explosion"), { ssr: false });
+const Vortex = dynamic(() => import("./Vortex"), { ssr: false });
 
 const Landing = () => {
-
-  const { 
-    screenWidth, 
-    screenHeight: sh, 
-    scrollY, 
-    scrollPosition, 
-    scrollSpeed: sSpeed 
-  } = useScreen();
-
-
-
-  const navControls = useScrollAnimation(scrollPosition, {
-    start: 3168,
-    end: 3564,
-    animations: (progress: number) => ({
-      y: -(progress * (3564 - 3168)),
-      transition: { duration: 0.5 },
-    }),
-  });
-
-
-
-  const badGuyControls = useScrollAnimation(scrollPosition, {
-    start: 198,
-    end: 3000,
-    animations: (progress: number) => ({
-      opacity: progress,
-      transition: { duration: 0.5 },
-    }),
-  });
-
-
-  
-
-  const japaneseControls = useScrollAnimation(scrollPosition, {
-    start: 2704,
-    end: 8316,
-    animations: (progress: number) => ({
-      y: -progress * 2000,
-      transition: { duration: 0.8 },
-    }),
-  });
-  
-
-
-
-  const squidControls = useScrollAnimation(scrollPosition, {
-    start: 3400,
-    end: 4000,
-    animations: (progress: number) => ({
-      scale: 1 + progress * 5,
-      opacity: progress < 1 ? 1 : 0,
-      x: -progress * 200,
-      transition: { duration: 0.5 },
-    }),
-  });
-
-  const gunnerControls = useScrollAnimation(scrollPosition, {
-    start: 3400,
-    end: 4000,
-    animations: (progress: number) => ({
-      scale: 1 + progress * 5,
-      opacity: progress < 1 ? 1 : 0,
-      x: progress * 200,
-      transition: { duration: 0.5 },
-    }),
-  });
-
-
-
-  const samuraiControls = useScrollAnimation(scrollPosition, {
-    start: 3168,
-    end: 3564,
-    animations: (progress: number) => ({
-      y: progress * 500,
-      opacity: progress < 0.5 ? 1 : 0,
-      transition: { duration: 0.5 },
-    }),
-  });
-
-
-  const footerControls = useScrollAnimation(scrollPosition, {
-    start: 3168,
-    end: 3564,
-    animations: (progress: number) => ({
-      y: progress * 500,
-      transition: { duration: 0.5 },
-    }),
-  });
-
-
+  const { scrollY } = useScroll();
+  const [isAkuZoomedOut, setIsAkuZoomedOut] = useState(false);
+  const [totalWidth, setTotalWidth] = useState(0);
+  const [isTransitionComplete, setIsTransitionComplete] = useState(false);
+  const [isSlideInTriggered, setIsSlideInTriggered] = useState(false);
+  const [isAkuMechVisible, setIsAkuMechVisible] = useState(false);
+  const [isFracturedAkuVisible, setIsFracturedAkuVisible] = useState(false);
+  const [isInVortexScene, setIsInVortexScene] = useState(false); // state for vortex scene detection
 
   useEffect(() => {
-    if (scrollPosition < BREAKPOINT) {
-      window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
+    if (typeof window !== "undefined") {
+      setTotalWidth(window.innerWidth);
+      console.log(window.scrollY);
     }
-  }, [scrollPosition]);
+  }, []);
 
+  // Offset first scene transition
+  const offset = 4000;
+  // // Transformations for zooming out
+  const scale = useTransform(scrollY, [0, offset], [70, 1]);
+  const translateY = useTransform(scrollY, [0, offset], [75400, 0]);
+  const translateX = useTransform(scrollY, [0, offset], [totalWidth * 2.4, 0]);
 
-  const controls = useAnimation();
+  // translation X values based on scroll position for face panning
+  const translateXFaces = useTransform(scrollY, [5000, 8000], [-6000, 3000]);
+
+  const akuMechDrop = useTransform(scrollY, [9000, 9800], [-1000, 0]);
+
+  // Transformations for zooming into the explosion
+  const explosionScale = useTransform(scrollY, [9800, 10000, 12000], [1, 30, 1]);
+  const explosionOpacity = useTransform(scrollY, [9800, 10000], [0, 1]);
+
+  // Transformations for the FracturedAku
+  const fracturedAkuScale = useTransform(scrollY, [12500, 14000, 40000], [180, 1, -0]);
+  const fracturedAkuOpacity = useTransform(scrollY, [12500, 12600], [0, 1]);
+  const fracturedAkuY = useTransform(scrollY, [12500, 14000], [-9000, 0]);
+  const fracturedAkuX = useTransform(scrollY, [12500, 14000], [900, 0]);
+
+  // Transformations for ScatteredMechs
+  const scatteredMechsScale = useTransform(scrollY, [14000, 40000, 80000], [180, 1, -0]);
+  const scatteredMechsRotate = useTransform(scrollY, [40000, 80000], [0, 360 * 10]); // Rotate 10 times
 
   useEffect(() => {
-    const scrollText = async () => {
-      await controls.start({ y: -5000 }, { duration: 60, ease: "linear", repeat: Infinity });
+    const updateStateBasedOnScroll = (latest: number) => {
+      setIsAkuZoomedOut(latest >= 4000);
+      setIsTransitionComplete(latest >= 5000);
+      setIsSlideInTriggered(latest >= 8000);
+      setIsAkuMechVisible(latest >= 9000);
+      setIsFracturedAkuVisible(latest >= 12500);
+      setIsInVortexScene(latest >= 13000);
     };
-    scrollText();
-  }, [controls]);
-  
 
-  const blackMatterRef = useRef(null);
+    const unsubscribe = scrollY.onChange(updateStateBasedOnScroll);
+    return () => unsubscribe();
+  }, [scrollY]);
 
-            
-
-
-
-
-
-
-
-
-
-
-
-
+  const spring = {
+    type: "spring",
+    damping: 10,
+    stiffness: 1000,
+  };
 
   return (
-    <section id="landing">
-      {scrollPosition < BREAKPOINT && (
-        <div className="relative w-screen min-h-screen overflow-hidden bg-[#FF585C]">
-          {/* Navbar Section */}
+    <section id="landing" className="h-[10000vh] w-screen overflow-y-scroll">
+      <AnimatePresence>
+        {!isAkuZoomedOut && (
           <motion.div
-            className="absolute h-[23%]  top-0 p-0 left-0 w-full border-b-8 border-black bg-sky-400 flex justify-center items-end"
-          animate={navControls}
-          >
-            <motion.div
-              className="absolute w-[50%] top-30 left-2"
-              animate={japaneseControls}
-            >
-              <MechaOnChain />
-            </motion.div>
-            <div className="w-[84%]">
-              <Head />
-            </div>
-            <div className="absolute w-[20%] top-[22%] right-[21.5%]">
-              <Connect />
-            </div>
-          </motion.div>
-
-
-          {/* Section */}
+          key="akuEntrance"
+          className="fixed top-0 w-screen h-auto transform-gpu"
+          style={{
+            scale: scale,
+            y: translateY,
+            x: translateX,
+            willChange: "transform",
+            imageRendering: "crisp-edges",
+            backfaceVisibility: "hidden",
+            // perspective: 100,
+          }}
+        >
+          <AkuEntrance />
+        </motion.div>
+        )}
+        {/* AkuEntrance scrolling down */}
+        {isAkuZoomedOut && !isTransitionComplete && (
           <motion.div
-            className="absolute bottom-0 left-0 w-full h-[77%]"
+            key="akuEntranceSecond"
+            className="relative w-screen h-auto transform-gpu"
+            // transition={spring}
+            style={{
+              top: offset,
+              willChange: "transform",
+              imageRendering: "auto",
+            }}
           >
-
-            
-            <motion.div 
-              className='absolute w-[29%] inset-0'
-              animate={badGuyControls}
-              initial={{ opacity: 0 }}
-              style={{ left: '48.5%', top: '43%', transform: 'translate(-50%, -50%)' }}
-            >
-              <BadGuy />
-            </motion.div>
-
-            <motion.div
-              className='absolute w-[62%] z-20 bottom-0 right-0'
-              animate={gunnerControls}
-            >
-              <Gunner />
-            </motion.div>
-
-            <motion.div
-              className='absolute z-10 bottom-0 left-[5%] w-[70%]'
-              animate={squidControls}
-            >
-              <Squid />
-            </motion.div>
-
-            <motion.div className="absolute z-10 w-[21%] top-10 left-10" animate={japaneseControls}>
-              <Japanese />
-            </motion.div>
-
-
-            <motion.div className="absolute w-[30%] bottom-0 left-0" animate={samuraiControls}>
-              <Samurai />
-            </motion.div>
-          </motion.div>
-
-
-          {/* Footer */}
-          <motion.div className='w-full absolute bottom-0' animate={footerControls}>
-            <Footer />
-          </motion.div>
-        </div>
-
-      )}
-
-        {scrollPosition >= BREAKPOINT && scrollPosition < 7500 && (
-          <motion.div
-            className='w-screen h-screen relative overflow overflow-hidden'
-            ref={blackMatterRef}
-          >
-            <BlackMatter />
-        
-            <motion.div
-              className="absolute top-[10%] flex justify-center w-full"
-              initial={{ opacity: 0, y: 100 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 1 }} 
-            >
-              <ScrollText scrollPosition={scrollPosition} />
-            </motion.div>
+            <AkuEntrance />
           </motion.div>
         )}
-
-
-        <AnimatePresence>
-          {scrollPosition > 7500 && (
+        {/* Character Animation */}
+        {isTransitionComplete && !isSlideInTriggered && (
+          <motion.div
+            key="characterAnimation"
+            className="flex items-center justify-center"
+            // transition={{ ease: [0.17, 0.67, 0.83, 0.67] }}
+            style={{
+              position: "fixed",
+              top: "40vh",
+              transform: "translateY(-50%)",
+              x: translateXFaces,
+              width: `${totalWidth * 2.5}px`,
+              background: "black",
+            }}
+          >
+            {[C8, C7, C6, C5, C4, C3, C2, C1].map((Character, index) => (
+              <div
+                key={index}
+                style={{
+                  width: `${totalWidth}px`,
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <Character />
+              </div>
+            ))}
+          </motion.div>
+        )}
+        {/* MechFighters Slide-in */}
+          {isSlideInTriggered && !isFracturedAkuVisible && (
             <motion.div
-              className="absolute w-screen h-screen top-0 left-0 overflow-hidden"
-              initial={{ opacity: 0, x: 1000 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: false, amount: 0.24 }}
-              transition={{ duration: 0.1, }}
+              key="mechFighters"
+              className="fixed top-0 w-[100vw] h-[100vh] bg-black"
+              initial={{ opacity: 0, x: "5vw" }}
+              animate={{ opacity: 1, x: 0 }}
+              // exit={{ opacity: 0, x: "-5vw" }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
             >
-              <MintSection />
+              <MechFighters />
+              {isAkuMechVisible && (
+                <motion.div
+                  className="absolute top-0 transform -translate-x-1/2"
+                  style={{
+                    y: akuMechDrop,
+                  }}
+                >
+                  <AkuMech />
+                  <motion.div
+                    className="absolute inset-0"
+                    style={{
+                      opacity: explosionOpacity,
+                      scale: explosionScale,
+                    }}
+                  >
+                    <Explosion />
+                  </motion.div>
+                </motion.div>
+              )}
             </motion.div>
           )}
-        </AnimatePresence>
+
+            {isFracturedAkuVisible && (
+              <motion.div
+                key="fracturedAku"
+                className="fixed top-0 w-screen h-screen"
+                style={{
+                  x: fracturedAkuX,
+                  y: fracturedAkuY,
+                  scale: fracturedAkuScale,
+                  opacity: fracturedAkuOpacity,
+                  willChange: "transform",
+                  zIndex: 2,
+                }}
+              >
+                <FracturedAku />
+              </motion.div>
+            )}
+
+            {/* Vortex Scene */}
+
+            {isInVortexScene && (
+              <>
+                <motion.div
+                  key="vortex"
+                  className="fixed top-0 w-screen h-screen"
+                  style={{
+                    willChange: "transform",
+                    zIndex: 1,
+                  }}
+                >
+                  <Vortex />
+                </motion.div>
+
+                <motion.div
+                  key="scatteredMechs"
+                  className="fixed top-0 w-screen h-screen"
+                  style={{
+                    scale: scatteredMechsScale,
+                    rotate: scatteredMechsRotate,
+                    willChange: "transform",
+                    zIndex: 2,
+                  }}
+                >
+                  <ScatteredMechs />
+                </motion.div>
+              </>
+            )}
+      </AnimatePresence>
     </section>
   );
 };

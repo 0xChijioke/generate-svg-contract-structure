@@ -1523,6 +1523,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@darkroom.engineering/tempus@npm:^0.0.46":
+  version: 0.0.46
+  resolution: "@darkroom.engineering/tempus@npm:0.0.46"
+  checksum: 42a5045ac99fcb1538bd6554443580b2ed6dbe0179a2dc93eec9424b2923817537fe056bc62b7b0a21f60b3652f8a5b5bbf989412ed19b40e0a0f30070ae82f0
+  languageName: node
+  linkType: hard
+
 "@edge-runtime/format@npm:2.0.1":
   version: 2.0.1
   resolution: "@edge-runtime/format@npm:2.0.1"
@@ -2541,6 +2548,16 @@ __metadata:
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
   checksum: 4059f790e2d07bf3c3ff3e0fec0daa8144fe35c1f6e0111c9921bd32106adaa97a4ab096ad7dab1e28ee6a9060083c4d1a4ada42a7f5f3f7a96b8812e2b757c1
+  languageName: node
+  linkType: hard
+
+"@gsap/react@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@gsap/react@npm:2.1.0"
+  dependencies:
+    gsap: ^3.12.4
+    react: ">=16"
+  checksum: f4a4b8409277620a0d3b8acec3043ef565d0e49ba8a6f24794cd065b240a0eeff44ca35397133ff0738d126e3569c075f2bd772fb4058103302ae25120249997
   languageName: node
   linkType: hard
 
@@ -3878,9 +3895,11 @@ __metadata:
   resolution: "@se-2/nextjs@workspace:packages/nextjs"
   dependencies:
     "@ethersproject/providers": ^5.7.2
+    "@gsap/react": 2.1.0
     "@heroicons/react": ^2.0.11
     "@rainbow-me/rainbowkit": 1.0.8
     "@trivago/prettier-plugin-sort-imports": ^4.1.1
+    "@types/lodash": ^4
     "@types/node": ^17.0.35
     "@types/react": ^18.0.9
     "@types/react-blockies": ^1.4.1
@@ -3896,6 +3915,9 @@ __metadata:
     eslint-plugin-prettier: ^4.2.1
     ethers: ^6.8.0
     framer-motion: 8.5.5
+    gsap: ^3.12.5
+    lenis: ^1.1.3
+    lodash: ^4.17.21
     next: ^13.1.6
     nextjs-progressbar: ^0.0.16
     postcss: ^8.4.16
@@ -4619,6 +4641,13 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: e009a2bfb50e90ca9b7c6e8f648f8464067271fd99116f881073fa6fa76dc8d0133181dd65e6614d5fb1220d671d67b0124aef7d97dc02d7e342ab143a47779d
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:^4":
+  version: 4.17.5
+  resolution: "@types/lodash@npm:4.17.5"
+  checksum: 3c9bb15772509f0ecb40428531863dbc3f064f2bf34bbccc2ce2b2923c69fb0868aec7e357b1d97fd0d7f7e435a014ea5c1adef8a64715529887179c97a5a823
   languageName: node
   linkType: hard
 
@@ -10969,6 +10998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gsap@npm:^3.12.4, gsap@npm:^3.12.5":
+  version: 3.12.5
+  resolution: "gsap@npm:3.12.5"
+  checksum: 60b99dc4482992ba86013963ee9a97a5ec62d480495dd85764788913245aa08cfd202c1df4bbc7592e43d5faa885127bec75f77266f2964fe3d3b559ab63f852
+  languageName: node
+  linkType: hard
+
 "gunzip-maybe@npm:^1.4.2":
   version: 1.4.2
   resolution: "gunzip-maybe@npm:1.4.2"
@@ -12396,6 +12432,23 @@ __metadata:
   dependencies:
     language-subtag-registry: ~0.3.2
   checksum: c81b5d8b9f5f9cfd06ee71ada6ddfe1cf83044dd5eeefcd1e420ad491944da8957688db4a0a9bc562df4afdc2783425cbbdfd152c01d93179cf86888903123cf
+  languageName: node
+  linkType: hard
+
+"lenis@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "lenis@npm:1.1.3"
+  dependencies:
+    "@darkroom.engineering/tempus": ^0.0.46
+  peerDependencies:
+    react: ">=17.0.0"
+    react-dom: ">=17.0.0"
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: a44bd010995b9a5f383297c996a33f20891c19ce1a25b016d64908d4f63eb5b39e57d264d838621f1de5042f59fba166a4c48dd9956b3a92cb7f0c40c9ec5593
   languageName: node
   linkType: hard
 
@@ -15324,6 +15377,15 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 7ee8ef3aab74c7ae1d70ff34a27643d11ba1a8d62d072c767827d9ff9a520905223e567002e0bf6c772929d8ea1c781a3ba0cc4a563e92b1e3dc2eaa817ecbe8
+  languageName: node
+  linkType: hard
+
+"react@npm:>=16":
+  version: 18.3.1
+  resolution: "react@npm:18.3.1"
+  dependencies:
+    loose-envify: ^1.1.0
+  checksum: a27bcfa8ff7c15a1e50244ad0d0c1cb2ad4375eeffefd266a64889beea6f6b64c4966c9b37d14ee32d6c9fcd5aa6ba183b6988167ab4d127d13e7cb5b386a376
   languageName: node
   linkType: hard
 

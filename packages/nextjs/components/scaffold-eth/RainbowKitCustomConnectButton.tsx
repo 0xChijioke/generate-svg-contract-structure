@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Connect from "../mecha/Connect";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { QRCodeSVG } from "qrcode.react";
 import CopyToClipboard from "react-copy-to-clipboard";
@@ -40,8 +41,8 @@ export const RainbowKitCustomConnectButton = () => {
             {(() => {
               if (!connected) {
                 return (
-                  <button className="btn btn-primary btn-sm" onClick={openConnectModal} type="button">
-                    Connect Wallet
+                  <button className="btn btn-ghost hover:bg-transparent" onClick={openConnectModal} type="button">
+                    <Connect />
                   </button>
                 );
               }

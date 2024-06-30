@@ -1,5 +1,5 @@
 // useScreen.ts
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 interface Screen {
   screenWidth: number;
@@ -11,7 +11,7 @@ interface Screen {
 }
 
 const useScreen = (): Screen => {
-  const isClient = typeof window === 'object'; 
+  const isClient = typeof window === "object";
   const [screenDimensions, setScreenDimensions] = useState<Screen>({
     screenWidth: isClient ? window.innerWidth : 0,
     screenHeight: isClient ? window.innerHeight : 0,
@@ -38,58 +38,55 @@ const useScreen = (): Screen => {
     };
 
     const handleScroll = () => {
-      setScreenDimensions((prevDimensions) => ({
+      setScreenDimensions(prevDimensions => ({
         ...prevDimensions,
         scrollY: window.scrollY,
       }));
     };
-
 
     // Variables to keep track of scroll behavior
     let totalDeltaY = 0;
     let totalTimeElapsed = 0;
     let lastTimeStamp: number | null = null;
 
-
     const handleWheel = (event: WheelEvent) => {
-        const deltaY = event.deltaY;
-        const currentTimeStamp = event.timeStamp;
-        if (lastTimeStamp !== null) {
-            const timeDifference = currentTimeStamp - lastTimeStamp;
-    
-            totalDeltaY += deltaY;
-            totalTimeElapsed += timeDifference;
-    
-            // Calculate scroll speed (pixels per millisecond)
-            const scrollSpeed = deltaY / timeDifference;
-            const scrollPosition = totalDeltaY;
-    
-            // Log or use the calculated values as needed
-            console.log('Scroll Speed:', scrollSpeed);
-            console.log('Scroll Position:', scrollPosition);
-            console.log('Total Time Elapsed:', totalTimeElapsed);
+      const deltaY = event.deltaY;
+      const currentTimeStamp = event.timeStamp;
+      if (lastTimeStamp !== null) {
+        const timeDifference = currentTimeStamp - lastTimeStamp;
 
-            setScreenDimensions((prevDimensions) => ({
-                ...prevDimensions,
-                scrollSpeed,
-                scrollPosition,
-                totalTimeElapsed,
-              }));
-        }
-    
-        // Update lastTimeStamp
-        lastTimeStamp = currentTimeStamp;
-      };
+        totalDeltaY += deltaY;
+        totalTimeElapsed += timeDifference;
 
+        // Calculate scroll speed (pixels per millisecond)
+        const scrollSpeed = deltaY / timeDifference;
+        const scrollPosition = totalDeltaY;
 
-    window.addEventListener('resize', handleResize);
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('wheel', handleWheel);
+        // Log or use the calculated values as needed
+        // console.log('Scroll Speed:', scrollSpeed);
+        // console.log('Scroll Position:', scrollPosition);
+        // console.log('Total Time Elapsed:', totalTimeElapsed);
+
+        setScreenDimensions(prevDimensions => ({
+          ...prevDimensions,
+          scrollSpeed,
+          scrollPosition,
+          totalTimeElapsed,
+        }));
+      }
+
+      // Update lastTimeStamp
+      lastTimeStamp = currentTimeStamp;
+    };
+
+    window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("wheel", handleWheel);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('wheel', handleWheel);
+      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("wheel", handleWheel);
     };
   }, [isClient]);
 
