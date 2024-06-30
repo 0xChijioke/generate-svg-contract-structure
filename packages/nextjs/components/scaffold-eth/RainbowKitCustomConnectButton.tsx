@@ -15,6 +15,7 @@ import {
 import { Address, Balance, BlockieAvatar } from "~~/components/scaffold-eth";
 import { useAutoConnect, useNetworkColor } from "~~/hooks/scaffold-eth";
 import { getBlockExplorerAddressLink, getTargetNetwork } from "~~/utils/scaffold-eth";
+import Connect from "../mecha/buttons/Connect";
 
 /**
  * Custom Wagmi Connect Button (watch balance + custom design)
@@ -40,8 +41,8 @@ export const RainbowKitCustomConnectButton = () => {
             {(() => {
               if (!connected) {
                 return (
-                  <button className="btn btn-primary btn-sm" onClick={openConnectModal} type="button">
-                    Connect Wallet
+                  <button className="btn btn-ghost hover:bg-transparent" onClick={openConnectModal} type="button">
+                    <Connect />
                   </button>
                 );
               }
