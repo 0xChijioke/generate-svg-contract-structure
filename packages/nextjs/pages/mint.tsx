@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import type { NextPage } from "next";
+import dynamic from "next/dynamic";
 import { SendTransactionParameters, createPublicClient, http, keccak256, toRlp } from "viem";
 import { useAccount } from "wagmi";
 import { useBlockNumber } from "wagmi";
 import { useWalletClient } from "wagmi";
 import { MetaHeader } from "~~/components/MetaHeader";
+import { Address, RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
 import {
   useScaffoldContract,
   useScaffoldContractRead,
@@ -13,6 +15,16 @@ import {
 } from "~~/hooks/scaffold-eth";
 import scaffoldConfig from "~~/scaffold.config";
 import { notification } from "~~/utils/scaffold-eth";
+
+
+
+
+
+const Mint = dynamic(() => import("~~/components/mecha/Mint"), { ssr: false });
+const MintButton = dynamic(() => import("~~/components/mecha/buttons/MintButton"), { ssr: false });
+
+
+
 
 const MintPage: NextPage = () => {
   const [targetBlockNumber, setTargetBlockNumber] = useState<bigint>();
@@ -179,38 +191,52 @@ const MintPage: NextPage = () => {
 
   return (
     <>
-      <MetaHeader />
-      <div className="flex items-center flex-col flex-grow pt-10">
-        <div className="px-5">
-          <div className="text-center text-lg">
-            <>
+      <MetaHeader title="Mint | Onchain Mecha" description="Open pack and mint" />
+      <div className="flex w-[100vw] h-[100vh] items-center justify-center relative">
+        <div className="absolute left-[10%] top-[38%]">
+          {packData && packData[0] !== 0n ? (
+            <button className="btn btn-primary" disabled={openDisabled} onClick={openPack}>
+              Open Pack
+            </button>
+          ) : (
+            <button disabled={minting}>
+              <MintButton onClick={() => writeAsync()} />
+            </button>
+          )}
+        </div>
+        <Mint />
+        <div className="absolute top-10 text-center text-black text-lg">
+          {packData && packData[0] !== 0n && (
+            <><>
               <button
                 className="btn btn-primary mt-2"
                 onClick={() => {
                   mintPack();
-                }}
+                } }
                 disabled={minting}
               >
                 Mint Pack
               </button>
-            </>
-            <>
-              {packData && packData[0] !== 0n && tokenBalance && tokenBalance > 0n && (
-                <>
-                  <p className="text-xl font-bold">First pack valid block: {packData[0].toString()}</p>
-                  <p className="text-xl font-bold">Current block: {blockNumber?.toString() || 0}</p>
-                  {opened && !opening && <p className="text-xl font-bold">Opened: {packData[3].toString()}</p>}
-                  {opening && <p className="text-xl font-bold">Opening...</p>}
-                  {showOpenNotice && targetBlockNumber && blockNumber && (
-                    <p>Wait for {(targetBlockNumber - blockNumber).toString()} blocks to open the pack</p>
-                  )}
-                  <button className="btn btn-primary" disabled={openDisabled} onClick={openPack}>
-                    Open Pack
-                  </button>
-                </>
-              )}
-            </>
-          </div>
+            </><>
+                {packData && packData[0] !== 0n && tokenBalance && tokenBalance > 0n && (
+                  <>
+                    <p className="text-xl font-bold">First pack valid block: {packData[0].toString()}</p>
+                    <p className="text-xl font-bold">Current block: {blockNumber?.toString() || 0}</p>
+                    {opened && !opening && <p className="text-xl font-bold">Opened: {packData[3].toString()}</p>}
+                    {opening && <p className="text-xl font-bold">Opening...</p>}
+                    {showOpenNotice && targetBlockNumber && blockNumber && (
+                      <p>Wait for {(targetBlockNumber - blockNumber).toString()} blocks to open the pack</p>
+                    )}
+                    <button className="btn btn-primary" disabled={openDisabled} onClick={openPack}>
+                      Open Pack
+                    </button>
+                  </>
+                )}
+              </></>
+          )}
+        </div>
+        <div className="absolute right-[8%] top-[38%]">
+          <RainbowKitCustomConnectButton />
         </div>
       </div>
     </>

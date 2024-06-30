@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Connect from "../mecha/buttons/Connect";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { QRCodeSVG } from "qrcode.react";
 import CopyToClipboard from "react-copy-to-clipboard";
@@ -15,7 +16,6 @@ import {
 import { Address, Balance, BlockieAvatar } from "~~/components/scaffold-eth";
 import { useAutoConnect, useNetworkColor } from "~~/hooks/scaffold-eth";
 import { getBlockExplorerAddressLink, getTargetNetwork } from "~~/utils/scaffold-eth";
-import Connect from "../mecha/buttons/Connect";
 
 /**
  * Custom Wagmi Connect Button (watch balance + custom design)

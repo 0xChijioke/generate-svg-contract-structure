@@ -6,15 +6,11 @@ import type { NextPage } from "next";
 import { useAccount } from "wagmi";
 import { MetaHeader } from "~~/components/MetaHeader";
 import { useDeployedContractInfo, useScaffoldEventHistory } from "~~/hooks/scaffold-eth";
+import { placeholder } from "~~/public/assets/placeholder";
 import scaffoldConfig from "~~/scaffold.config";
 import { getTargetNetwork } from "~~/utils/scaffold-eth";
-import { placeholder } from "~~/public/assets/placeholder";
-
-
-
 
 const GalleryImage = dynamic(() => import("~~/components/mecha/GalleryImage"), { ssr: false });
-
 
 const chain = getTargetNetwork();
 const provider = new JsonRpcProvider(chain.rpcUrls.public.http[0]);
@@ -24,7 +20,6 @@ const Gallery: NextPage = () => {
   const [tokenIds, setTokenIds] = useState<number[]>([]);
   const [ownedCards, setOwnedCards] = useState<{ [tokenId: number]: string }>({});
   const [loading, setLoading] = useState(true);
-
 
   const { data: onchainMechData } = useDeployedContractInfo("BasedMecha");
 
@@ -58,20 +53,19 @@ const Gallery: NextPage = () => {
     if (mintCardEvents && mintCardEvents.length > 0) {
       const newTokenIds = mintCardEvents.map(event => event.args.tokenId);
       setTokenIds(prevTokenIds => [...new Set([...prevTokenIds, ...newTokenIds])]);
-      setLoading(false);  // Set loading to false once data is available
+      setLoading(false); // Set loading to false once data is available
     }
   }, [mintCardEvents]);
-  
 
   return (
     <>
       <MetaHeader title="Owned | Mecha" description="Showcasing your owned mecha." />
-      
+
       {/* Fixed background */}
       <div className="fixed inset-0 w-full h-full -z-1">
         <GalleryImage />
       </div>
-      
+
       {/* Loading screen */}
       {loading || !onchainMechData || !mintCardEvents ? (
         <div className="fixed inset-0 flex justify-center items-center bg-opacity-80 text-white">
@@ -80,18 +74,28 @@ const Gallery: NextPage = () => {
       ) : (
         <section className="relative w-full min-h-screen p-10 pt-20 overflow-auto">
           <div className="grid grid-cols-3 gap-4">
-            {tokenIds.slice().reverse().map(tokenId => (
-              <div
-                key={tokenId}
-                className="flex justify-center items-center rounded-xl shadow-lg p-4 transform transition-transform duration-300 hover:scale-105"
-              >
-                {ownedCards[tokenId] ? (
-                  <Image alt={`NFT ${tokenId}`} src={ownedCards[tokenId]} className="rounded-xl" priority width={400} height={400} />
-                ) : (
-                  <Image alt="placeholder" src={placeholder} className="rounded-xl" width={400} height={400} />
-                )}
-              </div>
-            ))}
+            {tokenIds
+              .slice()
+              .reverse()
+              .map(tokenId => (
+                <div
+                  key={tokenId}
+                  className="flex justify-center items-center rounded-xl shadow-lg p-4 transform transition-transform duration-300 hover:scale-105"
+                >
+                  {ownedCards[tokenId] ? (
+                    <Image
+                      alt={`NFT ${tokenId}`}
+                      src={ownedCards[tokenId]}
+                      className="rounded-xl"
+                      priority
+                      width={400}
+                      height={400}
+                    />
+                  ) : (
+                    <Image alt="placeholder" src={placeholder} className="rounded-xl" width={400} height={400} />
+                  )}
+                </div>
+              ))}
           </div>
         </section>
       )}

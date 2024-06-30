@@ -3,8 +3,8 @@ import dynamic from "next/dynamic";
 import { svgBase64String } from "./Akubase64";
 import { C1, C2, C3, C4, C5, C6, C7, C8 } from "./Characters";
 import EasedCanvasAnimation from "./EasedCanvasAnimation";
-import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
 import { text1, text2, text3, text4, text5, text6, text7, text8, text9 } from "./Story";
+import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
 
 const AkuEntrance = dynamic(() => import("./AkuEntrance"), { ssr: false });
 const MechFighters = dynamic(() => import("./MechFighters"), { ssr: false });
@@ -29,7 +29,7 @@ const Landing = () => {
       setTotalWidth(window.innerWidth);
     }
   }, []);
-  
+
   // console.log(window.scrollY);
   // Offset first scene transition
   const offset = 4000;
@@ -82,20 +82,20 @@ const Landing = () => {
       <AnimatePresence>
         {!isAkuZoomedOut && (
           <motion.div
-          key="akuEntrance"
-          className="fixed top-0 w-screen h-auto transform-gpu"
-          style={{
-            scale: scale,
-            y: translateY,
-            x: translateX,
-            willChange: "transform",
-            imageRendering: "crisp-edges",
-            backfaceVisibility: "hidden",
-            // perspective: 100,
-          }}
-        >
-          <AkuEntrance />
-        </motion.div>
+            key="akuEntrance"
+            className="fixed top-0 w-screen h-auto transform-gpu"
+            style={{
+              scale: scale,
+              y: translateY,
+              x: translateX,
+              willChange: "transform",
+              imageRendering: "crisp-edges",
+              backfaceVisibility: "hidden",
+              // perspective: 100,
+            }}
+          >
+            <AkuEntrance />
+          </motion.div>
         )}
         {/* AkuEntrance scrolling down */}
         {isAkuZoomedOut && !isTransitionComplete && (
@@ -143,84 +143,84 @@ const Landing = () => {
           </motion.div>
         )}
         {/* MechFighters Slide-in */}
-          {isSlideInTriggered && !isFracturedAkuVisible && (
-            <motion.div
-              key="mechFighters"
-              className="fixed top-0 w-[100vw] h-[100vh] bg-black"
-              initial={{ opacity: 0, x: "5vw" }}
-              animate={{ opacity: 1, x: 0 }}
-              // exit={{ opacity: 0, x: "-5vw" }}
-              transition={{ duration: 0.5, ease: "easeOut" }}
-            >
-              <MechFighters />
-              {isAkuMechVisible && (
-                <motion.div
-                  className="absolute top-0 transform -translate-x-1/2"
-                  style={{
-                    y: akuMechDrop,
-                  }}
-                >
-                  <AkuMech />
-                  <motion.div
-                    className="absolute inset-0"
-                    style={{
-                      opacity: explosionOpacity,
-                      scale: explosionScale,
-                    }}
-                  >
-                    <Explosion />
-                  </motion.div>
-                </motion.div>
-              )}
-            </motion.div>
-          )}
-
-            {isFracturedAkuVisible && (
+        {isSlideInTriggered && !isFracturedAkuVisible && (
+          <motion.div
+            key="mechFighters"
+            className="fixed top-0 w-[100vw] h-[100vh] bg-black"
+            initial={{ opacity: 0, x: "5vw" }}
+            animate={{ opacity: 1, x: 0 }}
+            // exit={{ opacity: 0, x: "-5vw" }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+          >
+            <MechFighters />
+            {isAkuMechVisible && (
               <motion.div
-                key="fracturedAku"
-                className="fixed top-0 w-screen h-screen"
+                className="absolute top-0 transform -translate-x-1/2"
                 style={{
-                  x: fracturedAkuX,
-                  y: fracturedAkuY,
-                  scale: fracturedAkuScale,
-                  opacity: fracturedAkuOpacity,
-                  willChange: "transform",
-                  zIndex: 2,
+                  y: akuMechDrop,
                 }}
               >
-                <FracturedAku />
+                <AkuMech />
+                <motion.div
+                  className="absolute inset-0"
+                  style={{
+                    opacity: explosionOpacity,
+                    scale: explosionScale,
+                  }}
+                >
+                  <Explosion />
+                </motion.div>
               </motion.div>
             )}
+          </motion.div>
+        )}
 
-            {/* Vortex Scene */}
+        {isFracturedAkuVisible && (
+          <motion.div
+            key="fracturedAku"
+            className="fixed top-0 w-screen h-screen"
+            style={{
+              x: fracturedAkuX,
+              y: fracturedAkuY,
+              scale: fracturedAkuScale,
+              opacity: fracturedAkuOpacity,
+              willChange: "transform",
+              zIndex: 2,
+            }}
+          >
+            <FracturedAku />
+          </motion.div>
+        )}
 
-            {isInVortexScene && (
-              <>
-                <motion.div
-                  key="vortex"
-                  className="fixed top-0 w-screen h-screen"
-                  style={{
-                    willChange: "transform",
-                    zIndex: 1,
-                  }}
-                >
-                  <Vortex />
-                </motion.div>
+        {/* Vortex Scene */}
 
-                <motion.div
-                  key="scatteredMechs"
-                  className="fixed top-0 w-screen h-screen"
-                  style={{
-                    scale: scatteredMechsScale,
-                    rotate: scatteredMechsRotate,
-                    willChange: "transform",
-                    zIndex: 2,
-                  }}
-                >
-                  <ScatteredMechs />
-                </motion.div>
-              </>
-            )}
+        {isInVortexScene && (
+          <>
+            <motion.div
+              key="vortex"
+              className="fixed top-0 w-screen h-screen"
+              style={{
+                willChange: "transform",
+                zIndex: 1,
+              }}
+            >
+              <Vortex />
+            </motion.div>
+
+            <motion.div
+              key="scatteredMechs"
+              className="fixed top-0 w-screen h-screen"
+              style={{
+                scale: scatteredMechsScale,
+                rotate: scatteredMechsRotate,
+                willChange: "transform",
+                zIndex: 2,
+              }}
+            >
+              <ScatteredMechs />
+            </motion.div>
+          </>
+        )}
       </AnimatePresence>
     </section>
   );
