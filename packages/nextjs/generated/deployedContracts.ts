@@ -1,4 +1,14151 @@
 const contracts = {
+  8453: [
+    {
+      chainId: "8453",
+      name: "base",
+      contracts: {
+        Asset_01_true_00_BACKGROUND_beefeater_0: {
+          address: "0x55Cb9CB337CDb0A41cAc89Ffac4627744b50B566",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_beefeater_1: {
+          address: "0x20279269431C5DA87cf6bcd57D07C13406A0FeDf",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_beefeater_2: {
+          address: "0xBA7198c1c96f6fcC5f98e4dc7EfbedDC85A53917",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_boulderdash_0: {
+          address: "0x808b3c42DB3603161BB418CA920cCcd26d591158",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_fewocious_0: {
+          address: "0xeaFD494e51431509DA10232B99f6966e23D76B16",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_fewocious_1: {
+          address: "0x261cd5ca68bb654E6F52dADD6382fC849bcc3846",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_gunner_0: {
+          address: "0xD45942Ccb949B175097c8bC8ca2c1DE6c58773ea",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_gunner_1: {
+          address: "0xabC52e1e20d711753814F432e7dD62e66A867a29",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_samarai_0: {
+          address: "0xA1156362A6abff7df120b59eA8C34f8118474e2e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_samarai_1: {
+          address: "0xF519a9b351422fDab8bFd9fE1D7A30f83c7466dC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_squido_0: {
+          address: "0x2d7685bCd5129601d36d7160E1CBAa035c546477",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_0: {
+          address: "0xEe0B137a485d5E127B5f21bB71c8B1667CFC53ff",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_1: {
+          address: "0xeAcccbc294F08939C60CFc4CaDF7543047B35299",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_2: {
+          address: "0xd12124278d0Ab5A680dbb5768Fc285Ee6725e72a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_3: {
+          address: "0x46C8CEcf5fbc8A6f4DE942d76B031af22CFB85aC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_4: {
+          address: "0xBd8E021fF973319B19b2fF0b2836dA3685c75011",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_5: {
+          address: "0x8016AA992C88f1CBCbB583FA2EC40758137D286E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_beefeater_0: {
+          address: "0x72dC5eced2b2C650E038B504b18a514E6aA0644a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_beefeater_1: {
+          address: "0x7c9017E9A256Ac8107a76d1272E580A911125803",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_beefeater_2: {
+          address: "0x5A1545291176aEf8d29FFD806e882bdEe89CC05f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_boulderdash_0: {
+          address: "0x8703035eA4b84664c6de3e5020EB3671a74909B5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_boulderdash_1: {
+          address: "0x036692e2688AFd3E6879a4E3804b18068250e0aA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_boulderdash_2: {
+          address: "0x224d5f5d36F2B6265B2a74e124e7a1390a7C8b69",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_fewocious_0: {
+          address: "0xCa9f22Ad41823DdBbabAFe1C7394D832aB3EC572",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_gunner_0: {
+          address: "0x67306F342f8a78cfD3371749491D69550d64f8ce",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_0: {
+          address: "0xa71E040A42defCc55b9e8bB3bDF898d754fe93bB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_1: {
+          address: "0xc7e3fF203857Ef1850E0B5C82f2987092a8aF74F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_2: {
+          address: "0x5De806bfA26f3B947BE5355fc58D937590588709",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_3: {
+          address: "0x981777e5a587AfB080A06E2dFA0b3B2B7208d084",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_4: {
+          address: "0x131746ba3bA85f6cbcfFE7C1c28a524b5762C84e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_5: {
+          address: "0xD51fb25d3C29Bb48C8A636beE51Bf208788104B1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_6: {
+          address: "0xD2995a498Edf2Ba1bcA45eC2B43d9D1918E3a3a4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_7: {
+          address: "0x67C2eB7d3b765911a7D04A3a656F1bc8D84562f8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_8: {
+          address: "0x31Fe17d9c2648e21287d8bF33987F9189A993769",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_9: {
+          address: "0xCEd08A3d7Aa1aD86dD8D5D3DCF49359b51db82F1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_squido_0: {
+          address: "0x6CAF60832E62E762A81FE04cAC85725263C052Bd",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_squido_1: {
+          address: "0xB4D6DCCf79AF151647ff2732EE8727474c1Ec2F5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_squido_2: {
+          address: "0xd256876189201c303787b50Fe4f2ECc8a2C5DaD5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_squido_3: {
+          address: "0xAEcD898C8E2B744b2D3C84428327F294e123647f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_squido_4: {
+          address: "0x2B59aB3Ce541A20392463AAE1ff97Cfd4b88C199",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_tweetybord_0: {
+          address: "0xa03b15a0185F832E102C04471916f1a425CA052A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_beefeater_0: {
+          address: "0x4Fc967a704d1F2468CC51F530f6E9e22f0640675",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_beefeater_1: {
+          address: "0x58De82B117cE1a974faDBc9c58D9e2389bD72034",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_boulderdash_0: {
+          address: "0xF3F1e37862337ecE7980E3341A7Fe89148f3d9a1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_boulderdash_1: {
+          address: "0x73EB45bA7709fcDe1721B722A04e73BBCE95F821",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_boulderdash_2: {
+          address: "0x8FDB214544674dc11fad60095D26b48F363E5201",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_0: {
+          address: "0xBF3ba190C26819483bd4437B0cD2A762634060cE",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_1: {
+          address: "0x55865F96c409D3f92ec10F4407FEc95fD11f6086",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_2: {
+          address: "0x05d4ad826233C99f5e6b859DB45E10b82471fE31",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_3: {
+          address: "0x8199Ff056B37CF5Cd04F1DcA25487e8e09ec8624",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_4: {
+          address: "0x64c26779Ec5731A19c593eA4bB465902004C030F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_5: {
+          address: "0x5AA13a49a95c1942D7890efC884257B7B3C30Ec3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_gunner_0: {
+          address: "0xEE6F79bf9b675d3Bf8d4d67208c4E374D269F10e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_gunner_1: {
+          address: "0xc07D0fF26bc23Ff183E84E9df411F802d5Dad8EB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_gunner_2: {
+          address: "0x3Dd11D9C1ca490ebdC585Cc661F7000F908bc700",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_gunner_3: {
+          address: "0x1570e5287664e5551aC5f2D128B6C6dF50549000",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_samarai_0: {
+          address: "0x747bCe914c87E36887161DCAcb3Fa6cCC87b9027",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_0: {
+          address: "0xF42cB3ADA33C7268Cd08E764dBA61fD8Eacf59Aa",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_1: {
+          address: "0xf3d141a2d42E180F77269427a28094aDBb728513",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_2: {
+          address: "0x4144794e5376fd7b6F982E341D8b7eD5872352c7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_3: {
+          address: "0x069b7bd62f9a0b1cD6117c1753e55f5De4af44ca",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_4: {
+          address: "0x29ad161A96a0D4661c1356aeec0b730B94fe84a8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_5: {
+          address: "0x92817BA3c2A64DA4970013ABB401a3E6Ff359a7c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_6: {
+          address: "0x70e069740a316AA7D97C15B83d828f4d287A9a06",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_tweetybord_0: {
+          address: "0xa7CE8E34568A1910B09Cf692552f32ffB0654Ca2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_tweetybord_1: {
+          address: "0x3ad28007A1837320bdd721DfeEF2d02BEf749D86",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_beefeater_0: {
+          address: "0xF9fd9dA75Dd72ECbc5e740dda58d1394F535CE37",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_beefeater_1: {
+          address: "0x2B2faf72bE2addc97019427cf6C7e51E90D3Bf00",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_beefeater_2: {
+          address: "0x11c3Ac4C6E5eEB8393b9BD74200E90a71aDa5BF7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_boulderdash_0: {
+          address: "0x6279918dEd5EB13EEdeDc5e9947B70b963D211BA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_boulderdash_1: {
+          address: "0x9CBAe6157a89d322383B4aE385B1b7Ae49d54599",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_fewocious_0: {
+          address: "0x443f095E208FF7fdcFAC89873D6F50e222Ae10cD",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_fewocious_1: {
+          address: "0x8dd1dcb3120bE4B56C19cBE5e9Ee9c5597c8DB6c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_fewocious_2: {
+          address: "0x4252E261Da44c18720b5496E29f986512Ba392fc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_fewocious_3: {
+          address: "0x381DcD0e6D7328d1647f87197C57390a50710e62",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_gunner_0: {
+          address: "0x9Db32ebbAAB473D0B80B7CB405A2bC0fd08C89Da",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_gunner_1: {
+          address: "0x579c5C98AE313FF430f58183E6871932F0Ecf203",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_samarai_0: {
+          address: "0x5363F6DFcB998e42668869dF0962e907AcF98b73",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_samarai_1: {
+          address: "0x9087feAdfB81D1f3A66a4551fc5a0949e9F33c61",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_0: {
+          address: "0xFd326Fd826BC4789e7D5eb2ED1621563864718c8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_1: {
+          address: "0xA91C113B7CA738B657F47cd9Ce4057Ff25De7676",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_2: {
+          address: "0x7319f6F53fD5bA8cA09B177E1419B64559E241aA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_3: {
+          address: "0x2E709d604129D3dDb7Ee051ba261E85584f791bC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_4: {
+          address: "0x58d5fBdE29641F722E01eF6f9512EE3e3449Ee9d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_5: {
+          address: "0x8E41568A31383c5171D24f0522f2504093c461Df",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_6: {
+          address: "0x6A52551C1377E89f891557d7D6946f2Bd98730CB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_7: {
+          address: "0x7627338ACAb4914fF04Fd2d98E1A3D6971B7d001",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_8: {
+          address: "0x93033d781a12ab53140CCF8FAd15acFAf229284B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_9: {
+          address: "0x98c81BaC94C15C9713242721f4270AD076eF0F64",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_tweetybord_0: {
+          address: "0xa3F4626EB602642a9235422aF702eeC3719e6443",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_tweetybord_1: {
+          address: "0x58BC779BC7b4E58d4A9aCDF5c1Fdfc98FC0F445a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_beefeater_0: {
+          address: "0x10C7438619299E14eaab3D3c8b02060Dc48ab334",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_boulderdash_0: {
+          address: "0x0dEadd4dD1f3e74D170C365C215bE3445FEb44b4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_fewocious_0: {
+          address: "0xF37DEd698BB2D8c5b40A5d4349D46F8B5C1C7431",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_gunner_0: {
+          address: "0x7b5c0D84CeFDaEe7AeEA678D289FcD8DF9A29d36",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_samarai_0: {
+          address: "0x174f5f1FB70Cb58203794F716081E4a2F1A5D602",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_squido_0: {
+          address: "0x946aa96607EbE00e289C4498E3BE1Cd697dA4b0F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_squido_1: {
+          address: "0xb175D2989A7817917728d7EEE7321379BF06f9b8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_tweetybord_0: {
+          address: "0x96C56B75Ca9582098977BAe997B366c21a2B8256",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_tweetybord_1: {
+          address: "0x53fe7AEAb0CBEf20CC4a79170f41ebD5ef2f8232",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_beefeater_0: {
+          address: "0x142a0179f0148Ce56e172C19FCF3bEEB8Fe0C84D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_beefeater_1: {
+          address: "0x2630C4478cacd43BD692DC789597a542d5F7e624",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_boulderdash_0: {
+          address: "0x58011CEFa60446B2c93B3CaA5F0d8B89670981B8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_boulderdash_1: {
+          address: "0xBE0ecc84CEd3aC284B985171BdBeA6EC7b0C24b0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_fewocious_0: {
+          address: "0xe7FdD128f8a47e3b24C268D4A0B66BA93D427eaD",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_fewocious_1: {
+          address: "0xbf505CEa6D9A137055aefC0952C8F069fb3C1B3B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_gunner_0: {
+          address: "0xb17f3D7835060a892dfdeC36f732c28Ac9Ca3e2B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_samarai_0: {
+          address: "0x45436638DB5F481fe84a45dd967808c944B8c291",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_samarai_1: {
+          address: "0xbF6001De8114944BB8BF8BdEff635Cef3e966AAC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_samarai_2: {
+          address: "0x2FB2dE0E0C8adad17A489673313Aec959d400c75",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_squido_0: {
+          address: "0x52A316Dd032Fb3Ab423222Edf918545313F3222a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_squido_1: {
+          address: "0xc3313e9B59B4636Ca822B577C8cffA3aBdb6C679",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_0: {
+          address: "0x20ed30C68242A8BD019f3aA3cBb04bF5B37c9605",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_1: {
+          address: "0xF0a8f46144Afc2f238F5191A059060341775E300",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_2: {
+          address: "0x2D69052bE914e39d34c2C57f9025353DFfd00D9a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_3: {
+          address: "0xE68d9bA7887a9A4f16195f9f6D2067ee5fD65621",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_4: {
+          address: "0x7A93E29e6Bb03A2a5A4228B45b8Fa6E47012B590",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_5: {
+          address: "0x809592F182E8f687f5C95C50372F05b856407520",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_6: {
+          address: "0xD94c74439b27bf570d55fc0ee874Fb3C6842fFA6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_beefeater_0: {
+          address: "0x0727dc9A85a15643ac6319CE0e8C94d26591Ab63",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_boulderdash_0: {
+          address: "0x21ed2f855F42dd9C644c396B3d28CA75020d07C6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_fewocious_0: {
+          address: "0x0d515A0e49d6c07E8C358648485FBd2AC3aa4F6f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_gunner_0: {
+          address: "0xC565a01f6507006c4d737C8690437f6a7C202231",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_samarai_0: {
+          address: "0x5F24901EF5887512DE947F427DFdc8146927Ec9d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_squido_0: {
+          address: "0x5ACB8dC9d60a60F166879dCB0B99170De0822170",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_tweetybord_0: {
+          address: "0x981dB2eFecdd3E3a271b4616D23e89cc5f498b9E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_beefeater_0: {
+          address: "0xF40f536940de5c258717923f38e892a59EC0f95b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_beefeater_1: {
+          address: "0x7DDca9b27843d5AE7afbCFFccF3089ECb5Ea5c52",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_boulderdash_0: {
+          address: "0x902eaF77857106afb044E2FD1008dbAFBc6e8334",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_fewocious_0: {
+          address: "0x14C1c1BeBbb6917DF76E0BBD48C154F203b69FbC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_fewocious_1: {
+          address: "0x9203fCFBDc624aa1032A5b13bb6B123E61A87485",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_gunner_0: {
+          address: "0x21C92Dc3C93216d8aB4abe99f3Cef88201cBB5DC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_gunner_1: {
+          address: "0xf32d5a24D520Ea2a17d6799c0B0A442fD1D1aba1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_gunner_2: {
+          address: "0x6F2AcbE0C4640BB18030D44F1a998141D3863b00",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_samarai_0: {
+          address: "0x72d6D9c05f43AaB712845314407DF00bb4B522ae",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_samarai_1: {
+          address: "0x03b6a89e66EA46390e9132FdEAB6Bb4215c69E80",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_squido_0: {
+          address: "0x3AfF67E3909b6Ef34d93Fd56FEB7dC85788f7f95",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_tweetybord_0: {
+          address: "0x1140B58DA4981eabe51ce3ee045C7CFe5f6C4054",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_beefeater_0: {
+          address: "0x67817C3Cd037f9bF98d91d30CC4bbDD67B05aaFc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_beefeater_1: {
+          address: "0x2c2F65BEEB1A1f85a367a6a9A0f7071bdb8eF01D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_beefeater_2: {
+          address: "0x35615033c0C692f98E65F06723B3724799bf1E67",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_boulderdash_0: {
+          address: "0xe28c8a6479cCdEc4aFB8aba3656A66B0A21E0134",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_fewocious_0: {
+          address: "0x00016FFe43cC1E0cA9E65939E226D715Ebf25712",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_fewocious_1: {
+          address: "0x7c68aAe96eb49711DFE019e2435B71253822410f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_fewocious_2: {
+          address: "0x143c407244a82Fc5556d9Fa3a85583E726524705",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_gunner_0: {
+          address: "0xC5C9EFBDEA246E6a9Bc1DfB5d3A4dB34f6f81769",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_gunner_1: {
+          address: "0xb2f8183cd65a03B05719A4C13ca4E41Fc22F6950",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_samarai_0: {
+          address: "0x3576E228abB1dfC299E2A0cbC897Ae8669dfFbF2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_squido_0: {
+          address: "0x9528429eBAAe98838554680bb4197F0E25B710fe",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_tweetybord_0: {
+          address: "0x1d00a232F0bc69801f51eDdbf884f5B30aC2fcE0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_beefeater_0: {
+          address: "0x42CA0ffeadE3aE0Fe52bcb33C7a514F204B9C12E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_beefeater_1: {
+          address: "0x4BfDd1e76f019898DaB6f34EC54b52D5a4a4577C",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_beefeater_2: {
+          address: "0x99e31266aDef5f65b31b105AaF9cA648cb7c24B4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_beefeater_3: {
+          address: "0x07b5f7FeBDe2B53c92C43e9D84e291782409efcd",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_boulderdash_0: {
+          address: "0x0dEEc0CAD415Daf8Ab54ef7A31365a2FFeE9744b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_boulderdash_1: {
+          address: "0xBb1a1B00b3e3e0FF6A20426587d5bD9125ADf5AB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_boulderdash_2: {
+          address: "0xf1F54A3F42c49b69F696E5755429b4E843Bc35b0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_boulderdash_3: {
+          address: "0x722e7B2a2E21975031bE101C0c8a9799af5a6478",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_0: {
+          address: "0x1e0518974fccD82948Dcd2707424CEBa7787A1B8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_1: {
+          address: "0x6c408FF15D61cC7e4c350a9Eb9E1282721bC84e7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_2: {
+          address: "0xf51f4Aa901C8088E3D770ca9A7F3A8e48D196Df3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_3: {
+          address: "0x8e61785b31912eeE6167E6F324549F1f42Be3e46",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_4: {
+          address: "0x97dc1A5ac8808142A98d02Fe1AE51eF929651650",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_5: {
+          address: "0x3A9fd085B840d39D36107d52179E575CE8260c7E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_6: {
+          address: "0x9CC596090Dba0b0197226d909bcE085CAB689d84",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_7: {
+          address: "0xf5b608d2883923bc0577311012d9A59C550479de",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_8: {
+          address: "0x049D048045bDDb3b54582Df98Bc28503D02f68ED",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_0: {
+          address: "0x0bC1C13ddE77244fBdA26310272a41e828D08E6A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_1: {
+          address: "0x5f36B6B8Fc389c865F3D9536Fb10982Daf188887",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_10: {
+          address: "0xc1d07B08FB2750cf350828d1B641A23A4781cCeD",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_2: {
+          address: "0x2B67C3d67633484F8f974195cC9c843a1dcb2aeb",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_3: {
+          address: "0xcd9Dcfb3dc0248e7f505542689f6030b0Dc8c38d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_4: {
+          address: "0xeB48E1b62765f2D523C48785063C0aDa2032eecd",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_5: {
+          address: "0xF6933C1ab547Cd9B4394982425b699971aF7E528",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_6: {
+          address: "0x9619Ea26d6fddC4F6f4AfAf51D47B53DbF8b1f66",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_7: {
+          address: "0xaE8832815ec224bbC1365C05E67e59849B13817b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_8: {
+          address: "0x260F79dc941FC4cA28161566aeeDF11b894Dd20B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_9: {
+          address: "0x90d028D9EEB96d487Cbaa31F4f16c95165F33cc2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_0: {
+          address: "0xB859D3F70B4b8EE549E3731Ce8Ff8fB5b2406f10",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_1: {
+          address: "0x328C7795f60F330Eb670d05E4b1B9e2436eec863",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_2: {
+          address: "0x666cd5a497C1ec08438F9B52287e2eFF85e2B689",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_3: {
+          address: "0x94336f1Bb3750A66441fE351CF3b91606EC32757",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_4: {
+          address: "0xa8FbaE067F4762d076587be460d7310BBC4C74c9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_5: {
+          address: "0x62670d4dD70dc8B124C6d5550EcE0A0e8d20F070",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_6: {
+          address: "0xd132a12333f543e03eF25479e0bfB87bABc92C7D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_7: {
+          address: "0x0E735Df1fab58f8Fe89e447564D787a353c7fc3c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_0: {
+          address: "0x2e2BC6A24637f5902887FF2BCd1e8c489cB29107",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_1: {
+          address: "0xCbCD6Dd824F0b1A78320d589f507df05D1E67e50",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_2: {
+          address: "0xb9f369Ca4F0665C5C6a7BfE61A53970919747d08",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_3: {
+          address: "0x4c998EFD00cA44598bA4dEdE5BE8Ecd514dd1698",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_4: {
+          address: "0x7A2459a89Ab5F49A086c0268E8B4641E0979D1E6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_5: {
+          address: "0xcba0d27d59fA4Bb14625De0A753aa588EA94fAB3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_6: {
+          address: "0xe8A1963c8Ef22a01f6D93ed0b5805788506a9B9B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_7: {
+          address: "0x755C5c47b7933BDc8169f05197d8A7D75Ee27b99",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_8: {
+          address: "0x107427FC64d9f057A0E75B7E3E1167786EBC6ee2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_9: {
+          address: "0xC8068b6998456D15944F4F75124442cf00719D6F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_0: {
+          address: "0x012ddAD6Ff79d0196b99757fc07c93Df0fB18f0e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_1: {
+          address: "0x33d6a505401AD8143FbB1d79f0AaAF3F187CB85d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_10: {
+          address: "0x42342c4383513347Bc3Ab5A336a063F66aD035D9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_2: {
+          address: "0x4cc703e89E66767A3b0D3542FE4Da02164329D2c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_3: {
+          address: "0x7C57ABa77Fa9055133446FCfD51132efcB0C16da",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_4: {
+          address: "0xDcDa302fCD234898ED14d5954eb843f8dC0Bf0F7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_5: {
+          address: "0xC1bb7d9f92ce8Be61182891C85d3d76657c4988D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_6: {
+          address: "0x742b818a2e411475D71f414B435206DcaA295f98",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_7: {
+          address: "0xBbc328e6e01d2Ec40265fEb9Ba7F033C1B19A500",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_8: {
+          address: "0xb6474950Bdadd947F4F8895f20Ad86D118eaFB7b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_9: {
+          address: "0x5D084be77F5F35F4548B89872756FE19d01D661D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_beefeater_0: {
+          address: "0x4bDE812E832448f24D379DDA762f98F4d657e9F7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_beefeater_1: {
+          address: "0xA7771b76C782d87b7548AFA988658132BF558d9D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_beefeater_2: {
+          address: "0x0476883fA917C8D8B5610417d42aB9CD3ad139E0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_0: {
+          address: "0xceb0D09AFb8a5654EEA8E290eBeE1c48a482E2dC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_1: {
+          address: "0x96e6cFa1c4C473Fa98e7aC3A29FbCC3518148268",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_2: {
+          address: "0x07E93003ba8E6f847d95cf2F6a5Cc0485908a0CB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_3: {
+          address: "0x358126a593b4997D7F2f8FE4888B503e4F1958f6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_4: {
+          address: "0xdbDf8463c984868e88d36e92a5eA6C98a6a985AA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_5: {
+          address: "0x3e9974C87Eda7faD230BA0AF40d9C62153E658e4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_0: {
+          address: "0x45381614aAAbF89f5E2C6Da85f87Ab727826968f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_1: {
+          address: "0xFd8e462D83d98Bc706C1908A206Aa4F16687eCfd",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_2: {
+          address: "0xefFFc5C82DB0cBe77229E1C06be613700D9703aa",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_3: {
+          address: "0x5A5c45fDd6517f67F17FF5CF6DFf0F1B598e48e9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_4: {
+          address: "0x3A7D412C0e3c7c3953c5F48731cb285fB473fC6e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_5: {
+          address: "0xc857512becC0EE8b0109357D6864dE3eaDf248b6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_6: {
+          address: "0x2dbfD39d8778CfdC0bdEDe3D498422Dc8c063A33",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_gunner_0: {
+          address: "0x4C26538DA04f25820112abe33ffE76B78B88bd37",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_gunner_1: {
+          address: "0xD3493f052a26D9acD0A260263a1BA42b2078dc8b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_gunner_2: {
+          address: "0x990408fbEa7cCB705de6BA5322d0aadc8F3A9d1A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_gunner_3: {
+          address: "0x1ae82c111b350e1c5322731b3c205f9fc85A7E0a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_gunner_4: {
+          address: "0x18BaAf18406018CD974962D963341c596A32DC8A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_samarai_0: {
+          address: "0xC7d0F862F93A936C17923aDb460e84B7784702f7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_0: {
+          address: "0x2D776D6d415A7b3431Ed4E66Af38F19D648738D9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_1: {
+          address: "0x361Ff811CfA13171612ba0e6A26d6278aF5E53E4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_2: {
+          address: "0x39478ddd89a0B97346b7aF44F09A35206c7aEafB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_3: {
+          address: "0xe5193170a46c8aA68fA14f97C869D68D7D5Af510",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_4: {
+          address: "0xfb824271C462e7e65779e6Fd140361a3B727b03f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_5: {
+          address: "0x8fE6eB7d61Cc280eCac426612B06ccf70b1746E5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_tweetybord_0: {
+          address: "0x788816cbcdc41ECec73b5942942E0f09b1581249",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_tweetybord_1: {
+          address: "0x851f19c827cA5Bb16cc9cD3EF7aB70586099c439",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_beefeater_0: {
+          address: "0x98a66C1b99b7Ec218514ED92DB3c0209F60F337c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_beefeater_1: {
+          address: "0x757cACBA9D6a63aF1F70f01eF72C0eF77DFCe269",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_beefeater_2: {
+          address: "0x5B8F29Df964C513e03be7F12F48AA68feCd534c8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_boulderdash_0: {
+          address: "0x9eC1F5472D0C061B7aEa7636Dffc7702E7c08fdA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_boulderdash_1: {
+          address: "0xC6FBEA441650Fa83af4d9d2538237D95Ff73118C",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_0: {
+          address: "0x43c47148D87195b66b19490B7eBf88c5CF5f2989",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_1: {
+          address: "0xDADfEAC008e3a32F7F9899fa44728600d05Ad796",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_2: {
+          address: "0xa96cb4B768AfACe77Abb8e86afF6590CA16AAccd",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_3: {
+          address: "0x51b78b0ADA5e14846D3d4AdAA168bD3bcAD20a9d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_4: {
+          address: "0x372666f3c31Ee39662747cE135ed213F708032B2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_5: {
+          address: "0x1115ad83C1c4Cd4Fd42D4446aFaf5a2bab9CdACA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_gunner_0: {
+          address: "0x444EBb2154138582D23c6fF8e764e47e3d54B060",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_gunner_1: {
+          address: "0x3480901828377371bda164f09898B4be04Ff8Dc2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_gunner_2: {
+          address: "0x6FF70f2e7AaB7C43a32f15287247F14406dDa114",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_samarai_0: {
+          address: "0x49a3BD303143F53F9046228C56b93802D337a46A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_samarai_1: {
+          address: "0x4dc6476Ef3248bBD8b1920964628B9df04f4069a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_0: {
+          address: "0x9b0ab21235ad177F1258Cbb1126a59EEBaD8d0C4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_1: {
+          address: "0x4686e428B7D71Cc3f9CFA17f60B9Ec543B23af6D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_2: {
+          address: "0x9bF4d31F64DD679ea29B8A25aA41Af2bb2370Aa7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_3: {
+          address: "0x0a6dA821dFeefEcaf8Bc4f80312bA959E39Dc4B5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_4: {
+          address: "0x06ad3f591894A0C3c7030F9310C1d07a3B297917",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_5: {
+          address: "0xAc5cB93bD51c41265E9E3D8Bf0D8b9f723b111F6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_6: {
+          address: "0x46119f1e85DBeaEAa14d5aCA68e1999d3C45299D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_7: {
+          address: "0x762aABfaeaC82Aff22e3196E63a3E8372b2f56bD",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_tweetybord_0: {
+          address: "0x4d6Ba91cc7e1a775D444f66BeF257A337592879b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_tweetybord_1: {
+          address: "0x7b84b75582238806115EB31F48e227db731A76f7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_beefeater_0: {
+          address: "0x4e70a25650AAEa42A87269662DF69591263dcAeC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_boulderdash_0: {
+          address: "0x09c45cD445689626d79009093Fdabf787F453f1D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_fewocious_0: {
+          address: "0x95393C3e9e2AE69fD9923bef65B19C292761281b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_gunner_0: {
+          address: "0xE514F0740000692E3a5703ebB78d1BBF95e695aA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_samarai_0: {
+          address: "0xBF7256AeBad54eb2B21c28391dd4c42a5DBeC4d9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_squido_0: {
+          address: "0x6D1D6bB570460084ef6Fe52E8B4236Da5455F50f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_squido_1: {
+          address: "0xF8f74cC8F512ea867c63e721aF703dB872B33841",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_squido_2: {
+          address: "0xe85D227a5afe7f8168E5e0495CA6A79D87b9Bd59",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_tweetybord_0: {
+          address: "0x7B50A9993B6F0BcaCd81cbEa5cE3528c81F6d78d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_tweetybord_1: {
+          address: "0xc1Fa482EbAE00E3cE8004fA2C3112d478d96e7aE",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_beefeater_0: {
+          address: "0x21f22E85F8c05b6E88358f2b6A5689AffF55A290",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_beefeater_1: {
+          address: "0x04F0ab230A7fAAdc4AFCbf5466f7d8787411D5E5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_beefeater_2: {
+          address: "0x6AF009870f4d1E7674772C57D97dE574a5190461",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_boulderdash_0: {
+          address: "0xC10c46e5eb0F87f8B848878B1EbD432361a48781",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_boulderdash_1: {
+          address: "0x1F1b123b8704Fd4098005b0E73F350Fc8C30b8b6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_fewocious_0: {
+          address: "0x9AbcECdC54e251D6E40A01281334cDa3D9d67305",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_fewocious_1: {
+          address: "0xcB7704660c5360cC6E4d9BD77f0c9F5E81870422",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_gunner_0: {
+          address: "0x428883aDE18f382B7047937746CC2718455BA4e3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_gunner_1: {
+          address: "0x6f88B0f9749A09d661108378E8C375f64770B7E3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_samarai_0: {
+          address: "0x09d496E5951244AdDbED92E5716b2962C44E0924",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_samarai_1: {
+          address: "0x5F234557C2846cdF89cF0363338b84a9D7F7b36D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_samarai_2: {
+          address: "0xfd84C947b7BD8479FfAF94f10a509f395Ba8DF68",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_0: {
+          address: "0x41c3Ce4E52a9Af4c6c4675b2628CA23CB8E6A3Fb",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_1: {
+          address: "0x6C0229B51458C49FDB9577De64c6ab53Cb71bbD4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_2: {
+          address: "0x29EF9bF1E3BE3A0c5518954F2b53395F837a5F48",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_3: {
+          address: "0x9a6E0Ba45D1495FF3062fAb3810489bb0751227A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_4: {
+          address: "0xe85Ba1ceDCD0585Fd99e12A1C81745773209f8fA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_5: {
+          address: "0xf4D220Af180315cf2E6BE48550C53BD33fb3e26B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_tweetybord_0: {
+          address: "0xb951b24BeAc401b571FcE9ea1e6F92A617cCe4c7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_tweetybord_1: {
+          address: "0x7c264D93B3AAb754A8bCf0660dA9dDDBA9276E62",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_tweetybord_2: {
+          address: "0x13CfC4A724fcCf29e42bE161e71dE55576936A12",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_tweetybord_3: {
+          address: "0x56e199509092F045D326CbFB97b3bc7f5d749F6c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_beefeater_0: {
+          address: "0xAE721FD5a88575711353E0eBeC65230AD8004277",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_boulderdash_0: {
+          address: "0x0ca870B039A6a6B10DcdD1CBc6A8c9C711219DDc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_fewocious_0: {
+          address: "0x0beCb81F38248f76ef70A49Be19Ea11B78856adC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_gunner_0: {
+          address: "0x43259168231E6af645F470ac5b2717b723189120",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_samarai_0: {
+          address: "0xda5f244d34C8301737b80DC171f9a79eE1f38570",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_squido_0: {
+          address: "0x6d6b33072c67f9D99E7D04FEAeB62ea1382Ab8f2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_tweetybord_0: {
+          address: "0x4C8F26D42BD95525aBb4666BB7540Ec2d6126806",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_beefeater_0: {
+          address: "0x1f01c1A10DF9e207c39Cb213F201905BBA705d38",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_beefeater_1: {
+          address: "0x5fb66a891274D73BF292A871bC140eD179C9Bed1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_boulderdash_0: {
+          address: "0x1eA1012BF50a68cC51667170c3B00100877D397e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_fewocious_0: {
+          address: "0xF223C1bd4De26725DbA4c25397fF67579fC4bE41",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_fewocious_1: {
+          address: "0x92500fF07023297014e636B2A82b1686489f5344",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_gunner_0: {
+          address: "0x3D98530611b1D8468Db17b2F998C31e847A5A949",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_gunner_1: {
+          address: "0x53AF44Fb828C25CdD21DBe98319Ac4f6f84fE86A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_gunner_2: {
+          address: "0x81c0B5C6af46f27c3af7d45aBc9A8BA649298bFc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_gunner_3: {
+          address: "0x03Fc0dC9591455DF931B6b033Ea22130C0C9A7Ad",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_samarai_0: {
+          address: "0x594EC7893EB4B8AD09015e4E639F4f99318C6472",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_samarai_1: {
+          address: "0x33E665E31156cE964B42485F6577865486cD83e2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_samarai_2: {
+          address: "0xC9B1D1ED213d4ff17Ab6f4e57A4b4437a73Fc7f9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_squido_0: {
+          address: "0x99B79a7455a7254c46c833af3FF2C0A2C7FfeA4e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_tweetybord_0: {
+          address: "0x4cFABAeeEF5DaEAC117CA5265844e6990DcA4e1f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_0: {
+          address: "0x175b4Ec18d7aa7DF3487ca39f87EE55797bD7b61",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_1: {
+          address: "0x16501d150570C484B6f14Da0765Bb15871E6de70",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_10: {
+          address: "0xBb9ADc386067C3387a857f129DB5e1A301643F46",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_11: {
+          address: "0xdED201807990B255f0ed61c336C6acE889Cf9A7c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_12: {
+          address: "0x2736606D8622AdBd04E751dC182FE1ABeD4950a6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_13: {
+          address: "0x88578EF0d9ebE312DF5417f43FdeD705470AE7f2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_2: {
+          address: "0x967D9BD582903D2B7e2d5971cf45f9bb1973F00E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_3: {
+          address: "0x3AAA09659D4C70b2E147cC2B25a1b2e19130058d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_4: {
+          address: "0xE0c20E13fb8571437034606cD293f59779814f33",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_5: {
+          address: "0x5Dd9E480303A49e9926D374Ee80AFeBEE014e8c1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_6: {
+          address: "0x7f820bBab8627eb9846b9ba48c44df042c7944b8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_7: {
+          address: "0xfaa4DE88D42735a2978BA160d70447c16366C6b5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_8: {
+          address: "0x394a60C9090e8D1e5B61cC8Fb09688E9889768C3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_9: {
+          address: "0xdb323C366cB63b6EbdfA44fa2Fc8c5AB97a09b4a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_02_0: {
+          address: "0x9023372b20F77822B313eb6f2a53FC5ed67C97aC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_02_1: {
+          address: "0xA2bC77509FAF06b4e359A7738bb39a629Dc6Ea34",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_02_2: {
+          address: "0xF4e172E73B96011dFB34608c57176BF3aAeC3c01",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_02_3: {
+          address: "0xa058677e6c2aC6be214bE5909C5679Db0962e34D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_03_0: {
+          address: "0x9780895DaD7778917f58CDA37612d49e50cE3999",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_01_0: {
+          address: "0xf0D8b9a3cAa05CFCb3F3567F9f9CC9F5963ECe9e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_01_1: {
+          address: "0xC532080fa0168f9bDE322A89f21D777D5dD7A951",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_01_2: {
+          address: "0x01c4d2B5DC2916CbCE41fbD0C1DB66A7CEAD1025",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_01_3: {
+          address: "0x8354277d6748DB13093229a58c959114FbF7C267",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_02_0: {
+          address: "0x25Cf239e4e0Be3fE2b4912E1fd213D08Ce1603A4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_02_1: {
+          address: "0x18c163C39A217f7C5AA43E0AEeFE4FeDCf07d964",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_02_2: {
+          address: "0xE2Ff615b3AD658dc1eb3cFF0Bee31b19B3F854e2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_02_3: {
+          address: "0xaA0355Ad6B7F70fb8085BB736d51D08e3c9187F3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_02_4: {
+          address: "0xD7887741f458629e71DE306A7a012F5f890A3abc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_03_0: {
+          address: "0x1BaA7c51138054C9E56Af8B999291cCF854c5188",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_03_1: {
+          address: "0x2abB4Ad2c95F5ec008FF40f608A06bDeE924Cc8B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_03_2: {
+          address: "0x0cf23B4725Df5d381055D70170b8d931865cADEF",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_03_3: {
+          address: "0x506f5B20644Caa8525664BBFc8D51027297710e0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_02_POD_01_0: {
+          address: "0x7Bfd30123e5a4dD962df69C9D05A4d0ac1F84cD8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_02_POD_02_0: {
+          address: "0x055C762279929d020cC05591004118dd9F06E972",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_02_POD_03_0: {
+          address: "0x1f346Ac3E79485024EEe95Cc94106D91A7363e91",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_01_0: {
+          address: "0x6BE52611498ddF90483C367cAE7fe0BC1cA2407d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_01_1: {
+          address: "0x60FdBaBC8f3aEf3E06d533CF068325C426035eA4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_02_0: {
+          address: "0x2d974165E431b2a4B240FEA6bD7FC2EaA9DC004f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_02_1: {
+          address: "0xA92d09739a32Ba39Fd614714a095d121a257AD36",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_0: {
+          address: "0x7FBb046076acc47D41c6dda2A2818e9D728054a7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_1: {
+          address: "0xC55009412D81cdE6b870CCA86F4de67Cd9344EC7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_2: {
+          address: "0xc2567647101e6C4fcc42a28DC91bC333F3067AE3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_3: {
+          address: "0x43A088626CCb4bc47Fa0F6cB7748498f8E037102",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_4: {
+          address: "0xd29FE569D527D9e97eDdE218B3F906d0F65Eb093",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_5: {
+          address: "0xeE34F47975B6418B27e339aB71188Bbd493bcB3a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_6: {
+          address: "0x36CBb164d1F599aeAd787cce272F72318BEa9108",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_01_0: {
+          address: "0x5D36424994A2D676246593894396600852828C54",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_01_1: {
+          address: "0xc360d7aFD81cf5cEC21EB6835130855cC3791831",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_01_2: {
+          address: "0x67f518Ae163e3E0c9EBBe250E29B5D3D9F755f98",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_01_3: {
+          address: "0x17F052afb8a3310881b7d74EFfe67DBcC128d057",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_02_0: {
+          address: "0x80997BfD9d4576c2EefF08CFE94C19cA78BBfBD2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_03_0: {
+          address: "0x1B5454aE157BCE7c9B15F47F02513B606F69E029",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_03_1: {
+          address: "0x8c86b601373B74D9cf7E9F7579E3EB1C638f0f7b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_01_0: {
+          address: "0x9f6Be08C321B9c1401624cB01f77EFD35c58667B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_01_1: {
+          address: "0x129494296A0246DeB1Fed4AadE950293Fe021DCe",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_01_2: {
+          address: "0x374594a1D27aBBB5340A05059f110b2f15261982",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_01_3: {
+          address: "0xde23150138FBd2642ca0f7C0ceccD07CcF511d90",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_02_0: {
+          address: "0x0c4167EF7D8C6021054c0ffe22b4a89E5c1cCdEb",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_02_1: {
+          address: "0xE1fd3e849001d74f370a6B768F22442F030ea240",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_02_2: {
+          address: "0xfAE51A9dea276c7234Ba6028272E1924b576E4a5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_02_3: {
+          address: "0x372D747b2472a5CbeEAaAe7b784Ba3d37CA0423C",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_0: {
+          address: "0xbEFF80C73abfed5FEB3c12F1883792D27adB8379",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_1: {
+          address: "0xe41276C12C8344C3690d347dD1B7D74bF3Ee3e2f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_2: {
+          address: "0x96a3b633f04A28E99d738871e9A57c055Fd790De",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_3: {
+          address: "0x73440f1068D52f5745881aa1b293bD5d9153adEB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_4: {
+          address: "0x5066889797Af07417f13804ECaf91c45331aA206",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_5: {
+          address: "0x086397d3acA11a30F9B29ce7c863966FdBD1EA6C",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_6: {
+          address: "0x17e77F43301d69EA557a803e8D43177f40cC542c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_7: {
+          address: "0x23C09caeb4d545385c50E47906686d8c2849a211",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_8: {
+          address: "0x6ce2587168D606640B7273809D3682405cD496C1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_06_KANJI_01_0: {
+          address: "0x0fc04B65B7d80482090A566Acfd83e1A402A0174",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_06_KANJI_02_0: {
+          address: "0xfb2FAC5336DCaeE4939C7861466458B16CBBf05c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_06_KANJI_03_0: {
+          address: "0xEc35799d9132352Cb679BEfc06318416d6d56aAa",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_01_0: {
+          address: "0x52C00E3f271908B999765AB3B72dC7f1E6F5528E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_01_1: {
+          address: "0x6Fb44C5eFe41ECBDf4cb13839EFAcb6f7CeC2eD9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_02_0: {
+          address: "0xc53CE71d06055Abe97Ed14a2417F4e73b985C729",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_02_1: {
+          address: "0xF458cAD17936f657370DAF09c475C65d3FA35BCC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_02_2: {
+          address: "0x824E2498C66E54B45B276B8A4C7C3bAC9F0e3FCC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_02_3: {
+          address: "0x283B03734CfE9F8dEDd4564EaDEfA5A7e734F78C",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_03_0: {
+          address: "0xFD7816d4F97fB5927D5c9c99bCe52f803c11B803",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_03_1: {
+          address: "0xC8fF62268BafBBE4F1b10F7B6F1CaAce24c20364",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_00_BACKGROUND_aku_0: {
+          address: "0x536B1C4a92dB95e9DB770F4573A8c3438d7951B7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_01_BACKGROUND_OVERLAY_aku_0: {
+          address: "0xF5DD267049F9B9dEfa96FAb99270FCd50d799613",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_01_BACKGROUND_OVERLAY_aku_1: {
+          address: "0xc640e00B209E1380aF06aCCc13332EA7C6b71d29",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_02_POD_aku_0: {
+          address: "0xCf6a7AF22C1b6a8369724175F40526C0E5bED5B6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_02_POD_aku_1: {
+          address: "0x19f2fe574d1CAe5857f830C3b95E1Bd6dECE7591",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_03_RIDER_aku_0: {
+          address: "0x89E8966731257E65A5eE3790A05204d85327B162",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_03_RIDER_aku_1: {
+          address: "0x1DE27FAca89d7449cB784bde0962ae747e4A7ba4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_04_ARMS_BACK_aku_0: {
+          address: "0x861c56809c08AfC178D266B20dEC4999E19F9373",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_04_ARMS_BACK_aku_1: {
+          address: "0xE24eE9f1E1F7F8816E6cCc92449C8f40c17ba17B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_04_ARMS_BACK_aku_2: {
+          address: "0xf12f19C5CC8c84B885cFe4Db17b898E81EA6D47E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_04_ARMS_BACK_aku_3: {
+          address: "0xFFe02329b4A32a02073198B1BaFcB66Ab00C99b8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_05_BODY_aku_0: {
+          address: "0xf1c34fE81929D0c1F51ec9f56109f79Bd944A46f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_05_BODY_aku_1: {
+          address: "0xf1863449283b7A3a803082DD0fa67Edf1e23B110",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_05_BODY_aku_2: {
+          address: "0xFc23737626ba886e6168DB7E9B0F7231eF8e2076",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_06_KANJI_aku_0: {
+          address: "0x5b133C2509f4cb3A3fbbD1AB6703B714E70d9997",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_07_ARMS_FRONT_aku_0: {
+          address: "0x0edF1A53c20B830EAdFE93d45E1B7893173C7522",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_doomsdayOverlay_0: {
+          address: "0xe749E8d547Fd712b23675d8bc0c54EC02269e8d4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_pack_0: {
+          address: "0xc4e65822b2861eA23F2B3EDEddeD4C5A532538fb",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_pack_1: {
+          address: "0x0e579D5a1fe8370a304573A0F96bAB2214b5fdED",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_pack_2: {
+          address: "0x3e9f6F03C3dF399305AE17e36CF95cdc63AC61d7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_pack_3: {
+          address: "0xcFaF94e43C1a3D6A127359EB983672E6Be3e3169",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_pack_4: {
+          address: "0x7c35548a5a5E6a61b74Aea827D58c58d563f3929",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        BasedMecha: {
+          address: "0xDF38E253ae3B4640A60188C11cdD1441e1e64E53",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_layerMaster",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "_mintingContract",
+                  type: "address",
+                },
+              ],
+              stateMutability: "nonpayable",
+              type: "constructor",
+            },
+            {
+              inputs: [],
+              name: "ERC721EnumerableForbiddenBatchMint",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721IncorrectOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721InsufficientApproval",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "approver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidApprover",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOperator",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "receiver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidReceiver",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidSender",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721NonexistentToken",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721OutOfBoundsIndex",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "OwnableInvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "account",
+                  type: "address",
+                },
+              ],
+              name: "OwnableUnauthorizedAccount",
+              type: "error",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "approved",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Approval",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  indexed: false,
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "ApprovalForAll",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "previousOwner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "OwnershipTransferred",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Transfer",
+              type: "event",
+            },
+            {
+              inputs: [],
+              name: "AKU_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "COMMON_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "DOOMSDAY_LAYER",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "HERO_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "LAYER_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "ONE_HUNDREDTH_PERCENT_MAX_INT",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "RARE_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "SUPER_RARE_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "SUPER_RARE_MECHA_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "ULTRA_RARE_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "UNCOMMON_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "akuShardsFound",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "approve",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "balanceOf",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "burn",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256[]",
+                  name: "tokenIds",
+                  type: "uint256[]",
+                },
+              ],
+              name: "claimCustomMecha",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "customMechaContract",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256[]",
+                  name: "shards",
+                  type: "uint256[]",
+                },
+              ],
+              name: "doomsDay",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "doomsdayTriggered",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "generateSVGofTokenById",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "getApproved",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "randomNumber",
+                  type: "uint256",
+                },
+              ],
+              name: "getCommonArray",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "seed",
+                  type: "uint256",
+                },
+                {
+                  internalType: "uint8",
+                  name: "rarity",
+                  type: "uint8",
+                },
+              ],
+              name: "getLayersByRarity",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "getLayersForToken",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "getMechaType",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "seed",
+                  type: "uint256",
+                },
+              ],
+              name: "getRarity",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "randomNumber",
+                  type: "uint256",
+                },
+              ],
+              name: "getSuperRareArray",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "isApprovedForAll",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "layerMaster",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "bytes32",
+                  name: "packSeed",
+                  type: "bytes32",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+                {
+                  internalType: "bool",
+                  name: "nerfRarity",
+                  type: "bool",
+                },
+              ],
+              name: "mintItem",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "mintingContract",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "name",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "owner",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ownerOf",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "renderTokenById",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "renounceOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "bytes",
+                  name: "data",
+                  type: "bytes",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "setApprovalForAll",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "bytes4",
+                  name: "interfaceId",
+                  type: "bytes4",
+                },
+              ],
+              name: "supportsInterface",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "symbol",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenOfOwnerByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenURI",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "totalSupply",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "transferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "transferOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_customMechaContract",
+                  type: "address",
+                },
+              ],
+              name: "updateCustomMechaContract",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "_doomsdayLayer",
+                  type: "uint8",
+                },
+              ],
+              name: "updateDoomsDayLayers",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_layerMaster",
+                  type: "address",
+                },
+              ],
+              name: "updateLayerMaster",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_mintingContract",
+                  type: "address",
+                },
+              ],
+              name: "updateMintingContract",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "_commonStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_uncommonStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_rareStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_superRareStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_ultraRareStartIndex",
+                  type: "uint8",
+                },
+              ],
+              name: "updateStartIndexes",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+          ],
+        },
+        BasedMechaPacks: {
+          address: "0x21127c8f2f334B8F6618d2e8C8F77EC609fAa67D",
+          abi: [
+            {
+              inputs: [],
+              stateMutability: "nonpayable",
+              type: "constructor",
+            },
+            {
+              inputs: [],
+              name: "ERC721EnumerableForbiddenBatchMint",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721IncorrectOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721InsufficientApproval",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "approver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidApprover",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOperator",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "receiver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidReceiver",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidSender",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721NonexistentToken",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721OutOfBoundsIndex",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "OwnableInvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "account",
+                  type: "address",
+                },
+              ],
+              name: "OwnableUnauthorizedAccount",
+              type: "error",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "approved",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Approval",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  indexed: false,
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "ApprovalForAll",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "previousOwner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "OwnershipTransferred",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Transfer",
+              type: "event",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "approve",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "balanceOf",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "basedMecha",
+              outputs: [
+                {
+                  internalType: "contract BasedMecha",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "burn",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "futureBlocks",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "generateSVGofTokenById",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "getApproved",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "isApprovedForAll",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "layerMaster",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "mintPack",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "payable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "name",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "bytes",
+                  name: "rlpBytes",
+                  type: "bytes",
+                },
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "openPack",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "owner",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ownerOf",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "packCardCount",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "packPrice",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "packs",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "blockNumber",
+                  type: "uint256",
+                },
+                {
+                  internalType: "uint256",
+                  name: "edition",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "renounceOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "bytes",
+                  name: "data",
+                  type: "bytes",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "setApprovalForAll",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_basedMecha",
+                  type: "address",
+                },
+              ],
+              name: "setMechaContract",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "_packCardCount",
+                  type: "uint256",
+                },
+              ],
+              name: "setPackCardCount",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "_packPrice",
+                  type: "uint256",
+                },
+              ],
+              name: "setPackPrice",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "bytes4",
+                  name: "interfaceId",
+                  type: "bytes4",
+                },
+              ],
+              name: "supportsInterface",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "symbol",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenOfOwnerByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenURI",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "totalSupply",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "transferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "transferOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "unopenedPackLayers",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_layerMaster",
+                  type: "address",
+                },
+              ],
+              name: "updateLayerMaster",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "_unopenedPackLayers",
+                  type: "uint8[]",
+                },
+              ],
+              name: "updateUnopenedPackLayers",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "withdraw",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+          ],
+        },
+        LayerMaster: {
+          address: "0x4e683DD2Da7A43C5A4342bDf29Be6a7A32933640",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "string",
+                  name: "_startTag",
+                  type: "string",
+                },
+                {
+                  internalType: "string",
+                  name: "_endTag",
+                  type: "string",
+                },
+              ],
+              stateMutability: "nonpayable",
+              type: "constructor",
+            },
+            {
+              inputs: [],
+              name: "END_TAG",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "START_TAG",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "trait",
+                  type: "uint8",
+                },
+                {
+                  internalType: "address[]",
+                  name: "addresses",
+                  type: "address[]",
+                },
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "addAsset",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "traits",
+                  type: "uint8[]",
+                },
+                {
+                  internalType: "address[][]",
+                  name: "addresses",
+                  type: "address[][]",
+                },
+                {
+                  internalType: "bytes4[][]",
+                  name: "colors",
+                  type: "bytes4[][]",
+                },
+              ],
+              name: "addAssets",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "assetColors",
+              outputs: [
+                {
+                  internalType: "bytes4",
+                  name: "",
+                  type: "bytes4",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "assets",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "layers",
+                  type: "uint8[]",
+                },
+                {
+                  internalType: "bool",
+                  name: "includeTags",
+                  type: "bool",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+          ],
+        },
+        OnchainMecha: {
+          address: "0x7956a619810Bc5D178a526FEC622A7b161754538",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_layerMaster",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "_mintingContract",
+                  type: "address",
+                },
+              ],
+              stateMutability: "nonpayable",
+              type: "constructor",
+            },
+            {
+              inputs: [],
+              name: "ERC721EnumerableForbiddenBatchMint",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721IncorrectOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721InsufficientApproval",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "approver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidApprover",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOperator",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "receiver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidReceiver",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidSender",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721NonexistentToken",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721OutOfBoundsIndex",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "OwnableInvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "account",
+                  type: "address",
+                },
+              ],
+              name: "OwnableUnauthorizedAccount",
+              type: "error",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "approved",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Approval",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  indexed: false,
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "ApprovalForAll",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "previousOwner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "OwnershipTransferred",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Transfer",
+              type: "event",
+            },
+            {
+              inputs: [],
+              name: "AKU_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "COMMON_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "DOOMSDAY_LAYER",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "HERO_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "LAYER_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "ONE_HUNDREDTH_PERCENT_MAX_INT",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "RARE_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "SUPER_RARE_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "SUPER_RARE_MECHA_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "ULTRA_RARE_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "UNCOMMON_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "akuShardsFound",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "approve",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "balanceOf",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "burn",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256[]",
+                  name: "tokenIds",
+                  type: "uint256[]",
+                },
+              ],
+              name: "claimCustomMecha",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "customMechaContract",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256[]",
+                  name: "shards",
+                  type: "uint256[]",
+                },
+              ],
+              name: "doomsDay",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "doomsdayTriggered",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "generateSVGofTokenById",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "getApproved",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "randomNumber",
+                  type: "uint256",
+                },
+              ],
+              name: "getCommonArray",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "seed",
+                  type: "uint256",
+                },
+                {
+                  internalType: "uint8",
+                  name: "rarity",
+                  type: "uint8",
+                },
+              ],
+              name: "getLayersByRarity",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "getLayersForToken",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "getMechaType",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "seed",
+                  type: "uint256",
+                },
+              ],
+              name: "getRarity",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "randomNumber",
+                  type: "uint256",
+                },
+              ],
+              name: "getSuperRareArray",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "isApprovedForAll",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "layerMaster",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "bytes32",
+                  name: "packSeed",
+                  type: "bytes32",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+                {
+                  internalType: "bool",
+                  name: "nerfRarity",
+                  type: "bool",
+                },
+              ],
+              name: "mintItem",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "mintingContract",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "name",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "owner",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ownerOf",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "renderTokenById",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "renounceOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "bytes",
+                  name: "data",
+                  type: "bytes",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "setApprovalForAll",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "bytes4",
+                  name: "interfaceId",
+                  type: "bytes4",
+                },
+              ],
+              name: "supportsInterface",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "symbol",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenOfOwnerByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenURI",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "totalSupply",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "transferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "transferOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_customMechaContract",
+                  type: "address",
+                },
+              ],
+              name: "updateCustomMechaContract",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "_doomsdayLayer",
+                  type: "uint8",
+                },
+              ],
+              name: "updateDoomsDayLayers",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_layerMaster",
+                  type: "address",
+                },
+              ],
+              name: "updateLayerMaster",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_mintingContract",
+                  type: "address",
+                },
+              ],
+              name: "updateMintingContract",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "_commonStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_uncommonStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_rareStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_superRareStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_ultraRareStartIndex",
+                  type: "uint8",
+                },
+              ],
+              name: "updateStartIndexes",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+          ],
+        },
+        OnchainMechaPacks: {
+          address: "0xC038Ff2992873902a4A6d12421375DCf72e9169C",
+          abi: [
+            {
+              inputs: [],
+              stateMutability: "nonpayable",
+              type: "constructor",
+            },
+            {
+              inputs: [],
+              name: "ERC721EnumerableForbiddenBatchMint",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721IncorrectOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721InsufficientApproval",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "approver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidApprover",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOperator",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "receiver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidReceiver",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidSender",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721NonexistentToken",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721OutOfBoundsIndex",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "OwnableInvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "account",
+                  type: "address",
+                },
+              ],
+              name: "OwnableUnauthorizedAccount",
+              type: "error",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "approved",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Approval",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  indexed: false,
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "ApprovalForAll",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "previousOwner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "OwnershipTransferred",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Transfer",
+              type: "event",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "approve",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "balanceOf",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "burn",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "futureBlocks",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "generateSVGofTokenById",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "getApproved",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "isApprovedForAll",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "layerMaster",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "mintPack",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "payable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "name",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "onchainMecha",
+              outputs: [
+                {
+                  internalType: "contract OnchainMecha",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "bytes",
+                  name: "rlpBytes",
+                  type: "bytes",
+                },
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "openPack",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "owner",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ownerOf",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "packCardCount",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "packPrice",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "packs",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "blockNumber",
+                  type: "uint256",
+                },
+                {
+                  internalType: "uint256",
+                  name: "edition",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "renounceOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "bytes",
+                  name: "data",
+                  type: "bytes",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "setApprovalForAll",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_onchainMecha",
+                  type: "address",
+                },
+              ],
+              name: "setMechaContract",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "_packCardCount",
+                  type: "uint256",
+                },
+              ],
+              name: "setPackCardCount",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "_packPrice",
+                  type: "uint256",
+                },
+              ],
+              name: "setPackPrice",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "bytes4",
+                  name: "interfaceId",
+                  type: "bytes4",
+                },
+              ],
+              name: "supportsInterface",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "symbol",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenOfOwnerByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenURI",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "totalSupply",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "transferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "transferOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "unopenedPackLayers",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_layerMaster",
+                  type: "address",
+                },
+              ],
+              name: "updateLayerMaster",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "_unopenedPackLayers",
+                  type: "uint8[]",
+                },
+              ],
+              name: "updateUnopenedPackLayers",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "withdraw",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+          ],
+        },
+      },
+    },
+  ],
   31337: [
     {
       chainId: "31337",
@@ -16633,6 +30780,12194 @@ const contracts = {
               name: "transferOwnership",
               outputs: [],
               stateMutability: "nonpayable",
+              type: "function",
+            },
+          ],
+        },
+      },
+    },
+  ],
+  84532: [
+    {
+      chainId: "84532",
+      name: "baseSepolia",
+      contracts: {
+        Asset_01_true_00_BACKGROUND_beefeater_0: {
+          address: "0x144a5fD497f30147532664cc79554781cA09aEf9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_beefeater_1: {
+          address: "0x3a2daFE6492fD606b5851489d3F0d36bF389121E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_beefeater_2: {
+          address: "0xDE2E383748D32A97e560A2219A26AC48526057EA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_boulderdash_0: {
+          address: "0x90AD3FcE320900225d6dF7d890c8B73aA5F25D1a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_fewocious_0: {
+          address: "0x5720cF9B1eAa4E8b7Af505470436560Ba1aBC106",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_fewocious_1: {
+          address: "0xEE472feCaB6801d97E2DaD58074f84d629128a55",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_gunner_0: {
+          address: "0xA8bE87961B915fb61C6254429539e2564971e15f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_gunner_1: {
+          address: "0xBBC529B84762474155b03d4BB8FB41DC14C8448B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_samarai_0: {
+          address: "0x0b0D67fC397cC2F3497a05198F0ee2d18f13D7c8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_samarai_1: {
+          address: "0x084C615a505531BA8c859F02227b58bc7C00d0a8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_squido_0: {
+          address: "0xe982f1E90E3C0FD408841c4E5eBBe109ee14725b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_0: {
+          address: "0xcc979F3fc91f15578178D4cb0F9A54AB1d83668d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_1: {
+          address: "0x1B77862A71710Fc6B9630E79B6A533Bd365d4868",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_2: {
+          address: "0x4016208F05936dF7A8980942f953c71e73483502",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_3: {
+          address: "0xeA5B9a534c3b9504e2BDaD2bD82264DFccdBEF35",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_4: {
+          address: "0x868A15ccFD83AD10018a84fFF92aeA81eA6E354c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_00_BACKGROUND_tweetybord_5: {
+          address: "0xA8957239f81980A57086F7eB86caf9aDdB142b7D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_beefeater_0: {
+          address: "0x29254bAA3cCd388463dDCD0481C623De0543E031",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_beefeater_1: {
+          address: "0x21780fEf78eA683805F3b4588a2E12e1275E7DBc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_beefeater_2: {
+          address: "0xa2e1c25b8B2A7e7332FD44CB59078ddDf65a8500",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_boulderdash_0: {
+          address: "0xF1A2935075F502FDcE1CC59D8Ec3994982974f23",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_boulderdash_1: {
+          address: "0x547365ac871AdAb909d5CC9Ef42d5AC189BC10B9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_boulderdash_2: {
+          address: "0x119068b1312d89761EeF8fc68115d4F5Dac8A908",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_fewocious_0: {
+          address: "0x08165fBB1BB83aFf4c3A97084e53187e713fcAbc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_gunner_0: {
+          address: "0xE32ee6f506fC49b896E240861FF9a7186172Bb31",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_0: {
+          address: "0xd4dB111D7A5e3C321bF526fdf85aAd5AEbB45570",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_1: {
+          address: "0x77316fcAf82FD08C45304eD159F55335cb6f10D4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_2: {
+          address: "0x323bb84Bc81D7Bb77fb1f370C610f139651687b7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_3: {
+          address: "0xa21b72b62dcFa0F77B55170d35AF4b5A275b194c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_4: {
+          address: "0x7f885E0f135205ef1A374821CCFA5CE70b01A9B0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_5: {
+          address: "0xa03F04722D4b3fF848d29458b7dA38D1FA6BbEF1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_6: {
+          address: "0x32F47a4dbBee796BA187c1Eb972857009fFDef8E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_7: {
+          address: "0x670a7688D926dAa2D8ef9F0Fb8838418064E4524",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_8: {
+          address: "0xDC97a3FDBe3e4d7f277914F91A65FB02bc066cC2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_samarai_9: {
+          address: "0x651351BE2EDCedCddcF737279a97eBB0A356EC77",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_squido_0: {
+          address: "0xDa3b1B98E4857D8cc2b7dF5bc7f7e03A8328d230",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_squido_1: {
+          address: "0x9e91DE7792D56d80Be09982576da4F177F20B484",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_squido_2: {
+          address: "0xD97fd4cB04cC5a441E7dC101fEC1950894Cf209F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_squido_3: {
+          address: "0x7d7467941a4d3444508643507f00Ed18283CBbFc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_squido_4: {
+          address: "0x457c7A3776bC7109ca84e45E85b8DeCDf07b54e1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_01_BACKGROUND_OVERLAY_tweetybord_0: {
+          address: "0x5eb504c1aa826C16498223A0f6628EbC585B9Ea2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_beefeater_0: {
+          address: "0x888b4bA3FF18A2F5814e8A3804A3f632c25638eB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_beefeater_1: {
+          address: "0xC83Bc0924c4265211c5998B71D877b45738102aC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_boulderdash_0: {
+          address: "0x01d75C92af9Dd208d8170B1c609E7273484549ef",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_boulderdash_1: {
+          address: "0x2d6556edEbF20440e80380F266DC89bDDBd840e1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_boulderdash_2: {
+          address: "0xDd93544CfcCF1D63e4aA3CeF6134a353BA904968",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_0: {
+          address: "0x61fFA3E4b5419d42cA29A156BaB6fd643ab05A9c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_1: {
+          address: "0x4c6A2551DF4e95F4082c274d9ef534037159e766",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_2: {
+          address: "0x1c4d21c7591dcb47f7DF7504fc152efCAC6631fb",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_3: {
+          address: "0xd9dA61C3DA24d0D7bA37e4BCF04678ca37852788",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_4: {
+          address: "0x3cfe55C375dB9357D1Ef88F8717DE7c50cE1A8de",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_fewocious_5: {
+          address: "0xf2EB83bfaF94Df3b37d612EF52d6B847f83a2a73",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_gunner_0: {
+          address: "0x94FdD7B12F2027730e7473c9488b973C107Ab496",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_gunner_1: {
+          address: "0x3d1eB38FDb0565d727825dDb54dae3ebfC856aDA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_gunner_2: {
+          address: "0xf29861761ee593f4FFdA6A7A2755Ee4fcFa474Bc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_gunner_3: {
+          address: "0x4284a9AbCcc2e6892e3F0EA2e02c4dF2c62b0267",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_samarai_0: {
+          address: "0x7A00d6518EfFCaCcC42433BaCdd9AfF51434ab60",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_0: {
+          address: "0x50238ed6974805a63d7487F5E30F7d4fA6244c3b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_1: {
+          address: "0x916f2e1739a7008E61c1c26E02151765AEB8aE93",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_2: {
+          address: "0x9069809C0015a84aA1ED0a094E64878836fB8B3c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_3: {
+          address: "0x673DC8A162476c3c7Ff0D53C898464576883c0F8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_4: {
+          address: "0xdDd66fc637ee7dd2E7fD43557161F99e24a895Cc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_5: {
+          address: "0xABc343a19d5d115c70cf78952078feC243603292",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_squido_6: {
+          address: "0xA00E31eC425Ad79520D52962D87aa6e5a918a8CB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_tweetybord_0: {
+          address: "0x8b7599dCf4444fC46869825415037040E9E89a98",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_02_POD_tweetybord_1: {
+          address: "0x8E8BE39281B3A57f25C9a97Cd7Ff7D18Ad96fB6A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_beefeater_0: {
+          address: "0xA4F6C9c67Bb0f95e4a4Ba9189041c67176558CF2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_beefeater_1: {
+          address: "0xEf560433e3AF02ae4f0FE9834a8f2920Ed3f6F66",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_beefeater_2: {
+          address: "0xFFE95E8fd5345eB6577a0Ba66865Bc41fC328409",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_boulderdash_0: {
+          address: "0xb6A22597B191e5c369B9244d96568e93a00db0DF",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_boulderdash_1: {
+          address: "0x03CD16BEb1aef26bEc1dBf8FB05dd74aa0112dEF",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_fewocious_0: {
+          address: "0xD1d8cf43D077A02816F16E045E727EFe0e2Ca913",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_fewocious_1: {
+          address: "0xc56666e05d2679356A8Adf5f41d5C9B5020EBe95",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_fewocious_2: {
+          address: "0xa1B29783e28164e24deaf6384e8C8E18747C96c8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_fewocious_3: {
+          address: "0x99Ec32121Db0Ffc455d005F5e012e73CD1a961b8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_gunner_0: {
+          address: "0x8111DeCDb79832A5b219E1195C46d88E1e7cF84E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_gunner_1: {
+          address: "0x62F70F060eF03411bBd03BA47cec0D89723C19E6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_samarai_0: {
+          address: "0x6316c92e6237c919bDb698d8b68dD0223BaE3cd0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_samarai_1: {
+          address: "0x68A3A8cC7e877Ae9Ec9DF431737836F84080e502",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_0: {
+          address: "0x1147c2670690030373dC7d5Bf24B455932BEA6c0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_1: {
+          address: "0xFd81B938da982c38545270505b8B25800b542227",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_2: {
+          address: "0x77E46a6E4f93Ee2FC77A0a28562b08B11125A2E4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_3: {
+          address: "0x7CA7D39edCE5625cc3A70f7267754b65dd49Cee6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_4: {
+          address: "0x35809EDD398e3d50b9eb4254Cf08E12F4aBaF146",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_5: {
+          address: "0x2884a1e93E7152A20eeB2dDc859B45AA5F4806a3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_6: {
+          address: "0xfccd9e15b43C966C155CBe79b61571DA29B716e3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_7: {
+          address: "0x20264bAF8Fcd94Ab000E78b16f064311Df3547f6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_8: {
+          address: "0x243cC3abCb7744754b8f62C19d3BB31BD6234889",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_squido_9: {
+          address: "0xD74FC9A3115E9C479F0d28246D0736e3B1B41c7F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_tweetybord_0: {
+          address: "0x48c2D13D3AbA75A01d74Aa8297104e318B2Cb2bD",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_03_RIDER_tweetybord_1: {
+          address: "0xB20a79ca8196A308fc4dBe85c39E56171a317fbC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_beefeater_0: {
+          address: "0x2707C69CeE27AB000B61f0dB906756ba22A7c56A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_boulderdash_0: {
+          address: "0xa851C54156fd0805B87e077f4029b648d4300c77",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_fewocious_0: {
+          address: "0x9B2ae9E956108F41878af6cc29D48dE989836656",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_gunner_0: {
+          address: "0xFBBE270BC1b1233de7355630bb722922A99E105A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_samarai_0: {
+          address: "0x00195d6fAAB6678911847d2bb54380dDf581D41F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_squido_0: {
+          address: "0x4805b26b4E87C87d0256cA97a572622669b682af",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_squido_1: {
+          address: "0xb9Df865Fc4E981a45d014591218682a2cf06DEcD",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_tweetybord_0: {
+          address: "0x86D3AD6aB1bBCEEd4B67D255961C7A78a2Daaab3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_04_ARMS_BACK_tweetybord_1: {
+          address: "0x28437Ca09186F51eb6fc3c3738220D8c74103483",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_beefeater_0: {
+          address: "0x10E96e556309CEF3F29BE9c33D835de0719DD6eC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_beefeater_1: {
+          address: "0xb7F75102762bEe05a75e6f8B47B8a1d90cD594C7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_boulderdash_0: {
+          address: "0x63767e99A3ff33D543FDD6c37C8D72019519F65B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_boulderdash_1: {
+          address: "0xb4A86CbD69B6333f1C408CB74b88423A2c6982D9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_fewocious_0: {
+          address: "0x7946119f256411EaB14805934f9374bD008e3CcB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_fewocious_1: {
+          address: "0x692eF395fE9b530C92b85D0aF9a69D4b8489efe3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_gunner_0: {
+          address: "0x5c53734531C3B0035640E17C4E500a3D3EF966c5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_samarai_0: {
+          address: "0x4975183E13CDCA8068efC3b853cF6477AB3971b2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_samarai_1: {
+          address: "0x7cCD35878694B966dabeB5E0c533e2ABEC365747",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_samarai_2: {
+          address: "0x661Aa243afe3E385a3C649B087be9aD4046Fc4f8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_squido_0: {
+          address: "0x0D5c0A8A7Bcd5a9f181005f75D3865c9A3A6BcdE",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_squido_1: {
+          address: "0xb0a58A40c0278d5E823804d0b389764dB7D9ca1e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_0: {
+          address: "0xEd9c241aF56e390c4AA15B5200a0A582630B40F7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_1: {
+          address: "0x028A6BFe17D1461b313C4b7A81351b1Dc597568e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_2: {
+          address: "0x9055538D50069C9356B55FE13F59805Df188292A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_3: {
+          address: "0x585B27e0487C5eCD5BF83DA9E51b871F8f3c33a0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_4: {
+          address: "0x6BA8dA7789Afeb30CB337aAdEeCf3888f0Bb0Bc1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_5: {
+          address: "0x3eff3fB03A9F657BaA4882381bd5738872797238",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_05_BODY_tweetybord_6: {
+          address: "0xF2036c933de17E35f85Fe0Cefe736A9F8067abdA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_beefeater_0: {
+          address: "0x0eD20e391E71EB6B8F0b0bd4F59B39B5c0aCbb76",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_boulderdash_0: {
+          address: "0xbF7C88BF269b9948870d51085cb93ba83D4349b2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_fewocious_0: {
+          address: "0xB7923eeaF40f69670F2C69ad414B34f1588358ef",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_gunner_0: {
+          address: "0x4f3Fe51B729A1474A69E11Fff004BDBA8fe1FFbA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_samarai_0: {
+          address: "0xC9f13b7c4fF1f06121db74DbA911b4988631Ae9D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_squido_0: {
+          address: "0xa169B4501e6032dc03Ff571Ab03Ef58507159F2D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_06_KANJI_tweetybord_0: {
+          address: "0x1308C3Ce9dEB6960b9e1c1cC0e958A8aAB37c0B5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_beefeater_0: {
+          address: "0xdc429e2eaEA62aBCB4660D1E46D582D532f12A30",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_beefeater_1: {
+          address: "0x4c6872414D639A85cEc7762756db7242fa8e6d91",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_boulderdash_0: {
+          address: "0xa9f8f3aa84D90e3Bd6CA45Ecb2684F1a42d86269",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_fewocious_0: {
+          address: "0x81211FcDCBEbE605FB3F2C050b814800f707F9e6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_fewocious_1: {
+          address: "0x149f2fd3D3113d28BB0407144191b8c306B63a60",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_gunner_0: {
+          address: "0xe255455ED1eed763fa95CBD809E07F1054c7F6b3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_gunner_1: {
+          address: "0xD68073859F14407C1208C71c6F9CB8e28A1CFCFa",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_gunner_2: {
+          address: "0x85d90A07473A723B3C14B7405c22E0FB8F91355c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_samarai_0: {
+          address: "0x0F7F60BB66aA0d51A1c107c3C339f783ca6CC0A7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_samarai_1: {
+          address: "0xC4302689e1a37530519c034467bB9EAf9f9bAb5e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_squido_0: {
+          address: "0x2f7Fef04245cFe80c3Af5b8F4E2Faf389bE53A2A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_01_true_07_ARMS_FRONT_tweetybord_0: {
+          address: "0x36d44C62eAEc480e10d96cd71670f43d9A8E9ac5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_beefeater_0: {
+          address: "0xea711A74AC9cA82CA36018beF2e8B49b90Bc05c7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_beefeater_1: {
+          address: "0x6632aED9991f1343b17B378bbEd60834b76C9230",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_beefeater_2: {
+          address: "0x31b3Fb800C717618d8e086f590028cd8e67e024B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_boulderdash_0: {
+          address: "0x76b6b5d83CDe9Ba34B19Fe85518bA30B967A2bD8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_fewocious_0: {
+          address: "0x39A13C184B036e760d5fEe52F30615B44C6CF570",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_fewocious_1: {
+          address: "0x61B1082c4F06d13CC3dCD338bd1Ac4DCB7186778",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_fewocious_2: {
+          address: "0xC96663E5d65673D8B514E858Df87756005CAD13b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_gunner_0: {
+          address: "0x724f884b104Cba71ED666FE50Dc45a0C6f0f280D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_gunner_1: {
+          address: "0x633C2784062d25EC19f8011bd5031B3658CCb14e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_samarai_0: {
+          address: "0x71D849515482eD26bA729351EBbd63931CF85606",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_squido_0: {
+          address: "0x7b77e2eFeF9A3D5D96790e554c2EfD04C66e757A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_00_BACKGROUND_tweetybord_0: {
+          address: "0x63Fd442f4b49F43AeC6f77176083CDA301635430",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_beefeater_0: {
+          address: "0xA9Fa6788bD76AF0DCFf8C69b5244f61DE1F3b8C1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_beefeater_1: {
+          address: "0x0de65A9Af7f9721Bb1fee707Bbac1234649e33F7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_beefeater_2: {
+          address: "0x24fefe42e39CDa3ECB321241001d4A9146640621",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_beefeater_3: {
+          address: "0xE0E5F8E44eD6f81F8F9f2Ba2DD6e7d554f8495A0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_boulderdash_0: {
+          address: "0xA6781F4f393d1327FAB480789C383ff07472207B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_boulderdash_1: {
+          address: "0x88ACD53a4B5BF593F27a8ADbACec8E4BeD2b20a4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_boulderdash_2: {
+          address: "0x974399A8DDc448E4ec5FA6479028977d310f578D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_boulderdash_3: {
+          address: "0xd828897c00d53A78cd693a28bAD6AC493604d6C5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_0: {
+          address: "0x515cF3aDBa2B5e3255126C5210ec5e8412e685CC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_1: {
+          address: "0x29cA0430ea98f75a2044734396c49b80b3ee0db5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_2: {
+          address: "0xab46dFAE025CC205F560cCCcf78829db1E4570e9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_3: {
+          address: "0xA0E84EC5e35047f184Ee22b91D2eEF94A6Df1E8d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_4: {
+          address: "0x098aE271c40c85796BBc12d310e24078587F7046",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_5: {
+          address: "0xb8834120a5fE97A61eFeffDe3269Aa3619d93a79",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_6: {
+          address: "0x1308bfac8373c5816af4b0096779c36bd3CdEd9a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_7: {
+          address: "0x0077b75F19976FDE76aA0dAd08b87D57cA9dB274",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious_8: {
+          address: "0xf776AfeAea37631d00350c8d0A175b01F01F75fB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_0: {
+          address: "0xE276e99BC3dE13Ae8860c6Fe685741E7B7A1F25f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_1: {
+          address: "0x1909AbcEBFbEAfa7521EA06EC4c7882Ba5e1BEe8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_10: {
+          address: "0xE7897297e563E879a1B9983834e9259844B83b30",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_2: {
+          address: "0xf74b2e81714257e4aF674B04c0124d29925B2CCF",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_3: {
+          address: "0xdB854dC0096cbA22fcD3d3746c9497808Ce1756d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_4: {
+          address: "0x7f4997A9Db8a9c9a4c9281aBED202d5cfC25d534",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_5: {
+          address: "0x0Be7cD03c5B18ae9eC9ff4B1Fcb815760C075f2E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_6: {
+          address: "0x3D483156bAf692DBf5b1634712C656bD50fEA780",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_7: {
+          address: "0x5de2F0260DDedbC7eA4b3719733D4586f8076894",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_8: {
+          address: "0x3866FBe45054138DD9f3bAA329a0eAf602879a69",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_gunner_9: {
+          address: "0x08c8A51bd6D155587645D29C31b4781B2c28aC22",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_0: {
+          address: "0x3E5f7d75E992074c887E892610dF69667f4281A5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_1: {
+          address: "0xD77a7D13A2633b471b438D642130fC64bc7be474",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_2: {
+          address: "0x0f1D83396be0200832B98359c587869Ac905Bd35",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_3: {
+          address: "0x3a3b445C001e8FcC7c1c3206A0ec02426D38aF01",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_4: {
+          address: "0x6fEc02BEAb0276393F59679D867d484Ce8083097",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_5: {
+          address: "0xDd0040A27B5D6c8A262757E14F321A7a7F90ce32",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_6: {
+          address: "0x04fB0F2410EFD3C17C66b6b8DB810De7ae0E3128",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_samarai_7: {
+          address: "0x7df083d1D0b8F85a67CFF4eB3578889C6cB18f8e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_0: {
+          address: "0x01405AFe2168154067dBA48cB0d3d75e3BBC2D6e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_1: {
+          address: "0x5E164660850300D554DC759Ed1fB21B2cfd761a9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_2: {
+          address: "0x43Dd52B38148E270f5ed67e142624B494237c59E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_3: {
+          address: "0x1F8240bBf4E3e41218C49544044e800a94C9D36e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_4: {
+          address: "0x6dCcc0f814Df7d514246020D57e22071FdF9d228",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_5: {
+          address: "0xD0Ec2F1DdCef87650232A6bEe4ba7Fd96f34b658",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_6: {
+          address: "0xdA96658A3a31c6dd197b9Cf4447b266b0e794655",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_7: {
+          address: "0xa12d6d31c3B334BF0aE12723c2Cb1faBd46d6e68",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_8: {
+          address: "0x0932CBd4d3d73BD79f18Eb54006015bb2B077b2F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_squido_9: {
+          address: "0xA0eDBA91E16247D5fB9a6aE197296f23daB0922E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_0: {
+          address: "0x67DCaBC0ADf376cBF6Bb6078B0780A3803Bf4AfA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_1: {
+          address: "0x357C9F26AE81Cb70bF50CCd4989CceA1308bD3bF",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_10: {
+          address: "0xBD526250a5FEd1aB312E58ec47fD59B3233e22Ce",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_2: {
+          address: "0xfaecC2DD5EF9708464e52895c91C42033A0ccd31",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_3: {
+          address: "0xEa4eAA3E2b2F9779eFB2F6565A0f5cf8A6b53c58",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_4: {
+          address: "0xe2F82960af5d6b15Af22673825e1e5D7902DE7Cc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_5: {
+          address: "0x8e234cf206d38a5043982409dd2e20327Ec21311",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_6: {
+          address: "0x6d36184797ddE96554052669B8252FbFA2D6D264",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_7: {
+          address: "0xE4d1FD7160d8fece445197B91b97628F39b6000B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_8: {
+          address: "0xF21eca5BAD37a1Db981E4aB30Ff18eE9Ea187C98",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord_9: {
+          address: "0xC19E887a4791c89D5C862214533f417475a63E3A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_beefeater_0: {
+          address: "0xc760699779058768DA58dA685297BC970312aEe0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_beefeater_1: {
+          address: "0xdE202182035C4b244d1265206041E104Db9F8bBf",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_beefeater_2: {
+          address: "0xaB365F7D601C97006a7Ba51bB7A84fae4c89fe0D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_0: {
+          address: "0x97005F79a3C4c5817fcf805D11c023EE1D32B14B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_1: {
+          address: "0x671078F69C7Ed4a1a019b505A26678B0f938f87d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_2: {
+          address: "0xE48C48853b0D22cf2f9C77ffB598E136d50E2DbA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_3: {
+          address: "0x9D9f86b59bE72ad107811EBb2A339f73d84c8b62",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_4: {
+          address: "0x6f49366a2E8D7D60b93696F5f1E10F58dAEA64C8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_boulderdash_5: {
+          address: "0x8F155515Fa1Aa09f7AB7Cc478FE1024a075aCEF3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_0: {
+          address: "0x4dEf1902674ecb7B4fE562306D0a2497B96aa942",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_1: {
+          address: "0xC3c2A71671BC0c8B224234324f65d68C62a96fF4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_2: {
+          address: "0x93197922275817C09Ec30488062B83A9916E29d6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_3: {
+          address: "0xa1211A57e7cAd78DE3D9E527462644F6Ed28D425",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_4: {
+          address: "0xF4a522ad37C5ff74E250e3a545D59185e0AA1E79",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_5: {
+          address: "0xD0005072c6C36CCacE761dF935e3298dec57907c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_fewocious_6: {
+          address: "0x7d0C2BD68F53020E5f9B8cE4C1aE12F4bCCac470",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_gunner_0: {
+          address: "0x66d7488F2AE36eABC43Aa4b50A842f2635e0d305",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_gunner_1: {
+          address: "0x74F9f5A0804871DE3685e97cA7dFE26b7BCe0FE1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_gunner_2: {
+          address: "0xD5925B6192721b57d8bCe218e75E3137521bA6E6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_gunner_3: {
+          address: "0x6811Bcbfe340FD2e750F32d0D62CD2936e3F7cF4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_gunner_4: {
+          address: "0x77F1aA69485DaA98ef60B7dB8509d60364Df22eb",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_samarai_0: {
+          address: "0x612Be07f10933c6096cBAbAad2Df9f0a3832eDd5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_0: {
+          address: "0xe53Cac69169C743aC1ba0e545eeF6aaB84673644",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_1: {
+          address: "0x7b832Eb59686d3fD827F5b5da309baDbdeC23BFB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_2: {
+          address: "0x91635E2184Da7A028F86945625E70877102082Ac",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_3: {
+          address: "0xA87EB1b3a928750eCf613B9268DdAc8d704716a1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_4: {
+          address: "0xE2c9116057AcBDe964B91B2E7Cc8388D8A4E4422",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_squido_5: {
+          address: "0x9d98dD21C91FFe2C1Ef050edAD0df99536122a59",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_tweetybord_0: {
+          address: "0x0be270907363a16500eAb5384f8E99A4d013C1aA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_02_POD_tweetybord_1: {
+          address: "0x3252b6c7faab0CCD0AC40b99948a418847596fd0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_beefeater_0: {
+          address: "0x65901C0548E2147347B9Ac6062b8b9E60aD8566b",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_beefeater_1: {
+          address: "0xdAA779ceF5AD0143Ccb0FFcb93c57978A5b6bBD4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_beefeater_2: {
+          address: "0xc080A8213b5579e59FA9E058cfA8E25A4BCA85e9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_boulderdash_0: {
+          address: "0x91311936C320b9Dad71De8202aa4A2764e451917",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_boulderdash_1: {
+          address: "0xe9925D2080fC42df61354Dbd1B633DbfA2D1872A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_0: {
+          address: "0x0cCEf9474Acd9e67FC9341c575AB5E49C4AbaD19",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_1: {
+          address: "0xFD891B942d905a7ED157bd8382d1cAd119c61885",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_2: {
+          address: "0x259c0158943fa4dD9817363ac63aeE8e68B45Baf",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_3: {
+          address: "0xc5F72FAdf8d27428C46b1968E3DF558c91700C66",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_4: {
+          address: "0xd73f6342408D3B8FbCC581C946816B1f3Dab8374",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_fewocious_5: {
+          address: "0x376567444f10f3eDf83F6e0c75DF4223781591c4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_gunner_0: {
+          address: "0x4E65CEE3b121879dFe1229B312976F5784763cD0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_gunner_1: {
+          address: "0x457aaD9FB09708841601769E58eAE481490Cef7F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_gunner_2: {
+          address: "0x8ab93d7608d912C812684C9EA0275A7e7f256b17",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_samarai_0: {
+          address: "0x01B0a2a52A3E76e2c2d4693C8D08B01252569fb2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_samarai_1: {
+          address: "0xf099bcE2345CcF0C2fa8e9a969Dedb4bA3104647",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_0: {
+          address: "0x497e27c26444B18CBFB5Ab21B9e045CcccE629bc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_1: {
+          address: "0xb77499C9994aB9d4fCe48269dC0C3a913c18242D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_2: {
+          address: "0x737783FEF6bc59eC9D2CC684447eA439b258935E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_3: {
+          address: "0x4a084ACa363e207D4751295FCa6CD5A46c668Ace",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_4: {
+          address: "0x2E09fff56c04509C5Dc4D3EBc587d53025ACdC6f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_5: {
+          address: "0x599c47Fc30Bd49004D29737958882A2379e21C71",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_6: {
+          address: "0xa890606639d66336A64dC523dDc2EF689Fd8BfB7",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_squido_7: {
+          address: "0xa321FeeA651dFFC3Bd1242130320Daa6b18fc628",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_tweetybord_0: {
+          address: "0x480d55455534e38a90aF31F0dE5f32316429664d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_03_RIDER_tweetybord_1: {
+          address: "0x0295e3164e240E840775Dfe6676551f9Ab4bE93c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_beefeater_0: {
+          address: "0x5fEC6fd554ECa39d44668DaceAf5686f0Bf1c4E6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_boulderdash_0: {
+          address: "0x8522c639279b784FA8387e24bA711dCdfaE3C534",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_fewocious_0: {
+          address: "0xB49a406C16738135eF706eaCBF50a2E5e399558e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_gunner_0: {
+          address: "0x89E6c81A4931eED9A34f07E290b178EC8463aCbc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_samarai_0: {
+          address: "0x92d359913E1b948afcA3ea2039451aC2db47E050",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_squido_0: {
+          address: "0x62bA21deD3f7732FDe6E33d2B977CDfF9dcBf42B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_squido_1: {
+          address: "0xe4D697AA3846A02def77624fffDb048e25BA5156",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_squido_2: {
+          address: "0x8662779E8bd5886389b8364846568398f7A567FA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_tweetybord_0: {
+          address: "0xDEe133FC61c5001F2eEe813FFDFfaf7D7CA3374F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_04_ARMS_BACK_tweetybord_1: {
+          address: "0x800D7790436B21d6C99774d46E3564627188178f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_beefeater_0: {
+          address: "0xb8BE27f70456B26d02DbAb45E3322dD452f76aDa",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_beefeater_1: {
+          address: "0x989889A11DB0012af4B9AFe0Ed547E43f4184421",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_beefeater_2: {
+          address: "0xFaC62B87587D996A7BcDc6c5938fdC7C706031bB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_boulderdash_0: {
+          address: "0xE11eE7f6e85F07C7317DeC599714047f77D8FA08",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_boulderdash_1: {
+          address: "0xfB3FF93Cf71336A8270334CD6faF2e4636Cc60CD",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_fewocious_0: {
+          address: "0x9aa9021Dd4Dd2BbBDF06B1764C378019ECd60406",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_fewocious_1: {
+          address: "0xfc1d3A556cd3bD985bd422e6F32240311c48f8E5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_gunner_0: {
+          address: "0x19ddeb103AA2674F7b9e24C8d64eEA4BB9D5Cbc8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_gunner_1: {
+          address: "0xd2e99Ce4a9311F3223701961D508d326Ff67773C",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_samarai_0: {
+          address: "0xb3f7B655F3B9eea0a0864AEd405B4326cb461D10",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_samarai_1: {
+          address: "0x2268C62560DB96dF775b3D6E9d11155436a2A20A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_samarai_2: {
+          address: "0xe1fFd17239F3A02F0a19a042101Ddf503C44eA92",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_0: {
+          address: "0x306E620F9804Ec4E4de9f938d714bC42228B0A5a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_1: {
+          address: "0x39384167cD2C9414Ee98E3e8aA836dF4f7027B94",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_2: {
+          address: "0x979672338418b2e4c474B355B69e983a41E2D7E0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_3: {
+          address: "0x9ef4258c0C026365e9E1f779d87b4A614f100596",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_4: {
+          address: "0x460B64f2ecdAdf08A52a3d9780Bb1bbEfEAdc4Cc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_squido_5: {
+          address: "0xb97E0Ff29E08D76ce3cB0C1b6A2F1B503Ce51929",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_tweetybord_0: {
+          address: "0xA4E971ef294dC3D147Fbde8A674d85106d8104BD",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_tweetybord_1: {
+          address: "0x850b985d757278976854E203f219Df80FF10B69f",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_tweetybord_2: {
+          address: "0xb7Fd1ab9bC459555A0D9762E02FB9F619D44a3bB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_05_BODY_tweetybord_3: {
+          address: "0x4d15d721f521810f3357461fc5E5369f88CD183a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_beefeater_0: {
+          address: "0x46C2f4291f794b0938b58731CC65FFA4B03157C6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_boulderdash_0: {
+          address: "0xdAD9C3B4A513cB03376C50E422b9e18E7396F97e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_fewocious_0: {
+          address: "0x07d7d861eDb628EA3CC116BbDbDd48E06D58cf76",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_gunner_0: {
+          address: "0x50AFc9250a16c0F3E4d45B659bEA5A2Fe1f44281",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_samarai_0: {
+          address: "0xf7d6430A86a3a89e5d0B16d7C148304054B842F8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_squido_0: {
+          address: "0xDd76244830aB5AE27718E8e2f2a7611FaBeECfBA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_06_KANJI_tweetybord_0: {
+          address: "0xFB0eF186933f32a16A3f560E0055f0635Fd2c426",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_beefeater_0: {
+          address: "0x7B60a1e037c200683c313D8fAec30248B88fAcA6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_beefeater_1: {
+          address: "0x90166f991624B5B65Ea350F3d78e358fd710Afe5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_boulderdash_0: {
+          address: "0xa28f999ea667fe07260bcCE62A7881B51A410d67",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_fewocious_0: {
+          address: "0xeB2281B68e30Fba3350d6aFB405A65BcA93B5c38",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_fewocious_1: {
+          address: "0xd8a0D01108b22f73d597FF481717597b401B3BA2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_gunner_0: {
+          address: "0x5917D6adb02943c941ED937Ca002382136A28693",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_gunner_1: {
+          address: "0x941EE356ddC6C381b127eE7a9Ab9caCF2329fc98",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_gunner_2: {
+          address: "0xf4752519FA452fadDf2308522F87d9b315780840",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_gunner_3: {
+          address: "0x58887bAeBe86F585af9FC2c43480Cf15C582D253",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_samarai_0: {
+          address: "0xd04f7C3dA0030ED3AeC52c5CB3F7Bf2819F15b14",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_samarai_1: {
+          address: "0xf7260B820918Fb90AEC58732c9c0ed49563D6432",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_samarai_2: {
+          address: "0x4A909FFaeD1ef557775Da3F2d5F93f4b24974665",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_squido_0: {
+          address: "0xB5e5064008B1E3cfD13D1DB0ceDcAC65A0aA80ce",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_02_rare_07_ARMS_FRONT_tweetybord_0: {
+          address: "0xc9c029b20ad6bA0B4d79Ac58750A7842F437919c",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_0: {
+          address: "0xBbe3779dc1Ca3e66bCf8De5F2b0614BC65d9Bdd5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_1: {
+          address: "0x044f0Ab2F104deF8F4060F851b09Ce3f5c693705",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_10: {
+          address: "0x5c0AD4c3407936Cd10C3B18C8b06d09C50780B67",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_11: {
+          address: "0x974133091B73a62c22b8f895c8aD757C4acDEcD8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_12: {
+          address: "0xb90D4F92653bf0Fa52e36cbADafb0b3eBD153fc8",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_13: {
+          address: "0x662136d94D08B8a17B99C2f170BCD71e137997DA",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_2: {
+          address: "0x31d6FdC1Bf1aFF339519302E43F938B446c5F305",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_3: {
+          address: "0x686c2937A70ea96fFF559dB308fD867183EE60ad",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_4: {
+          address: "0x29f023807118790B60eE86e603a8D4c890F4b446",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_5: {
+          address: "0x1DAe5Fe746e0ec7b043142B2429120249Bd432a9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_6: {
+          address: "0x5A9e9eb7dF9626E948dd271407377F7ecAC22adc",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_7: {
+          address: "0x8F4ea3AD39BAb1241bA376656d7b0095fdea654d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_8: {
+          address: "0x05d9Ad4181Aa85240D8eEAdB1F0F309A8fA79A1B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_01_9: {
+          address: "0x1cA543f4D7eAD636971972c7E7eD1e47732a6cac",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_02_0: {
+          address: "0xdb2B07eb87aAaF0ED7f445399c262E56dEfF2425",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_02_1: {
+          address: "0x7FaBAD4c27D5cA21768CD3E16d507045EE772935",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_02_2: {
+          address: "0x2905A994DC2bc5223ad250801A8d66b56f286E8e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_02_3: {
+          address: "0xEB53d7A30F3f1930c85EE25F59BE5742dBf5e84F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_00_BACKGROUND_03_0: {
+          address: "0x33d7e22A5a5c40b2C7c92dae8D26Bf1943A11BAf",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_01_0: {
+          address: "0x203F48E51De9574153433efA0B1705EbB8aacF23",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_01_1: {
+          address: "0xFc6264603cfe299e2e6FA5778c62FD7BaF244CEC",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_01_2: {
+          address: "0x5f3d963C885642b6CD82c696714fE780F64aC7b5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_01_3: {
+          address: "0x13152776C0b5Cd2264823b2db1A412Fe10C3F281",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_02_0: {
+          address: "0x02f270Fc3bF9818b1dC24dFc552D22501506918B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_02_1: {
+          address: "0x1476DEEA7c1628E8D94f3382BC6045433492E4B1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_02_2: {
+          address: "0x6Ff4a0c4c0e79AD2dAFc6fac8C0cDaA46dFB9668",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_02_3: {
+          address: "0xA41C2caA72810414113bFE8BE7E5678AeA206C7C",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_02_4: {
+          address: "0x05138173E0eD8ECF4789918B97E029D2E7055196",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_03_0: {
+          address: "0xE16f428880822658239A95616DeA56f6517aD904",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_03_1: {
+          address: "0xa9DC402A6d05bDA12C0E0278B647598521f4C13E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_03_2: {
+          address: "0xcaC2CC18186b7427A2C369477482880622dd4a1D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_01_BACKGROUND_OVERLAY_03_3: {
+          address: "0x8B927c20eD3Dc7B8f791fAC7CEd3664c2872c977",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_02_POD_01_0: {
+          address: "0xaA4665e1bbB19dC5B821757b1B2FB3AA33735a9a",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_02_POD_02_0: {
+          address: "0xd63da7f37EC5Ad8A25BeAc97Bba26E363A956BC5",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_02_POD_03_0: {
+          address: "0xB11A03324580A09C965d6fCB13a2F61Cf40e2aB6",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_01_0: {
+          address: "0xFA3d68634906DB55534c0B93b6cDe48ca85b64eB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_01_1: {
+          address: "0x09199B277b17f64bEf4785e9F74495572948Fdff",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_02_0: {
+          address: "0x34A22E317b2e74c25E6AE9561523D05fF1a86C8D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_02_1: {
+          address: "0x5A8388B2BADb1eaFB2a9F85A1415BCb94859f877",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_0: {
+          address: "0xA88a3ecB3f2EfCA86672D84b96B29291CD121223",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_1: {
+          address: "0xc7FB61388F8631dF757738cBd25cb5aD7D4cCa06",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_2: {
+          address: "0x1F0773F8F42C49b00e1FCa9BC2ae2164B9eb7C13",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_3: {
+          address: "0x9d89d8deE71fbEb55B8b33fca57145d0E27494e0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_4: {
+          address: "0x755c37e648cB4B8818Ed2DBcaccE653579F36414",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_5: {
+          address: "0xB7018c9860E1abECFedD8aAc9f8EFca626c7F2CD",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_03_RIDER_03_6: {
+          address: "0x964D2c7F1673a2A430B0260450e291fff9568a62",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_01_0: {
+          address: "0xdFD6df477f2AB59d9bC66C6363a14f3B0663D36d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_01_1: {
+          address: "0xef4B0D41c369b18Ab5ef342E35bE4d22567222f2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_01_2: {
+          address: "0xEFc89B204303b1E8b73B1CCfBD38462870bB4865",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_01_3: {
+          address: "0xeF6C4C494c8d6e1e2fD99c76Cbcf8d0391B1cFB0",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_02_0: {
+          address: "0x60c7bE3658571E3009aa4F7A010557B180c6e939",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_03_0: {
+          address: "0x044236DC3060352b217C21f8A3040cDF77Cb1D44",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_04_ARMS_BACK_03_1: {
+          address: "0x38576ae94BAf35838bAf5A6163A0Cd85f6a2b331",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_01_0: {
+          address: "0x746E83B96636a02Adb1aE832B1a3e1F4f5560261",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_01_1: {
+          address: "0x8a817f56a52D2A4eF33438A8b7BCD9f2b8303A3D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_01_2: {
+          address: "0xf08037AA1a7784484B6E68D17eA2385C39D54ab2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_01_3: {
+          address: "0x2B983D20Dc75b85d7C18c2eD81Ea65f409d32458",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_02_0: {
+          address: "0x160DD68d0d8EBdCea6F072163f03A63FA0603953",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_02_1: {
+          address: "0x3b7f085Cb36Ff907720a35a732122Df5d8Fedb62",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_02_2: {
+          address: "0x9A20CbDc16E7ae758f9Db894cFE34A0A18D32137",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_02_3: {
+          address: "0x64F2fb98c19256EFE72Af6E4e1253A0Ef494ea87",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_0: {
+          address: "0x51b08B53d83f9584aA52810b99eC0B2d5f0f99Be",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_1: {
+          address: "0x2Fc6CDd02558Ebc6289F0e88c2e27566F26B5dE1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_2: {
+          address: "0x3A87c82F66F423bBe872D786A9D64ad0e55f3B77",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_3: {
+          address: "0x2D749F2008e28faA7C959a1E84906D39758e2785",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_4: {
+          address: "0x85D0274335C6515fB2fD7434A9AD882404b2BaF3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_5: {
+          address: "0xd460f6e916128faCFEC446c356363E3C38757657",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_6: {
+          address: "0xc7B18461161B62A7EA19a77584799A284416E625",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_7: {
+          address: "0xf09D60625D0D0c830d10Df3c10A8231D68eA00D1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_05_BODY_03_8: {
+          address: "0xeEadE41eB85A74Dd3E6f0Ce16bef1fDFe828d4af",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_06_KANJI_01_0: {
+          address: "0xB50318944Dd0eF12934D9Ff136FA558295f92669",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_06_KANJI_02_0: {
+          address: "0x1960e9cb3FD489Fbf86C255981C79a4480995Ffa",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_06_KANJI_03_0: {
+          address: "0x354b3E100C78f1E0f4717b2e45dD8E67fd99A0F3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_01_0: {
+          address: "0x1eEABdBC70DC8a0804BadcE164b1a46f763434A4",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_01_1: {
+          address: "0x48BD91B417132f2e89cB710dd9ffa60Ee6604074",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_02_0: {
+          address: "0xc3efd01574B5d990B1A3D1Bd1116E45cCF721fF2",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_02_1: {
+          address: "0x0deF64c8A7Be0D1Dd7Df34ABF2cCD58D8AD1Fb6C",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_02_2: {
+          address: "0x590ce04149AC98E14B59196A896eb36f3445e36C",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_02_3: {
+          address: "0xF393f23ac456efb4c3d6957084f4d0a3E79648b9",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_03_0: {
+          address: "0x3477DbaeBDe5bD51860a1f081f0a303AbCcbae37",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_03_superrare_07_ARMS_FRONT_03_1: {
+          address: "0x04860F5002D55163f56337FC2fF707f042216DAd",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_00_BACKGROUND_aku_0: {
+          address: "0x416CfF005c661BB037411718a56C2Eb91B0acee1",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_01_BACKGROUND_OVERLAY_aku_0: {
+          address: "0x144d772885a1de07e01fD250044a98dCb29f962A",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_01_BACKGROUND_OVERLAY_aku_1: {
+          address: "0x6c089A76C435D794842492723dfcDc8F93Fc9C38",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_02_POD_aku_0: {
+          address: "0x9Cf0546BD778c394200b28175D5c134FfD8f4617",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_02_POD_aku_1: {
+          address: "0x52d5685dc8CbD425E3917aE9c00133ec80e6d653",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_03_RIDER_aku_0: {
+          address: "0x97B95428F80ED7c2B6fb0A6c9bD7E7464f79082e",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_03_RIDER_aku_1: {
+          address: "0xEcEbFF65833095283e430C7918cb6609290CeBE3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_04_ARMS_BACK_aku_0: {
+          address: "0xaa3842e97903639e8bc7d5F75E05721D175deA5d",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_04_ARMS_BACK_aku_1: {
+          address: "0x2dfd04Ae0FA7C5D55EdF6177033137CCded5267D",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_04_ARMS_BACK_aku_2: {
+          address: "0xF4354D1A31fEEefef035AA2a4167a738574FC91F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_04_ARMS_BACK_aku_3: {
+          address: "0xc3F398BB1168fB0186800cFEE108bf0f2ccB8D44",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_05_BODY_aku_0: {
+          address: "0xf5F120749E9df64491778E38074F1748E1c1f889",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_05_BODY_aku_1: {
+          address: "0x8a2648967BC9218c06957cF30282169c48Ef9945",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_05_BODY_aku_2: {
+          address: "0xaBc1CdC6A6eA50DAD11c7f7713e583BB912BBFd3",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_06_KANJI_aku_0: {
+          address: "0xc5e21f2f79E79F76564Eb7674A62b4d441852FAB",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_04_aku_07_ARMS_FRONT_aku_0: {
+          address: "0xaF6D4368cAc968269FC5fc605DaBEa37FC4Ee455",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_doomsdayOverlay_0: {
+          address: "0x6814e270355FC8299c4F51E8862B62c3b9ea615B",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_pack_0: {
+          address: "0x2b7D270D87A37b26c1DEb36238266A368811c426",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_pack_1: {
+          address: "0x57b17AFd02D5FE207374F6100c379191eBA66d51",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_pack_2: {
+          address: "0x84194F6635638E9edfdE2eE46F757cEed43dE849",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_pack_3: {
+          address: "0x9B25f9365e8D48737eF5Ea69F27c17DC03eE352E",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        Asset_05_other_assets_pack_4: {
+          address: "0x1ABD70203B9E2F0CC04cfD5b41C8474990e36862",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+          ],
+        },
+        BasedMecha: {
+          address: "0x7263fE1442eEBFdDFb8729aB8559571620e4B28F",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_layerMaster",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "_mintingContract",
+                  type: "address",
+                },
+              ],
+              stateMutability: "nonpayable",
+              type: "constructor",
+            },
+            {
+              inputs: [],
+              name: "ERC721EnumerableForbiddenBatchMint",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721IncorrectOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721InsufficientApproval",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "approver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidApprover",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOperator",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "receiver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidReceiver",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidSender",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721NonexistentToken",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721OutOfBoundsIndex",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "OwnableInvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "account",
+                  type: "address",
+                },
+              ],
+              name: "OwnableUnauthorizedAccount",
+              type: "error",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "approved",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Approval",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  indexed: false,
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "ApprovalForAll",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "previousOwner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "OwnershipTransferred",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Transfer",
+              type: "event",
+            },
+            {
+              inputs: [],
+              name: "AKU_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "COMMON_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "DOOMSDAY_LAYER",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "HERO_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "LAYER_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "ONE_HUNDREDTH_PERCENT_MAX_INT",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "RARE_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "SUPER_RARE_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "SUPER_RARE_MECHA_COUNT",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "ULTRA_RARE_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "UNCOMMON_ASSET_START_INDEX",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "akuShardsFound",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "approve",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "balanceOf",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "burn",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256[]",
+                  name: "tokenIds",
+                  type: "uint256[]",
+                },
+              ],
+              name: "claimCustomMecha",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "customMechaContract",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256[]",
+                  name: "shards",
+                  type: "uint256[]",
+                },
+              ],
+              name: "doomsDay",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "doomsdayTriggered",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "generateSVGofTokenById",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "getApproved",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "randomNumber",
+                  type: "uint256",
+                },
+              ],
+              name: "getCommonArray",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "seed",
+                  type: "uint256",
+                },
+                {
+                  internalType: "uint8",
+                  name: "rarity",
+                  type: "uint8",
+                },
+              ],
+              name: "getLayersByRarity",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "getLayersForToken",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "getMechaType",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "seed",
+                  type: "uint256",
+                },
+              ],
+              name: "getRarity",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "pure",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "randomNumber",
+                  type: "uint256",
+                },
+              ],
+              name: "getSuperRareArray",
+              outputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "",
+                  type: "uint8[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "isApprovedForAll",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "layerMaster",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "bytes32",
+                  name: "packSeed",
+                  type: "bytes32",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+                {
+                  internalType: "bool",
+                  name: "nerfRarity",
+                  type: "bool",
+                },
+              ],
+              name: "mintItem",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "mintingContract",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "name",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "owner",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ownerOf",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "renderTokenById",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "renounceOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "bytes",
+                  name: "data",
+                  type: "bytes",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "setApprovalForAll",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "bytes4",
+                  name: "interfaceId",
+                  type: "bytes4",
+                },
+              ],
+              name: "supportsInterface",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "symbol",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenOfOwnerByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenURI",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "totalSupply",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "transferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "transferOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_customMechaContract",
+                  type: "address",
+                },
+              ],
+              name: "updateCustomMechaContract",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "_doomsdayLayer",
+                  type: "uint8",
+                },
+              ],
+              name: "updateDoomsDayLayers",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_layerMaster",
+                  type: "address",
+                },
+              ],
+              name: "updateLayerMaster",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_mintingContract",
+                  type: "address",
+                },
+              ],
+              name: "updateMintingContract",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "_commonStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_uncommonStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_rareStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_superRareStartIndex",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint8",
+                  name: "_ultraRareStartIndex",
+                  type: "uint8",
+                },
+              ],
+              name: "updateStartIndexes",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+          ],
+        },
+        BasedMechaPacks: {
+          address: "0xdB893C65d29fDDb61010081D6C914aCcb339718E",
+          abi: [
+            {
+              inputs: [],
+              stateMutability: "nonpayable",
+              type: "constructor",
+            },
+            {
+              inputs: [],
+              name: "ERC721EnumerableForbiddenBatchMint",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721IncorrectOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721InsufficientApproval",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "approver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidApprover",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOperator",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "receiver",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidReceiver",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+              ],
+              name: "ERC721InvalidSender",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721NonexistentToken",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "ERC721OutOfBoundsIndex",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "OwnableInvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "account",
+                  type: "address",
+                },
+              ],
+              name: "OwnableUnauthorizedAccount",
+              type: "error",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "approved",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Approval",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  indexed: false,
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "ApprovalForAll",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "previousOwner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "OwnershipTransferred",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "Transfer",
+              type: "event",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "approve",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "balanceOf",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "basedMecha",
+              outputs: [
+                {
+                  internalType: "contract BasedMecha",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "burn",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "futureBlocks",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "generateSVGofTokenById",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "getApproved",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+              ],
+              name: "isApprovedForAll",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "layerMaster",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "mintPack",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "payable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "name",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "bytes",
+                  name: "rlpBytes",
+                  type: "bytes",
+                },
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "openPack",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "owner",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "ownerOf",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "packCardCount",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "packPrice",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "packs",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "blockNumber",
+                  type: "uint256",
+                },
+                {
+                  internalType: "uint256",
+                  name: "edition",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "renounceOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+                {
+                  internalType: "bytes",
+                  name: "data",
+                  type: "bytes",
+                },
+              ],
+              name: "safeTransferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "operator",
+                  type: "address",
+                },
+                {
+                  internalType: "bool",
+                  name: "approved",
+                  type: "bool",
+                },
+              ],
+              name: "setApprovalForAll",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_basedMecha",
+                  type: "address",
+                },
+              ],
+              name: "setMechaContract",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "_packCardCount",
+                  type: "uint256",
+                },
+              ],
+              name: "setPackCardCount",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "_packPrice",
+                  type: "uint256",
+                },
+              ],
+              name: "setPackPrice",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "bytes4",
+                  name: "interfaceId",
+                  type: "bytes4",
+                },
+              ],
+              name: "supportsInterface",
+              outputs: [
+                {
+                  internalType: "bool",
+                  name: "",
+                  type: "bool",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "symbol",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "index",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenOfOwnerByIndex",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "id",
+                  type: "uint256",
+                },
+              ],
+              name: "tokenURI",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "totalSupply",
+              outputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "from",
+                  type: "address",
+                },
+                {
+                  internalType: "address",
+                  name: "to",
+                  type: "address",
+                },
+                {
+                  internalType: "uint256",
+                  name: "tokenId",
+                  type: "uint256",
+                },
+              ],
+              name: "transferFrom",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "transferOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "unopenedPackLayers",
+              outputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "_layerMaster",
+                  type: "address",
+                },
+              ],
+              name: "updateLayerMaster",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "_unopenedPackLayers",
+                  type: "uint8[]",
+                },
+              ],
+              name: "updateUnopenedPackLayers",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "withdraw",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+          ],
+        },
+        LayerMaster: {
+          address: "0xd46c122272add3BB55E47e2CE330524975728399",
+          abi: [
+            {
+              inputs: [
+                {
+                  internalType: "string",
+                  name: "_startTag",
+                  type: "string",
+                },
+                {
+                  internalType: "string",
+                  name: "_endTag",
+                  type: "string",
+                },
+              ],
+              stateMutability: "nonpayable",
+              type: "constructor",
+            },
+            {
+              inputs: [],
+              name: "END_TAG",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "START_TAG",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "trait",
+                  type: "uint8",
+                },
+                {
+                  internalType: "address[]",
+                  name: "addresses",
+                  type: "address[]",
+                },
+                {
+                  internalType: "bytes4[]",
+                  name: "colors",
+                  type: "bytes4[]",
+                },
+              ],
+              name: "addAsset",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "traits",
+                  type: "uint8[]",
+                },
+                {
+                  internalType: "address[][]",
+                  name: "addresses",
+                  type: "address[][]",
+                },
+                {
+                  internalType: "bytes4[][]",
+                  name: "colors",
+                  type: "bytes4[][]",
+                },
+              ],
+              name: "addAssets",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "assetColors",
+              outputs: [
+                {
+                  internalType: "bytes4",
+                  name: "",
+                  type: "bytes4",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8",
+                  name: "",
+                  type: "uint8",
+                },
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "assets",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint8[]",
+                  name: "layers",
+                  type: "uint8[]",
+                },
+                {
+                  internalType: "bool",
+                  name: "includeTags",
+                  type: "bool",
+                },
+              ],
+              name: "renderMain",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
               type: "function",
             },
           ],

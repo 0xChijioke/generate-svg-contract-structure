@@ -23,7 +23,7 @@ interface ILayerMaster {
 	) external view returns (string memory);
 }
 
-contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
+contract OnchainMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	using Strings for uint256;
 	using HexStrings for uint160;
 
@@ -54,7 +54,7 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	constructor(
 		address _layerMaster,
 		address _mintingContract
-	) ERC721("Based Mecha", "MECHA") Ownable(msg.sender) {
+	) ERC721("Onchain Mecha", "MECHA") Ownable(msg.sender) {
 		layerMaster = _layerMaster;
 		mintingContract = _mintingContract;
 	}
@@ -109,7 +109,7 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	) public view override(ERC721) returns (string memory) {
 		_requireOwned(id);
 		string memory name = string(
-			abi.encodePacked("Based Mecha Card #", id.toString())
+			abi.encodePacked("Onchain Mecha Card #", id.toString())
 		);
 		string memory description = string(abi.encodePacked("This is ", name));
 		string memory image = Base64.encode(bytes(generateSVGofTokenById(id)));
@@ -125,7 +125,7 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 								name,
 								'", "description":"',
 								description,
-								'", "external_url":"https://basedmecha.xyz/card/',
+								'", "external_url":"https://onchainmecha.xyz/card/',
 								id.toString(),
 								'", "attributes": [{"trait_type": "rarity", "value": "',
 								_getRarityString(getRarity(id)),

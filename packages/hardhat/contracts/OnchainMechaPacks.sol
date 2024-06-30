@@ -16,9 +16,9 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Base64.sol";
 import "./HexStrings.sol";
 import "./RLPReader.sol";
-import "./BasedMecha.sol";
+import "./OnchainMecha.sol";
 
-contract BasedMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
+contract OnchainMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	using Strings for uint256;
 	using HexStrings for uint160;
 	using RLPReader for RLPReader.RLPItem;
@@ -31,7 +31,7 @@ contract BasedMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 
 	mapping(uint => Pack) public packs;
 
-	BasedMecha public basedMecha;
+	OnchainMecha public onchainMecha;
     address public layerMaster;
 	uint8[] public unopenedPackLayers;
 
@@ -39,10 +39,10 @@ contract BasedMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	uint public packPrice = 0.0007777777 ether;
 	uint public packCardCount = 3;
 
-	constructor() ERC721("Based Mecha Pack", "PACK") Ownable(msg.sender) {}
+	constructor() ERC721("Onchain Mecha Pack", "PACK") Ownable(msg.sender) {}
 
-	function setMechaContract(address _basedMecha) public onlyOwner {
-		basedMecha = BasedMecha(_basedMecha);
+	function setMechaContract(address _onchainMecha) public onlyOwner {
+		onchainMecha = OnchainMecha(_onchainMecha);
 	}
 
 	// The following functions are overrides required by Solidity.
@@ -71,9 +71,9 @@ contract BasedMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 		uint256 id
 	) public view override(ERC721) returns (string memory) {
 		_requireOwned(id);
-		string memory name = "Unopened Based Mecha Pack of Cards";
+		string memory name = "Unopened Onchain Mecha Pack of Cards";
 		string
-			memory description = "This is an unopened pack of Based Mecha cards. Go to BasedMecha.xyz to open it!";
+			memory description = "This is an unopened pack of Onchain Mecha cards. Go to OnchainMecha.xyz to open it!";
 		string memory image = Base64.encode(
 			bytes((generateSVGofTokenById()))
 		);
@@ -89,7 +89,7 @@ contract BasedMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 								name,
 								'", "description":"',
 								description,
-								'", "external_url":"https://basedmecha.xyz/pack/',
+								'", "external_url":"https://onchainmecha.xyz/pack/',
 								id.toString(),
 								'", "attributes": [{"trait_type": "condition", "value": "unopened',
 								'"}], "owner":"',
@@ -112,7 +112,7 @@ contract BasedMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 	}
 
 	function mintPack() public payable returns (uint256) {
-		require(basedMecha.akuShardsFound() < 7, "7 Aku shards have been found. Minting has been disabled");
+		require(onchainMecha.akuShardsFound() < 7, "7 Aku shards have been found. Minting has been disabled");
 
 		uint256 id = uint256(keccak256(abi.encodePacked(msg.sender, block.number, totalSupply())));
 		_mint(msg.sender, id);
@@ -137,9 +137,9 @@ contract BasedMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 			);
 			// burn pack
 			_burn(id);
-			// mint cards in BasedMecha.sol
+			// mint cards in OnchainMecha.sol
 			for (uint i = 0; i < packCardCount; i++) {
-				basedMecha.mintItem(msg.sender, notRand, i, true);
+				onchainMecha.mintItem(msg.sender, notRand, i, true);
 			}
 		} else {
 			RLPReader.RLPItem[] memory ls = rlpBytes.toRlpItem().toList();
@@ -162,9 +162,9 @@ contract BasedMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 			);
 			// burn pack
 			_burn(id);
-			// mint cards in BasedMecha.sol
+			// mint cards in OnchainMecha.sol
 			for (uint i = 0; i < packCardCount; i++) {
-				basedMecha.mintItem(msg.sender, rand, i, false);
+				onchainMecha.mintItem(msg.sender, rand, i, false);
 			}
 		}
 	}

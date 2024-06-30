@@ -41,6 +41,7 @@ async function main() {
         }
       }),
     );
+    asset.index = i;
     asset.run = true;
     writeFileSync("./asset-config.json", JSON.stringify(assetConfig), "utf8");
     await wait(3000);
