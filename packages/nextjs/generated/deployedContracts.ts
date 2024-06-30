@@ -12185,7 +12185,7 @@ const contracts = {
           ],
         },
         OnchainMecha: {
-          address: "0x7956a619810Bc5D178a526FEC622A7b161754538",
+          address: "0xBbD2E4B0871AF478A2AA05f7b6ae2e4812CD66a2",
           abi: [
             {
               inputs: [
@@ -13313,7 +13313,7 @@ const contracts = {
           ],
         },
         OnchainMechaPacks: {
-          address: "0xC038Ff2992873902a4A6d12421375DCf72e9169C",
+          address: "0x38e4Da6C2b1d5Cb104AFf85cae3F022715A20ad3",
           abi: [
             {
               inputs: [],

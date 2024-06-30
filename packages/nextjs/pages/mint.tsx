@@ -41,7 +41,7 @@ const MintPage: NextPage = () => {
     contractName: "OnchainMechaPacks",
     functionName: "mintPack",
     // args: [],
-    value: "0.0015",
+    value: "0.0007777777",
     onBlockConfirmation: txnReceipt => {
       console.log("Transaction blockHash", txnReceipt.blockHash);
       setMinted(true);

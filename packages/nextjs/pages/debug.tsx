@@ -7,7 +7,9 @@ import { ContractName } from "~~/utils/scaffold-eth/contract";
 import { getContractNames } from "~~/utils/scaffold-eth/contractNames";
 
 const selectedContractStorageKey = "scaffoldEth2.selectedContract";
-const contractNames = getContractNames();
+const contractNames = getContractNames().filter(contractName =>
+  ["OnchainMecha", "OnchainMechaPacks", "LayerMaster"].includes(contractName),
+);
 
 const Debug: NextPage = () => {
   const [selectedContract, setSelectedContract] = useLocalStorage<ContractName>(

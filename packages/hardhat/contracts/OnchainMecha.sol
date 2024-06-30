@@ -260,7 +260,7 @@ contract OnchainMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 				(4 * HERO_COUNT)
 		);
 		// Foreground arms - should be same randomNumber as background arms
-		layers[7] = uint8(
+		layers[6] = uint8(
 			(randomNumber % HERO_COUNT) +
 				(COMMON_ASSET_START_INDEX) +
 				(7 * HERO_COUNT)
