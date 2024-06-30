@@ -428,6 +428,7 @@ contract BasedMecha is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 		doomsdayTriggered = true; // 😱
 	}
 
+	// Mint a custom mecha by burning the 7 heroes - also gives the user true card version of Aku
 	function claimCustomMecha(uint[] calldata tokenIds) public {
 		require(customMechaContract != address(0), "Custom Mecha contract not set");
 		require(tokenIds.length == HERO_COUNT, "Invalid number of tokens");
