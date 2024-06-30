@@ -40,7 +40,7 @@ const scaffoldConfig = {
    */
   walletAutoConnect: true,
 
-  fromBlock: 16487687n,
+  fromBlock: 16486687n,
 } satisfies ScaffoldConfig;
 
 export default scaffoldConfig;

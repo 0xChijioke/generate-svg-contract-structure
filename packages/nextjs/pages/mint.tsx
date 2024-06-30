@@ -5,28 +5,23 @@ import { useAccount } from "wagmi";
 import { useBlockNumber } from "wagmi";
 import { useWalletClient } from "wagmi";
 import { MetaHeader } from "~~/components/MetaHeader";
-import { Address } from "~~/components/scaffold-eth";
 import {
   useScaffoldContract,
   useScaffoldContractRead,
   useScaffoldContractWrite,
-  useScaffoldEventHistory,
   useTransactor,
 } from "~~/hooks/scaffold-eth";
 import scaffoldConfig from "~~/scaffold.config";
 import { notification } from "~~/utils/scaffold-eth";
 
 const MintPage: NextPage = () => {
-  // const [number, setNumber] = useState<string | bigint>("");
-  // const [betNumber, setBetNumber] = useState<number>();
   const [targetBlockNumber, setTargetBlockNumber] = useState<bigint>();
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [openDisabled, setOpenDisabled] = useState<boolean>(false);
+  const [showOpenNotice, setShowOpenNotice] = useState<boolean>(false);
+  const [opened, setOpened] = useState<boolean>(false);
   const [minted, setMinted] = useState<boolean>(false);
-  const [rollDisabled, setRollDisabled] = useState<boolean>(false);
-  const [showRollNotice, setShowRollNotice] = useState<boolean>(false);
-  const [rolled, setRolled] = useState<boolean>(false);
-  const [betted, setBetted] = useState<boolean>(false);
-  const [rolling, setRolling] = useState<boolean>(false);
+  const [opening, setOpening] = useState<boolean>(false);
 
   const writeTx = useTransactor();
   const { address } = useAccount();
@@ -48,20 +43,6 @@ const MintPage: NextPage = () => {
     },
   });
 
-  const { data: mintPackEvents } = useScaffoldEventHistory({
-    contractName: "OnchainMechaPacks",
-    eventName: "Transfer",
-    fromBlock: scaffoldConfig.fromBlock,
-    filters: { from: "0x0000000000000000000000000000000000000000", to: address },
-  });
-
-  const { data: mintCardEvents } = useScaffoldEventHistory({
-    contractName: "OnchainMecha",
-    eventName: "Transfer",
-    fromBlock: scaffoldConfig.fromBlock,
-    filters: { from: "0x0000000000000000000000000000000000000000", to: address },
-  });
-
   const { data: walletClient } = useWalletClient();
   const { data: packsContract } = useScaffoldContract({
     contractName: "OnchainMechaPacks",
@@ -73,47 +54,47 @@ const MintPage: NextPage = () => {
     functionName: "tokenOfOwnerByIndex",
     args: [address, 0n],
   });
-
-  const { data: betData } = useScaffoldContractRead({
+  console.log(tokenId);
+  const { data: packData } = useScaffoldContractRead({
     contractName: "OnchainMechaPacks",
     functionName: "packs",
     args: [tokenId],
   }) as { data: [bigint, bigint, boolean, bigint] | undefined };
 
   useEffect(() => {
-    if (betData) {
-      console.log("betData: ", betData);
-      setTargetBlockNumber(betData[0]);
+    if (packData) {
+      console.log("packData: ", packData);
+      setTargetBlockNumber(packData[0]);
     }
-  }, [betData]);
+  }, [packData]);
 
   useEffect(() => {
-    if (betData !== undefined && betData[1]) {
-      setRolled(true);
+    if (packData !== undefined && packData[1]) {
+      setOpened(true);
     } else {
-      setRolled(false);
+      setOpened(false);
     }
-    if (betData !== undefined && betData[0] > 0) {
-      setBetted(true);
+    if (packData !== undefined && packData[0] > 0) {
+      setMinted(true);
     } else {
-      setBetted(false);
+      setMinted(false);
     }
-  }, [betData]);
+  }, [packData]);
 
   useEffect(() => {
     if (blockNumber && targetBlockNumber) {
       const show = blockNumber < targetBlockNumber;
-      setShowRollNotice(show);
+      setShowOpenNotice(show);
     } else {
-      setShowRollNotice(false);
-      setRollDisabled(false);
+      setShowOpenNotice(false);
+      setOpenDisabled(false);
     }
-  }, [blockNumber, targetBlockNumber, betData]);
+  }, [blockNumber, targetBlockNumber, packData]);
 
-  const betDisabled = isLoading || isMining || (betted && !rolled);
+  const minting = isLoading || isMining || (minted && !opened);
 
-  const rollTheDice = async () => {
-    console.log("Roll the dice: ", blockNumber);
+  const openPack = async () => {
+    console.log("Open the pack: ", blockNumber);
     console.log("targetBlockNumber: ", targetBlockNumber);
 
     const blockData = await publicClient.getBlock({ blockNumber: targetBlockNumber });
@@ -175,7 +156,7 @@ const MintPage: NextPage = () => {
       return;
     }
 
-    setRolling(true);
+    setOpening(true);
 
     if (packsContract !== undefined) {
       console.log("tokenId", tokenId);
@@ -184,10 +165,10 @@ const MintPage: NextPage = () => {
       await writeTx(makeWrite as unknown as SendTransactionParameters, {
         onBlockConfirmation: txnReceipt => {
           console.log("Transaction blockHash", txnReceipt.blockHash);
-          setRolled(true);
+          setOpened(true);
         },
       });
-      setRolling(false);
+      setOpening(false);
     }
   };
 
@@ -203,52 +184,27 @@ const MintPage: NextPage = () => {
                 onClick={() => {
                   writeAsync();
                 }}
-                disabled={betDisabled}
+                disabled={minting}
               >
                 Mint Pack
               </button>
             </>
             <>
-              {betData && betData[0] !== 0n && (
+              {packData && packData[0] !== 0n && (
                 <>
-                  <p className="text-xl font-bold">First pack valid block: {betData[0].toString()}</p>
+                  <p className="text-xl font-bold">First pack valid block: {packData[0].toString()}</p>
                   <p className="text-xl font-bold">Current block: {blockNumber?.toString() || 0}</p>
-                  {rolled && !rolling && <p className="text-xl font-bold">Rolled: {betData[3].toString()}</p>}
-                  {rolling && <p className="text-xl font-bold">Rolling...</p>}
-                  {showRollNotice && targetBlockNumber && blockNumber && (
-                    <p>Wait for {(targetBlockNumber - blockNumber).toString()} blocks to roll the dice</p>
+                  {opened && !opening && <p className="text-xl font-bold">Opened: {packData[3].toString()}</p>}
+                  {opening && <p className="text-xl font-bold">Opening...</p>}
+                  {showOpenNotice && targetBlockNumber && blockNumber && (
+                    <p>Wait for {(targetBlockNumber - blockNumber).toString()} blocks to open the pack</p>
                   )}
-                  <button className="btn btn-primary" disabled={rollDisabled} onClick={rollTheDice}>
+                  <button className="btn btn-primary" disabled={openDisabled} onClick={openPack}>
                     Open Pack
                   </button>
                 </>
               )}
             </>
-          </div>
-        </div>
-
-        <div className="flex-grow bg-base-300 w-full mt-16 px-8 py-12">
-          <div className="flex justify-center items-start gap-12 flex-col sm:flex-row">
-            <div className="flex flex-col bg-base-100 px-10 text-center items-center max-w-xs rounded-3xl">
-              <p className="text-2xl font-bold">Bets</p>
-              {mintPackEvents &&
-                mintPackEvents.map((event, index) => (
-                  <div key={index} className="mt-0">
-                    <Address address={event.args.player} />
-                    Bet: {event.args.number}
-                  </div>
-                ))}
-            </div>
-            <div className="flex flex-col bg-base-100 px-10 text-center items-center max-w-xs rounded-3xl">
-              <p className="text-2xl font-bold">Rolls</p>
-              {mintCardEvents &&
-                mintCardEvents.map((event, index) => (
-                  <div key={index} className="mt-0">
-                    <Address address={event.args.player} />
-                    Number: {event.args.number}
-                  </div>
-                ))}
-            </div>
           </div>
         </div>
       </div>
