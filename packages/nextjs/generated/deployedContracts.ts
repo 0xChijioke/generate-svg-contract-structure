@@ -12185,7 +12185,7 @@ const contracts = {
           ],
         },
         OnchainMecha: {
-          address: "0xBbD2E4B0871AF478A2AA05f7b6ae2e4812CD66a2",
+          address: "0xd130EDBC5DaFB8fe72a65a083F7B9C10C2cea96e",
           abi: [
             {
               inputs: [
