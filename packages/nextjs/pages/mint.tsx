@@ -228,13 +228,13 @@ const MintPage: NextPage = () => {
       <div className="flex w-[100vw] h-[100vh] items-center justify-center relative">
         <Mint />
         <div className="absolute top-10 text-center text-black text-lg">
+          <>
+            <button disabled={minting}>
+              <MintButton onClick={() => mintPack()} />
+            </button>
+          </>
           {packData && packData[0] !== 0n && (
             <>
-              <>
-                <button disabled={minting}>
-                  <MintButton onClick={() => mintPack()} />
-                </button>
-              </>
               <>
                 {packData && packData[0] !== 0n && tokenBalance && tokenBalance > 0n && (
                   <>
@@ -265,9 +265,6 @@ const MintPage: NextPage = () => {
         <div className="absolute right-[8%] top-[38%]">
           <RainbowKitCustomConnectButton />
         </div>
-      </div>
-      <div className="absolute right-[8%] top-[38%]">
-        <RainbowKitCustomConnectButton />
       </div>
     </>
   );
