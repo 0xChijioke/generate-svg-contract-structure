@@ -20,7 +20,6 @@ const MintPage: NextPage = () => {
   const [openDisabled, setOpenDisabled] = useState<boolean>(false);
   const [showOpenNotice, setShowOpenNotice] = useState<boolean>(false);
   const [opened, setOpened] = useState<boolean>(false);
-  const [minted, setMinted] = useState<boolean>(false);
   const [opening, setOpening] = useState<boolean>(false);
 
   const writeTx = useTransactor();
@@ -36,10 +35,9 @@ const MintPage: NextPage = () => {
     contractName: "OnchainMechaPacks",
     functionName: "mintPack",
     // args: [],
-    value: "0.0007777777",
+    value: "0",
     onBlockConfirmation: txnReceipt => {
       console.log("Transaction blockHash", txnReceipt.blockHash);
-      setMinted(true);
     },
   });
 
@@ -54,6 +52,13 @@ const MintPage: NextPage = () => {
     functionName: "tokenOfOwnerByIndex",
     args: [address, 0n],
   });
+
+  const { data: tokenBalance } = useScaffoldContractRead({
+    contractName: "OnchainMechaPacks",
+    functionName: "balanceOf",
+    args: [address],
+  });
+
   console.log(tokenId);
   const { data: packData } = useScaffoldContractRead({
     contractName: "OnchainMechaPacks",
@@ -70,14 +75,8 @@ const MintPage: NextPage = () => {
 
   useEffect(() => {
     if (packData !== undefined && packData[1]) {
+      console.log("hits: ", packData);
       setOpened(true);
-    } else {
-      setOpened(false);
-    }
-    if (packData !== undefined && packData[0] > 0) {
-      setMinted(true);
-    } else {
-      setMinted(false);
     }
   }, [packData]);
 
@@ -91,7 +90,13 @@ const MintPage: NextPage = () => {
     }
   }, [blockNumber, targetBlockNumber, packData]);
 
-  const minting = isLoading || isMining || (minted && !opened);
+  const minting = isLoading || isMining || !!tokenBalance;
+
+  const mintPack = async () => {
+    console.log("Minting pack");
+    await writeAsync();
+    setOpened(false);
+  };
 
   const openPack = async () => {
     console.log("Open the pack: ", blockNumber);
@@ -182,7 +187,7 @@ const MintPage: NextPage = () => {
               <button
                 className="btn btn-primary mt-2"
                 onClick={() => {
-                  writeAsync();
+                  mintPack();
                 }}
                 disabled={minting}
               >
@@ -190,7 +195,7 @@ const MintPage: NextPage = () => {
               </button>
             </>
             <>
-              {packData && packData[0] !== 0n && (
+              {packData && packData[0] !== 0n && tokenBalance && tokenBalance > 0n && (
                 <>
                   <p className="text-xl font-bold">First pack valid block: {packData[0].toString()}</p>
                   <p className="text-xl font-bold">Current block: {blockNumber?.toString() || 0}</p>
