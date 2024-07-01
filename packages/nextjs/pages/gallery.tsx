@@ -5,7 +5,7 @@ import { Contract, InterfaceAbi, JsonRpcProvider } from "ethers";
 import type { NextPage } from "next";
 import { useAccount } from "wagmi";
 import { MetaHeader } from "~~/components/MetaHeader";
-import { useDeployedContractInfo, useScaffoldEventHistory } from "~~/hooks/scaffold-eth";
+import { useDeployedContractInfo, useScaffoldContractRead, useScaffoldEventHistory } from "~~/hooks/scaffold-eth";
 import { placeholder } from "~~/public/assets/placeholder";
 import scaffoldConfig from "~~/scaffold.config";
 import { getTargetNetwork } from "~~/utils/scaffold-eth";
@@ -16,20 +16,39 @@ const chain = getTargetNetwork();
 const provider = new JsonRpcProvider(chain.rpcUrls.public.http[0]);
 
 const Gallery: NextPage = () => {
-  const { address } = useAccount();
+  const { address, isConnected } = useAccount();
   const [tokenIds, setTokenIds] = useState<number[]>([]);
   const [ownedCards, setOwnedCards] = useState<{ [tokenId: number]: string }>({});
   const [loading, setLoading] = useState(true);
 
   const { data: onchainMechData } = useDeployedContractInfo("BasedMecha");
 
-  const { data: mintCardEvents } = useScaffoldEventHistory({
-    contractName: "BasedMecha",
+  const { data: mintCardEvents, isLoading: mintCardEventsLoading, error: mintCardEventsError } = useScaffoldEventHistory({
+    contractName: "OnchainMecha",
     eventName: "Transfer",
     fromBlock: scaffoldConfig.fromBlock,
-    filters: { from: "0x0000000000000000000000000000000000000000", to: address },
+    filters: { from: "0x0000000000000000000000000000000000000000", to: '0x92f444Fc0CDa9D47521fB1D53672c4c2898e2328' },
   });
 
+
+
+
+  const { data: balance } = useScaffoldContractRead({
+    contractName: "OnchainMecha",
+    functionName: "balanceOf",
+    args: ['0x1E8c64Fd8F94da1d0E23853118B7F73a7B467209'],
+  });
+
+  console.log(balance)
+
+  const { data: tokenId, error, isError } = useScaffoldContractRead({
+    contractName: "OnchainMecha",
+    functionName: "tokenOfOwnerByIndex",
+    args: ['0x92f444Fc0CDa9D47521fB1D53672c4c2898e2328', 1n],
+  });
+  console.log(isConnected, address)
+
+  console.log(tokenId, error, isError)
   const getSVG = async (tokenId: number) => {
     const { address: contractAddress, abi: contractAbi } = onchainMechData as { address: string; abi: InterfaceAbi };
     const contract = new Contract(contractAddress, contractAbi, provider);
@@ -56,6 +75,8 @@ const Gallery: NextPage = () => {
       setLoading(false); // Set loading to false once data is available
     }
   }, [mintCardEvents]);
+
+  console.log(mintCardEvents, mintCardEventsError, mintCardEventsLoading)
 
   return (
     <>

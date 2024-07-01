@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-import { svgBase64String } from "./Akubase64";
 import { C1, C2, C3, C4, C5, C6, C7, C8 } from "./Characters";
 import EasedCanvasAnimation from "./EasedCanvasAnimation";
 import { text1, text2, text3, text4, text5, text6, text7, text8, text9 } from "./Story";
 import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
+import Image from "next/image";
 
 const AkuEntrance = dynamic(() => import("./AkuEntrance"), { ssr: false });
 const MechFighters = dynamic(() => import("./MechFighters"), { ssr: false });
@@ -50,12 +50,30 @@ const Landing = () => {
   // Transformations for the FracturedAku
   const fracturedAkuScale = useTransform(scrollY, [12500, 14000, 20000], [180, 1, -0]);
   const fracturedAkuOpacity = useTransform(scrollY, [12500, 12600], [0, 1]);
-  const fracturedAkuY = useTransform(scrollY, [12500, 14000], [-9000, 0]);
+  const fracturedAkuY = useTransform(scrollY, [12500, 14000], [-totalWidth*4.8, 0]);
   const fracturedAkuX = useTransform(scrollY, [12500, 14000], [900, 0]);
 
   // Transformations for ScatteredMechs
-  const scatteredMechsScale = useTransform(scrollY, [14000, 40000, 60000], [180, 1, -0]);
-  const scatteredMechsRotate = useTransform(scrollY, [40000, 60000], [0, 360 * 5]); // Rotate 10 times
+  const scatteredMechsScale = useTransform(scrollY, [14000, 20000, 30000], [180, 1, -0]);
+  const scatteredMechsRotate = useTransform(scrollY, [40000, 60000], [0, 360 * 5]); // Rotate 5 times
+
+
+
+  // TextBox Transformations
+  const textBox1Scale = useTransform(scrollY, [0, 4000], [1, 0.5]);
+  const textBox2Scale = useTransform(scrollY, [2000, 5000], [0.5, 1]);
+  const textBox3Scale = useTransform(scrollY, [3000, 4000], [0.5, 1]);
+
+  const textBox4X = useTransform(scrollY, [4000, 6000], [100, 500]); // Slide out to the right
+  const textBox4Opacity = useTransform(scrollY, [4500, 5000], [1, 0]);
+
+  const textBox5X = useTransform(scrollY, [7500, 8000], [0, 500]); // Slide out to the right
+  const textBox5Opacity = useTransform(scrollY, [7500, 8000], [1, 0]);
+
+
+  // TextBox 8 scale transformation
+  const textBox8Scale = useTransform(scrollY, [12500, 14000], [1, 0.5]);
+  const textBox8Opacity = useTransform(scrollY, [12500, 14000], [0, 1]);
 
   useEffect(() => {
     const updateStateBasedOnScroll = (latest: number) => {
@@ -78,8 +96,23 @@ const Landing = () => {
   };
 
   return (
-    <section id="landing" className="h-[10000vh] w-screen overflow-y-scroll">
+    <section id="landing" className="h-[4000vh] w-screen overflow-y-scroll">
       <AnimatePresence>
+        <motion.div
+            initial={{ opacity: 0, y: 500 }}
+            animate={{ opacity: 1, y: 50 }}
+          key="textBox1"
+          className="absolute top-60 right-80 h-auto z-10 transform-gpu"
+          style={{
+            scale: textBox1Scale,
+            // y: textBox1Y,
+            willChange: "transform",
+          }}
+        >
+          <Image src={text1} className="w-80 z-10 h-80" width={40} height={40} alt="Text Box 1" />
+        </motion.div>
+
+
         {!isAkuZoomedOut && (
           <motion.div
             key="akuEntrance"
@@ -95,6 +128,7 @@ const Landing = () => {
             }}
           >
             <AkuEntrance />
+            
           </motion.div>
         )}
         {/* AkuEntrance scrolling down */}
@@ -110,6 +144,31 @@ const Landing = () => {
             }}
           >
             <AkuEntrance />
+            {scrollY.get() >= 3000 && (
+          <>
+            <motion.div
+              key="textBox2"
+              className="absolute top-[20%] right-[-28%] h-auto z-10 transform-gpu"
+              style={{
+                scale: textBox2Scale,
+                willChange: "transform",
+              }}
+            >
+              <Image src={text2} width={100} height={100} className="w-[50%] z-10 h-80"  alt="Text Box 2" />
+            </motion.div>
+
+            <motion.div
+              key="textBox3"
+              className="absolute top-[24.2%] right-[-8%] h-auto z-10 transform-gpu"
+              style={{
+                scale: textBox2Scale,
+                willChange: "transform",
+              }}
+            >
+              <Image src={text3} className="w-[50%] z-10 h-80" width={40} height={40} alt="Text Box 3" />
+            </motion.div>
+          </>
+        )}
           </motion.div>
         )}
         {/* Character Animation */}
@@ -127,6 +186,38 @@ const Landing = () => {
               background: "black",
             }}
           >
+            {/* TextBox 4 */}
+        {(
+          <motion.div
+            initial={{ opacity: 0.1 }}
+            animate={{opacity: 1 }}
+            key="textBox4"
+            className="absolute top-[-10%] right-[-60%] h-auto transform-gpu"
+            style={{
+              x: textBox4X,
+              willChange: "transform",
+            }}
+          >
+            <Image src={text4} className="w-[30%] z-10 h-80" width={40} height={40} alt="Text Box 4" />
+          </motion.div>
+        )}
+
+        {/* TextBox 5 */}
+        {(
+          <motion.div
+            initial={{ x: "10vw", opacity: 0 }}
+            whileInView={{ x: -70, opacity: 1 }}
+            viewport={{once: false}}
+            exit={{ x: -100, opacity: 0 }}
+            key="textBox5"
+            className="absolute top-[-20%] left-0 h-auto z-10 transform-gpu"
+            style={{
+              willChange: "transform",
+            }}
+          >
+            <Image src={text5} className="w-[30%] z-10 h-80" width={40} height={40} alt="Text Box 5" />
+          </motion.div>
+        )}
             {[C8, C7, C6, C5, C4, C3, C2, C1].map((Character, index) => (
               <div
                 key={index}
@@ -153,6 +244,15 @@ const Landing = () => {
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
             <MechFighters />
+            <motion.div
+              key="textBox6"
+              className="fixed bottom-10 w-full flex justify-center items-center z-1"
+              initial={{ opacity: 0, y: "100%" }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.5, ease: "easeInOut" }}
+            >
+              <Image src={text6} className="w-[50%] h-auto" width={200} height={200} alt="Text Box 6" />
+            </motion.div>
             {isAkuMechVisible && (
               <motion.div
                 className="absolute top-0 transform -translate-x-1/2"
@@ -161,6 +261,16 @@ const Landing = () => {
                 }}
               >
                 <AkuMech />
+              {/* TextBox 7 */}
+                <motion.div
+                key="textBox7"
+                  className="fixed top-0 w-full flex justify-center items-center z-50"
+                  initial={{ opacity: 0, y: "-100%" }}
+                  animate={{ opacity: 1, y: 80 }}
+                  transition={{ duration: 1, delay: 1, ease: "easeInOut" }}
+                >
+                  <Image src={text7} className="w-[50%] h-auto" width={200} height={200} alt="Text Box 7" />
+                </motion.div>
                 <motion.div
                   className="absolute inset-0"
                   style={{
@@ -189,6 +299,17 @@ const Landing = () => {
             }}
           >
             <FracturedAku />
+            <motion.div
+                key="textBox8"
+                className="absolute top-[30%] left-[10%] transform  z-10"
+                style={{
+                  // scale: textBox8Scale,
+                  // opacity: textBox8Opacity,
+                  willChange: "transform",
+                }}
+              >
+                <Image src={text8} className="w-[50%] h-auto" width={200} height={200} alt="Text Box 8" />
+              </motion.div>
           </motion.div>
         )}
 

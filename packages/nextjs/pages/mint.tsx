@@ -20,6 +20,7 @@ import { notification } from "~~/utils/scaffold-eth";
 
 
 
+const Openpack = dynamic(() => import("~~/components/mecha/buttons/Openpack"), { ssr: false });
 const Mint = dynamic(() => import("~~/components/mecha/Mint"), { ssr: false });
 const MintButton = dynamic(() => import("~~/components/mecha/buttons/MintButton"), { ssr: false });
 
@@ -239,7 +240,11 @@ const MintPage: NextPage = () => {
           <RainbowKitCustomConnectButton />
         </div>
       </div>
-    </>
+    <div className="absolute right-[8%] top-[38%]">
+      <RainbowKitCustomConnectButton />
+    </div>
+</>
+
   );
 };
 
