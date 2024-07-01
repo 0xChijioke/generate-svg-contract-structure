@@ -9,6 +9,7 @@ import { useDeployedContractInfo, useScaffoldContractRead, useScaffoldEventHisto
 import { placeholder } from "~~/public/assets/placeholder";
 import scaffoldConfig from "~~/scaffold.config";
 import { getTargetNetwork } from "~~/utils/scaffold-eth";
+import { RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
 
 const GalleryImage = dynamic(() => import("~~/components/mecha/GalleryImage"), { ssr: false });
 
@@ -16,7 +17,7 @@ const chain = getTargetNetwork();
 const provider = new JsonRpcProvider(chain.rpcUrls.public.http[0]);
 
 const Gallery: NextPage = () => {
-  const { address, isConnected } = useAccount();
+  const { address } = useAccount();
   const [tokenIds, setTokenIds] = useState<number[]>([]);
   const [ownedCards, setOwnedCards] = useState<{ [tokenId: number]: string }>({});
   const [loading, setLoading] = useState(true);
@@ -27,26 +28,47 @@ const Gallery: NextPage = () => {
     contractName: "OnchainMecha",
     eventName: "Transfer",
     fromBlock: scaffoldConfig.fromBlock,
-    filters: { from: "0x0000000000000000000000000000000000000000", to: '0x92f444Fc0CDa9D47521fB1D53672c4c2898e2328' },
+    filters: { to: address },
+  });
+  const { data: mintPackEvents, isLoading: mintPackEventsLoading, error: mintPackEventsError } = useScaffoldEventHistory({
+    contractName: "OnchainMechaPacks",
+    eventName: "Transfer",
+    fromBlock: scaffoldConfig.fromBlock,
+    filters: { from: "0x0000000000000000000000000000000000000000", to: address },
   });
 
+console.log(mintPackEvents)
 
-
-
-  const { data: balance } = useScaffoldContractRead({
-    contractName: "OnchainMecha",
-    functionName: "balanceOf",
-    args: ['0x1E8c64Fd8F94da1d0E23853118B7F73a7B467209'],
-  });
-
-  console.log(balance)
 
   const { data: tokenId, error, isError } = useScaffoldContractRead({
     contractName: "OnchainMecha",
     functionName: "tokenOfOwnerByIndex",
-    args: ['0x92f444Fc0CDa9D47521fB1D53672c4c2898e2328', 1n],
+    args: [address, 0n],
   });
-  console.log(isConnected, address)
+
+  const { data: totalSupply } = useScaffoldContractRead({
+    contractName: "OnchainMecha",
+    functionName: "totalSupply"
+  });
+  console.log(totalSupply)
+
+  const { data: token } = useScaffoldContractRead({
+    contractName: "OnchainMecha",
+    functionName: "tokenByIndex",
+    args: [Number(totalSupply) - 1]
+  });
+  console.log(token)
+  const { data: tokenURI } = useScaffoldContractRead({
+    contractName: "OnchainMecha",
+    functionName: "tokenURI",
+    args: [token]
+  });
+  console.log(tokenURI)
+
+
+
+
+
 
   console.log(tokenId, error, isError)
   const getSVG = async (tokenId: number) => {
@@ -76,7 +98,7 @@ const Gallery: NextPage = () => {
     }
   }, [mintCardEvents]);
 
-  console.log(mintCardEvents, mintCardEventsError, mintCardEventsLoading)
+  console.log(mintCardEvents)
 
   return (
     <>
@@ -86,13 +108,18 @@ const Gallery: NextPage = () => {
       <div className="fixed inset-0 w-full h-full -z-1">
         <GalleryImage />
       </div>
+      
+      {/* RainbowConnect Button */}
+      <div className="absolute top-20 right-40 z-10">
+        <RainbowKitCustomConnectButton />
+      </div>
 
       {/* Loading screen */}
-      {loading || !onchainMechData || !mintCardEvents ? (
-        <div className="fixed inset-0 flex justify-center items-center bg-opacity-80 text-white">
+      {/* {!loading ? ( */}
+        {/* <div className="fixed inset-0 flex justify-center items-center bg-opacity-80 text-white">
           <p>Loading...</p>
-        </div>
-      ) : (
+        </div> */}
+      // ) : (
         <section className="relative w-full min-h-screen p-10 pt-20 overflow-auto">
           <div className="grid grid-cols-3 gap-4">
             {tokenIds
@@ -104,11 +131,12 @@ const Gallery: NextPage = () => {
                   className="flex justify-center items-center rounded-xl shadow-lg p-4 transform transition-transform duration-300 hover:scale-105"
                 >
                   {ownedCards[tokenId] ? (
-                    <Image
+                    <img
                       alt={`NFT ${tokenId}`}
-                      src={ownedCards[tokenId]}
+                      src={tokenURI}
+                      // src={ownedCards[tokenId]}
                       className="rounded-xl"
-                      priority
+                      // priority
                       width={400}
                       height={400}
                     />
@@ -119,7 +147,7 @@ const Gallery: NextPage = () => {
               ))}
           </div>
         </section>
-      )}
+    }
     </>
   );
 };

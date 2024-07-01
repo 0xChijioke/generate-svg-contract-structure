@@ -195,29 +195,23 @@ const MintPage: NextPage = () => {
       <MetaHeader title="Mint | Onchain Mecha" description="Open pack and mint" />
       <div className="flex w-[100vw] h-[100vh] items-center justify-center relative">
         <div className="absolute left-[10%] top-[38%]">
-          {packData && packData[0] !== 0n ? (
-            <button className="btn btn-primary" disabled={openDisabled} onClick={openPack}>
-              Open Pack
+          {/* {packData && packData[0] !== 0n ? (
+            <button className="btn btn-ghost hover:bg-transparent w-80" disabled={openDisabled} onClick={openPack}>
+              <Openpack />
             </button>
           ) : (
             <button disabled={minting}>
               <MintButton onClick={() => writeAsync()} />
             </button>
-          )}
+          )} */}
         </div>
         <Mint />
         <div className="absolute top-10 text-center text-black text-lg">
           {packData && packData[0] !== 0n && (
             <><>
-              <button
-                className="btn btn-primary mt-2"
-                onClick={() => {
-                  mintPack();
-                } }
-                disabled={minting}
-              >
-                Mint Pack
-              </button>
+              <button disabled={minting}>
+              <MintButton onClick={() => mintPack()} />
+            </button>
             </><>
                 {packData && packData[0] !== 0n && tokenBalance && tokenBalance > 0n && (
                   <>
@@ -228,8 +222,8 @@ const MintPage: NextPage = () => {
                     {showOpenNotice && targetBlockNumber && blockNumber && (
                       <p>Wait for {(targetBlockNumber - blockNumber).toString()} blocks to open the pack</p>
                     )}
-                    <button className="btn btn-primary" disabled={openDisabled} onClick={openPack}>
-                      Open Pack
+                    <button className="btn btn-ghost w-80 hover:bg-transparent" disabled={openDisabled} onClick={openPack}>
+                      <Openpack />
                     </button>
                   </>
                 )}
