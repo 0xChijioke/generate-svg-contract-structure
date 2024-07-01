@@ -62,15 +62,8 @@ const Landing = () => {
   const textBox2Scale = useTransform(scrollY, [2000, 5000], [0.5, 1]);
   const textBox3Scale = useTransform(scrollY, [3000, 4000], [0.5, 1]);
 
-  const textBox4X = useTransform(scrollY, [4000, 6000], [100, 500]); // Slide out to the right
-  const textBox4Opacity = useTransform(scrollY, [4500, 5000], [1, 0]);
-
-  const textBox5X = useTransform(scrollY, [7500, 8000], [0, 500]); // Slide out to the right
-  const textBox5Opacity = useTransform(scrollY, [7500, 8000], [1, 0]);
-
-  // TextBox 8 scale transformation
-  const textBox8Scale = useTransform(scrollY, [12500, 14000], [1, 0.5]);
-  const textBox8Opacity = useTransform(scrollY, [12500, 14000], [0, 1]);
+  const textBox4X = useTransform(scrollY, [4000, 6000], [100, 500]); 
+ 
 
   useEffect(() => {
     const updateStateBasedOnScroll = (latest: number) => {
@@ -143,7 +136,7 @@ const Landing = () => {
               <>
                 <motion.div
                   key="textBox2"
-                  className="absolute top-[20%] right-[-28%] h-auto z-10 transform-gpu"
+                  className="absolute top-[24.2%] right-[-28%] h-auto z-10 transform-gpu"
                   style={{
                     scale: textBox2Scale,
                     willChange: "transform",
@@ -154,7 +147,7 @@ const Landing = () => {
 
                 <motion.div
                   key="textBox3"
-                  className="absolute top-[24.2%] right-[-8%] h-auto z-10 transform-gpu"
+                  className="absolute top-[20%] right-[1%] h-auto z-10 transform-gpu"
                   style={{
                     scale: textBox2Scale,
                     willChange: "transform",
