@@ -1,4 +1,5 @@
 import * as React from "react";
+
 const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
   <svg
     width={1920}
@@ -22,15 +23,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M1354.78 13.498c3.21 0 5.82-2.61 5.82-5.827a5.826 5.826 0 0 0-5.82-5.827c-3.21 0-5.81 2.609-5.81 5.827s2.6 5.827 5.81 5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="b"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={1348}
-        y={1}
-        width={13}
-        height={13}
-      >
+      <mask id="b" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={1348} y={1} width={13} height={13}>
         <path
           d="M1354.78 13.498c3.21 0 5.82-2.61 5.82-5.827a5.826 5.826 0 0 0-5.82-5.827c-3.21 0-5.81 2.609-5.81 5.827s2.6 5.827 5.81 5.827"
           fill="#fff"
@@ -66,15 +59,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M1353.31 65.396c3.21 0 5.81-2.609 5.81-5.827s-2.6-5.827-5.81-5.827a5.826 5.826 0 0 0-5.82 5.827 5.826 5.826 0 0 0 5.82 5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="c"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={1347}
-        y={53}
-        width={13}
-        height={13}
-      >
+      <mask id="c" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={1347} y={53} width={13} height={13}>
         <path
           d="M1353.31 65.396c3.21 0 5.81-2.609 5.81-5.827s-2.6-5.827-5.81-5.827a5.826 5.826 0 0 0-5.82 5.827 5.826 5.826 0 0 0 5.82 5.827"
           fill="#fff"
@@ -110,15 +95,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M892.627 13.498c3.211 0 5.814-2.61 5.814-5.827s-2.603-5.827-5.814-5.827-5.815 2.609-5.815 5.827 2.604 5.827 5.815 5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="d"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={886}
-        y={1}
-        width={13}
-        height={13}
-      >
+      <mask id="d" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={886} y={1} width={13} height={13}>
         <path
           d="M892.627 13.498c3.211 0 5.814-2.61 5.814-5.827s-2.603-5.827-5.814-5.827-5.815 2.609-5.815 5.827 2.604 5.827 5.815 5.827"
           fill="#fff"
@@ -154,15 +131,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M891.15 65.396a5.82 5.82 0 0 0 5.815-5.827 5.82 5.82 0 0 0-5.815-5.827c-3.211 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="e"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={885}
-        y={53}
-        width={12}
-        height={13}
-      >
+      <mask id="e" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={885} y={53} width={12} height={13}>
         <path
           d="M891.15 65.396a5.82 5.82 0 0 0 5.815-5.827 5.82 5.82 0 0 0-5.815-5.827c-3.211 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
           fill="#fff"
@@ -198,15 +167,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M500.018 13.498c3.211 0 5.814-2.61 5.814-5.827s-2.603-5.827-5.814-5.827a5.82 5.82 0 0 0-5.815 5.827 5.82 5.82 0 0 0 5.815 5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="f"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={494}
-        y={1}
-        width={12}
-        height={13}
-      >
+      <mask id="f" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={494} y={1} width={12} height={13}>
         <path
           d="M500.018 13.498c3.211 0 5.814-2.61 5.814-5.827s-2.603-5.827-5.814-5.827a5.82 5.82 0 0 0-5.815 5.827 5.82 5.82 0 0 0 5.815 5.827"
           fill="#fff"
@@ -242,15 +203,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M498.549 65.396c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827-5.815 2.609-5.815 5.827 2.604 5.827 5.815 5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="g"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={492}
-        y={53}
-        width={13}
-        height={13}
-      >
+      <mask id="g" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={492} y={53} width={13} height={13}>
         <path
           d="M498.549 65.396c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827-5.815 2.609-5.815 5.827 2.604 5.827 5.815 5.827"
           fill="#fff"
@@ -286,15 +239,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M82.994 13.498c3.211 0 5.815-2.61 5.815-5.827s-2.604-5.827-5.815-5.827S77.18 4.453 77.18 7.67s2.603 5.827 5.814 5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="h"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={77}
-        y={1}
-        width={12}
-        height={13}
-      >
+      <mask id="h" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={77} y={1} width={12} height={13}>
         <path
           d="M82.994 13.498c3.211 0 5.815-2.61 5.815-5.827s-2.604-5.827-5.815-5.827S77.18 4.453 77.18 7.67s2.603 5.827 5.814 5.827"
           fill="#fff"
@@ -330,15 +275,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M81.525 65.396c3.212 0 5.815-2.609 5.815-5.827s-2.603-5.827-5.815-5.827c-3.21 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="i"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={75}
-        y={53}
-        width={13}
-        height={13}
-      >
+      <mask id="i" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={75} y={53} width={13} height={13}>
         <path
           d="M81.525 65.396c3.212 0 5.815-2.609 5.815-5.827s-2.603-5.827-5.815-5.827c-3.21 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
           fill="#fff"
@@ -370,24 +307,9 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m-20.962 48.407-.015-4.576 2022.857-5.296.01 2.17z"
-        fill="#fff"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m-20.447 40.794-.014-4.577 2022.851-5.295.01 2.17z"
-        fill="#000"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m-25.525 232.778-.014-4.576 2022.859-5.296.01 2.17z"
-        fill="#fff"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m-20.962 48.407-.015-4.576 2022.857-5.296.01 2.17z" fill="#fff" />
+      <path fillRule="evenodd" clipRule="evenodd" d="m-20.447 40.794-.014-4.577 2022.851-5.295.01 2.17z" fill="#000" />
+      <path fillRule="evenodd" clipRule="evenodd" d="m-25.525 232.778-.014-4.576 2022.859-5.296.01 2.17z" fill="#fff" />
       <path
         d="M1998.58 918.348H-51.414v212.982H1998.58z"
         fill="#505050"
@@ -407,13 +329,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
       >
         <path d="M1998.58 918.348H-51.414v212.982H1998.58z" fill="#fff" />
       </mask>
-      <g
-        mask="url(#j)"
-        stroke="#636363"
-        strokeWidth={0.943}
-        strokeMiterlimit={2}
-        strokeLinejoin="round"
-      >
+      <g mask="url(#j)" stroke="#636363" strokeWidth={0.943} strokeMiterlimit={2} strokeLinejoin="round">
         <path d="M307.879 245.137 202.714 922.974m0 0 314.699-664.425M202.714 922.974l518.094-637.863M202.714 922.974l711.387-598.667M202.714 922.974l890.826-547.6m-890.826 547.6L1255.63 437.318M202.714 922.974 1397.21 508.933M202.714 922.974 1515.52 588.825M202.714 922.974 1608.29 675.439M202.714 922.974 1673.67 767.09M202.714 922.974l1507.696-60.981M202.714 922.974l1762.716 46.123M202.714 922.974 1943.22 1073.21M202.714 922.974 1644.49 1147.65M202.714 922.974 1565.23 1236.99M202.714 922.974 1459.44 1320.45M202.714 922.974 1329.17 1396.39M202.714 922.974l974.246 540.356M202.714 922.974l803.066 597.006M202.714 922.974l616.24 642.246m-616.24-642.246 417.418 675.206M202.714 922.974l210.445 695.236M202.714 922.974l-.63 701.966m.63-701.966L-8.991 1618.21m211.705-695.236-418.672 675.206m418.672-675.206-617.502 642.246m617.502-642.246-804.327 597.006m804.327-597.006-975.508 540.356m975.508-540.356L-924.999 1396.39M202.714 922.974-1055.27 1320.45M202.714 922.974-1161.06 1236.99M202.714 922.974-1240.33 1147.65M202.714 922.974-1291.51 1054.14M202.714 922.974l-1516.344 35.328m1516.344-35.328-1508.964-60.981m1508.964 60.981L-1269.5 767.09M202.714 922.974-1204.12 675.439M202.714 922.974-1111.37 588.825M202.714 922.974-993.044 508.933M202.714 922.974-851.464 437.318M202.714 922.974l-892.088-547.6m892.088 547.6-712.65-598.667m712.65 598.667-519.351-637.863m519.351 637.863-315.957-664.425m315.957 664.425L96.288 245.137" />
         <path
           fillRule="evenodd"
@@ -435,15 +351,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M1058.81 1005.97c3.22 0 5.82-2.61 5.82-5.83a5.82 5.82 0 0 0-5.82-5.828c-3.21 0-5.81 2.609-5.81 5.828s2.6 5.83 5.81 5.83"
         fill="#8D8D8D"
       />
-      <mask
-        id="k"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={1053}
-        y={994}
-        width={12}
-        height={12}
-      >
+      <mask id="k" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={1053} y={994} width={12} height={12}>
         <path
           d="M1058.81 1005.97c3.22 0 5.82-2.61 5.82-5.83a5.82 5.82 0 0 0-5.82-5.828c-3.21 0-5.81 2.609-5.81 5.828s2.6 5.83 5.81 5.83"
           fill="#fff"
@@ -523,15 +431,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M497.768 1010.04c3.211 0 5.814-2.61 5.814-5.83 0-3.21-2.603-5.823-5.814-5.823-3.212 0-5.815 2.613-5.815 5.823 0 3.22 2.603 5.83 5.815 5.83"
         fill="#8D8D8D"
       />
-      <mask
-        id="m"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={491}
-        y={998}
-        width={13}
-        height={13}
-      >
+      <mask id="m" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={491} y={998} width={13} height={13}>
         <path
           d="M497.768 1010.04c3.211 0 5.814-2.61 5.814-5.83 0-3.21-2.603-5.823-5.814-5.823-3.212 0-5.815 2.613-5.815 5.823 0 3.22 2.603 5.83 5.815 5.83"
           fill="#fff"
@@ -567,15 +467,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M496.291 1061.94c3.211 0 5.815-2.61 5.815-5.83a5.814 5.814 0 1 0-11.629 0c0 3.22 2.603 5.83 5.814 5.83"
         fill="#8D8D8D"
       />
-      <mask
-        id="n"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={490}
-        y={1050}
-        width={13}
-        height={12}
-      >
+      <mask id="n" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={490} y={1050} width={13} height={12}>
         <path
           d="M496.291 1061.94c3.211 0 5.815-2.61 5.815-5.83a5.814 5.814 0 1 0-11.629 0c0 3.22 2.603 5.83 5.814 5.83"
           fill="#fff"
@@ -611,15 +503,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M1632.81 1007.06c3.22 0 5.82-2.6 5.82-5.82a5.82 5.82 0 0 0-5.82-5.83c-3.21 0-5.81 2.609-5.81 5.83s2.6 5.82 5.81 5.82"
         fill="#8D8D8D"
       />
-      <mask
-        id="o"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={1627}
-        y={995}
-        width={12}
-        height={13}
-      >
+      <mask id="o" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={1627} y={995} width={12} height={13}>
         <path
           d="M1632.81 1007.06c3.22 0 5.82-2.6 5.82-5.82a5.82 5.82 0 0 0-5.82-5.83c-3.21 0-5.81 2.609-5.81 5.83s2.6 5.82 5.81 5.82"
           fill="#fff"
@@ -785,18 +669,8 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m-69.415 1036.99-.015-4.57 2022.86-5.3.01 2.17z"
-        fill="#fff"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m-68.9 1029.38-.014-4.58 2022.854-5.29.01 2.17z"
-        fill="#000"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m-69.415 1036.99-.015-4.57 2022.86-5.3.01 2.17z" fill="#fff" />
+      <path fillRule="evenodd" clipRule="evenodd" d="m-68.9 1029.38-.014-4.58 2022.854-5.29.01 2.17z" fill="#000" />
       <path
         d="M1995.2 916.664H-54.797V703.68H1995.2z"
         fill="#505050"
@@ -816,13 +690,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
       >
         <path d="M1995.2 916.664H-54.797V703.68H1995.2z" fill="#fff" />
       </mask>
-      <g
-        mask="url(#q)"
-        stroke="#636363"
-        strokeWidth={0.943}
-        strokeMiterlimit={2}
-        strokeLinejoin="round"
-      >
+      <g mask="url(#q)" stroke="#636363" strokeWidth={0.943} strokeMiterlimit={2} strokeLinejoin="round">
         <path d="M304.496 1589.88 199.331 912.038m0 0L514.03 1576.46M199.331 912.038 717.425 1549.9M199.331 912.038 910.718 1510.7M199.331 912.038l890.829 547.602M199.331 912.038 1252.24 1397.69M199.331 912.038 1393.83 1326.08M199.331 912.038 1512.14 1246.19M199.331 912.038 1604.91 1159.57M199.331 912.038 1670.29 1067.92M199.331 912.038l1507.699 60.981M199.331 912.038l1762.719-46.123M199.331 912.038 1939.84 761.807M199.331 912.038 1641.11 687.361M199.331 912.038 1561.84 598.02M199.331 912.038 1456.06 514.557M199.331 912.038 1325.78 438.62M199.331 912.038l974.249-540.359M199.331 912.038 1002.4 315.033M199.331 912.038l616.24-642.242m-616.24 642.242L616.749 236.83M199.331 912.038l210.446-695.236M199.331 912.038l-.629-701.967m.629 701.967L-12.374 216.802m211.705 695.236L-219.341 236.83m418.672 675.208-617.502-642.242m617.502 642.242-804.326-597.005m804.326 597.005-975.508-540.359m975.508 540.359L-928.381 438.62M199.331 912.038-1058.65 514.557M199.331 912.038-1164.45 598.02M199.331 912.038-1243.71 687.361M199.331 912.038-1294.9 780.871M199.331 912.038l-1516.351-35.329m1516.351 35.329-1508.961 60.981m1508.961-60.981L-1272.89 1067.92M199.331 912.038-1207.5 1159.57M199.331 912.038-1114.75 1246.19M199.331 912.038-996.427 1326.08M199.331 912.038-854.846 1397.69M199.331 912.038l-892.088 547.602m892.088-547.602-712.65 598.662m712.65-598.662L-320.02 1549.9m519.351-637.862-315.956 664.422m315.956-664.422L92.905 1589.88" />
         <path
           fillRule="evenodd"
@@ -844,15 +712,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M1055.43 829.049c3.21 0 5.82 2.609 5.82 5.827a5.826 5.826 0 0 1-5.82 5.827c-3.21 0-5.81-2.609-5.81-5.827s2.6-5.827 5.81-5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="r"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={1049}
-        y={829}
-        width={13}
-        height={12}
-      >
+      <mask id="r" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={1049} y={829} width={13} height={12}>
         <path
           d="M1055.43 829.049c3.21 0 5.82 2.609 5.82 5.827a5.826 5.826 0 0 1-5.82 5.827c-3.21 0-5.81-2.609-5.81-5.827s2.6-5.827 5.81-5.827"
           fill="#fff"
@@ -888,15 +748,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M1053.96 777.151c3.21 0 5.82 2.609 5.82 5.827a5.826 5.826 0 0 1-5.82 5.827c-3.21 0-5.81-2.609-5.81-5.827s2.6-5.827 5.81-5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="s"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={1048}
-        y={777}
-        width={12}
-        height={12}
-      >
+      <mask id="s" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={1048} y={777} width={12} height={12}>
         <path
           d="M1053.96 777.151c3.21 0 5.82 2.609 5.82 5.827a5.826 5.826 0 0 1-5.82 5.827c-3.21 0-5.81-2.609-5.81-5.827s2.6-5.827 5.81-5.827"
           fill="#fff"
@@ -932,15 +784,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M494.377 824.975c3.211 0 5.814 2.609 5.814 5.827s-2.603 5.827-5.814 5.827-5.815-2.609-5.815-5.827 2.604-5.827 5.815-5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="t"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={488}
-        y={824}
-        width={13}
-        height={13}
-      >
+      <mask id="t" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={488} y={824} width={13} height={13}>
         <path
           d="M494.377 824.975c3.211 0 5.814 2.609 5.814 5.827s-2.603 5.827-5.814 5.827-5.815-2.609-5.815-5.827 2.604-5.827 5.815-5.827"
           fill="#fff"
@@ -976,15 +820,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M492.908 773.077a5.82 5.82 0 0 1 5.815 5.827 5.82 5.82 0 0 1-5.815 5.826 5.82 5.82 0 0 1-5.814-5.826c0-3.219 2.603-5.827 5.814-5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="u"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={487}
-        y={773}
-        width={12}
-        height={12}
-      >
+      <mask id="u" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={487} y={773} width={12} height={12}>
         <path
           d="M492.908 773.077a5.82 5.82 0 0 1 5.815 5.827 5.82 5.82 0 0 1-5.815 5.826 5.82 5.82 0 0 1-5.814-5.826c0-3.219 2.603-5.827 5.814-5.827"
           fill="#fff"
@@ -1020,15 +856,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M1629.42 827.948a5.82 5.82 0 0 1 5.82 5.827 5.82 5.82 0 0 1-5.82 5.827c-3.21 0-5.81-2.609-5.81-5.827s2.6-5.827 5.81-5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="v"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={1623}
-        y={827}
-        width={13}
-        height={13}
-      >
+      <mask id="v" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={1623} y={827} width={13} height={13}>
         <path
           d="M1629.42 827.948a5.82 5.82 0 0 1 5.82 5.827 5.82 5.82 0 0 1-5.82 5.827c-3.21 0-5.81-2.609-5.81-5.827s2.6-5.827 5.81-5.827"
           fill="#fff"
@@ -1064,15 +892,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M1627.96 776.049c3.21 0 5.81 2.609 5.81 5.827s-2.6 5.827-5.81 5.827a5.82 5.82 0 0 1-5.82-5.827 5.82 5.82 0 0 1 5.82-5.827"
         fill="#8D8D8D"
       />
-      <mask
-        id="w"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={1622}
-        y={776}
-        width={12}
-        height={12}
-      >
+      <mask id="w" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={1622} y={776} width={12} height={12}>
         <path
           d="M1627.96 776.049c3.21 0 5.81 2.609 5.81 5.827s-2.6 5.827-5.81 5.827a5.82 5.82 0 0 1-5.82-5.827 5.82 5.82 0 0 1 5.82-5.827"
           fill="#fff"
@@ -1178,12 +998,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         fill="#FF7418"
         fillOpacity={0.52}
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m-72.812 802.595.014-4.576 2022.848 7.702-.01 2.17z"
-        fill="#fff"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m-72.812 802.595.014-4.576 2022.848 7.702-.01 2.17z" fill="#fff" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -1223,15 +1038,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M97.025 172.287c3.212 0 5.815-2.609 5.815-5.827s-2.603-5.827-5.815-5.827c-3.21 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
         fill="gray"
       />
-      <mask
-        id="x"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={91}
-        y={160}
-        width={12}
-        height={13}
-      >
+      <mask id="x" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={91} y={160} width={12} height={13}>
         <path
           d="M97.025 172.287c3.212 0 5.815-2.609 5.815-5.827s-2.603-5.827-5.815-5.827c-3.21 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
           fill="#fff"
@@ -1257,15 +1064,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M158.213 125.556c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827-5.815 2.609-5.815 5.827 2.604 5.827 5.815 5.827"
         fill="gray"
       />
-      <mask
-        id="y"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={152}
-        y={113}
-        width={13}
-        height={13}
-      >
+      <mask id="y" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={152} y={113} width={13} height={13}>
         <path
           d="M158.213 125.556c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827-5.815 2.609-5.815 5.827 2.604 5.827 5.815 5.827"
           fill="#fff"
@@ -1291,15 +1090,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M216.275 85.908a5.82 5.82 0 0 0 5.815-5.827 5.82 5.82 0 0 0-5.815-5.827c-3.211 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
         fill="gray"
       />
-      <mask
-        id="z"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={210}
-        y={74}
-        width={13}
-        height={12}
-      >
+      <mask id="z" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={210} y={74} width={13} height={12}>
         <path
           d="M216.275 85.908a5.82 5.82 0 0 0 5.815-5.827 5.82 5.82 0 0 0-5.815-5.827c-3.211 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
           fill="#fff"
@@ -1325,15 +1116,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M248.65 170.955a5.82 5.82 0 0 0 5.815-5.827 5.82 5.82 0 0 0-5.815-5.827c-3.211 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
         fill="gray"
       />
-      <mask
-        id="A"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={242}
-        y={159}
-        width={13}
-        height={12}
-      >
+      <mask id="A" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={242} y={159} width={13} height={12}>
         <path
           d="M248.65 170.955a5.82 5.82 0 0 0 5.815-5.827 5.82 5.82 0 0 0-5.815-5.827c-3.211 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
           fill="#fff"
@@ -1359,15 +1142,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M327.189 130.369a5.82 5.82 0 0 0 5.815-5.827 5.82 5.82 0 0 0-5.815-5.827c-3.211 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
         fill="gray"
       />
-      <mask
-        id="B"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={321}
-        y={118}
-        width={13}
-        height={13}
-      >
+      <mask id="B" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={321} y={118} width={13} height={13}>
         <path
           d="M327.189 130.369a5.82 5.82 0 0 0 5.815-5.827 5.82 5.82 0 0 0-5.815-5.827c-3.211 0-5.814 2.609-5.814 5.827s2.603 5.827 5.814 5.827"
           fill="#fff"
@@ -1393,15 +1168,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M393.682 165.486c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827a5.82 5.82 0 0 0-5.815 5.827 5.82 5.82 0 0 0 5.815 5.827"
         fill="gray"
       />
-      <mask
-        id="C"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={387}
-        y={153}
-        width={13}
-        height={13}
-      >
+      <mask id="C" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={387} y={153} width={13} height={13}>
         <path
           d="M393.682 165.486c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827a5.82 5.82 0 0 0-5.815 5.827 5.82 5.82 0 0 0 5.815 5.827"
           fill="#fff"
@@ -1427,15 +1194,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M460.908 131.142c3.211 0 5.815-2.609 5.815-5.827s-2.604-5.827-5.815-5.827-5.814 2.609-5.814 5.827 2.603 5.827 5.814 5.827"
         fill="gray"
       />
-      <mask
-        id="D"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={455}
-        y={119}
-        width={12}
-        height={13}
-      >
+      <mask id="D" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={455} y={119} width={12} height={13}>
         <path
           d="M460.908 131.142c3.211 0 5.815-2.609 5.815-5.827s-2.604-5.827-5.815-5.827-5.814 2.609-5.814 5.827 2.603 5.827 5.814 5.827"
           fill="#fff"
@@ -1461,15 +1220,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M558.924 140.123c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827-5.815 2.609-5.815 5.827 2.604 5.827 5.815 5.827"
         fill="gray"
       />
-      <mask
-        id="E"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={553}
-        y={128}
-        width={12}
-        height={13}
-      >
+      <mask id="E" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={553} y={128} width={12} height={13}>
         <path
           d="M558.924 140.123c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827-5.815 2.609-5.815 5.827 2.604 5.827 5.815 5.827"
           fill="#fff"
@@ -1495,15 +1246,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M625.729 88.986c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827a5.82 5.82 0 0 0-5.815 5.827 5.82 5.82 0 0 0 5.815 5.827"
         fill="gray"
       />
-      <mask
-        id="F"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={619}
-        y={77}
-        width={13}
-        height={12}
-      >
+      <mask id="F" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={619} y={77} width={13} height={12}>
         <path
           d="M625.729 88.986c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827a5.82 5.82 0 0 0-5.815 5.827 5.82 5.82 0 0 0 5.815 5.827"
           fill="#fff"
@@ -1529,15 +1272,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M686.619 163.658c3.211 0 5.815-2.609 5.815-5.827s-2.604-5.827-5.815-5.827-5.814 2.609-5.814 5.827 2.603 5.827 5.814 5.827"
         fill="gray"
       />
-      <mask
-        id="G"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={680}
-        y={152}
-        width={13}
-        height={12}
-      >
+      <mask id="G" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={680} y={152} width={13} height={12}>
         <path
           d="M686.619 163.658c3.211 0 5.815-2.609 5.815-5.827s-2.604-5.827-5.815-5.827-5.814 2.609-5.814 5.827 2.603 5.827 5.814 5.827"
           fill="#fff"
@@ -1563,15 +1298,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M738.596 128.076c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827a5.82 5.82 0 0 0-5.815 5.827 5.82 5.82 0 0 0 5.815 5.827"
         fill="gray"
       />
-      <mask
-        id="H"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={732}
-        y={116}
-        width={13}
-        height={13}
-      >
+      <mask id="H" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={732} y={116} width={13} height={13}>
         <path
           d="M738.596 128.076c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827a5.82 5.82 0 0 0-5.815 5.827 5.82 5.82 0 0 0 5.815 5.827"
           fill="#fff"
@@ -1597,15 +1324,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M813.971 132.884c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827a5.82 5.82 0 0 0-5.815 5.827 5.82 5.82 0 0 0 5.815 5.827"
         fill="gray"
       />
-      <mask
-        id="I"
-        style={{ maskType: "luminance" }}
-        maskUnits="userSpaceOnUse"
-        x={808}
-        y={121}
-        width={12}
-        height={12}
-      >
+      <mask id="I" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x={808} y={121} width={12} height={12}>
         <path
           d="M813.971 132.884c3.211 0 5.814-2.609 5.814-5.827s-2.603-5.827-5.814-5.827a5.82 5.82 0 0 0-5.815 5.827 5.82 5.82 0 0 0 5.815 5.827"
           fill="#fff"
@@ -1816,11 +1535,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         />
       </mask>
       <g mask="url(#K)">
-        <path
-          transform="rotate(5.493 1251.22 212.945)"
-          fill="url(#L)"
-          d="M1251.22 212.945h464.653v464.652H1251.22z"
-        />
+        <path transform="rotate(5.493 1251.22 212.945)" fill="url(#L)" d="M1251.22 212.945h464.653v464.652H1251.22z" />
       </g>
       <path
         fillRule="evenodd"
@@ -2524,12 +2239,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m584.465 552.785 43.23-10.491 2.108 3.951z"
-        fill="#fff"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m584.465 552.785 43.23-10.491 2.108 3.951z" fill="#fff" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -2541,12 +2251,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m601.179 558.127 42.874-9.335 3.243 3.108z"
-        fill="#fff"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m601.179 558.127 42.874-9.335 3.243 3.108z" fill="#fff" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -4029,11 +3734,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         />
       </mask>
       <g mask="url(#P)">
-        <path
-          transform="rotate(-3.13 790.289 425.703)"
-          fill="url(#Q)"
-          d="M790.289 425.703h372.923v460.998H790.289z"
-        />
+        <path transform="rotate(-3.13 790.289 425.703)" fill="url(#Q)" d="M790.289 425.703h372.923v460.998H790.289z" />
       </g>
       <path
         fillRule="evenodd"
@@ -4569,12 +4270,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M621.556 940.292c-.593 18.631-.545 18.628-1.186 37.255-.095 2.774-.206 5.548-.319 8.321-.05 1.241-1.106 1.869-1.885 1.88-4.045.057-27.052.38-50.569.315-34.757-.096-175.183-.835-175.667-.919a2.03 2.03 0 0 1-1.649-1.761c-.418-3.859-5.191-47.947-5.172-48.25a1.864 1.864 0 0 1 1.87-1.723c21.965.338 233.545 3.814 233.757 3.852a1 1 0 0 1 .553.299c.275.293.191.335.267.731m-2.059.926-231.633-3.151 6.185 45.103 170.407.027c5.4.013 10.801.032 16.201.099 11.895.146 23.79.393 35.685.54z"
         fill="#FF050B"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m442.281 948.203-.133 6.61-18.789-2.122.067-3.135z"
-        fill="#000"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m442.281 948.203-.133 6.61-18.789-2.122.067-3.135z" fill="#000" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -4605,12 +4301,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M497.207 967.068 492.948 948l3.097-.492c4.358 21.847 4.674 21.882 4.309 23.018-.432 1.34-1.619 1.644-1.81 1.693-.341.088-.357-.021-4.334.724-4.915.916-8.751.896-12.288-3.378l5.314-3.94c.473.696.988 1.561 2.781 1.792 1.901.245 3.719-.216 7.19-.349m70.834-11.778-.033-6.61 19.976 1.639.008 3.134zm3.585 9.771-.024-6.612 14.031 1.673.016 3.134zm-3.491 8.932-.041-6.61 19.818 1.596.025 3.134z"
         fill="#000"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m577.413 973.575-6.608.084 1.428-24.162 3.13-.04z"
-        fill="#000"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m577.413 973.575-6.608.084 1.428-24.162 3.13-.04z" fill="#000" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -4637,12 +4328,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M1108.85 884.572c0 2.66.01 5.32.01 7.98-.01 3.033-.11 36.536-.36 37.913-.14.776-.79 1.427-1.57 1.576-2.04.391-121.424-.726-131.982-.824-.844-.008-1.654-.688-1.711-1.636-.236-3.854-2.93-47.926-2.901-48.188a1.543 1.543 0 0 1 1.563-1.357c2.98.07 136.091 3.633 136.251 3.662.27.051.44.224.47.255.23.248.16.284.23.619m-1.77.819-133.583-2.278 3.086 44.63c26.977.033 53.947.02 80.917.053 9.72.012 19.43.018 29.14.081 6.02.038 12.03.185 18.05.224.39-7.228.71-14.459 1.1-21.686.27-4.867.57-9.733.87-14.598.13-2.143.28-4.284.42-6.426"
         fill="#FF050B"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m1064.66 916.574-6.61.131 1.25-24.494 3.13-.063z"
-        fill="#000"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m1064.66 916.574-6.61.131 1.25-24.494 3.13-.063z" fill="#000" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -4655,30 +4341,15 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="m1069.24 892.306 6.6-.318-.5 25.616-3.13.15zm-35.27 26.266-3.69-5.487c.93-.537 3.25-1.79 4.74-6.63 1.49-4.776 1.5-10.965 1.53-13.456l3.13-.198c.47 3.652 1.39 10.718-.02 16.612-1.42 5.873-4.56 8.27-5.69 9.159"
         fill="#000"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m1051.22 891.699-.14 6.61-19.13-2.125.06-3.134z"
-        fill="#000"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m1052.72 916.24-6.61-.121 2.13-21.931 3.14.056z"
-        fill="#000"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m1051.22 891.699-.14 6.61-19.13-2.125.06-3.134z" fill="#000" />
+      <path fillRule="evenodd" clipRule="evenodd" d="m1052.72 916.24-6.61-.121 2.13-21.931 3.14.056z" fill="#000" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
         d="m1032.03 908.552-.05-6.611 17.22 1.644.02 3.134zm-12.62-9.726-14.33-.38.09-3.134c5.41.049 10.82.026 16.24.075.09.001.84.17 1.31.813.03.03 5.41 9.877 4.61 15.518-.58 4.055-3.51 5.867-15.34 6.019-5.08.065-10.41-.263-11.31-.319l.64-6.579c1.67.206 16.54 2.059 20.92.393v.004c.16-.349.45-1.221-.1-4.013-.63-3.153-2.16-7.025-2.73-8.397"
         fill="#000"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m1012.66 915.562-6.61-.054 1.92-21.712 3.13.026z"
-        fill="#000"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m1012.66 915.562-6.61-.054 1.92-21.712 3.13.026z" fill="#000" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -4741,12 +4412,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="m1537.31 952.004-6.61.005 1.72-24.535 3.13-.001zm-33.65-18.62v-6.611l18.15 1.732v3.135z"
         fill="#000"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m1515.73 952.004-6.61.005 1.72-24.535 3.13-.001z"
-        fill="#000"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m1515.73 952.004-6.61.005 1.72-24.535 3.13-.001z" fill="#000" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -4773,12 +4439,7 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="M1146.51 79.637c-.01.464-.42 23.577-1.08 45.572-.04 1.222-1.08 1.874-1.88 1.888-16.25.273-34.67.212-37.68.202-30.13-.098-152.489-.828-152.949-.909a1.92 1.92 0 0 1-1.554-1.695c-.35-3.857-4.344-47.938-4.32-48.225a1.736 1.736 0 0 1 1.748-1.575c14.335.255 196.745 3.744 196.945 3.778.3.054.48.246.52.28.25.275.18.314.25.684m-1.94.885-193.914-2.176 4.3 44.293 147.674.064c4.68.014 9.36.038 14.05.097 8.35.107 16.69.295 25.04.401z"
         fill="#FF050B"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M1001.38 95.493v-6.61l18.15 1.731v3.135z"
-        fill="#000"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="M1001.38 95.493v-6.61l18.15 1.731v3.135z" fill="#000" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -4791,18 +4452,8 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
         d="m1030.12 114.461-6.61.084 1.43-24.162 3.13-.04zm14.27 2.174-3.69-5.488c.93-.536 3.25-1.79 4.74-6.63 1.49-4.775 1.51-10.964 1.53-13.455l3.13-.199c.47 3.652 1.4 10.718-.02 16.613-1.41 5.873-4.56 8.27-5.69 9.159"
         fill="#000"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m1061.64 89.762-.14 6.61-19.13-2.126.06-3.134z"
-        fill="#000"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m1063.14 114.302-6.61-.12 2.14-21.932 3.13.057z"
-        fill="#000"
-      />
+      <path fillRule="evenodd" clipRule="evenodd" d="m1061.64 89.762-.14 6.61-19.13-2.126.06-3.134z" fill="#000" />
+      <path fillRule="evenodd" clipRule="evenodd" d="m1063.14 114.302-6.61-.12 2.14-21.932 3.13.057z" fill="#000" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -4823,28 +4474,13 @@ const Team = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElemen
       />
     </g>
     <defs>
-      <pattern
-        id="L"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
+      <pattern id="L" patternContentUnits="objectBoundingBox" width={1} height={1}>
         <use xlinkHref="#R" transform="scale(.0025)" />
       </pattern>
-      <pattern
-        id="N"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
+      <pattern id="N" patternContentUnits="objectBoundingBox" width={1} height={1}>
         <use xlinkHref="#S" transform="scale(.0025)" />
       </pattern>
-      <pattern
-        id="Q"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
+      <pattern id="Q" patternContentUnits="objectBoundingBox" width={1} height={1}>
         <use xlinkHref="#T" transform="scale(.0015 .0012)" />
       </pattern>
       <image
