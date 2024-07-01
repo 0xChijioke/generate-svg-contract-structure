@@ -76,14 +76,14 @@ const MintPage: NextPage = () => {
 
   useEffect(() => {
     if (packData) {
-      console.log("packData: ", packData);
+      // console.log("packData: ", packData);
       setTargetBlockNumber(packData[0]);
     }
   }, [packData]);
 
   useEffect(() => {
     if (packData !== undefined && packData[1]) {
-      console.log("hits: ", packData);
+      // console.log("hits: ", packData);
       setOpened(true);
     }
   }, [packData]);

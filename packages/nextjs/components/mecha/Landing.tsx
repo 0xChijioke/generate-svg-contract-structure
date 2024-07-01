@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { C1, C2, C3, C4, C5, C6, C7, C8 } from "./Characters";
-import EasedCanvasAnimation from "./EasedCanvasAnimation";
 import { text1, text2, text3, text4, text5, text6, text7, text8, text9 } from "./Story";
 import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
+import { useRouter } from "next/router";
 
 const AkuEntrance = dynamic(() => import("./AkuEntrance"), { ssr: false });
 const MechFighters = dynamic(() => import("./MechFighters"), { ssr: false });
@@ -15,6 +15,8 @@ const Explosion = dynamic(() => import("./Explosion"), { ssr: false });
 const Vortex = dynamic(() => import("./Vortex"), { ssr: false });
 
 const Landing = () => {
+
+  const router = useRouter();
   const { scrollY } = useScroll();
   const [isAkuZoomedOut, setIsAkuZoomedOut] = useState(false);
   const [totalWidth, setTotalWidth] = useState(0);
@@ -30,7 +32,6 @@ const Landing = () => {
     }
   }, []);
 
-  // console.log(window.scrollY);
   // Offset first scene transition
   const offset = 4000;
   // // Transformations for zooming out
@@ -55,15 +56,13 @@ const Landing = () => {
 
   // Transformations for ScatteredMechs
   const scatteredMechsScale = useTransform(scrollY, [14000, 20000, 30000], [180, 1, -0]);
-  const scatteredMechsRotate = useTransform(scrollY, [40000, 60000], [0, 360 * 5]); // Rotate 5 times
+  const scatteredMechsRotate = useTransform(scrollY, [20000, 30000], [0, 360 * 10]);
 
   // TextBox Transformations
   const textBox1Scale = useTransform(scrollY, [0, 4000], [1, 0.5]);
   const textBox2Scale = useTransform(scrollY, [2000, 5000], [0.5, 1]);
-  const textBox3Scale = useTransform(scrollY, [3000, 4000], [0.5, 1]);
 
-  const textBox4X = useTransform(scrollY, [4000, 6000], [100, 500]); 
- 
+  const textBox4X = useTransform(scrollY, [4000, 6000], [100, 500]);
 
   useEffect(() => {
     const updateStateBasedOnScroll = (latest: number) => {
@@ -73,7 +72,11 @@ const Landing = () => {
       setIsAkuMechVisible(latest >= 9000);
       setIsFracturedAkuVisible(latest >= 12500);
       setIsInVortexScene(latest >= 13000);
+      if (latest >= 30000) {
+        router.push("/mint");
+      }
     };
+
 
     const unsubscribe = scrollY.onChange(updateStateBasedOnScroll);
     return () => unsubscribe();
@@ -136,7 +139,7 @@ const Landing = () => {
               <>
                 <motion.div
                   key="textBox2"
-                  className="absolute top-[24.2%] right-[-28%] h-auto z-10 transform-gpu"
+                  className="absolute top-[24%] right-[-28%] h-auto z-10 transform-gpu"
                   style={{
                     scale: textBox2Scale,
                     willChange: "transform",
@@ -147,7 +150,7 @@ const Landing = () => {
 
                 <motion.div
                   key="textBox3"
-                  className="absolute top-[20%] right-[1%] h-auto z-10 transform-gpu"
+                  className="absolute top-[19.5%] right-[-2%] h-auto z-10 transform-gpu"
                   style={{
                     scale: textBox2Scale,
                     willChange: "transform",
