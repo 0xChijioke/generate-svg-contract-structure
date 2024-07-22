@@ -1,6 +1,5 @@
 // components/Layout.tsx
 import { ReactNode } from "react";
-import dynamic from "next/dynamic";
 import { MetaHeader } from "~~/components/MetaHeader";
 import { galleryImage } from "../base64Elements";
 

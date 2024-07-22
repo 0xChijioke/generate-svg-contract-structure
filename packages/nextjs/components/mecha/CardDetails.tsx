@@ -30,15 +30,15 @@ const CardDetails: FC<CardDetailsProps> = props => {
       </div>
       <div className="flex flex-col gap-y-4 mb-8 p-8 text-xl space-y-2">
         <p className="mb-2">
-          Name: {props.tokenMetadata.name.slice(0, 24)}...{props.tokenId.slice(-4)}
+          {props.tokenMetadata.name.slice(0, 24)}...{props.tokenId.slice(-4)}
         </p>
         <p className="mb-2">
-          Description: {props.tokenMetadata.description.slice(0, 32)}...{props.tokenId.slice(-4)}
+          {props.tokenMetadata.description.slice(0, 32)}...{props.tokenId.slice(-4)}
         </p>
-        <p className="mb-2">Mecha Type: {props.mechaType}</p>
-        <p className="mb-2">Rarity: {props.tokenMetadata.attributes[0].value}</p>
-        <div className="mb-2 flex space-x-2 whitespace-nowrap">
-          <strong>Owner :</strong> <Address address={props.tokenMetadata.owner} />
+        {/* <p className="mb-2">Mecha Type: {props.mechaType}</p> */}
+        <p className="mb-2">{props.tokenMetadata.attributes[0].value} card</p>
+        <div className="mb-2 flex gap-x-2 whitespace-nowrap">
+          Owner  <Address address={props.tokenMetadata.owner} />
         </div>
       </div>
     </div>

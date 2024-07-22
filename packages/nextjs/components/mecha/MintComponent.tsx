@@ -1,8 +1,6 @@
 import { FC, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
-import { useAccount } from "wagmi";
-import { useScaffoldEventSubscriber, useTransactor } from "~~/hooks/scaffold-eth";
 import { useMintPack } from "~~/hooks/useMintPack";
 
 const MintButton = dynamic(() => import("~~/components/mecha/buttons/MintButton"), { ssr: false });

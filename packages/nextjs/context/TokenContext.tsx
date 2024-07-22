@@ -36,7 +36,7 @@ export const TokenProvider: React.FC<{ children: ReactNode }> = ({ children }) =
 
   useEffect(() => {
     if (address && tokenBalance) {
-      console.log(tokenBalance);
+      // console.log(tokenBalance);
       setUserBalance(tokenBalance.toString());
     }
     if (Number(tokenBalance) === 0) setUserBalance("0");

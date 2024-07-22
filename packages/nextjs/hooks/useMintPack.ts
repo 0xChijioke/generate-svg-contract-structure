@@ -1,4 +1,4 @@
-// hooks/useMintPack.ts
+
 import { useAccount } from "wagmi";
 import { useScaffoldContractRead, useScaffoldContractWrite } from "~~/hooks/scaffold-eth";
 
@@ -8,7 +8,7 @@ export const useMintPack = () => {
   const { writeAsync, isLoading, isMining, isSuccess, isError } = useScaffoldContractWrite({
     contractName: "OnchainMechaPacks",
     functionName: "mintPack",
-    value: "0",
+    value: "0.0007777777",
     onBlockConfirmation: txnReceipt => {
       console.log("Transaction blockHash", txnReceipt.blockHash);
     },
