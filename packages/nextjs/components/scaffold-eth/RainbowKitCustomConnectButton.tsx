@@ -41,7 +41,11 @@ export const RainbowKitCustomConnectButton = () => {
             {(() => {
               if (!connected) {
                 return (
-                  <button className="btn btn-ghost hover:bg-transparent" onClick={openConnectModal} type="button">
+                  <button
+                    className="btn btn-ghost w-48 md:w-60 pt-4 hover:bg-transparent"
+                    onClick={openConnectModal}
+                    type="button"
+                  >
                     <Connect />
                   </button>
                 );
@@ -50,7 +54,7 @@ export const RainbowKitCustomConnectButton = () => {
               if (chain.unsupported || chain.id !== configuredNetwork.id) {
                 return (
                   <div className="dropdown dropdown-end">
-                    <label tabIndex={0} className="btn btn-error btn-sm dropdown-toggle gap-1">
+                    <label tabIndex={0} className="btn btn-error btn-sm mr-1 mt-2 md:mt-5 dropdown-toggle gap-1">
                       <span>Wrong network</span>
                       <ChevronDownIcon className="h-6 w-4 ml-2 sm:ml-0" />
                     </label>
@@ -86,7 +90,7 @@ export const RainbowKitCustomConnectButton = () => {
 
               return (
                 <div className="px-2 flex justify-end items-center">
-                  <div className="flex flex-col items-center mr-1">
+                  <div className="md:flex hidden flex-col items-center mr-1">
                     <Balance address={account.address} className="min-h-0 h-auto" />
                     <span className="text-xs" style={{ color: networkColor }}>
                       {chain.name}
