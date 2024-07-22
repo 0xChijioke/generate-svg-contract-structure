@@ -65,7 +65,7 @@ const ScaffoldEthApp = ({ Component, pageProps }: AppProps) => {
         <div className="flex flex-col bg-black min-h-screen">
           <Header />
             <main className="relative flex flex-col flex-1">{wrapWithProviders(<Component {...pageProps} />)}</main>
-            <Footer />
+          <Footer />
         </div>
         <Toaster />
         </QueryClientProvider>
