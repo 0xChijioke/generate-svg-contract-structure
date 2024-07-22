@@ -35,12 +35,12 @@ const Card: NextPage<CardProps> = props => {
 
 export async function getServerSideProps(context: any) {
   const { tokenId } = context.params;
-  const { tokenMetadata, mechaType }: any = await getTokenDetails(tokenId, provider);
+  const { tokenMetadata }: any = await getTokenDetails(tokenId, provider);
 
   return {
     props: {
       tokenId,
-      mechaType,
+      // mechaType,
       tokenMetadata,
     },
   };

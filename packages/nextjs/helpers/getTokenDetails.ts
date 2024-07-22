@@ -15,12 +15,12 @@ export const getTokenDetails = async (tokenId: string, provider: ContractRunner)
     const tokenMetadata = JSON.parse(json);
 
     // Fetch mecha type
-    const mechaType = (await contract.getMechaType(tokenId)).toString();
+    // const mechaType = (await contract.getMechaType(tokenId)).toString();
     // console.log(`Mecha Type: ${mechaType}`);
 
     return {
       tokenMetadata,
-      mechaType,
+      // mechaType,
     };
   } catch (error) {
     console.error(`Error fetching token data for token ID ${tokenId}:`, error);
