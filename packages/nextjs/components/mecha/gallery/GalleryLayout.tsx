@@ -1,7 +1,7 @@
 // components/Layout.tsx
 import { ReactNode } from "react";
-import { MetaHeader } from "~~/components/MetaHeader";
 import { galleryImage } from "../base64Elements";
+import { MetaHeader } from "~~/components/MetaHeader";
 
 interface LayoutProps {
   title: string;
