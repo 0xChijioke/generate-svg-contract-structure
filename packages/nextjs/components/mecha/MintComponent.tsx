@@ -28,7 +28,10 @@ const MintComponent: FC = () => {
             {minting && <p>Minting in progress...</p>}
             {isError && <p>An error occurred. Please try again.</p>}
           </div>
-          <button disabled={minting} className="btn btn-ghost focus:bg-transparent active:bg-transperent p-0 m-0 items-center mx-auto mt-10 hover:bg-transparent">
+          <button
+            disabled={minting}
+            className="btn btn-ghost focus:bg-transparent active:bg-transperent p-0 m-0 items-center mx-auto mt-10 hover:bg-transparent"
+          >
             <MintButton onClick={mintPack} />
           </button>
         </div>

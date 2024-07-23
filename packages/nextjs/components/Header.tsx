@@ -32,15 +32,15 @@ export const Header = () => {
       <div className="relative" ref={burgerMenuRef}>
         <div className="flex pt-20 md:pt-14">
           <RainbowKitCustomConnectButton />
-        <motion.div
-          onClick={() => setIsDrawerOpen(prevState => !prevState)}
+          <motion.div
+            onClick={() => setIsDrawerOpen(prevState => !prevState)}
             className="cursor-pointer w-16 mr-6 md:w-24"
-          initial={false}
-          animate={isDrawerOpen ? { rotate: 180, color: "#FF5722" } : { rotate: 0, color: "#000" }}
-          transition={{ duration: 0.5, ease: "easeInOut" }}
-        >
-          <Hamburger />
-        </motion.div>
+            initial={false}
+            animate={isDrawerOpen ? { rotate: 180, color: "#FF5722" } : { rotate: 0, color: "#000" }}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
+          >
+            <Hamburger />
+          </motion.div>
         </div>
         <motion.div
           initial={{ rotateX: -90 }}
