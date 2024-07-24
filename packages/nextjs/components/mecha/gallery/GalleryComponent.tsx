@@ -42,7 +42,9 @@ const GalleryComponent: FC = () => {
 
   return (
     <section className="w-full flex justify-center flex-col py-60">
-      <div className="fixed top-[24%] opacity-60 md:opacity-auto z-10 lg:top-[20%] font-bold text-xl left-4">{userBalance} Cards</div>
+      <div className="fixed top-[24%] opacity-60 md:opacity-auto z-10 lg:top-[20%] font-bold text-xl left-4">
+        {userBalance} Cards
+      </div>
       <div className="grid lg:grid-cols-3 lg:w-[80%] mx-auto items-center pb-4 min-h-full grid-cols-1 gap-x-0 lg:gap-1 gap-4">
         {tokenIds &&
           tokenIds.map((tokenId: any) => (
