@@ -103,7 +103,6 @@ export const openPack = async (
         },
       });
       console.log("Transaction: ", tx);
-      // notification.success("Pack opened successfully!");
     } catch (error) {
       console.error("Error during transaction:", error);
       notification.error("Error during transaction");
