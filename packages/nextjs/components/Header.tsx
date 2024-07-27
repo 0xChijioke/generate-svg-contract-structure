@@ -4,34 +4,40 @@ import { headerImage } from "./mecha/base64Elements";
 import { RainbowKitCustomConnectButton } from "./scaffold-eth";
 import { motion } from "framer-motion";
 import { useOutsideClick } from "~~/hooks/scaffold-eth";
+import { useRouter } from "next/router";
 
 const Hamburger = dynamic(() => import("./mecha/menu/Hamburger"), { ssr: false });
 const MechaLogo = dynamic(() => import("./mecha/MechaLogo"), { ssr: false });
 const Menu = dynamic(() => import("./mecha/menu/Menu"), { ssr: false });
-const Fifi = dynamic(() => import("./mecha/homeElements/Fifi"), { ssr: false });
+const Fifi = dynamic(() => import("./mecha/home/Fifi"), { ssr: false });
 
 export const Header = () => {
+  const router = useRouter();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const burgerMenuRef = useRef(null);
   useOutsideClick(
     burgerMenuRef,
     useCallback(() => setIsDrawerOpen(false), []),
-  );
+  ); 
+  const isStory = router.pathname === "/story";
+
 
   return (
     <div
-      className="fixed flex z-20 md:justify-between justify-end w-full h-44 bg-right bg-cover"
-      style={{ backgroundImage: headerImage, backgroundRepeat: "no-repeat" }}
+      className={`fixed flex z-20 justify-end w-full h-44 bg-right bg-cover ${isStory ? 'bg-transparent justify-end' : ' md:justify-between'}`}
+      style={{ backgroundImage: isStory ? "none" : headerImage, backgroundRepeat: "no-repeat" }}
     >
-      <div className="md:flex pl-2 hidden md:pl-8 xl:space-x-24 w-[42%] xl:w-[60%]">
+      {!isStory && (
+        <div className="md:flex pl-2 hidden md:pl-8 xl:space-x-24 w-[42%] xl:w-[60%]">
         <MechaLogo />
         <div className="hidden xl:flex">
           <Fifi />
         </div>
       </div>
+      )}
       <div className="relative" ref={burgerMenuRef}>
         <div className="flex pt-20 md:pt-14">
-          <RainbowKitCustomConnectButton />
+          {!isStory && <RainbowKitCustomConnectButton />}
           <motion.div
             onClick={() => setIsDrawerOpen(prevState => !prevState)}
             className="cursor-pointer w-16 mr-6 md:w-24"
