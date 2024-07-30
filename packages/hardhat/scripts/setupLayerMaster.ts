@@ -41,6 +41,10 @@ async function main() {
         }
       }),
     );
+    if (asset.type && asset.name) {
+      await wait(3000);
+      await layerMaster.addDetail(i, asset.type, asset.name);
+    }
     asset.index = i;
     asset.run = true;
     writeFileSync("./asset-config.json", JSON.stringify(assetConfig), "utf8");
