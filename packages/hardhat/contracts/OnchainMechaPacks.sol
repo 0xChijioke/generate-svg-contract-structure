@@ -1,12 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-// ██████╗  █████╗ ███████╗███████╗██████╗     ███╗   ███╗███████╗ ██████╗██╗  ██╗ █████╗     ██████╗  █████╗  ██████╗██╗  ██╗███████╗
-// ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗    ████╗ ████║██╔════╝██╔════╝██║  ██║██╔══██╗    ██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔════╝
-// ██████╔╝███████║███████╗█████╗  ██║  ██║    ██╔████╔██║█████╗  ██║     ███████║███████║    ██████╔╝███████║██║     █████╔╝ ███████╗
-// ██╔══██╗██╔══██║╚════██║██╔══╝  ██║  ██║    ██║╚██╔╝██║██╔══╝  ██║     ██╔══██║██╔══██║    ██╔═══╝ ██╔══██║██║     ██╔═██╗ ╚════██║
-// ██████╔╝██║  ██║███████║███████╗██████╔╝    ██║ ╚═╝ ██║███████╗╚██████╗██║  ██║██║  ██║    ██║     ██║  ██║╚██████╗██║  ██╗███████║
-// ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═════╝     ╚═╝     ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝
+//   ___   ____     __  __ __   ____  ____  ____       ___ ___    ___    __  __ __   ____      ____   ____    __  __  _  _____
+//  /   \ |    \   /  ]|  |  | /    ||    ||    \     |   |   |  /  _]  /  ]|  |  | /    |    |    \ /    |  /  ]|  |/ ]/ ___/
+// |     ||  _  | /  / |  |  ||  o  | |  | |  _  |    | _   _ | /  [_  /  / |  |  ||  o  |    |  o  )  o  | /  / |  ' /(   \_
+// |  O  ||  |  |/  /  |  _  ||     | |  | |  |  |    |  \_/  ||    _]/  /  |  _  ||     |    |   _/|     |/  /  |    \ \__  |
+// |     ||  |  /   \_ |  |  ||  _  | |  | |  |  |    |   |   ||   [_/   \_ |  |  ||  _  |    |  |  |  _  /   \_ |     \/  \ |
+// |     ||  |  \     ||  |  ||  |  | |  | |  |  |    |   |   ||     \     ||  |  ||  |  |    |  |  |  |  \     ||  .  |\    |
+//  \___/ |__|__|\____||__|__||__|__||____||__|__|    |___|___||_____|\____||__|__||__|__|    |__|  |__|__|\____||__|\_| \___|
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
@@ -18,7 +19,12 @@ import "./HexStrings.sol";
 import "./RLPReader.sol";
 import "./OnchainMecha.sol";
 
-contract OnchainMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
+contract OnchainMechaPacks is
+	ERC721,
+	ERC721Enumerable,
+	ERC721Burnable,
+	Ownable
+{
 	using Strings for uint256;
 	using HexStrings for uint160;
 	using RLPReader for RLPReader.RLPItem;
@@ -32,8 +38,8 @@ contract OnchainMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable 
 	mapping(uint => Pack) public packs;
 
 	OnchainMecha public onchainMecha;
-    address public layerMaster;
-	uint8[] public unopenedPackLayers;
+	address public layerMaster;
+	uint[] public unopenedPackLayers;
 
 	uint public constant futureBlocks = 2;
 	uint public packPrice = 0.0007777777 ether;
@@ -71,12 +77,10 @@ contract OnchainMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable 
 		uint256 id
 	) public view override(ERC721) returns (string memory) {
 		_requireOwned(id);
-		string memory name = "Unopened Onchain Mecha Pack of Cards";
+		string memory name = "Unopened Pack of Cards";
 		string
 			memory description = "This is an unopened pack of Onchain Mecha cards. Go to OnchainMecha.xyz to open it!";
-		string memory image = Base64.encode(
-			bytes((generateSVGofTokenById()))
-		);
+		string memory image = Base64.encode(bytes((generateSVGofTokenById())));
 
 		return
 			string(
@@ -89,7 +93,7 @@ contract OnchainMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable 
 								name,
 								'", "description":"',
 								description,
-								'", "external_url":"https://onchainmecha.xyz/pack/',
+								'", "external_url":"https://onchainmecha.xyz/gallery/pack/',
 								id.toString(),
 								'", "attributes": [{"trait_type": "condition", "value": "unopened',
 								'"}], "owner":"',
@@ -106,15 +110,24 @@ contract OnchainMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable 
 	}
 
 	function generateSVGofTokenById() public view returns (string memory) {
-		string memory svg = ILayerMaster(layerMaster).renderMain(unopenedPackLayers, true);
+		string memory svg = ILayerMaster(layerMaster).renderMain(
+			unopenedPackLayers,
+			true
+		);
 
 		return svg;
 	}
 
 	function mintPack() public payable returns (uint256) {
-		require(onchainMecha.akuShardsFound() < 7, "7 Aku shards have been found. Minting has been disabled");
+		require(msg.value >= packPrice, "Not enough ETH sent");
+		require(
+			onchainMecha.akuShardsFound() < 7,
+			"7 Aku shards have been found. Minting has been disabled"
+		);
 
-		uint256 id = uint256(keccak256(abi.encodePacked(msg.sender, block.number, totalSupply())));
+		uint256 id = uint256(
+			keccak256(abi.encodePacked(msg.sender, block.number, totalSupply()))
+		);
 		_mint(msg.sender, id);
 
 		packs[id].blockNumber = block.number + futureBlocks;
@@ -185,7 +198,9 @@ contract OnchainMechaPacks is ERC721, ERC721Enumerable, ERC721Burnable, Ownable 
 		layerMaster = _layerMaster;
 	}
 
-	function updateUnopenedPackLayers(uint8[] memory _unopenedPackLayers) public onlyOwner {
+	function updateUnopenedPackLayers(
+		uint[] memory _unopenedPackLayers
+	) public onlyOwner {
 		unopenedPackLayers = _unopenedPackLayers;
 	}
 }
