@@ -50,7 +50,7 @@ contract LayerMaster is Ownable(msg.sender) {
 		}
 	}
 
-	function getAssetDetails(
+	function getDetails(
 		uint[] memory layers,
 		uint excludeLastLayersNum
 	)
@@ -62,7 +62,7 @@ contract LayerMaster is Ownable(msg.sender) {
 		layerTypes = new string[](length);
 		layerNames = new string[](length);
 		for (uint i = 0; i < length; i++) {
-			uint slot = length - i;
+			uint slot = length - i - 1;
 			layerTypes[i] = assetType[layers[slot]];
 			layerNames[i] = assetName[layers[slot]];
 		}
