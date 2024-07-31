@@ -1,7 +1,10 @@
+import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { footerImage } from "./mecha/base64Elements";
-import Panda from "./mecha/gallery/Panda";
-import Fifi from "./mecha/home/Fifi";
+
+// import Fifi from "./mecha/home/Fifi";
+
+const Panda = dynamic(() => import("./mecha/gallery/Panda"), { ssr: false });
 
 /**
  * Site footer
@@ -17,7 +20,7 @@ export const Footer = () => {
       style={{
         backgroundImage: isStory ? "none" : footerImage,
         backgroundColor: isStory ? "transparent" : "initial",
-        backgroundRepeat: "no-repeat"
+        backgroundRepeat: "no-repeat",
       }}
     >
       {isHome && <div className="fixed bottom-0 md:hidden left-4 w-[40%]">{/* <Fifi /> */}</div>}

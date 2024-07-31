@@ -34,9 +34,7 @@ const MintComponent: FC = () => {
           >
             <MintButton onClick={mintPack} />
           </button>
-          <div className="w-full h-fit pt-4 text-center">
-            Mint price: 0.0007777777 ETH
-          </div>
+          <div className="w-full h-fit pt-4 text-center">Mint price: 0.0007777777 ETH</div>
         </div>
       </div>
     </>

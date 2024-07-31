@@ -1,10 +1,10 @@
 import React, { useCallback, useRef, useState } from "react";
 import dynamic from "next/dynamic";
+import { useRouter } from "next/router";
 import { headerImage } from "./mecha/base64Elements";
 import { RainbowKitCustomConnectButton } from "./scaffold-eth";
 import { motion } from "framer-motion";
 import { useOutsideClick } from "~~/hooks/scaffold-eth";
-import { useRouter } from "next/router";
 
 const Hamburger = dynamic(() => import("./mecha/menu/Hamburger"), { ssr: false });
 const MechaLogo = dynamic(() => import("./mecha/MechaLogo"), { ssr: false });
@@ -18,22 +18,23 @@ export const Header = () => {
   useOutsideClick(
     burgerMenuRef,
     useCallback(() => setIsDrawerOpen(false), []),
-  ); 
+  );
   const isStory = router.pathname === "/story";
-
 
   return (
     <div
-      className={`fixed flex z-20 justify-end w-full h-44 bg-right bg-cover ${isStory ? 'bg-transparent justify-end' : ' md:justify-between'}`}
+      className={`fixed flex z-20 justify-end w-full h-44 bg-right bg-cover ${
+        isStory ? "bg-transparent justify-end" : " md:justify-between"
+      }`}
       style={{ backgroundImage: isStory ? "none" : headerImage, backgroundRepeat: "no-repeat" }}
     >
       {!isStory && (
         <div className="md:flex pl-2 hidden md:pl-8 xl:space-x-24 w-[42%] xl:w-[60%]">
-        <MechaLogo />
-        <div className="hidden xl:flex">
-          <Fifi />
+          <MechaLogo />
+          <div className="hidden xl:flex">
+            <Fifi />
+          </div>
         </div>
-      </div>
       )}
       <div className="relative" ref={burgerMenuRef}>
         <div className="flex pt-20 md:pt-14">

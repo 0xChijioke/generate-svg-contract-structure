@@ -1,11 +1,5 @@
-
 const Birdy = () => (
-  <svg
-    height="auto"
-    viewBox="0 0 1220 849"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
+  <svg height="auto" viewBox="0 0 1220 849" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -107,12 +101,7 @@ const Birdy = () => (
       strokeLinecap="square"
       strokeLinejoin="round"
     />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="m618.175 577.092-1.179.743 6.667 22.58z"
-      fill="#fff"
-    />
+    <path fillRule="evenodd" clipRule="evenodd" d="m618.175 577.092-1.179.743 6.667 22.58z" fill="#fff" />
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -1178,12 +1167,7 @@ const Birdy = () => (
       strokeLinecap="round"
       strokeLinejoin="round"
     />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="m543.922 399.715-1.61 9.786-1.326-.566z"
-      fill="#fff"
-    />
+    <path fillRule="evenodd" clipRule="evenodd" d="m543.922 399.715-1.61 9.786-1.326-.566z" fill="#fff" />
     <path
       d="m656.821 497.198 14.39-21.245 11.195 21.638-14.39 21.244z"
       fill="#1D9A6C"
@@ -1585,12 +1569,7 @@ const Birdy = () => (
       strokeLinecap="square"
       strokeLinejoin="round"
     />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="m810.295 474.983 3.632-.076-.765 45.982-.176.004z"
-      fill="#000"
-    />
+    <path fillRule="evenodd" clipRule="evenodd" d="m810.295 474.983 3.632-.076-.765 45.982-.176.004z" fill="#000" />
     <path
       fillRule="evenodd"
       clipRule="evenodd"

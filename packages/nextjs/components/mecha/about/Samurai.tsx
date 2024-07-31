@@ -1,4 +1,3 @@
-
 const Samurai = () => (
   <svg
     height="auto"
@@ -151,12 +150,7 @@ const Samurai = () => (
       strokeLinecap="round"
       strokeLinejoin="round"
     />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="m853.306 567.655 39.122-15.488 2.492 3.425z"
-      fill="#fff"
-    />
+    <path fillRule="evenodd" clipRule="evenodd" d="m853.306 567.655 39.122-15.488 2.492 3.425z" fill="#fff" />
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -168,12 +162,7 @@ const Samurai = () => (
       strokeLinecap="round"
       strokeLinejoin="round"
     />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="m869.667 570.471 38.94-14.358 3.444 2.487z"
-      fill="#fff"
-    />
+    <path fillRule="evenodd" clipRule="evenodd" d="m869.667 570.471 38.94-14.358 3.444 2.487z" fill="#fff" />
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -411,11 +400,7 @@ const Samurai = () => (
       fill="#E5F20D"
       fillOpacity={0.5}
     />
-    <path
-      transform="rotate(-23 611.992 533.754)"
-      fill="url(#a)"
-      d="M611.992 533.754h17.562v3.512h-17.562z"
-    />
+    <path transform="rotate(-23 611.992 533.754)" fill="url(#a)" d="M611.992 533.754h17.562v3.512h-17.562z" />
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -1625,12 +1610,7 @@ const Samurai = () => (
       fillOpacity={0.3}
     />
     <defs>
-      <pattern
-        id="a"
-        patternContentUnits="objectBoundingBox"
-        width={1}
-        height={1}
-      >
+      <pattern id="a" patternContentUnits="objectBoundingBox" width={1} height={1}>
         <use xlinkHref="#b" transform="scale(.1 .5)" />
       </pattern>
       <image

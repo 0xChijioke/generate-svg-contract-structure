@@ -1,11 +1,5 @@
-
 const Loogie = () => (
-  <svg
-    height="auto"
-    viewBox="0 0 110 111"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
+  <svg height="auto" viewBox="0 0 110 111" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g opacity={0.75}>
       <path
         d="M79.338 54.764c-5.164-4.557-5.283-12.86-.265-18.547 5.017-5.685 13.271-6.6 18.436-2.043s5.283 12.861.265 18.547c-5.017 5.686-13.271 6.6-18.436 2.043"

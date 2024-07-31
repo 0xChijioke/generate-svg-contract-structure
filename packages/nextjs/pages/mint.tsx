@@ -3,8 +3,9 @@ import type { NextPage } from "next";
 import { MetaHeader } from "~~/components/MetaHeader";
 import MintComponent from "~~/components/mecha/MintComponent";
 import { mintImage } from "~~/components/mecha/base64Elements";
-import Badluck from "~~/components/mecha/mintElements.tsx/Badluck";
-import Goodluck from "~~/components/mecha/mintElements.tsx/Goodluck";
+
+const Goodluck = dynamic(() => import("~~/components/mecha/mint/Goodluck"), { ssr: false });
+const Badluck = dynamic(() => import("~~/components/mecha/mint/Badluck"), { ssr: false });
 
 const MintPage: NextPage = () => {
   return (
@@ -17,10 +18,10 @@ const MintPage: NextPage = () => {
         <div className="relative w-full h-full">
           <div className="absolute w-[50%] md:w-auto left-0 top-[20%]">
             <Goodluck />
-                    </div>
+          </div>
           <div className="absolute right-0 w-[50%] md:w-auto bottom-[10%]">
             <Badluck />
-        </div>
+          </div>
         </div>
         <MintComponent />
       </div>

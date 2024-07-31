@@ -62,12 +62,12 @@ const ScaffoldEthApp = ({ Component, pageProps }: AppProps) => {
       <NextNProgress color="red" />
       <RainbowKitProvider chains={appChains.chains} avatar={BlockieAvatar} theme={darkTheme()}>
         <QueryClientProvider client={queryClient}>
-        <div className="flex flex-col bg-black min-h-screen">
-          <Header />
+          <div className="flex flex-col bg-black min-h-screen">
+            <Header />
             <main className="relative flex flex-col flex-1">{wrapWithProviders(<Component {...pageProps} />)}</main>
-          <Footer />
-        </div>
-        <Toaster />
+            <Footer />
+          </div>
+          <Toaster />
         </QueryClientProvider>
       </RainbowKitProvider>
     </WagmiConfig>

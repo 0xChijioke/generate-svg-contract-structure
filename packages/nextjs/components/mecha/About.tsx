@@ -1,17 +1,17 @@
-import BE from "./about/BE";
-import Birdy from "./about/Birdy";
-import Boulda from "./about/Boulda";
-import Fewal from "./about/Fewal";
-import Gunner from "./about/Gunner";
-import Loogie from "./about/Loogie";
-import Samurai from "./about/Samurai";
-import Squido from "./about/Squido";
+import dynamic from "next/dynamic";
 import { aboutAku } from "./base64Elements";
 
+const BE = dynamic(() => import("./about/BE"), { ssr: false });
+const Birdy = dynamic(() => import("./about/Birdy"), { ssr: false });
+const Boulda = dynamic(() => import("./about/Boulda"), { ssr: false });
+const Fewal = dynamic(() => import("./about/Fewal"), { ssr: false });
+const Gunner = dynamic(() => import("./about/Gunner"), { ssr: false });
+const Loogie = dynamic(() => import("./about/Loogie"), { ssr: false });
+const Samurai = dynamic(() => import("./about/Samurai"), { ssr: false });
+const Squido = dynamic(() => import("./about/Squido"), { ssr: false });
 
 const About = () => (
   <div className="bg-cover relative z-10 w-full h-full bg-center" style={{ backgroundImage: aboutAku }}>
-
     <div className="lg:w-[30%] md:w-[40%] w-[50%] h-[50%] absolute left-0 top-[20%]">
       <Fewal />
     </div>

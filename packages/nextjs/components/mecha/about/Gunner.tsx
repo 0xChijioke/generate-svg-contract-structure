@@ -1,11 +1,5 @@
-
 const Gunner = () => (
-  <svg
-    height="auto"
-    viewBox="0 0 639 594"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
+  <svg height="auto" viewBox="0 0 639 594" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       d="M452.479 280.974s5.611 15.627 11.655 16.906c6.044 1.28 17.858 3.349 17.858 3.349"
       stroke="#000"

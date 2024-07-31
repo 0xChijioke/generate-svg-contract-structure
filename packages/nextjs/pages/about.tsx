@@ -10,9 +10,7 @@ const HowTo = dynamic(() => import("~~/components/mecha/HowTo"), { ssr: false })
 const AboutPage: NextPage = () => {
   return (
     <>
-      <MetaHeader
-        title="About | Mecha"
-      />
+      <MetaHeader title="About | Mecha" />
       <section className="w-full h-full overflow-hidden">
         <motion.div className="w-screen h-screen">
           <About />

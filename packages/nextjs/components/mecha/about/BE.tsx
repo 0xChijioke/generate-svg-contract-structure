@@ -1,12 +1,5 @@
-
 const BE = () => (
-  <svg
-    width="100%"
-    height={"auto"}
-    viewBox="0 0 600 800"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
+  <svg width="100%" height={"auto"} viewBox="0 0 600 800" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
