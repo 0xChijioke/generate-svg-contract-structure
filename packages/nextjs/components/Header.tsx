@@ -20,6 +20,7 @@ export const Header = () => {
     useCallback(() => setIsDrawerOpen(false), []),
   );
   const isStory = router.pathname === "/story";
+  const isHome = router.pathname === "/";
 
   return (
     <div
@@ -29,10 +30,10 @@ export const Header = () => {
       style={{ backgroundImage: isStory ? "none" : headerImage, backgroundRepeat: "no-repeat" }}
     >
       {!isStory && (
-        <div className="md:flex pl-2 hidden md:pl-8 xl:space-x-24 w-[42%] xl:w-[60%]">
+        <div className={`md:flex pl-2 hidden md:pl-8 xl:space-x-24 w-[42%] ${!isHome ? "xl:w-[48%]" : "xl:w-[60%]" } `}>
           <MechaLogo />
           <div className="hidden xl:flex">
-            <Fifi />
+            {isHome && <Fifi />}
           </div>
         </div>
       )}
