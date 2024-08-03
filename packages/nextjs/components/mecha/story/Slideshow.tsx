@@ -1,12 +1,18 @@
 import { useState } from "react";
 import { slides } from "./slides";
 import { motion } from "framer-motion";
+import router from "next/router";
 
 const Slideshow = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  
   const nextSlide = () => {
-    setCurrentSlide(prev => (prev + 1) % slides.length);
+    if (currentSlide === slides.length - 1) {
+      router.push("/mint");
+    } else {
+      setCurrentSlide(prev => (prev + 1) % slides.length);
+    }
   };
 
   const prevSlide = () => {
