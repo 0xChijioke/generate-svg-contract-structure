@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useAccount } from "wagmi";
 import { useTokenContext } from "~~/context/TokenContext";
 import { placeholder } from "~~/public/assets/placeholder";
+import Frame from "./Frame";
 
 const MintButton = dynamic(() => import("~~/components/mecha/buttons/MintButton"), { ssr: false });
 
@@ -50,14 +51,15 @@ const GalleryComponent: FC = () => {
           tokenIds.map((tokenId: any) => (
             <Link href={{ pathname: `/gallery/card/${tokenId}` }} key={tokenId}>
               <div className="flex justify-center rounded-xl w-full lg:w-[88%] shadow-lg p-2 m-auto h-auto transform transition-transform duration-300 hover:scale-105">
+              <Frame className="absolute inset-0" />
                 {svgData[tokenId] ? (
                   <Image
                     alt={`NFT ${tokenId}`}
                     src={svgData[tokenId]}
                     blurDataURL={placeholder}
-                    className="rounded-xl"
-                    width={400}
-                    height={600}
+                    className="lg:mt-14 "
+                    width={350}
+                    height={400}
                     placeholder="blur"
                   />
                 ) : (
