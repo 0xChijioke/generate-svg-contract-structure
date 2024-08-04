@@ -15,7 +15,7 @@ const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT
 
 export const MetaHeader = ({
   title = "Onchain Mecha",
-  description = "Built with 🏗 Scaffold-ETH 2",
+  description = "Collect mecha to defeat Aku and save the universe!",
   image = "thumbnail.jpg",
   twitterCard = "summary_large_image",
   children,
