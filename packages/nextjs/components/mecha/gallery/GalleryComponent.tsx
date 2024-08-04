@@ -1,11 +1,12 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import Frame from "./Frame";
 import { useAccount } from "wagmi";
 import { useTokenContext } from "~~/context/TokenContext";
 import { placeholder } from "~~/public/assets/placeholder";
-import Frame from "./Frame";
 
 const MintButton = dynamic(() => import("~~/components/mecha/buttons/MintButton"), { ssr: false });
 
@@ -13,6 +14,14 @@ const GalleryComponent: FC = () => {
   const { address, isConnected } = useAccount();
   const { tokenIds, userBalance, svgData, fetchMoreTokenIds, isFetchingNextPage, hasNextPage, status } =
     useTokenContext();
+
+  const router = useRouter();
+
+  useEffect(() => {
+    if (router.pathname === "/gallery") {
+      fetchMoreTokenIds();
+    }
+  }, [router.pathname]);
 
   if (!isConnected || !address) {
     return (
@@ -46,12 +55,12 @@ const GalleryComponent: FC = () => {
       <div className="fixed top-[24%] opacity-60 md:opacity-auto z-10 lg:top-[20%] font-bold text-xl left-4">
         {userBalance} Cards
       </div>
-      <div className="grid lg:grid-cols-3 lg:w-[80%] mx-auto items-center pb-4 min-h-full grid-cols-1 gap-x-0 lg:gap-1 gap-4">
+      <div className="grid lg:grid-cols-3 lg:w-[80%] mx-auto items-center pb-4 min-h-full grid-cols-1 gap-x-0 lg:gap-y-20 gap-4">
         {tokenIds &&
           tokenIds.map((tokenId: any) => (
             <Link href={{ pathname: `/gallery/card/${tokenId}` }} key={tokenId}>
               <div className="flex justify-center rounded-xl w-full lg:w-[88%] shadow-lg p-2 m-auto h-auto transform transition-transform duration-300 hover:scale-105">
-              <Frame className="absolute inset-0" />
+                {svgData && <Frame className="absolute inset-0" />}
                 {svgData[tokenId] ? (
                   <Image
                     alt={`NFT ${tokenId}`}
