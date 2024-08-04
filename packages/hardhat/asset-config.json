@@ -1,0 +1,1771 @@
+{
+  "Asset_01_true_00_BACKGROUND_beefeater": {
+    "contracts": [
+      "0x55Cb9CB337CDb0A41cAc89Ffac4627744b50B566",
+      "0x20279269431C5DA87cf6bcd57D07C13406A0FeDf",
+      "0xBA7198c1c96f6fcC5f98e4dc7EfbedDC85A53917"
+    ],
+    "colors": ["#18815A", "#8DCCB5", "#FAF6B0", "#F4EC62"],
+    "run": true,
+    "index": 0,
+    "name": "Main Event",
+    "type": "Background"
+  },
+  "Asset_01_true_00_BACKGROUND_boulderdash": {
+    "contracts": ["0x808b3c42DB3603161BB418CA920cCcd26d591158"],
+    "colors": ["#90A9FF", "#FF2E33", "#D50409"],
+    "run": true,
+    "index": 1,
+    "name": "Focal Point",
+    "type": "Background"
+  },
+  "Asset_01_true_00_BACKGROUND_fewocious": {
+    "contracts": ["0xeaFD494e51431509DA10232B99f6966e23D76B16", "0x261cd5ca68bb654E6F52dADD6382fC849bcc3846"],
+    "colors": ["#FF8B3E", "#FFBA8B"],
+    "run": true,
+    "index": 2,
+    "name": "Tiger Striped",
+    "type": "Background"
+  },
+  "Asset_01_true_00_BACKGROUND_gunner": {
+    "contracts": ["0xD45942Ccb949B175097c8bC8ca2c1DE6c58773ea", "0xabC52e1e20d711753814F432e7dD62e66A867a29"],
+    "colors": ["#FF8184", "#F7F189"],
+    "run": true,
+    "index": 3,
+    "name": "Atmospheric",
+    "type": "Background"
+  },
+  "Asset_01_true_00_BACKGROUND_samarai": {
+    "contracts": ["0xA1156362A6abff7df120b59eA8C34f8118474e2e", "0xF519a9b351422fDab8bFd9fE1D7A30f83c7466dC"],
+    "colors": ["#D8CF82", "#FAF6B0", "#FF050B", "#AB0307"],
+    "run": true,
+    "index": 4,
+    "name": "Rising Sun",
+    "type": "Background"
+  },
+  "Asset_01_true_00_BACKGROUND_squido": {
+    "contracts": ["0x2d7685bCd5129601d36d7160E1CBAa035c546477"],
+    "colors": ["#7ED3F1", "#136748", "#68BB9D"],
+    "run": true,
+    "index": 5,
+    "name": "Underwater Haze",
+    "type": "Background"
+  },
+  "Asset_01_true_00_BACKGROUND_tweetybord": {
+    "contracts": [
+      "0xEe0B137a485d5E127B5f21bB71c8B1667CFC53ff",
+      "0xeAcccbc294F08939C60CFc4CaDF7543047B35299",
+      "0xd12124278d0Ab5A680dbb5768Fc285Ee6725e72a",
+      "0x46C8CEcf5fbc8A6f4DE942d76B031af22CFB85aC",
+      "0xBd8E021fF973319B19b2fF0b2836dA3685c75011",
+      "0x8016AA992C88f1CBCbB583FA2EC40758137D286E"
+    ],
+    "colors": ["#FF5858", "#FF050B", "#810306"],
+    "run": true,
+    "index": 6,
+    "name": "Red Sky",
+    "type": "Background"
+  },
+  "Asset_01_true_01_BACKGROUND_OVERLAY_beefeater": {
+    "contracts": [
+      "0x72dC5eced2b2C650E038B504b18a514E6aA0644a",
+      "0x7c9017E9A256Ac8107a76d1272E580A911125803",
+      "0x5A1545291176aEf8d29FFD806e882bdEe89CC05f"
+    ],
+    "colors": ["#FF050B", "#00A8E4", "#F2E83A", "#F8F7E9", "#777", "#8D8D8D"],
+    "run": true,
+    "index": 7,
+    "name": "Pomp and Fanfare",
+    "type": "Background Overlay"
+  },
+  "Asset_01_true_01_BACKGROUND_OVERLAY_boulderdash": {
+    "contracts": [
+      "0x8703035eA4b84664c6de3e5020EB3671a74909B5",
+      "0x036692e2688AFd3E6879a4E3804b18068250e0aA",
+      "0x224d5f5d36F2B6265B2a74e124e7a1390a7C8b69"
+    ],
+    "colors": ["#898D90"],
+    "run": true,
+    "index": 8,
+    "name": "Rocks",
+    "type": "Background Overlay"
+  },
+  "Asset_01_true_01_BACKGROUND_OVERLAY_fewocious": {
+    "contracts": ["0xCa9f22Ad41823DdBbabAFe1C7394D832aB3EC572"],
+    "colors": ["#18815A", "#1D9A6C"],
+    "run": true,
+    "index": 9,
+    "name": "Jungle Shreds",
+    "type": "Background Overlay"
+  },
+  "Asset_01_true_01_BACKGROUND_OVERLAY_gunner": {
+    "contracts": ["0x67306F342f8a78cfD3371749491D69550d64f8ce"],
+    "colors": [],
+    "run": true,
+    "index": 10,
+    "name": "Smoke",
+    "type": "Background Overlay"
+  },
+  "Asset_01_true_01_BACKGROUND_OVERLAY_samarai": {
+    "contracts": [
+      "0xa71E040A42defCc55b9e8bB3bDF898d754fe93bB",
+      "0xc7e3fF203857Ef1850E0B5C82f2987092a8aF74F",
+      "0x5De806bfA26f3B947BE5355fc58D937590588709",
+      "0x981777e5a587AfB080A06E2dFA0b3B2B7208d084",
+      "0x131746ba3bA85f6cbcfFE7C1c28a524b5762C84e",
+      "0xD51fb25d3C29Bb48C8A636beE51Bf208788104B1",
+      "0xD2995a498Edf2Ba1bcA45eC2B43d9D1918E3a3a4",
+      "0x67C2eB7d3b765911a7D04A3a656F1bc8D84562f8",
+      "0x31Fe17d9c2648e21287d8bF33987F9189A993769",
+      "0xCEd08A3d7Aa1aD86dD8D5D3DCF49359b51db82F1"
+    ],
+    "colors": ["#151515", "#D56113", "#18815A", "#B4AD60", "#DED797", "#1D9A6C", "#FFD1B2", "#FCFAD8", "#A8E1F6"],
+    "run": true,
+    "index": 11,
+    "name": "Dojo",
+    "type": "Background Overlay"
+  },
+  "Asset_01_true_01_BACKGROUND_OVERLAY_squido": {
+    "contracts": [
+      "0x6CAF60832E62E762A81FE04cAC85725263C052Bd",
+      "0xB4D6DCCf79AF151647ff2732EE8727474c1Ec2F5",
+      "0xd256876189201c303787b50Fe4f2ECc8a2C5DaD5",
+      "0xAEcD898C8E2B744b2D3C84428327F294e123647f",
+      "0x2B59aB3Ce541A20392463AAE1ff97Cfd4b88C199"
+    ],
+    "colors": [],
+    "run": true,
+    "index": 12,
+    "name": "Bubbles",
+    "type": "Background Overlay"
+  },
+  "Asset_01_true_01_BACKGROUND_OVERLAY_tweetybord": {
+    "contracts": ["0xa03b15a0185F832E102C04471916f1a425CA052A"],
+    "colors": ["#810306"],
+    "run": true,
+    "index": 13,
+    "name": "Birds",
+    "type": "Background Overlay"
+  },
+  "Asset_01_true_02_POD_beefeater": {
+    "contracts": ["0x4Fc967a704d1F2468CC51F530f6E9e22f0640675", "0x58De82B117cE1a974faDBc9c58D9e2389bD72034"],
+    "colors": [
+      "#777",
+      "#8D8D8D",
+      "#1D9A6C",
+      "#F8F7E9",
+      "#FF8B3E",
+      "#292929",
+      "#BABABA",
+      "#A37B6A",
+      "#493126",
+      "#D50409",
+      "#AB0307",
+      "#B4AD60"
+    ],
+    "run": true,
+    "index": 14,
+    "name": "Boxing Scene",
+    "type": "Pod"
+  },
+  "Asset_01_true_02_POD_boulderdash": {
+    "contracts": [
+      "0xF3F1e37862337ecE7980E3341A7Fe89148f3d9a1",
+      "0x73EB45bA7709fcDe1721B722A04e73BBCE95F821",
+      "0x8FDB214544674dc11fad60095D26b48F363E5201"
+    ],
+    "colors": [
+      "#636769",
+      "#DED797",
+      "#F4EC62",
+      "#505050",
+      "#FFAAAC",
+      "#54C5ED",
+      "#777",
+      "#898D90",
+      "#BABABA",
+      "#A4A4A4",
+      "#EBE7C0",
+      "#FF2E33",
+      "#005573",
+      "#7EED56"
+    ],
+    "run": true,
+    "index": 15,
+    "name": "Toddler Crib",
+    "type": "Pod"
+  },
+  "Asset_01_true_02_POD_fewocious": {
+    "contracts": [
+      "0xBF3ba190C26819483bd4437B0cD2A762634060cE",
+      "0x55865F96c409D3f92ec10F4407FEc95fD11f6086",
+      "0x05d4ad826233C99f5e6b859DB45E10b82471fE31",
+      "0x8199Ff056B37CF5Cd04F1DcA25487e8e09ec8624",
+      "0x64c26779Ec5731A19c593eA4bB465902004C030F",
+      "0x5AA13a49a95c1942D7890efC884257B7B3C30Ec3"
+    ],
+    "colors": ["#8D8D8D", "#A4A4A4", "#008CBE", "#D50409", "#00A8E4", "#2AB6E9"],
+    "run": true,
+    "index": 16,
+    "name": "Cat Scratched",
+    "type": "Pod"
+  },
+  "Asset_01_true_02_POD_gunner": {
+    "contracts": [
+      "0xEE6F79bf9b675d3Bf8d4d67208c4E374D269F10e",
+      "0xc07D0fF26bc23Ff183E84E9df411F802d5Dad8EB",
+      "0x3Dd11D9C1ca490ebdC585Cc661F7000F908bc700",
+      "0x1570e5287664e5551aC5f2D128B6C6dF50549000"
+    ],
+    "colors": ["#B9BDC0", "#636363", "#E61A1A", "#E6611A", "#D8CF82", "#EFE313"],
+    "run": true,
+    "index": 17,
+    "name": "Functional Aesthetic",
+    "type": "Pod"
+  },
+  "Asset_01_true_02_POD_samarai": {
+    "contracts": ["0x747bCe914c87E36887161DCAcb3Fa6cCC87b9027"],
+    "colors": ["#3A3A3A", "#B9BDC0"],
+    "run": true,
+    "index": 18,
+    "name": "Yin and Yang",
+    "type": "Pod"
+  },
+  "Asset_01_true_02_POD_squido": {
+    "contracts": [
+      "0xF42cB3ADA33C7268Cd08E764dBA61fD8Eacf59Aa",
+      "0xf3d141a2d42E180F77269427a28094aDBb728513",
+      "0x4144794e5376fd7b6F982E341D8b7eD5872352c7",
+      "0x069b7bd62f9a0b1cD6117c1753e55f5De4af44ca",
+      "0x29ad161A96a0D4661c1356aeec0b730B94fe84a8",
+      "0x92817BA3c2A64DA4970013ABB401a3E6Ff359a7c",
+      "0x70e069740a316AA7D97C15B83d828f4d287A9a06"
+    ],
+    "colors": ["#B9BDC0", "#FFAAAC", "#1D9A6C", "#DED797"],
+    "run": true,
+    "index": 19,
+    "name": "Tentacles",
+    "type": "Pod"
+  },
+  "Asset_01_true_02_POD_tweetybord": {
+    "contracts": ["0xa7CE8E34568A1910B09Cf692552f32ffB0654Ca2", "0x3ad28007A1837320bdd721DfeEF2d02BEf749D86"],
+    "colors": ["#A4A4A4", "#FF2E33", "#FF7418", "#F2E83A", "#42AB84", "#2AB6E9", "#505050", "#7EED56", "#8D8D8D"],
+    "run": true,
+    "index": 20,
+    "name": "Jammin",
+    "type": "Pod"
+  },
+  "Asset_01_true_03_RIDER_beefeater": {
+    "contracts": [
+      "0xF9fd9dA75Dd72ECbc5e740dda58d1394F535CE37",
+      "0x2B2faf72bE2addc97019427cf6C7e51E90D3Bf00",
+      "0x11c3Ac4C6E5eEB8393b9BD74200E90a71aDa5BF7"
+    ],
+    "colors": ["#E5F20D", "#D8CF82", "#FF050B", "#FFAAAC"],
+    "run": true,
+    "index": 21,
+    "name": "Betty",
+    "type": "Pilot"
+  },
+  "Asset_01_true_03_RIDER_boulderdash": {
+    "contracts": ["0x6279918dEd5EB13EEdeDc5e9947B70b963D211BA", "0x9CBAe6157a89d322383B4aE385B1b7Ae49d54599"],
+    "colors": ["#FF050B", "#00A8E4", "#D8CF82"],
+    "run": true,
+    "index": 22,
+    "name": "Buba",
+    "type": "Pilot"
+  },
+  "Asset_01_true_03_RIDER_fewocious": {
+    "contracts": [
+      "0x443f095E208FF7fdcFAC89873D6F50e222Ae10cD",
+      "0x8dd1dcb3120bE4B56C19cBE5e9Ee9c5597c8DB6c",
+      "0x4252E261Da44c18720b5496E29f986512Ba392fc",
+      "0x381DcD0e6D7328d1647f87197C57390a50710e62"
+    ],
+    "colors": ["#E5F20D", "#FF050B", "#EBE7C0", "#D8CF82", "#F9A", "#2AB6E9", "#007199", "#1D9A6C", "#EF563B"],
+    "run": true,
+    "index": 23,
+    "name": "Fifi",
+    "type": "Pilot"
+  },
+  "Asset_01_true_03_RIDER_gunner": {
+    "contracts": ["0x9Db32ebbAAB473D0B80B7CB405A2bC0fd08C89Da", "0x579c5C98AE313FF430f58183E6871932F0Ecf203"],
+    "colors": ["#18815A", "#FFD635", "#1D9A6C", "#00A8E4", "#994662", "#FF050B", "#0DF2C9"],
+    "run": true,
+    "index": 24,
+    "name": "Tsu",
+    "type": "Pilot"
+  },
+  "Asset_01_true_03_RIDER_samarai": {
+    "contracts": ["0x5363F6DFcB998e42668869dF0962e907AcF98b73", "0x9087feAdfB81D1f3A66a4551fc5a0949e9F33c61"],
+    "colors": ["#FF050B", "#0DF228", "#E5F20D", "#FFD635", "#1D9A6C"],
+    "run": true,
+    "index": 25,
+    "name": "Kuro",
+    "type": "Pilot"
+  },
+  "Asset_01_true_03_RIDER_squido": {
+    "contracts": [
+      "0xFd326Fd826BC4789e7D5eb2ED1621563864718c8",
+      "0xA91C113B7CA738B657F47cd9Ce4057Ff25De7676",
+      "0x7319f6F53fD5bA8cA09B177E1419B64559E241aA",
+      "0x2E709d604129D3dDb7Ee051ba261E85584f791bC",
+      "0x58d5fBdE29641F722E01eF6f9512EE3e3449Ee9d",
+      "0x8E41568A31383c5171D24f0522f2504093c461Df",
+      "0x6A52551C1377E89f891557d7D6946f2Bd98730CB",
+      "0x7627338ACAb4914fF04Fd2d98E1A3D6971B7d001",
+      "0x93033d781a12ab53140CCF8FAd15acFAf229284B",
+      "0x98c81BaC94C15C9713242721f4270AD076eF0F64"
+    ],
+    "colors": ["#FF050B", "#D8CF82", "#1D9A6C", "#DED797", "#42AB84"],
+    "run": true,
+    "index": 26,
+    "name": "Syd",
+    "type": "Pilot"
+  },
+  "Asset_01_true_03_RIDER_tweetybord": {
+    "contracts": ["0xa3F4626EB602642a9235422aF702eeC3719e6443", "0x58BC779BC7b4E58d4A9aCDF5c1Fdfc98FC0F445a"],
+    "colors": [
+      "#001D28",
+      "#7ED3F1",
+      "#00A8E4",
+      "#FF050B",
+      "#1D9A6C",
+      "#8DCCB5",
+      "#D1D1D1",
+      "#EF563B",
+      "#D8CF82",
+      "#2AB6E9",
+      "#FAF6B0"
+    ],
+    "run": true,
+    "index": 27,
+    "name": "Ava",
+    "type": "Pilot"
+  },
+  "Asset_01_true_04_ARMS_BACK_beefeater": {
+    "contracts": ["0x10C7438619299E14eaab3D3c8b02060Dc48ab334"],
+    "colors": ["#42AB84", "#8D8D8D", "#2AB6E9", "#EBE7C0"],
+    "run": true,
+    "index": 28,
+    "name": "KO",
+    "type": "Arms"
+  },
+  "Asset_01_true_04_ARMS_BACK_boulderdash": {
+    "contracts": ["0x0dEadd4dD1f3e74D170C365C215bE3445FEb44b4"],
+    "colors": ["#777", "#FF2E33", "#BABABA"],
+    "run": true,
+    "index": 29,
+    "name": "Rock Crushers",
+    "type": "Arms"
+  },
+  "Asset_01_true_04_ARMS_BACK_fewocious": {
+    "contracts": ["0xF37DEd698BB2D8c5b40A5d4349D46F8B5C1C7431"],
+    "colors": ["#777", "#00A8E4"],
+    "run": true,
+    "index": 30,
+    "name": "Claws of Death",
+    "type": "Arms"
+  },
+  "Asset_01_true_04_ARMS_BACK_gunner": {
+    "contracts": ["0x7b5c0D84CeFDaEe7AeEA678D289FcD8DF9A29d36"],
+    "colors": ["#636363", "#A4A4A4", "#8D8D8D", "#D1D1D1", "#505050", "#777"],
+    "run": true,
+    "index": 31,
+    "name": "Guns",
+    "type": "Arms"
+  },
+  "Asset_01_true_04_ARMS_BACK_samarai": {
+    "contracts": ["0x174f5f1FB70Cb58203794F716081E4a2F1A5D602"],
+    "colors": ["#777", "#8D8D8D", "#2AB6E9", "#DED797"],
+    "run": true,
+    "index": 32,
+    "name": "Heart of the Warrior",
+    "type": "Arms"
+  },
+  "Asset_01_true_04_ARMS_BACK_squido": {
+    "contracts": ["0x946aa96607EbE00e289C4498E3BE1Cd697dA4b0F", "0xb175D2989A7817917728d7EEE7321379BF06f9b8"],
+    "colors": ["#3C3C3C"],
+    "run": true,
+    "index": 33,
+    "name": "Tentacles",
+    "type": "Arms"
+  },
+  "Asset_01_true_04_ARMS_BACK_tweetybord": {
+    "contracts": ["0x96C56B75Ca9582098977BAe997B366c21a2B8256", "0x53fe7AEAb0CBEf20CC4a79170f41ebD5ef2f8232"],
+    "colors": ["#636363", "#636769", "#989CA0", "#8DCCB5", "#8D8D8D", "#A4A4A4", "#777"],
+    "run": true,
+    "index": 34,
+    "name": "Wings",
+    "type": "Arms"
+  },
+  "Asset_01_true_05_BODY_beefeater": {
+    "contracts": ["0x142a0179f0148Ce56e172C19FCF3bEEB8Fe0C84D", "0x2630C4478cacd43BD692DC789597a542d5F7e624"],
+    "colors": ["#B4AD60", "#00A8E4", "#1D9A6C", "#EFE313", "#D8CF82", "#FF2E33"],
+    "run": true,
+    "index": 35,
+    "name": "BEEFeATER",
+    "type": "Core"
+  },
+  "Asset_01_true_05_BODY_boulderdash": {
+    "contracts": ["0x58011CEFa60446B2c93B3CaA5F0d8B89670981B8", "0xBE0ecc84CEd3aC284B985171BdBeA6EC7b0C24b0"],
+    "colors": ["#54C5ED", "#00A8E4", "#1D9A6C"],
+    "run": true,
+    "index": 36,
+    "name": "BOULDERDaSH",
+    "type": "Core"
+  },
+  "Asset_01_true_05_BODY_fewocious": {
+    "contracts": ["0xe7FdD128f8a47e3b24C268D4A0B66BA93D427eaD", "0xbf505CEa6D9A137055aefC0952C8F069fb3C1B3B"],
+    "colors": ["#B4AD60", "#00A8E4", "#FF2E33", "#777", "#F7F189"],
+    "run": true,
+    "index": 37,
+    "name": "FeWAL",
+    "type": "Core"
+  },
+  "Asset_01_true_05_BODY_gunner": {
+    "contracts": ["0xb17f3D7835060a892dfdeC36f732c28Ac9Ca3e2B"],
+    "colors": ["#00A8E4", "#8FD926", "#D8CF82", "#E61A1A"],
+    "run": true,
+    "index": 38,
+    "name": "GUNNa",
+    "type": "Core"
+  },
+  "Asset_01_true_05_BODY_samarai": {
+    "contracts": [
+      "0x45436638DB5F481fe84a45dd967808c944B8c291",
+      "0xbF6001De8114944BB8BF8BdEff635Cef3e966AAC",
+      "0x2FB2dE0E0C8adad17A489673313Aec959d400c75"
+    ],
+    "colors": ["#00A8E4", "#8FD926", "#FF2E33", "#FFF8B8", "#FF050B", "#F2DDC8", "#42AB84"],
+    "run": true,
+    "index": 39,
+    "name": "SAMuRAI",
+    "type": "Core"
+  },
+  "Asset_01_true_05_BODY_squido": {
+    "contracts": ["0x52A316Dd032Fb3Ab423222Edf918545313F3222a", "0xc3313e9B59B4636Ca822B577C8cffA3aBdb6C679"],
+    "colors": ["#1D9A6C", "#00A8E4", "#FF2E33"],
+    "run": true,
+    "index": 40,
+    "name": "SQUiDO",
+    "type": "Core"
+  },
+  "Asset_01_true_05_BODY_tweetybord": {
+    "contracts": [
+      "0x20ed30C68242A8BD019f3aA3cBb04bF5B37c9605",
+      "0xF0a8f46144Afc2f238F5191A059060341775E300",
+      "0x2D69052bE914e39d34c2C57f9025353DFfd00D9a",
+      "0xE68d9bA7887a9A4f16195f9f6D2067ee5fD65621",
+      "0x7A93E29e6Bb03A2a5A4228B45b8Fa6E47012B590",
+      "0x809592F182E8f687f5C95C50372F05b856407520",
+      "0xD94c74439b27bf570d55fc0ee874Fb3C6842fFA6"
+    ],
+    "colors": ["#54C5ED", "#1D9A6C", "#00A8E4", "#FF050B", "#A4A4A4", "#FFAAAC"],
+    "run": true,
+    "index": 41,
+    "name": "TWEETYBiRD",
+    "type": "Core"
+  },
+  "Asset_01_true_06_KANJI_beefeater": {
+    "contracts": ["0x0727dc9A85a15643ac6319CE0e8C94d26591Ab63"],
+    "colors": ["#D1D1D1", "#EFE313", "#FF050B"],
+    "run": true,
+    "index": 42,
+    "name": "Courage",
+    "type": "Kanji"
+  },
+  "Asset_01_true_06_KANJI_boulderdash": {
+    "contracts": ["0x21ed2f855F42dd9C644c396B3d28CA75020d07C6"],
+    "colors": ["#D1D1D1", "#EFE313", "#FF050B"],
+    "run": true,
+    "index": 43,
+    "name": "Righteousness",
+    "type": "Kanji"
+  },
+  "Asset_01_true_06_KANJI_fewocious": {
+    "contracts": ["0x0d515A0e49d6c07E8C358648485FBd2AC3aa4F6f"],
+    "colors": ["#D1D1D1", "#EFE313", "#FF050B"],
+    "run": true,
+    "index": 44,
+    "name": "Respect",
+    "type": "Kanji"
+  },
+  "Asset_01_true_06_KANJI_gunner": {
+    "contracts": ["0xC565a01f6507006c4d737C8690437f6a7C202231"],
+    "colors": ["#D1D1D1", "#EFE313", "#E61A1A"],
+    "run": true,
+    "index": 45,
+    "name": "Loyalty",
+    "type": "Kanji"
+  },
+  "Asset_01_true_06_KANJI_samarai": {
+    "contracts": ["0x5F24901EF5887512DE947F427DFdc8146927Ec9d"],
+    "colors": ["#D1D1D1", "#EFE313", "#FF050B"],
+    "run": true,
+    "index": 46,
+    "name": "Honor",
+    "type": "Kanji"
+  },
+  "Asset_01_true_06_KANJI_squido": {
+    "contracts": ["0x5ACB8dC9d60a60F166879dCB0B99170De0822170"],
+    "colors": ["#D1D1D1", "#EFE313", "#FF050B"],
+    "run": true,
+    "index": 47,
+    "name": "Benevolence",
+    "type": "Kanji"
+  },
+  "Asset_01_true_06_KANJI_tweetybord": {
+    "contracts": ["0x981dB2eFecdd3E3a271b4616D23e89cc5f498b9E"],
+    "colors": ["#D1D1D1", "#F2E83A", "#FF050B"],
+    "run": true,
+    "index": 48,
+    "name": "Honesty",
+    "type": "Kanji"
+  },
+  "Asset_01_true_07_ARMS_FRONT_beefeater": {
+    "contracts": ["0xF40f536940de5c258717923f38e892a59EC0f95b", "0x7DDca9b27843d5AE7afbCFFccF3089ECb5Ea5c52"],
+    "colors": ["#3C3C3C", "#8D8D8D", "#292929", "#505050"],
+    "run": true,
+    "index": 49
+  },
+  "Asset_01_true_07_ARMS_FRONT_boulderdash": {
+    "contracts": ["0x902eaF77857106afb044E2FD1008dbAFBc6e8334"],
+    "colors": ["#777", "#8D8D8D"],
+    "run": true,
+    "index": 50
+  },
+  "Asset_01_true_07_ARMS_FRONT_fewocious": {
+    "contracts": ["0x14C1c1BeBbb6917DF76E0BBD48C154F203b69FbC", "0x9203fCFBDc624aa1032A5b13bb6B123E61A87485"],
+    "colors": ["#00A8E4", "#FF2E33", "#A4A4A4"],
+    "run": true,
+    "index": 51
+  },
+  "Asset_01_true_07_ARMS_FRONT_gunner": {
+    "contracts": [
+      "0x21C92Dc3C93216d8aB4abe99f3Cef88201cBB5DC",
+      "0xf32d5a24D520Ea2a17d6799c0B0A442fD1D1aba1",
+      "0x6F2AcbE0C4640BB18030D44F1a998141D3863b00"
+    ],
+    "colors": ["#00A8E4", "#D1D1D1"],
+    "run": true,
+    "index": 52
+  },
+  "Asset_01_true_07_ARMS_FRONT_samarai": {
+    "contracts": ["0x72d6D9c05f43AaB712845314407DF00bb4B522ae", "0x03b6a89e66EA46390e9132FdEAB6Bb4215c69E80"],
+    "colors": ["#DED797", "#777", "#505050", "#810306", "#FF2E33", "#2AB6E9"],
+    "run": true,
+    "index": 53
+  },
+  "Asset_01_true_07_ARMS_FRONT_squido": {
+    "contracts": ["0x3AfF67E3909b6Ef34d93Fd56FEB7dC85788f7f95"],
+    "colors": [],
+    "run": true,
+    "index": 54
+  },
+  "Asset_01_true_07_ARMS_FRONT_tweetybord": {
+    "contracts": ["0x1140B58DA4981eabe51ce3ee045C7CFe5f6C4054"],
+    "colors": ["#777"],
+    "run": true,
+    "index": 55
+  },
+  "Asset_02_rare_00_BACKGROUND_beefeater": {
+    "contracts": [
+      "0x67817C3Cd037f9bF98d91d30CC4bbDD67B05aaFc",
+      "0x2c2F65BEEB1A1f85a367a6a9A0f7071bdb8eF01D",
+      "0x35615033c0C692f98E65F06723B3724799bf1E67"
+    ],
+    "colors": ["#8DCCB5", "#EBE7C0", "#E5DFAB", "#F4EC62"],
+    "run": true,
+    "index": 56,
+    "name": "Fame and Glory",
+    "type": "Background"
+  },
+  "Asset_02_rare_00_BACKGROUND_boulderdash": {
+    "contracts": ["0xe28c8a6479cCdEc4aFB8aba3656A66B0A21E0134"],
+    "colors": ["#DED797"],
+    "run": true,
+    "index": 57,
+    "name": "Radiating Light",
+    "type": "Background"
+  },
+  "Asset_02_rare_00_BACKGROUND_fewocious": {
+    "contracts": [
+      "0x00016FFe43cC1E0cA9E65939E226D715Ebf25712",
+      "0x7c68aAe96eb49711DFE019e2435B71253822410f",
+      "0x143c407244a82Fc5556d9Fa3a85583E726524705"
+    ],
+    "colors": ["#803A0C", "#D56113", "#FF7418"],
+    "run": true,
+    "index": 58,
+    "name": "Black Tiger, Orange Stripes",
+    "type": "Background"
+  },
+  "Asset_02_rare_00_BACKGROUND_gunner": {
+    "contracts": ["0xC5C9EFBDEA246E6a9Bc1DfB5d3A4dB34f6f81769", "0xb2f8183cd65a03B05719A4C13ca4E41Fc22F6950"],
+    "colors": ["#F7F189"],
+    "run": true,
+    "index": 59,
+    "name": "Asteroid Field",
+    "type": "Background"
+  },
+  "Asset_02_rare_00_BACKGROUND_samarai": {
+    "contracts": ["0x3576E228abB1dfC299E2A0cbC897Ae8669dfFbF2"],
+    "colors": ["#D8CF82", "#FAF6B0"],
+    "run": true,
+    "index": 60,
+    "name": "Hidden Dragon",
+    "type": "Background"
+  },
+  "Asset_02_rare_00_BACKGROUND_squido": {
+    "contracts": ["0x9528429eBAAe98838554680bb4197F0E25B710fe"],
+    "colors": ["#136748", "#68BB9D"],
+    "run": true,
+    "index": 61,
+    "name": "Murky Depths",
+    "type": "Background"
+  },
+  "Asset_02_rare_00_BACKGROUND_tweetybord": {
+    "contracts": ["0x1d00a232F0bc69801f51eDdbf884f5B30aC2fcE0"],
+    "colors": [],
+    "run": true,
+    "index": 62,
+    "name": "Darkness",
+    "type": "Background"
+  },
+  "Asset_02_rare_01_BACKGROUND_OVERLAY_beefeater": {
+    "contracts": [
+      "0x42CA0ffeadE3aE0Fe52bcb33C7a514F204B9C12E",
+      "0x4BfDd1e76f019898DaB6f34EC54b52D5a4a4577C",
+      "0x99e31266aDef5f65b31b105AaF9cA648cb7c24B4",
+      "0x07b5f7FeBDe2B53c92C43e9D84e291782409efcd"
+    ],
+    "colors": [
+      "#FF2E33",
+      "#D50409",
+      "#AB0307",
+      "#E5DFAB",
+      "#42AB84",
+      "#8D8D8D",
+      "#E7E7E7",
+      "#505050",
+      "#BABABA",
+      "#292929",
+      "#FFD1B2",
+      "#FF7418",
+      "#FFA264",
+      "#D56113",
+      "#19110D",
+      "#D1D1D1",
+      "#68BB9D",
+      "#810306",
+      "#001D28",
+      "#D2F0FA",
+      "#18815A"
+    ],
+    "run": true,
+    "index": 63,
+    "name": "Opponents",
+    "type": "Background Overlay"
+  },
+  "Asset_02_rare_01_BACKGROUND_OVERLAY_boulderdash": {
+    "contracts": [
+      "0x0dEEc0CAD415Daf8Ab54ef7A31365a2FFeE9744b",
+      "0xBb1a1B00b3e3e0FF6A20426587d5bD9125ADf5AB",
+      "0xf1F54A3F42c49b69F696E5755429b4E843Bc35b0",
+      "0x722e7B2a2E21975031bE101C0c8a9799af5a6478"
+    ],
+    "colors": ["#C7AFA5", "#B59587", "#A37B6A", "#DAC9C2"],
+    "run": true,
+    "index": 64,
+    "name": "Ether Rocks",
+    "type": "Background Overlay"
+  },
+  "Asset_02_rare_01_BACKGROUND_OVERLAY_fewocious": {
+    "contracts": [
+      "0x1e0518974fccD82948Dcd2707424CEBa7787A1B8",
+      "0x6c408FF15D61cC7e4c350a9Eb9E1282721bC84e7",
+      "0xf51f4Aa901C8088E3D770ca9A7F3A8e48D196Df3",
+      "0x8e61785b31912eeE6167E6F324549F1f42Be3e46",
+      "0x97dc1A5ac8808142A98d02Fe1AE51eF929651650",
+      "0x3A9fd085B840d39D36107d52179E575CE8260c7E",
+      "0x9CC596090Dba0b0197226d909bcE085CAB689d84",
+      "0xf5b608d2883923bc0577311012d9A59C550479de",
+      "0x049D048045bDDb3b54582Df98Bc28503D02f68ED"
+    ],
+    "colors": ["#42AB84", "#0F4E37", "#68BB9D", "#1D9A6C"],
+    "run": true,
+    "index": 65,
+    "name": "$$$",
+    "type": "Background Overlay"
+  },
+  "Asset_02_rare_01_BACKGROUND_OVERLAY_gunner": {
+    "contracts": [
+      "0x0bC1C13ddE77244fBdA26310272a41e828D08E6A",
+      "0x5f36B6B8Fc389c865F3D9536Fb10982Daf188887",
+      "0xc1d07B08FB2750cf350828d1B641A23A4781cCeD",
+      "0x2B67C3d67633484F8f974195cC9c843a1dcb2aeb",
+      "0xcd9Dcfb3dc0248e7f505542689f6030b0Dc8c38d",
+      "0xeB48E1b62765f2D523C48785063C0aDa2032eecd",
+      "0xF6933C1ab547Cd9B4394982425b699971aF7E528",
+      "0x9619Ea26d6fddC4F6f4AfAf51D47B53DbF8b1f66",
+      "0xaE8832815ec224bbC1365C05E67e59849B13817b",
+      "0x260F79dc941FC4cA28161566aeeDF11b894Dd20B",
+      "0x90d028D9EEB96d487Cbaa31F4f16c95165F33cc2"
+    ],
+    "colors": ["#D50409", "#BABABA", "#A4A4A4"],
+    "run": true,
+    "index": 66,
+    "name": "Skull Chain",
+    "type": "Background Overlay"
+  },
+  "Asset_02_rare_01_BACKGROUND_OVERLAY_samarai": {
+    "contracts": [
+      "0xB859D3F70B4b8EE549E3731Ce8Ff8fB5b2406f10",
+      "0x328C7795f60F330Eb670d05E4b1B9e2436eec863",
+      "0x666cd5a497C1ec08438F9B52287e2eFF85e2B689",
+      "0x94336f1Bb3750A66441fE351CF3b91606EC32757",
+      "0xa8FbaE067F4762d076587be460d7310BBC4C74c9",
+      "0x62670d4dD70dc8B124C6d5550EcE0A0e8d20F070",
+      "0xd132a12333f543e03eF25479e0bfB87bABc92C7D",
+      "0x0E735Df1fab58f8Fe89e447564D787a353c7fc3c"
+    ],
+    "colors": ["#BABABA", "#FF050B"],
+    "run": true,
+    "index": 67,
+    "name": "Panda Power",
+    "type": "Background Overlay"
+  },
+  "Asset_02_rare_01_BACKGROUND_OVERLAY_squido": {
+    "contracts": [
+      "0x2e2BC6A24637f5902887FF2BCd1e8c489cB29107",
+      "0xCbCD6Dd824F0b1A78320d589f507df05D1E67e50",
+      "0xb9f369Ca4F0665C5C6a7BfE61A53970919747d08",
+      "0x4c998EFD00cA44598bA4dEdE5BE8Ecd514dd1698",
+      "0x7A2459a89Ab5F49A086c0268E8B4641E0979D1E6",
+      "0xcba0d27d59fA4Bb14625De0A753aa588EA94fAB3",
+      "0xe8A1963c8Ef22a01f6D93ed0b5805788506a9B9B",
+      "0x755C5c47b7933BDc8169f05197d8A7D75Ee27b99",
+      "0x107427FC64d9f057A0E75B7E3E1167786EBC6ee2",
+      "0xC8068b6998456D15944F4F75124442cf00719D6F"
+    ],
+    "colors": ["#FF585C", "#FF8184", "#54C5ED", "#FF2E33"],
+    "run": true,
+    "index": 68,
+    "name": "Little Squidies",
+    "type": "Background Overlay"
+  },
+  "Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord": {
+    "contracts": [
+      "0x012ddAD6Ff79d0196b99757fc07c93Df0fB18f0e",
+      "0x33d6a505401AD8143FbB1d79f0AaAF3F187CB85d",
+      "0x42342c4383513347Bc3Ab5A336a063F66aD035D9",
+      "0x4cc703e89E66767A3b0D3542FE4Da02164329D2c",
+      "0x7C57ABa77Fa9055133446FCfD51132efcB0C16da",
+      "0xDcDa302fCD234898ED14d5954eb843f8dC0Bf0F7",
+      "0xC1bb7d9f92ce8Be61182891C85d3d76657c4988D",
+      "0x742b818a2e411475D71f414B435206DcaA295f98",
+      "0xBbc328e6e01d2Ec40265fEb9Ba7F033C1B19A500",
+      "0xb6474950Bdadd947F4F8895f20Ad86D118eaFB7b",
+      "0x5D084be77F5F35F4548B89872756FE19d01D661D"
+    ],
+    "colors": [
+      "#810306",
+      "#AB0307",
+      "#D2F0FA",
+      "#1D9A6C",
+      "#FFD3D4",
+      "#42AB84",
+      "#B2DDCD",
+      "#8D8D8D",
+      "#00A8E4",
+      "#D50409",
+      "#FFA5AA",
+      "#54C5ED",
+      "#A8E1F6",
+      "#7ED3F1",
+      "#008FC3",
+      "#00ABEA",
+      "#F6EC3F",
+      "#F2E83A",
+      "#2AB6E9",
+      "#FFAAAC",
+      "#FFD1D3",
+      "#8E0000",
+      "#600000",
+      "#FF4555",
+      "#FF0020"
+    ],
+    "run": true,
+    "index": 69,
+    "name": "Birdpocalypse",
+    "type": "Background Overlay"
+  },
+  "Asset_02_rare_02_POD_beefeater": {
+    "contracts": [
+      "0x4bDE812E832448f24D379DDA762f98F4d657e9F7",
+      "0xA7771b76C782d87b7548AFA988658132BF558d9D",
+      "0x0476883fA917C8D8B5610417d42aB9CD3ad139E0"
+    ],
+    "colors": [
+      "#777",
+      "#8D8D8D",
+      "#FF7418",
+      "#F8F7E9",
+      "#FF8B3E",
+      "#292929",
+      "#BABABA",
+      "#F2EFD5",
+      "#EFE313",
+      "#FF050B",
+      "#D56113",
+      "#D50409",
+      "#AB0307",
+      "#F4EC62",
+      "#B4AD60"
+    ],
+    "run": true,
+    "index": 70,
+    "name": "In the Ring",
+    "type": "Pod"
+  },
+  "Asset_02_rare_02_POD_boulderdash": {
+    "contracts": [
+      "0xceb0D09AFb8a5654EEA8E290eBeE1c48a482E2dC",
+      "0x96e6cFa1c4C473Fa98e7aC3A29FbCC3518148268",
+      "0x07E93003ba8E6f847d95cf2F6a5Cc0485908a0CB",
+      "0x358126a593b4997D7F2f8FE4888B503e4F1958f6",
+      "0xdbDf8463c984868e88d36e92a5eA6C98a6a985AA",
+      "0x3e9974C87Eda7faD230BA0AF40d9C62153E658e4"
+    ],
+    "colors": [
+      "#3C3C3C",
+      "#DED797",
+      "#F4EC62",
+      "#505050",
+      "#FFAAAC",
+      "#54C5ED",
+      "#777",
+      "#898D90",
+      "#636769",
+      "#EFE313",
+      "#BABABA",
+      "#A4A4A4",
+      "#EBE7C0",
+      "#AA4D0F",
+      "#2B1304",
+      "#ECCAAA",
+      "#7EED56"
+    ],
+    "run": true,
+    "index": 71,
+    "name": "Teddy Power",
+    "type": "Pod"
+  },
+  "Asset_02_rare_02_POD_fewocious": {
+    "contracts": [
+      "0x45381614aAAbF89f5E2C6Da85f87Ab727826968f",
+      "0xFd8e462D83d98Bc706C1908A206Aa4F16687eCfd",
+      "0xefFFc5C82DB0cBe77229E1C06be613700D9703aa",
+      "0x5A5c45fDd6517f67F17FF5CF6DFf0F1B598e48e9",
+      "0x3A7D412C0e3c7c3953c5F48731cb285fB473fC6e",
+      "0xc857512becC0EE8b0109357D6864dE3eaDf248b6",
+      "0x2dbfD39d8778CfdC0bdEDe3D498422Dc8c063A33"
+    ],
+    "colors": ["#8D8D8D", "#A4A4A4", "#505050", "#D50409", "#005573", "#2AB6E9", "#FCFAD8", "#EF563B"],
+    "run": true,
+    "index": 72,
+    "name": "White Cat",
+    "type": "Pod"
+  },
+  "Asset_02_rare_02_POD_gunner": {
+    "contracts": [
+      "0x4C26538DA04f25820112abe33ffE76B78B88bd37",
+      "0xD3493f052a26D9acD0A260263a1BA42b2078dc8b",
+      "0x990408fbEa7cCB705de6BA5322d0aadc8F3A9d1A",
+      "0x1ae82c111b350e1c5322731b3c205f9fc85A7E0a",
+      "0x18BaAf18406018CD974962D963341c596A32DC8A"
+    ],
+    "colors": [
+      "#777",
+      "#636363",
+      "#FF050B",
+      "#E4FFCA",
+      "#FF4500",
+      "#F4EC62",
+      "#E61A1A",
+      "#E6611A",
+      "#F2E83A",
+      "#D8CF82",
+      "#EFE313",
+      "#DED797",
+      "#E7E7E7",
+      "#A4A4A4",
+      "#BABABA"
+    ],
+    "run": true,
+    "index": 73,
+    "name": "Dark Aesthetic",
+    "type": "Pod"
+  },
+  "Asset_02_rare_02_POD_samarai": {
+    "contracts": ["0xC7d0F862F93A936C17923aDb460e84B7784702f7"],
+    "colors": ["#3A3A3A", "#FF050B"],
+    "run": true,
+    "index": 74,
+    "name": "Rising Yin and Yang",
+    "type": "Pod"
+  },
+  "Asset_02_rare_02_POD_squido": {
+    "contracts": [
+      "0x2D776D6d415A7b3431Ed4E66Af38F19D648738D9",
+      "0x361Ff811CfA13171612ba0e6A26d6278aF5E53E4",
+      "0x39478ddd89a0B97346b7aF44F09A35206c7aEafB",
+      "0xe5193170a46c8aA68fA14f97C869D68D7D5Af510",
+      "0xfb824271C462e7e65779e6Fd140361a3B727b03f",
+      "0x8fE6eB7d61Cc280eCac426612B06ccf70b1746E5"
+    ],
+    "colors": ["#B9BDC0", "#FF050B", "#F2E83A", "#1D9A6C", "#DED797", "#008CBE"],
+    "run": true,
+    "index": 75,
+    "name": "Blue Squid",
+    "type": "Pod"
+  },
+  "Asset_02_rare_02_POD_tweetybord": {
+    "contracts": ["0x788816cbcdc41ECec73b5942942E0f09b1581249", "0x851f19c827cA5Bb16cc9cD3EF7aB70586099c439"],
+    "colors": [
+      "#A4A4A4",
+      "#FF2E33",
+      "#FF7418",
+      "#F2E83A",
+      "#42AB84",
+      "#2AB6E9",
+      "#FF050B",
+      "#505050",
+      "#7EED56",
+      "#8D8D8D",
+      "#FCFAD8"
+    ],
+    "run": true,
+    "index": 76,
+    "name": "Charged Speaker Stack",
+    "type": "Pod"
+  },
+  "Asset_02_rare_03_RIDER_beefeater": {
+    "contracts": [
+      "0x98a66C1b99b7Ec218514ED92DB3c0209F60F337c",
+      "0x757cACBA9D6a63aF1F70f01eF72C0eF77DFCe269",
+      "0x5B8F29Df964C513e03be7F12F48AA68feCd534c8"
+    ],
+    "colors": ["#E5F20D", "#D8CF82", "#FF050B", "#FF8184", "#FFD3D4"],
+    "run": true,
+    "index": 77,
+    "name": "Enraged Betty",
+    "type": "Pilot"
+  },
+  "Asset_02_rare_03_RIDER_boulderdash": {
+    "contracts": ["0x9eC1F5472D0C061B7aEa7636Dffc7702E7c08fdA", "0xC6FBEA441650Fa83af4d9d2538237D95Ff73118C"],
+    "colors": ["#FF050B", "#00A8E4", "#810306", "#FF8184", "#FFAAAC", "#D8CF82"],
+    "run": true,
+    "index": 78,
+    "name": "Crying Buba",
+    "type": "Pilot"
+  },
+  "Asset_02_rare_03_RIDER_fewocious": {
+    "contracts": [
+      "0x43c47148D87195b66b19490B7eBf88c5CF5f2989",
+      "0xDADfEAC008e3a32F7F9899fa44728600d05Ad796",
+      "0xa96cb4B768AfACe77Abb8e86afF6590CA16AAccd",
+      "0x51b78b0ADA5e14846D3d4AdAA168bD3bcAD20a9d",
+      "0x372666f3c31Ee39662747cE135ed213F708032B2",
+      "0x1115ad83C1c4Cd4Fd42D4446aFaf5a2bab9CdACA"
+    ],
+    "colors": ["#FF050B", "#E5F20D", "#EBE7C0", "#FF8184", "#F9A", "#2AB6E9", "#007199", "#636363"],
+    "run": true,
+    "index": 79,
+    "name": "Fifi with a Gun",
+    "type": "Pilot"
+  },
+  "Asset_02_rare_03_RIDER_gunner": {
+    "contracts": [
+      "0x444EBb2154138582D23c6fF8e764e47e3d54B060",
+      "0x3480901828377371bda164f09898B4be04Ff8Dc2",
+      "0x6FF70f2e7AaB7C43a32f15287247F14406dDa114"
+    ],
+    "colors": [
+      "#18815A",
+      "#FFD635",
+      "#1D9A6C",
+      "#00A8E4",
+      "#994662",
+      "#FF050B",
+      "#F4EC62",
+      "#D50409",
+      "#FCFAD8",
+      "#54C5ED",
+      "#B2DDCD",
+      "#0DF2C9"
+    ],
+    "run": true,
+    "index": 80,
+    "name": "Tsu the Max",
+    "type": "Pilot"
+  },
+  "Asset_02_rare_03_RIDER_samarai": {
+    "contracts": ["0x49a3BD303143F53F9046228C56b93802D337a46A", "0x4dc6476Ef3248bBD8b1920964628B9df04f4069a"],
+    "colors": ["#E5DFAB", "#FF2E33", "#19F2C8", "#FF050B"],
+    "run": true,
+    "index": 81,
+    "name": "Kuro Enlightened",
+    "type": "Pilot"
+  },
+  "Asset_02_rare_03_RIDER_squido": {
+    "contracts": [
+      "0x9b0ab21235ad177F1258Cbb1126a59EEBaD8d0C4",
+      "0x4686e428B7D71Cc3f9CFA17f60B9Ec543B23af6D",
+      "0x9bF4d31F64DD679ea29B8A25aA41Af2bb2370Aa7",
+      "0x0a6dA821dFeefEcaf8Bc4f80312bA959E39Dc4B5",
+      "0x06ad3f591894A0C3c7030F9310C1d07a3B297917",
+      "0xAc5cB93bD51c41265E9E3D8Bf0D8b9f723b111F6",
+      "0x46119f1e85DBeaEAa14d5aCA68e1999d3C45299D",
+      "0x762aABfaeaC82Aff22e3196E63a3E8372b2f56bD"
+    ],
+    "colors": ["#FF050B", "#D8CF82", "#008CBE", "#DED797", "#18815A", "#FF8184"],
+    "run": true,
+    "index": 82,
+    "name": "Desperate Syd",
+    "type": "Pilot"
+  },
+  "Asset_02_rare_03_RIDER_tweetybord": {
+    "contracts": ["0x4d6Ba91cc7e1a775D444f66BeF257A337592879b", "0x7b84b75582238806115EB31F48e227db731A76f7"],
+    "colors": [
+      "#001D28",
+      "#A8E1F6",
+      "#00A8E4",
+      "#FF050B",
+      "#810306",
+      "#EBE7C0",
+      "#F4EC62",
+      "#D50409",
+      "#D8CF82",
+      "#E5DFAB",
+      "#D1D1D1",
+      "#570204",
+      "#EF563B",
+      "#00394E",
+      "#005573",
+      "#F7F189"
+    ],
+    "run": true,
+    "index": 83,
+    "name": "Ava Jammin",
+    "type": "Pilot"
+  },
+  "Asset_02_rare_04_ARMS_BACK_beefeater": {
+    "contracts": ["0x4e70a25650AAEa42A87269662DF69591263dcAeC"],
+    "colors": ["#42AB84", "#8D8D8D", "#EBE7C0"],
+    "run": true,
+    "index": 84,
+    "name": "REDdy to Rumble",
+    "type": "Arms"
+  },
+  "Asset_02_rare_04_ARMS_BACK_boulderdash": {
+    "contracts": ["0x09c45cD445689626d79009093Fdabf787F453f1D"],
+    "colors": ["#777", "#FF2E33", "#BABABA"],
+    "run": true,
+    "index": 85,
+    "name": "Cobble Crushers",
+    "type": "Arms"
+  },
+  "Asset_02_rare_04_ARMS_BACK_fewocious": {
+    "contracts": ["0x95393C3e9e2AE69fD9923bef65B19C292761281b"],
+    "colors": ["#777", "#8D8D8D", "#BABABA"],
+    "run": true,
+    "index": 86,
+    "name": "White Claws",
+    "type": "Arms"
+  },
+  "Asset_02_rare_04_ARMS_BACK_gunner": {
+    "contracts": ["0xE514F0740000692E3a5703ebB78d1BBF95e695aA"],
+    "colors": ["#636363", "#A4A4A4", "#8D8D8D", "#D1D1D1", "#505050", "#777"],
+    "run": true,
+    "index": 87,
+    "name": "Blasting Guns",
+    "type": "Arms"
+  },
+  "Asset_02_rare_04_ARMS_BACK_samarai": {
+    "contracts": ["0xBF7256AeBad54eb2B21c28391dd4c42a5DBeC4d9"],
+    "colors": ["#777", "#8D8D8D", "#D50409", "#DED797"],
+    "run": true,
+    "index": 88,
+    "name": "Heart of Sword",
+    "type": "Arms"
+  },
+  "Asset_02_rare_04_ARMS_BACK_squido": {
+    "contracts": [
+      "0x6D1D6bB570460084ef6Fe52E8B4236Da5455F50f",
+      "0xF8f74cC8F512ea867c63e721aF703dB872B33841",
+      "0xe85D227a5afe7f8168E5e0495CA6A79D87b9Bd59"
+    ],
+    "colors": ["#3C3C3C", "#51E9F4", "#FAF6B0", "#FF7418", "#00A8E4", "#136748"],
+    "run": true,
+    "index": 89,
+    "name": "Radiating Tentacles",
+    "type": "Arms"
+  },
+  "Asset_02_rare_04_ARMS_BACK_tweetybord": {
+    "contracts": ["0x7B50A9993B6F0BcaCd81cbEa5cE3528c81F6d78d", "0xc1Fa482EbAE00E3cE8004fA2C3112d478d96e7aE"],
+    "colors": ["#636363", "#636769", "#989CA0", "#8DCCB5", "#8D8D8D", "#A4A4A4", "#777"],
+    "run": true,
+    "index": 90,
+    "name": "Mach 5",
+    "type": "Arms"
+  },
+  "Asset_02_rare_05_BODY_beefeater": {
+    "contracts": [
+      "0x21f22E85F8c05b6E88358f2b6A5689AffF55A290",
+      "0x04F0ab230A7fAAdc4AFCbf5466f7d8787411D5E5",
+      "0x6AF009870f4d1E7674772C57D97dE574a5190461"
+    ],
+    "colors": [
+      "#BABABA",
+      "#A4A4A4",
+      "#B4AD60",
+      "#810306",
+      "#D50409",
+      "#EFE313",
+      "#D8CF82",
+      "#FF2E33",
+      "#505050",
+      "#FF050B",
+      "#1D9A6C"
+    ],
+    "run": true,
+    "index": 91,
+    "name": "Special BEEFeATER",
+    "type": "Core"
+  },
+  "Asset_02_rare_05_BODY_boulderdash": {
+    "contracts": ["0xC10c46e5eb0F87f8B848878B1EbD432361a48781", "0x1F1b123b8704Fd4098005b0E73F350Fc8C30b8b6"],
+    "colors": ["#505050", "#A4A4A4", "#FF050B", "#636363", "#1D9A6C"],
+    "run": true,
+    "index": 92,
+    "name": "Special BOULDERDaSH",
+    "type": "Core"
+  },
+  "Asset_02_rare_05_BODY_fewocious": {
+    "contracts": ["0x9AbcECdC54e251D6E40A01281334cDa3D9d67305", "0xcB7704660c5360cC6E4d9BD77f0c9F5E81870422"],
+    "colors": ["#FF050B", "#B4AD60", "#E7E7E7", "#BABABA", "#FF2E33", "#810306", "#FFAAAC", "#777", "#F7F189"],
+    "run": true,
+    "index": 93,
+    "name": "Special FeWAL",
+    "type": "Core"
+  },
+  "Asset_02_rare_05_BODY_gunner": {
+    "contracts": ["0x428883aDE18f382B7047937746CC2718455BA4e3", "0x6f88B0f9749A09d661108378E8C375f64770B7E3"],
+    "colors": ["#777", "#42AB84", "#7EED56", "#D1D1D1", "#FAF6B0", "#8D8D8D", "#D56113"],
+    "run": true,
+    "index": 94,
+    "name": "Special GUNNa",
+    "type": "Core"
+  },
+  "Asset_02_rare_05_BODY_samarai": {
+    "contracts": [
+      "0x09d496E5951244AdDbED92E5716b2962C44E0924",
+      "0x5F234557C2846cdF89cF0363338b84a9D7F7b36D",
+      "0xfd84C947b7BD8479FfAF94f10a509f395Ba8DF68"
+    ],
+    "colors": ["#8D8D8D", "#F2E83A", "#F4EC62", "#8FD926", "#FF2E33", "#FFD3D4", "#FFF8B8", "#FF050B", "#F2DDC8"],
+    "run": true,
+    "index": 95,
+    "name": "Special SAMuRAI",
+    "type": "Core"
+  },
+  "Asset_02_rare_05_BODY_squido": {
+    "contracts": [
+      "0x41c3Ce4E52a9Af4c6c4675b2628CA23CB8E6A3Fb",
+      "0x6C0229B51458C49FDB9577De64c6ab53Cb71bbD4",
+      "0x29EF9bF1E3BE3A0c5518954F2b53395F837a5F48",
+      "0x9a6E0Ba45D1495FF3062fAb3810489bb0751227A",
+      "0xe85Ba1ceDCD0585Fd99e12A1C81745773209f8fA",
+      "0xf4D220Af180315cf2E6BE48550C53BD33fb3e26B"
+    ],
+    "colors": ["#636363", "#292929", "#005573", "#51E9F4", "#2AB6E9", "#007199", "#DED797"],
+    "run": true,
+    "index": 96,
+    "name": "Special SQUiDO",
+    "type": "Core"
+  },
+  "Asset_02_rare_05_BODY_tweetybord": {
+    "contracts": [
+      "0xb951b24BeAc401b571FcE9ea1e6F92A617cCe4c7",
+      "0x7c264D93B3AAb754A8bCf0660dA9dDDBA9276E62",
+      "0x13CfC4A724fcCf29e42bE161e71dE55576936A12",
+      "0x56e199509092F045D326CbFB97b3bc7f5d749F6c"
+    ],
+    "colors": ["#D1D1D1", "#00A8E4", "#8D8D8D", "#D50409", "#A4A4A4", "#FF2E33", "#FF050B", "#FFAAAC"],
+    "run": true,
+    "index": 97,
+    "name": "Special TWEETYBiRD",
+    "type": "Core"
+  },
+  "Asset_02_rare_06_KANJI_beefeater": {
+    "contracts": ["0xAE721FD5a88575711353E0eBeC65230AD8004277"],
+    "colors": ["#D1D1D1", "#F2E83A", "#FF050B"],
+    "run": true,
+    "index": 98,
+    "name": "Courage Ablaze",
+    "type": "Kanji"
+  },
+  "Asset_02_rare_06_KANJI_boulderdash": {
+    "contracts": ["0x0ca870B039A6a6B10DcdD1CBc6A8c9C711219DDc"],
+    "colors": ["#D1D1D1", "#F2E83A", "#FF050B"],
+    "run": true,
+    "index": 99,
+    "name": "Righteousness Ablaze",
+    "type": "Kanji"
+  },
+  "Asset_02_rare_06_KANJI_fewocious": {
+    "contracts": ["0x0beCb81F38248f76ef70A49Be19Ea11B78856adC"],
+    "colors": ["#D1D1D1", "#F2E83A", "#FF050B"],
+    "run": true,
+    "index": 100,
+    "name": "Respect Ablaze",
+    "type": "Kanji"
+  },
+  "Asset_02_rare_06_KANJI_gunner": {
+    "contracts": ["0x43259168231E6af645F470ac5b2717b723189120"],
+    "colors": ["#D1D1D1", "#F2E83A", "#FF050B"],
+    "run": true,
+    "index": 101,
+    "name": "Loyalty Ablaze",
+    "type": "Kanji"
+  },
+  "Asset_02_rare_06_KANJI_samarai": {
+    "contracts": ["0xda5f244d34C8301737b80DC171f9a79eE1f38570"],
+    "colors": ["#D1D1D1", "#F2E83A", "#FF050B", "#282603"],
+    "run": true,
+    "index": 102,
+    "name": "Honor Ablaze",
+    "type": "Kanji"
+  },
+  "Asset_02_rare_06_KANJI_squido": {
+    "contracts": ["0x6d6b33072c67f9D99E7D04FEAeB62ea1382Ab8f2"],
+    "colors": ["#D1D1D1", "#F2E83A", "#FF050B"],
+    "run": true,
+    "index": 103,
+    "name": "Benevolence Ablaze",
+    "type": "Kanji"
+  },
+  "Asset_02_rare_06_KANJI_tweetybord": {
+    "contracts": ["0x4C8F26D42BD95525aBb4666BB7540Ec2d6126806"],
+    "colors": ["#D1D1D1", "#F2E83A", "#FF050B", "#282603"],
+    "run": true,
+    "index": 104,
+    "name": "Honesty Ablaze",
+    "type": "Kanji"
+  },
+  "Asset_02_rare_07_ARMS_FRONT_beefeater": {
+    "contracts": ["0x1f01c1A10DF9e207c39Cb213F201905BBA705d38", "0x5fb66a891274D73BF292A871bC140eD179C9Bed1"],
+    "colors": ["#3C3C3C", "#8D8D8D", "#00394E", "#292929", "#D50409", "#505050", "#FF8184", "#AB0307"],
+    "run": true,
+    "index": 105
+  },
+  "Asset_02_rare_07_ARMS_FRONT_boulderdash": {
+    "contracts": ["0x1eA1012BF50a68cC51667170c3B00100877D397e"],
+    "colors": ["#777", "#3C3C3C"],
+    "run": true,
+    "index": 106
+  },
+  "Asset_02_rare_07_ARMS_FRONT_fewocious": {
+    "contracts": ["0xF223C1bd4De26725DbA4c25397fF67579fC4bE41", "0x92500fF07023297014e636B2A82b1686489f5344"],
+    "colors": ["#00A8E4", "#D1D1D1", "#FF2E33", "#8D8D8D", "#A4A4A4"],
+    "run": true,
+    "index": 107
+  },
+  "Asset_02_rare_07_ARMS_FRONT_gunner": {
+    "contracts": [
+      "0x3D98530611b1D8468Db17b2F998C31e847A5A949",
+      "0x53AF44Fb828C25CdD21DBe98319Ac4f6f84fE86A",
+      "0x81c0B5C6af46f27c3af7d45aBc9A8BA649298bFc",
+      "0x03Fc0dC9591455DF931B6b033Ea22130C0C9A7Ad"
+    ],
+    "colors": [
+      "#FFF2E9",
+      "#FF4500",
+      "#2AB6E9",
+      "#007199",
+      "#BE0039",
+      "#D1D1D1",
+      "#E4FFCA",
+      "#FFF3F3",
+      "#FB133A",
+      "#FFD635"
+    ],
+    "run": true,
+    "index": 108
+  },
+  "Asset_02_rare_07_ARMS_FRONT_samarai": {
+    "contracts": [
+      "0x594EC7893EB4B8AD09015e4E639F4f99318C6472",
+      "0x33E665E31156cE964B42485F6577865486cD83e2",
+      "0xC9B1D1ED213d4ff17Ab6f4e57A4b4437a73Fc7f9"
+    ],
+    "colors": [
+      "#DED797",
+      "#FCFAD8",
+      "#777",
+      "#505050",
+      "#810306",
+      "#FF2E33",
+      "#FFD3D4",
+      "#D50409",
+      "#E7E7E7",
+      "#D2F0FA"
+    ],
+    "run": true,
+    "index": 109
+  },
+  "Asset_02_rare_07_ARMS_FRONT_squido": {
+    "contracts": ["0x99B79a7455a7254c46c833af3FF2C0A2C7FfeA4e"],
+    "colors": ["#FAF6B0", "#FF7418"],
+    "run": true,
+    "index": 110
+  },
+  "Asset_02_rare_07_ARMS_FRONT_tweetybord": {
+    "contracts": ["0x4cFABAeeEF5DaEAC117CA5265844e6990DcA4e1f"],
+    "colors": ["#777"],
+    "run": true,
+    "index": 111
+  },
+  "Asset_03_superrare_00_BACKGROUND_01": {
+    "contracts": [
+      "0x175b4Ec18d7aa7DF3487ca39f87EE55797bD7b61",
+      "0x16501d150570C484B6f14Da0765Bb15871E6de70",
+      "0xBb9ADc386067C3387a857f129DB5e1A301643F46",
+      "0xdED201807990B255f0ed61c336C6acE889Cf9A7c",
+      "0x2736606D8622AdBd04E751dC182FE1ABeD4950a6",
+      "0x88578EF0d9ebE312DF5417f43FdeD705470AE7f2",
+      "0x967D9BD582903D2B7e2d5971cf45f9bb1973F00E",
+      "0x3AAA09659D4C70b2E147cC2B25a1b2e19130058d",
+      "0xE0c20E13fb8571437034606cD293f59779814f33",
+      "0x5Dd9E480303A49e9926D374Ee80AFeBEE014e8c1",
+      "0x7f820bBab8627eb9846b9ba48c44df042c7944b8",
+      "0xfaa4DE88D42735a2978BA160d70447c16366C6b5",
+      "0x394a60C9090e8D1e5B61cC8Fb09688E9889768C3",
+      "0xdb323C366cB63b6EbdfA44fa2Fc8c5AB97a09b4a"
+    ],
+    "colors": ["#051B1B", "#A3FC91", "#19F2C8"],
+    "run": true,
+    "index": 112,
+    "name": "Matrix",
+    "type": "Background"
+  },
+  "Asset_03_superrare_00_BACKGROUND_02": {
+    "contracts": [
+      "0x9023372b20F77822B313eb6f2a53FC5ed67C97aC",
+      "0xA2bC77509FAF06b4e359A7738bb39a629Dc6Ea34",
+      "0xF4e172E73B96011dFB34608c57176BF3aAeC3c01",
+      "0xa058677e6c2aC6be214bE5909C5679Db0962e34D"
+    ],
+    "colors": ["#F20D0D", "#3C3C3C", "#F2EFD5", "#FF7418", "#F4EC62", "#F1EDC8", "#FAF6B0"],
+    "run": true,
+    "index": 113,
+    "name": "Explosion",
+    "type": "Background"
+  },
+  "Asset_03_superrare_00_BACKGROUND_03": {
+    "contracts": ["0x9780895DaD7778917f58CDA37612d49e50cE3999"],
+    "colors": ["#810306"],
+    "run": true,
+    "index": 114,
+    "name": "Circles",
+    "type": "Background"
+  },
+  "Asset_03_superrare_01_BACKGROUND_OVERLAY_01": {
+    "contracts": [
+      "0xf0D8b9a3cAa05CFCb3F3567F9f9CC9F5963ECe9e",
+      "0xC532080fa0168f9bDE322A89f21D777D5dD7A951",
+      "0x01c4d2B5DC2916CbCE41fbD0C1DB66A7CEAD1025",
+      "0x8354277d6748DB13093229a58c959114FbF7C267"
+    ],
+    "colors": [
+      "#1D9A6C",
+      "#AB0307",
+      "#C7BD10",
+      "#FF7418",
+      "#00394E",
+      "#EFE313",
+      "#FF050B",
+      "#F4EC62",
+      "#D1D1D1",
+      "#E7E7E7",
+      "#A4A4A4",
+      "#636363",
+      "#BABABA",
+      "#777",
+      "#8D8D8D"
+    ],
+    "run": true,
+    "index": 115,
+    "name": "Eight Ball",
+    "type": "Background Overlay"
+  },
+  "Asset_03_superrare_01_BACKGROUND_OVERLAY_02": {
+    "contracts": [
+      "0x25Cf239e4e0Be3fE2b4912E1fd213D08Ce1603A4",
+      "0x18c163C39A217f7C5AA43E0AEeFE4FeDCf07d964",
+      "0xE2Ff615b3AD658dc1eb3cFF0Bee31b19B3F854e2",
+      "0xaA0355Ad6B7F70fb8085BB736d51D08e3c9187F3",
+      "0xD7887741f458629e71DE306A7a012F5f890A3abc"
+    ],
+    "colors": ["#F2EFD5", "#AB0307", "#795140", "#F7F189", "#B4AD60", "#614133"],
+    "run": true,
+    "index": 116,
+    "name": "Old English",
+    "type": "Background Overlay"
+  },
+  "Asset_03_superrare_01_BACKGROUND_OVERLAY_03": {
+    "contracts": [
+      "0x1BaA7c51138054C9E56Af8B999291cCF854c5188",
+      "0x2abB4Ad2c95F5ec008FF40f608A06bDeE924Cc8B",
+      "0x0cf23B4725Df5d381055D70170b8d931865cADEF",
+      "0x506f5B20644Caa8525664BBFc8D51027297710e0"
+    ],
+    "colors": ["#42AB84", "#FF585C", "#91614C", "#FFA264", "#FF8184", "#F7F189", "#D8CF82", "#FF7418", "#7ED3F1"],
+    "run": true,
+    "index": 117,
+    "name": "Loogies",
+    "type": "Background Overlay"
+  },
+  "Asset_03_superrare_02_POD_01": {
+    "contracts": ["0x7Bfd30123e5a4dD962df69C9D05A4d0ac1F84cD8"],
+    "colors": ["#777"],
+    "run": true,
+    "index": 118,
+    "name": "Gnosis",
+    "type": "Pod"
+  },
+  "Asset_03_superrare_02_POD_02": {
+    "contracts": ["0x055C762279929d020cC05591004118dd9F06E972"],
+    "colors": ["#636363", "#2AB6E9"],
+    "run": true,
+    "index": 119,
+    "name": "NiftyInk Loading",
+    "type": "Pod"
+  },
+  "Asset_03_superrare_02_POD_03": {
+    "contracts": ["0x1f346Ac3E79485024EEe95Cc94106D91A7363e91"],
+    "colors": ["#00A8E4"],
+    "run": true,
+    "index": 120,
+    "name": "BuidlGuidl",
+    "type": "Pod"
+  },
+  "Asset_03_superrare_03_RIDER_01": {
+    "contracts": ["0x6BE52611498ddF90483C367cAE7fe0BC1cA2407d", "0x60FdBaBC8f3aEf3E06d533CF068325C426035eA4"],
+    "colors": ["#54C5ED", "#D2F0FA", "#FF8184"],
+    "run": true,
+    "index": 121,
+    "name": "The ABI Ninja",
+    "type": "Pilot"
+  },
+  "Asset_03_superrare_03_RIDER_02": {
+    "contracts": ["0x2d974165E431b2a4B240FEA6bD7FC2EaA9DC004f", "0xA92d09739a32Ba39Fd614714a095d121a257AD36"],
+    "colors": ["#EBE7C0", "#AA4D0F", "#ECCAAA"],
+    "run": true,
+    "index": 122,
+    "name": "Buffalo and Zebra",
+    "type": "Pilot"
+  },
+  "Asset_03_superrare_03_RIDER_03": {
+    "contracts": [
+      "0x7FBb046076acc47D41c6dda2A2818e9D728054a7",
+      "0xC55009412D81cdE6b870CCA86F4de67Cd9344EC7",
+      "0xc2567647101e6C4fcc42a28DC91bC333F3067AE3",
+      "0x43A088626CCb4bc47Fa0F6cB7748498f8E037102",
+      "0xd29FE569D527D9e97eDdE218B3F906d0F65Eb093",
+      "0xeE34F47975B6418B27e339aB71188Bbd493bcB3a",
+      "0x36CBb164d1F599aeAd787cce272F72318BEa9108"
+    ],
+    "colors": [
+      "#19F2C8",
+      "#FFB470",
+      "#FF585C",
+      "#E4ABFF",
+      "#42AB84",
+      "#B44AC0",
+      "#FFA264",
+      "#3690EA",
+      "#D8CF82",
+      "#FF8184",
+      "#F7F189",
+      "#7EED56",
+      "#91614C",
+      "#51E9F4",
+      "#7ED3F1",
+      "#94B3FF",
+      "#F9A",
+      "#FF3881"
+    ],
+    "run": true,
+    "index": 123,
+    "name": "Loogies",
+    "type": "Pilot"
+  },
+  "Asset_03_superrare_04_ARMS_BACK_01": {
+    "contracts": [
+      "0x5D36424994A2D676246593894396600852828C54",
+      "0xc360d7aFD81cf5cEC21EB6835130855cC3791831",
+      "0x67f518Ae163e3E0c9EBBe250E29B5D3D9F755f98",
+      "0x17F052afb8a3310881b7d74EFfe67DBcC128d057"
+    ],
+    "colors": ["#777", "#42AB84", "#F2E83A", "#FF7418", "#68BB9D", "#D1D1D1", "#282603", "#9F970D"],
+    "run": true,
+    "index": 124,
+    "name": "NOUNs",
+    "type": "Arms"
+  },
+  "Asset_03_superrare_04_ARMS_BACK_02": {
+    "contracts": ["0x80997BfD9d4576c2EefF08CFE94C19cA78BBfBD2"],
+    "colors": ["#A4A4A4"],
+    "run": true,
+    "index": 125,
+    "name": "ETH Hook",
+    "type": "Arms"
+  },
+  "Asset_03_superrare_04_ARMS_BACK_03": {
+    "contracts": ["0x1B5454aE157BCE7c9B15F47F02513B606F69E029", "0x8c86b601373B74D9cf7E9F7579E3EB1C638f0f7b"],
+    "colors": ["#FF8B3E", "#F2EFD5", "#54C5ED"],
+    "run": true,
+    "index": 126,
+    "name": "Bowtie",
+    "type": "Arms"
+  },
+  "Asset_03_superrare_05_BODY_01": {
+    "contracts": [
+      "0x9f6Be08C321B9c1401624cB01f77EFD35c58667B",
+      "0x129494296A0246DeB1Fed4AadE950293Fe021DCe",
+      "0x374594a1D27aBBB5340A05059f110b2f15261982",
+      "0xde23150138FBd2642ca0f7C0ceccD07CcF511d90"
+    ],
+    "colors": ["#68BB9D", "#00A8E4", "#0F4E37", "#F8F7E9", "#FF8B3E", "#F2EFD5", "#3C3C3C", "#EBE7C0"],
+    "run": true,
+    "index": 127,
+    "name": "Frog Prince",
+    "type": "Core"
+  },
+  "Asset_03_superrare_05_BODY_02": {
+    "contracts": [
+      "0x0c4167EF7D8C6021054c0ffe22b4a89E5c1cCdEb",
+      "0xE1fd3e849001d74f370a6B768F22442F030ea240",
+      "0xfAE51A9dea276c7234Ba6028272E1924b576E4a5",
+      "0x372D747b2472a5CbeEAaAe7b784Ba3d37CA0423C"
+    ],
+    "colors": [
+      "#777",
+      "#9F970D",
+      "#282603",
+      "#8D8D8D",
+      "#A4A4A4",
+      "#504C06",
+      "#292929",
+      "#EBE7C0",
+      "#2AB6E9",
+      "#7ED3F1",
+      "#FFAAAC"
+    ],
+    "run": true,
+    "index": 128,
+    "name": "GitHub Octocat",
+    "type": "Core"
+  },
+  "Asset_03_superrare_05_BODY_03": {
+    "contracts": [
+      "0xbEFF80C73abfed5FEB3c12F1883792D27adB8379",
+      "0xe41276C12C8344C3690d347dD1B7D74bF3Ee3e2f",
+      "0x96a3b633f04A28E99d738871e9A57c055Fd790De",
+      "0x73440f1068D52f5745881aa1b293bD5d9153adEB",
+      "0x5066889797Af07417f13804ECaf91c45331aA206",
+      "0x086397d3acA11a30F9B29ce7c863966FdBD1EA6C",
+      "0x17e77F43301d69EA557a803e8D43177f40cC542c",
+      "0x23C09caeb4d545385c50E47906686d8c2849a211",
+      "0x6ce2587168D606640B7273809D3682405cD496C1"
+    ],
+    "colors": [
+      "#FF7418",
+      "#54C5ED",
+      "#A4A4A4",
+      "#777",
+      "#FFAAAC",
+      "#EBE7C0",
+      "#505050",
+      "#F4EC62",
+      "#F8F7E9",
+      "#91614C"
+    ],
+    "run": true,
+    "index": 129,
+    "name": "Beast",
+    "type": "Core"
+  },
+  "Asset_03_superrare_06_KANJI_01": {
+    "contracts": ["0x0fc04B65B7d80482090A566Acfd83e1A402A0174"],
+    "colors": [
+      "#D1D1D1",
+      "#673AB7",
+      "#2450A4",
+      "#18815A",
+      "#CEDC3E",
+      "#02BBD3",
+      "#FEEA3B",
+      "#F4B90E",
+      "#E81F61",
+      "#F44334",
+      "#607D8B"
+    ],
+    "run": true,
+    "index": 130,
+    "name": "NiftyInk",
+    "type": "Kanji"
+  },
+  "Asset_03_superrare_06_KANJI_02": {
+    "contracts": ["0xfb2FAC5336DCaeE4939C7861466458B16CBBf05c"],
+    "colors": ["#D1D1D1", "#F2E83A", "#D8EDE5"],
+    "run": true,
+    "index": 131,
+    "name": "Loogie Pirates",
+    "type": "Kanji"
+  },
+  "Asset_03_superrare_06_KANJI_03": {
+    "contracts": ["0xEc35799d9132352Cb679BEfc06318416d6d56aAa"],
+    "colors": ["#810306"],
+    "run": true,
+    "index": 132,
+    "name": "Built on Base",
+    "type": "Kanji"
+  },
+  "Asset_03_superrare_07_ARMS_FRONT_01": {
+    "contracts": ["0x52C00E3f271908B999765AB3B72dC7f1E6F5528E", "0x6Fb44C5eFe41ECBDf4cb13839EFAcb6f7CeC2eD9"],
+    "colors": ["#FF050B", "#A4A4A4"],
+    "run": true,
+    "index": 133
+  },
+  "Asset_03_superrare_07_ARMS_FRONT_02": {
+    "contracts": [
+      "0xc53CE71d06055Abe97Ed14a2417F4e73b985C729",
+      "0xF458cAD17936f657370DAF09c475C65d3FA35BCC",
+      "0x824E2498C66E54B45B276B8A4C7C3bAC9F0e3FCC",
+      "0x283B03734CfE9F8dEDd4564EaDEfA5A7e734F78C"
+    ],
+    "colors": ["#A4A4A4", "#F2EFD5", "#8D8D8D", "#777", "#F8F7E9"],
+    "run": true,
+    "index": 134
+  },
+  "Asset_03_superrare_07_ARMS_FRONT_03": {
+    "contracts": ["0xFD7816d4F97fB5927D5c9c99bCe52f803c11B803", "0xC8fF62268BafBBE4F1b10F7B6F1CaAce24c20364"],
+    "colors": ["#FF8B3E", "#F2EFD5", "#54C5ED"],
+    "run": true,
+    "index": 135
+  },
+  "Asset_04_aku_00_BACKGROUND_aku": {
+    "contracts": ["0x536B1C4a92dB95e9DB770F4573A8c3438d7951B7"],
+    "colors": [],
+    "run": true,
+    "index": 136,
+    "name": "Darkest Night",
+    "type": "Background"
+  },
+  "Asset_04_aku_01_BACKGROUND_OVERLAY_aku": {
+    "contracts": ["0xF5DD267049F9B9dEfa96FAb99270FCd50d799613", "0xc640e00B209E1380aF06aCCc13332EA7C6b71d29"],
+    "colors": [],
+    "run": true,
+    "index": 137,
+    "name": "Tangled Web",
+    "type": "Background Overlay"
+  },
+  "Asset_04_aku_02_POD_aku": {
+    "contracts": ["0xCf6a7AF22C1b6a8369724175F40526C0E5bED5B6", "0x19f2fe574d1CAe5857f830C3b95E1Bd6dECE7591"],
+    "colors": ["#636363", "#A4A4A4", "#777"],
+    "run": true,
+    "index": 138,
+    "name": "Sinister Design",
+    "type": "Pod"
+  },
+  "Asset_04_aku_03_RIDER_aku": {
+    "contracts": ["0x89E8966731257E65A5eE3790A05204d85327B162", "0x1DE27FAca89d7449cB784bde0962ae747e4A7ba4"],
+    "colors": ["#FF050B", "#8DCCB5", "#F7F189", "#994662", "#B4AD60", "#F2E83A"],
+    "run": true,
+    "index": 139,
+    "name": "Aku",
+    "type": "Pilot"
+  },
+  "Asset_04_aku_04_ARMS_BACK_aku": {
+    "contracts": [
+      "0x861c56809c08AfC178D266B20dEC4999E19F9373",
+      "0xE24eE9f1E1F7F8816E6cCc92449C8f40c17ba17B",
+      "0xf12f19C5CC8c84B885cFe4Db17b898E81EA6D47E",
+      "0xFFe02329b4A32a02073198B1BaFcB66Ab00C99b8"
+    ],
+    "colors": ["#D50409", "#FF8184", "#810306", "#E7E7E7", "#FF050B"],
+    "run": true,
+    "index": 140,
+    "name": "Pincers",
+    "type": "Arms"
+  },
+  "Asset_04_aku_05_BODY_aku": {
+    "contracts": [
+      "0xf1c34fE81929D0c1F51ec9f56109f79Bd944A46f",
+      "0xf1863449283b7A3a803082DD0fa67Edf1e23B110",
+      "0xFc23737626ba886e6168DB7E9B0F7231eF8e2076"
+    ],
+    "colors": ["#BABABA", "#636363", "#AB0307", "#A4A4A4", "#FF050B", "#FF2E33", "#D50409"],
+    "run": true,
+    "index": 141,
+    "name": "SPiDERCRAB",
+    "type": "Core"
+  },
+  "Asset_04_aku_06_KANJI_aku": {
+    "contracts": ["0x5b133C2509f4cb3A3fbbD1AB6703B714E70d9997"],
+    "colors": ["#D1D1D1", "#BABABA"],
+    "run": true,
+    "index": 142,
+    "name": "Smoking Harmony of Evil",
+    "type": "Kanji"
+  },
+  "Asset_04_aku_07_ARMS_FRONT_aku": {
+    "contracts": ["0x0edF1A53c20B830EAdFE93d45E1B7893173C7522"],
+    "colors": ["#E7E7E7"],
+    "run": true,
+    "index": 143
+  },
+  "Asset_05_other_assets_doomsdayOverlay": {
+    "contracts": ["0xe749E8d547Fd712b23675d8bc0c54EC02269e8d4"],
+    "colors": ["#AB0307", "#D1D1D1"],
+    "run": true,
+    "index": 144
+  },
+  "Asset_05_other_assets_pack": {
+    "contracts": [
+      "0xc4e65822b2861eA23F2B3EDEddeD4C5A532538fb",
+      "0x0e579D5a1fe8370a304573A0F96bAB2214b5fdED",
+      "0x3e9f6F03C3dF399305AE17e36CF95cdc63AC61d7",
+      "0xcFaF94e43C1a3D6A127359EB983672E6Be3e3169",
+      "0x7c35548a5a5E6a61b74Aea827D58c58d563f3929"
+    ],
+    "colors": [
+      "#1D9A6C",
+      "#FF050B",
+      "#FAF6B0",
+      "#8DCCB5",
+      "#F7F189",
+      "#994662",
+      "#B4AD60",
+      "#F2E83A",
+      "#EFE313",
+      "#7EED56"
+    ],
+    "run": true,
+    "index": 145
+  }
+}

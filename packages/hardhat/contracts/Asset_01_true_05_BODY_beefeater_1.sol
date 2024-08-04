@@ -1,0 +1,39 @@
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import './ToColor.sol';
+
+contract Asset_01_true_05_BODY_beefeater_1 {
+
+using ToColor for bytes4;
+
+function renderFn6(bytes4[] memory colors) internal pure returns (string memory) {
+        string memory render = string(abi.encodePacked(colors[4].toColor(),'" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="8.231" d="M1744.11 1159.07c-6.71 42.5-42.62 72.14-80.22 66.21-37.6-5.94-62.64-45.2-55.93-87.7 6.71-42.5 42.62-72.14 80.22-66.2 37.6 5.93 62.64 45.2 55.93 87.69Z"/><path fill="',colors[4].toColor(),'" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="4.081" d="M1720.12 1155.18c-5.73 36.29-34.93 61.84-65.23 57.06-30.29-4.78-50.21-38.08-44.48-74.38 5.73-36.3 34.93-61.84 65.23-57.06 30.29 4.78 50.21 38.08 44.48 74.38Z"/><path fill="',colors[4].toColor(),'" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="3.279" d="M1706.18 1153.24c-4.43 28.08-28.51 47.61-53.79 43.62-25.27-3.99-42.17-29.99-37.74-58.07 4.44-28.08 28.52-47.61 53.79-43.63 25.28 3.99 42.18 29.99 37.74 58.08Z"/><path fill="',colors[4].toColor(),'" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="2.658" d="M1692.79 1151.33c-3.64 23.06-22.98 39.17-43.21 35.97-20.23-3.19-33.67-24.47-30.03-47.53 3.64-23.06 22.98-39.16 43.21-35.97 20.23 3.19 33.67 24.47 30.03 47.53Z"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="2.72" d="m1741.33 1156.46-63.71-10.09-14-28.85c16.11-22.41 35.47-27.48 52.65-30.94m-64.78 85.63c10.69 20.76 23.04 37.41 37.26 49.4m-56.58-54.76c-9.12 13.48-9.35 25.79-8.57 37.97m-.17-67.72-15.15-3.49m32.74-15.61c-2.21-10.05-1.11-20.31 2.11-30.72"/><path fill="'));
+      
+        return render;
+      }
+
+    function renderFn7(bytes4[] memory colors) internal pure returns (string memory) {
+        string memory render = string(abi.encodePacked(colors[0].toColor(),'" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="8.113" d="M1672.2 1147.22c-2.21 14.04-15.18 23.66-28.96 21.49-13.78-2.18-23.15-15.33-20.94-29.37 2.22-14.04 15.19-23.66 28.97-21.49 13.78 2.18 23.15 15.33 20.93 29.37Z"/><path fill="#000" fill-opacity=".3" fill-rule="evenodd" d="M1670.35 1218.05c-15.46-15.35-23.07-33.45-23.39-54.12-7.54-14.86-3.64-35.28 6.7-47.75 8.66-5 18.06 2.87 18.12 11.82 9.9-25.19 27.98-38.27 50.05-45.44l-16.87-14.44c-40.18-13.66-78.06 4.56-99.52 56.82.98 43.2 7.23 82.95 53.62 102.87l11.29-9.76Z" clip-rule="evenodd"/><path fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="8.253" d="M1852.65 1339.35c-8.55 51.66-52.55 87.69-98.28 80.48-45.73-7.22-75.87-54.96-67','.33-106.62 8.55-51.67 52.54-87.7 98.27-80.48 45.73 7.21 75.88 54.95 67.34 106.62Z"/><path fill="',colors[4].toColor(),'" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="8.231" d="M1833.36 1335.89c-6.71 42.5-42.62 72.14-80.22 66.21-37.6-5.94-62.64-45.2-55.93-87.7 6.71-42.5 42.62-72.14 80.22-66.21 37.6 5.94 62.64 45.2 55.93 87.7Z"/><path fill="',colors[4].toColor(),'" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="4.081" d="M1809.37 1331.99c-5.73 36.3-34.94 61.85-65.23 57.06-30.3-4.78-50.21-38.08-44.48-74.37 5.73-36.3 34.93-61.85 65.23-57.07 30.29 4.79 50.2 38.09 44.48 74.38Z"/><path fill="',colors[4].toColor()));
+      
+        return render;
+      }
+
+    function renderFn8(bytes4[] memory colors) internal pure returns (string memory) {
+        string memory render = string(abi.encodePacked('" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="3.279" d="M1795.43 1330.05c-4.43 28.09-28.51 47.62-53.79 43.63-25.27-3.99-42.17-29.99-37.74-58.07 4.44-28.09 28.52-47.62 53.79-43.63 25.28 3.99 42.17 29.99 37.74 58.07Z"/><path fill="',colors[4].toColor(),'" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="2.658" d="M1782.04 1328.15c-3.64 23.06-22.98 39.16-43.21 35.97-20.23-3.19-33.67-24.47-30.03-47.53 3.64-23.06 22.98-39.17 43.21-35.98 20.23 3.2 33.67 24.48 30.03 47.54Z"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="2.72" d="m1830.58 1333.28-63.71-10.09-14-28.85c16.1-22.41 35.46-27.48 52.65-30.94m-64.78 85.63c10.69 20.76 23.04 37.41 37.26 49.4m-56.58-54.76c-9.12 13.48-9.35 25.79-8.57 37.97m-.17-67.72-15.15-3.49m32.74-15.61c-2.21-10.05-1.11-20.31 2.1-30.72"/><path fill="',colors[0].toColor(),'" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="8.113" d="M1761.45 1324.03c-2.22 14.05-15.18 23.67-28.96 21.49-13.78-2.17-23.15-15.32-20.94-29.36 2.22-14.04 15.19-23.66 28.97-21.49 13.77 2.18 23.15 15.32 20.93 29.36Z"/><path fill="#000" fill-opacity=".3" fill-rule="evenodd" d="M1760.06 1400.86c-15.47-15.34-23.08-33.45-23.39-54.11-7.55-14.87-3.64-35.29 6.69-47.75 8.66-5.01 18.07 2.86 18.13 11.81 9.9-25.19 27.98-38.27 50.04-45.43l-16.87-14.45c-40.18-13.65-78.06 4.56-99.51 56.83.97 43.19 7.22 82.94 53.62 102.86l11.29-9.76Z" clip-rule="evenodd"/><path fill="#000" fill-opacity=".3" fill-rule="evenodd" d="M1716.7 1315.29c18.67-11.23 48.58 29.33 39.89 27.19 7.75-3.86 23.03-7.29 35.89-3.51 20.92 6.15 30.06 24 35.33 24.9 23.1-35.6-2.01-80.82-35.4','5-109.34-42.11-9.66-79.71 4.16-91.07 58.87l15.41 1.89ZM1634.58 1137c18.68-11.23 48.59 29.33 39.9 27.19 7.74-3.86 23.02-7.3 35.89-3.51 20.91 6.15 30.05 24 35.32 24.9 23.1-35.6-2-80.83-35.45-109.34-42.11-9.66-79.7 4.16-91.07 58.87l15.41 1.89Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="12" d="M1524.44 2178.59c30.57 0 20.54 74.82 20.54 104.59 0 29.76-66.76 72.37-97.34 72.37-30.57 0-12.55-52.82-12.55-82.58 0-29.77 58.78-94.38 89.35-94.38Zm-897.311 0c-30.573 0-20.537 74.82-20.537 104.59 0 29.76 66.759 72.37 97.332 72.37 30.573 0 12.552-52.82 12.552-82.58 0-29.77-58.774-94.38-89.347-94.38Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M1356.8 1021.61s168.42 205.95 1','67.9 337.63c-.9 228.59-108.74 465.15-108.74 465.15 109.69-302.53 61.79-579.81-59.16-802.78Z" clip-rule="evenodd"/><path fill="#fff" fill-opacity=".4" fill-rule="evenodd" d="M1488.86 1887.78c-48.87 66.5-148.02 161.65-213.32 192.08-23.59 10.99-143.18 45.15-111.85 14.34 19.1-18.77 63.92-13.68 127.24-47.59 75.82-40.6 136.27-95.66 197.93-158.83Z" clip-rule="evenodd"/><path fill="',colors[2].toColor()));
+      
+        return render;
+      }
+
+    function renderFn9(bytes4[] memory colors) internal pure returns (string memory) {
+        string memory render = string(abi.encodePacked('" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="8" d="M1036.43 2175.67c12.37 0 22.4-8.37 22.4-18.7s-10.03-18.71-22.4-18.71-22.41 8.38-22.41 18.71 10.04 18.7 22.41 18.7Zm-70.129-3.61c12.374 0 22.404-8.37 22.404-18.7 0-10.34-10.03-18.71-22.404-18.71-12.373 0-22.404 8.37-22.404 18.71 0 10.33 10.031 18.7 22.404 18.7Z"/><path fill="#fff" fill-opacity=".7" fill-rule="evenodd" d="m1584.12 2072.99-25.52 78.83c-65.73-3.12-125.53 57.38-171.27 152.59 0 0 47.28-101.46 68.15-130.5 13.08-18.2 79.44-43.05 79.44-43.05l49.2-57.87Z" clip-rule="evenodd"/>'));
+      
+        return render;
+      }
+
+    function renderMain(bytes4[] memory colors) public pure returns (string memory) {
+        string memory render = string(abi.encodePacked(renderFn6(colors),renderFn7(colors),renderFn8(colors),renderFn9(colors)));
+      
+        return render;
+      }
+}

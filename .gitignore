@@ -11,7 +11,3 @@ node_modules
 .eslintcache
 .vscode/**
 .DS_Store
-00_Asset_*
-Asset_*
-packages/hardhat/asset-config*.json
-packages/hardhat/project-config.json
