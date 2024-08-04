@@ -12020,7 +12020,7 @@ const contracts = {
           ],
         },
         LayerMaster: {
-          address: "0x4e683DD2Da7A43C5A4342bDf29Be6a7A32933640",
+          address: "0x573e4c33e04B6d978617D8F553f6eB86F36f427f",
           abi: [
             {
               inputs: [
@@ -12037,6 +12037,47 @@ const contracts = {
               ],
               stateMutability: "nonpayable",
               type: "constructor",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "owner",
+                  type: "address",
+                },
+              ],
+              name: "OwnableInvalidOwner",
+              type: "error",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "account",
+                  type: "address",
+                },
+              ],
+              name: "OwnableUnauthorizedAccount",
+              type: "error",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "previousOwner",
+                  type: "address",
+                },
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "OwnershipTransferred",
+              type: "event",
             },
             {
               inputs: [],
@@ -12067,9 +12108,9 @@ const contracts = {
             {
               inputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "trait",
-                  type: "uint8",
+                  type: "uint256",
                 },
                 {
                   internalType: "address[]",
@@ -12090,9 +12131,9 @@ const contracts = {
             {
               inputs: [
                 {
-                  internalType: "uint8[]",
+                  internalType: "uint256[]",
                   name: "traits",
-                  type: "uint8[]",
+                  type: "uint256[]",
                 },
                 {
                   internalType: "address[][]",
@@ -12113,9 +12154,55 @@ const contracts = {
             {
               inputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
+                  name: "trait",
+                  type: "uint256",
+                },
+                {
+                  internalType: "string",
+                  name: "_layerType",
+                  type: "string",
+                },
+                {
+                  internalType: "string",
+                  name: "_layerName",
+                  type: "string",
+                },
+              ],
+              name: "addDetail",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256[]",
+                  name: "traits",
+                  type: "uint256[]",
+                },
+                {
+                  internalType: "string[]",
+                  name: "_layerTypes",
+                  type: "string[]",
+                },
+                {
+                  internalType: "string[]",
+                  name: "_layerNames",
+                  type: "string[]",
+                },
+              ],
+              name: "addDetails",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
                 {
                   internalType: "uint256",
@@ -12137,9 +12224,47 @@ const contracts = {
             {
               inputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
+                },
+              ],
+              name: "assetName",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "assetType",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
                 },
                 {
                   internalType: "uint256",
@@ -12161,9 +12286,51 @@ const contracts = {
             {
               inputs: [
                 {
-                  internalType: "uint8[]",
+                  internalType: "uint256[]",
                   name: "layers",
-                  type: "uint8[]",
+                  type: "uint256[]",
+                },
+                {
+                  internalType: "uint256",
+                  name: "excludeLastLayersNum",
+                  type: "uint256",
+                },
+              ],
+              name: "getAssetDetails",
+              outputs: [
+                {
+                  internalType: "string[]",
+                  name: "layerTypes",
+                  type: "string[]",
+                },
+                {
+                  internalType: "string[]",
+                  name: "layerNames",
+                  type: "string[]",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [],
+              name: "owner",
+              outputs: [
+                {
+                  internalType: "address",
+                  name: "",
+                  type: "address",
+                },
+              ],
+              stateMutability: "view",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256[]",
+                  name: "layers",
+                  type: "uint256[]",
                 },
                 {
                   internalType: "bool",
@@ -12182,10 +12349,30 @@ const contracts = {
               stateMutability: "view",
               type: "function",
             },
+            {
+              inputs: [],
+              name: "renounceOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "address",
+                  name: "newOwner",
+                  type: "address",
+                },
+              ],
+              name: "transferOwnership",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
           ],
         },
         OnchainMecha: {
-          address: "0xd130EDBC5DaFB8fe72a65a083F7B9C10C2cea96e",
+          address: "0xf9Bacd83eE9bbc0819897382C3dAc57B270B720c",
           abi: [
             {
               inputs: [
@@ -12448,9 +12635,9 @@ const contracts = {
               name: "AKU_COUNT",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "view",
@@ -12461,9 +12648,9 @@ const contracts = {
               name: "COMMON_ASSET_START_INDEX",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "view",
@@ -12474,9 +12661,9 @@ const contracts = {
               name: "DOOMSDAY_LAYER",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "view",
@@ -12487,9 +12674,9 @@ const contracts = {
               name: "HERO_COUNT",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "view",
@@ -12500,9 +12687,9 @@ const contracts = {
               name: "LAYER_COUNT",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "view",
@@ -12526,9 +12713,9 @@ const contracts = {
               name: "RARE_ASSET_START_INDEX",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "view",
@@ -12539,9 +12726,9 @@ const contracts = {
               name: "SUPER_RARE_ASSET_START_INDEX",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "view",
@@ -12552,9 +12739,9 @@ const contracts = {
               name: "SUPER_RARE_MECHA_COUNT",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "view",
@@ -12565,9 +12752,9 @@ const contracts = {
               name: "ULTRA_RARE_ASSET_START_INDEX",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "view",
@@ -12578,9 +12765,9 @@ const contracts = {
               name: "UNCOMMON_ASSET_START_INDEX",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "view",
@@ -12647,6 +12834,30 @@ const contracts = {
               name: "burn",
               outputs: [],
               stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
+                  internalType: "uint256",
+                  name: "",
+                  type: "uint256",
+                },
+              ],
+              name: "characterDetails",
+              outputs: [
+                {
+                  internalType: "string",
+                  name: "name",
+                  type: "string",
+                },
+                {
+                  internalType: "string",
+                  name: "description",
+                  type: "string",
+                },
+              ],
+              stateMutability: "view",
               type: "function",
             },
             {
@@ -12750,9 +12961,9 @@ const contracts = {
               name: "getCommonArray",
               outputs: [
                 {
-                  internalType: "uint8[]",
+                  internalType: "uint256[]",
                   name: "",
-                  type: "uint8[]",
+                  type: "uint256[]",
                 },
               ],
               stateMutability: "view",
@@ -12766,17 +12977,17 @@ const contracts = {
                   type: "uint256",
                 },
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "rarity",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               name: "getLayersByRarity",
               outputs: [
                 {
-                  internalType: "uint8[]",
+                  internalType: "uint256[]",
                   name: "",
-                  type: "uint8[]",
+                  type: "uint256[]",
                 },
               ],
               stateMutability: "view",
@@ -12793,9 +13004,9 @@ const contracts = {
               name: "getLayersForToken",
               outputs: [
                 {
-                  internalType: "uint8[]",
+                  internalType: "uint256[]",
                   name: "",
-                  type: "uint8[]",
+                  type: "uint256[]",
                 },
               ],
               stateMutability: "view",
@@ -12812,9 +13023,9 @@ const contracts = {
               name: "getMechaType",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "pure",
@@ -12831,9 +13042,9 @@ const contracts = {
               name: "getRarity",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "pure",
@@ -12850,9 +13061,9 @@ const contracts = {
               name: "getSuperRareArray",
               outputs: [
                 {
-                  internalType: "uint8[]",
+                  internalType: "uint256[]",
                   name: "",
-                  type: "uint8[]",
+                  type: "uint256[]",
                 },
               ],
               stateMutability: "view",
@@ -13228,6 +13439,29 @@ const contracts = {
             {
               inputs: [
                 {
+                  internalType: "uint256",
+                  name: "mechaType",
+                  type: "uint256",
+                },
+                {
+                  internalType: "string",
+                  name: "name",
+                  type: "string",
+                },
+                {
+                  internalType: "string",
+                  name: "description",
+                  type: "string",
+                },
+              ],
+              name: "updateCharacterDetails",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+            {
+              inputs: [
+                {
                   internalType: "address",
                   name: "_customMechaContract",
                   type: "address",
@@ -13241,9 +13475,9 @@ const contracts = {
             {
               inputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "_doomsdayLayer",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               name: "updateDoomsDayLayers",
@@ -13280,29 +13514,29 @@ const contracts = {
             {
               inputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "_commonStartIndex",
-                  type: "uint8",
+                  type: "uint256",
                 },
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "_uncommonStartIndex",
-                  type: "uint8",
+                  type: "uint256",
                 },
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "_rareStartIndex",
-                  type: "uint8",
+                  type: "uint256",
                 },
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "_superRareStartIndex",
-                  type: "uint8",
+                  type: "uint256",
                 },
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "_ultraRareStartIndex",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               name: "updateStartIndexes",
@@ -13313,7 +13547,7 @@ const contracts = {
           ],
         },
         OnchainMechaPacks: {
-          address: "0x38e4Da6C2b1d5Cb104AFf85cae3F022715A20ad3",
+          address: "0x10d89D5f89F95bC26093868BB0eC7e99Cb96F799",
           abi: [
             {
               inputs: [],
@@ -14100,9 +14334,9 @@ const contracts = {
               name: "unopenedPackLayers",
               outputs: [
                 {
-                  internalType: "uint8",
+                  internalType: "uint256",
                   name: "",
-                  type: "uint8",
+                  type: "uint256",
                 },
               ],
               stateMutability: "view",
@@ -14124,9 +14358,9 @@ const contracts = {
             {
               inputs: [
                 {
-                  internalType: "uint8[]",
+                  internalType: "uint256[]",
                   name: "_unopenedPackLayers",
-                  type: "uint8[]",
+                  type: "uint256[]",
                 },
               ],
               name: "updateUnopenedPackLayers",

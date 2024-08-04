@@ -1,7 +1,7 @@
 import * as React from "react";
 
 const HowTo = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
-  <svg width={1092} height={631} viewBox="0 0 1092 631" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+  <svg width={"100%"} height={"auto"} viewBox="0 0 1092 631" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M1078.37 33.996H.453v596.671H1078.37z" fill="#000" fillOpacity={0.3} />
     <path d="M1091.93.39H14.016v618.356H1091.93z" fill="#F7F189" />
     <path

@@ -8,23 +8,22 @@ async function main() {
   const allContracts = await all();
   const layerMasterAddr = allContracts?.["LayerMaster"].address;
 
-  // write a async/await function to wait a few seconds
-  const wait = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
-
   // Call to LM contract to add assets contained in assetConfig
   const LayerMaster = await ethers.getContractFactory("LayerMaster");
   const layerMaster = LayerMaster.attach(layerMasterAddr);
+  const assetIndexes = [];
+  const assetContracts = [];
+  const assetColors = [];
+  const detailIndexes = [];
+  const detailTypes = [];
+  const detailNames = [];
   for (let i = 0; i < Object.keys(assetConfig).length; i++) {
     const assetName = Object.keys(assetConfig)[i];
     const asset = assetConfig[assetName];
-    if (asset.run) {
-      console.log(`Skipping asset ${assetName} as it was already run...`);
-      continue;
-    }
     console.log(`Adding asset ${assetName} to LayerMaster...`);
-    await layerMaster.addAsset(
-      i,
-      asset.contracts,
+    assetIndexes.push(i);
+    assetContracts.push(asset.contracts);
+    assetColors.push(
       asset.colors.map((c: string) => {
         if (c.length == 9) {
           return `${c.replace("#", "0x")}`;
@@ -42,14 +41,18 @@ async function main() {
       }),
     );
     if (asset.type && asset.name) {
-      await wait(3000);
-      await layerMaster.addDetail(i, asset.type, asset.name);
+      detailIndexes.push(i);
+      detailTypes.push(asset.type);
+      detailNames.push(asset.name);
     }
     asset.index = i;
     asset.run = true;
     writeFileSync("./asset-config.json", JSON.stringify(assetConfig), "utf8");
-    await wait(3000);
   }
+  console.log("Adding assets to LayerMaster...");
+  await layerMaster.addAssets(assetIndexes, assetContracts, assetColors);
+  console.log("Adding details to LayerMaster...");
+  await layerMaster.addDetails(detailIndexes, detailTypes, detailNames);
 }
 
 main().catch(error => {
