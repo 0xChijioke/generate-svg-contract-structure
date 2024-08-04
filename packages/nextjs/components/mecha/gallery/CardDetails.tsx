@@ -3,9 +3,9 @@ import Image from "next/image";
 import { Address } from "../../scaffold-eth";
 import WarpcastIcon from "../buttons/WarpcastIcon";
 import { SocialIcon } from "react-social-icons";
+import { useDeployedContractInfo } from "~~/hooks/scaffold-eth";
 import { placeholder } from "~~/public/assets/placeholder";
 import { getShareUrl } from "~~/utils/scaffold-eth/share";
-import { useDeployedContractInfo } from "~~/hooks/scaffold-eth";
 
 interface CardDetailsProps {
   tokenId: string;
@@ -14,10 +14,8 @@ interface CardDetailsProps {
 }
 
 const CardDetails: FC<CardDetailsProps> = props => {
-
   const { data: onchainMechaData } = useDeployedContractInfo("OnchainMecha");
-  
-  
+
   const shareUrl = window.location.href;
   const platforms = [
     { name: "X", url: getShareUrl("x", props.tokenMetadata.name, shareUrl) },
@@ -33,6 +31,7 @@ const CardDetails: FC<CardDetailsProps> = props => {
     },
   ];
 
+  // console.log(props.tokenMetadata)
   const handleIconClick = (event: React.MouseEvent, url: string) => {
     event.preventDefault();
     window.open(url, "_blank");
@@ -56,12 +55,8 @@ const CardDetails: FC<CardDetailsProps> = props => {
         </div>
       </div>
       <div className="flex flex-col gap-y-4 mb-8 p-8 text-xl space-y-2">
-        <p className="mb-2">
-          {props.tokenMetadata.name.slice(0, 24)}...{props.tokenId.slice(-4)}
-        </p>
-        <p className="mb-2">
-          {props.tokenMetadata.description.slice(0, 32)}...{props.tokenId.slice(-4)}
-        </p>
+        <p className="mb-2">{props.tokenMetadata.name}</p>
+        <p className="mb-2">{props.tokenMetadata.description}</p>
         <p className="mb-2">{props.tokenMetadata.attributes[0].value} card</p>
         <div className="mb-2 flex gap-x-2 whitespace-nowrap">
           Owner <Address address={props.tokenMetadata.owner} />

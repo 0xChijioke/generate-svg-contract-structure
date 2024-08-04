@@ -15,7 +15,7 @@ interface TokenContextProps {
   svgData: { [key: string]: string };
   fetchMoreTokenIds: () => void;
   isFetchingNextPage: boolean;
-  hasNextPage: boolean;
+  hasNextPage: boolean | undefined;
   status: string;
 }
 
@@ -67,7 +67,7 @@ export const TokenProvider: React.FC<{ children: ReactNode }> = ({ children }) =
     queryFn: fetchTokenIds,
     enabled: !!address,
     initialPageParam: 0,
-    getNextPageParam: (lastPage, pages) => {
+    getNextPageParam: (pages) => {
       const totalFetchedTokens = pages.flat().length;
       return totalFetchedTokens < parseInt(userBalance) ? pages.length : undefined;
     },

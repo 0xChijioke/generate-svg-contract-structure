@@ -1,12 +1,11 @@
 import { useState } from "react";
+import router from "next/router";
 import { slides } from "./slides";
 import { motion } from "framer-motion";
-import router from "next/router";
 
 const Slideshow = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  
   const nextSlide = () => {
     if (currentSlide === slides.length - 1) {
       router.push("/mint");
