@@ -1,12 +1,7 @@
 import * as React from "react";
+
 const Frame = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
-  <svg
-    height="auto"
-    viewBox="0 0 2040 2584"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    {...props}
-  >
+  <svg height="auto" viewBox="0 0 2040 2584" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path
       d="M1942.51 110.143H100.078V2481.37H1942.51z"
       stroke="#00CCC0"

@@ -30,11 +30,9 @@ export const Header = () => {
       style={{ backgroundImage: isStory ? "none" : headerImage, backgroundRepeat: "no-repeat" }}
     >
       {!isStory && (
-        <div className={`md:flex pl-2 hidden md:pl-8 xl:space-x-24 w-[42%] ${!isHome ? "xl:w-[48%]" : "xl:w-[60%]" } `}>
+        <div className={`md:flex pl-2 hidden md:pl-8 xl:space-x-24 w-[42%] ${!isHome ? "xl:w-[48%]" : "xl:w-[60%]"} `}>
           <MechaLogo />
-          <div className="hidden xl:flex">
-            {isHome && <Fifi />}
-          </div>
+          <div className="hidden xl:flex">{isHome && <Fifi />}</div>
         </div>
       )}
       <div className="relative" ref={burgerMenuRef}>
