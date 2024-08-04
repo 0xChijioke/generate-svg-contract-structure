@@ -31,9 +31,10 @@ const GalleryComponent: FC = () => {
     );
   }
 
-  if (status === "pending") {
+  console.log(status);
+  if (status === "loading") {
     return (
-      <div className="fixed inset-0 flex justify-center items-center bg-opacity-80 text-white">
+      <div className="fixed inset-0 flex justify-center z-10 items-center bg-opacity-80 text-white">
         <span className="loading loading-spinner loading-lg"></span>
       </div>
     );
@@ -60,17 +61,19 @@ const GalleryComponent: FC = () => {
           tokenIds.map((tokenId: any) => (
             <Link href={{ pathname: `/gallery/card/${tokenId}` }} key={tokenId}>
               <div className="flex justify-center rounded-xl w-full lg:w-[88%] shadow-lg p-2 m-auto h-auto transform transition-transform duration-300 hover:scale-105">
-                {svgData && <Frame className="absolute inset-0" />}
                 {svgData[tokenId] ? (
-                  <Image
-                    alt={`NFT ${tokenId}`}
-                    src={svgData[tokenId]}
-                    blurDataURL={placeholder}
-                    className="lg:mt-14 "
-                    width={350}
-                    height={400}
-                    placeholder="blur"
-                  />
+                  <>
+                    <Frame className="absolute inset-0" />
+                    <Image
+                      alt={`NFT ${tokenId}`}
+                      src={svgData[tokenId]}
+                      blurDataURL={placeholder}
+                      className="lg:mt-14 "
+                      width={350}
+                      height={400}
+                      placeholder="blur"
+                    />
+                  </>
                 ) : (
                   <div className="w-96 h-96 bg-slate-100 opacity-25 animate-pulse rounded-xl"></div>
                 )}
