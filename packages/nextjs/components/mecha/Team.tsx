@@ -11,7 +11,7 @@ const Team = () => {
       style={{ backgroundImage: teamImage }}
     >
       {/* <StarBurst className="flex justify-center items-center" /> */}
-      <div className="absolute space-y-20 lg:space-y-auto top-[28%] md:top-[30%] justify-center lg:gap-x-[20%] w-[50%] md:w-[34%] lg:w-[70%] lg:flex h-[90%] lg:h-full lg:top-[10%]">
+      <div className="absolute top-[28%] space-y-2 lg:space-y-auto md:top-[30%] justify-center lg:gap-x-[20%] w-[50%] md:w-[34%] lg:w-[70%] lg:flex h-[90%] lg:h-full lg:top-[10%]">
         <TopKanji />
         <BottomKanji />
       </div>
@@ -21,7 +21,7 @@ const Team = () => {
       </div>
       <div className="absolute lg:right-0 -right-8 top-[14%] lg:top-auto w-[65%] lg:my-[3%] h-full lg:w-[30%]">
         <Image alt="Elliot" fill src={Elliot} />
-      </div>
+      </div> 
       <div className="absolute md:-bottom-[30%] -left-[10%] -bottom-60 lg:bottom-auto lg:left-0 h-full lg:my-[3%] w-[70%] md:w-[56%] lg:w-[35%]">
         <Image alt="Chijioke" fill src={Chijioke} />
       </div>

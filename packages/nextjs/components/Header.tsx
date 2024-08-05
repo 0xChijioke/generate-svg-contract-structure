@@ -20,28 +20,27 @@ export const Header = () => {
     useCallback(() => setIsDrawerOpen(false), []),
   );
   const isStory = router.pathname === "/story";
+  const isHome = router.pathname === "/";
 
   return (
     <div
-      className={`fixed flex z-20 justify-end w-full h-44 bg-right bg-cover ${
+      className={`fixed flex z-20 justify-end w-full h-[13%] lg:h-44 bg-right bg-cover ${
         isStory ? "bg-transparent justify-end" : " md:justify-between"
       }`}
       style={{ backgroundImage: isStory ? "none" : headerImage, backgroundRepeat: "no-repeat" }}
     >
       {!isStory && (
-        <div className="md:flex pl-2 hidden md:pl-8 xl:space-x-24 w-[42%] xl:w-[60%]">
+        <div className={`md:flex pl-2 hidden md:pl-8 xl:space-x-24 w-[42%] ${!isHome ? "xl:w-[48%]" : "xl:w-[60%]"} `}>
           <MechaLogo />
-          <div className="hidden xl:flex">
-            <Fifi />
-          </div>
+          <div className="hidden xl:flex">{isHome && <Fifi />}</div>
         </div>
       )}
       <div className="relative" ref={burgerMenuRef}>
-        <div className="flex pt-20 md:pt-14">
+        <div className="flex pt-10 md:pt-14">
           {!isStory && <RainbowKitCustomConnectButton />}
           <motion.div
             onClick={() => setIsDrawerOpen(prevState => !prevState)}
-            className="cursor-pointer w-16 mr-6 md:w-24"
+            className="cursor-pointer w-16 mr-2 lg:mr-6 md:w-24"
             initial={false}
             animate={isDrawerOpen ? { rotate: 180, color: "#FF5722" } : { rotate: 0, color: "#000" }}
             transition={{ duration: 0.5, ease: "easeInOut" }}

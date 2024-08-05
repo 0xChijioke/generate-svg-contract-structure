@@ -1,7 +1,9 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import Frame from "./Frame";
 import { useAccount } from "wagmi";
 import { useTokenContext } from "~~/context/TokenContext";
 import { placeholder } from "~~/public/assets/placeholder";
@@ -13,6 +15,14 @@ const GalleryComponent: FC = () => {
   const { tokenIds, userBalance, svgData, fetchMoreTokenIds, isFetchingNextPage, hasNextPage, status } =
     useTokenContext();
 
+  const router = useRouter();
+
+  useEffect(() => {
+    if (router.pathname === "/gallery") {
+      fetchMoreTokenIds();
+    }
+  }, [router.pathname]);
+
   if (!isConnected || !address) {
     return (
       <div className="fixed inset-0 flex justify-center items-center bg-opacity-80 text-white">
@@ -21,9 +31,10 @@ const GalleryComponent: FC = () => {
     );
   }
 
-  if (status === "pending") {
+  console.log(status);
+  if (status === "loading") {
     return (
-      <div className="fixed inset-0 flex justify-center items-center bg-opacity-80 text-white">
+      <div className="fixed inset-0 flex justify-center z-10 items-center bg-opacity-80 text-white">
         <span className="loading loading-spinner loading-lg"></span>
       </div>
     );
@@ -45,21 +56,24 @@ const GalleryComponent: FC = () => {
       <div className="fixed top-[24%] opacity-60 md:opacity-auto z-10 lg:top-[20%] font-bold text-xl left-4">
         {userBalance} Cards
       </div>
-      <div className="grid lg:grid-cols-3 lg:w-[80%] mx-auto items-center pb-4 min-h-full grid-cols-1 gap-x-0 lg:gap-1 gap-4">
+      <div className="grid lg:grid-cols-3 lg:w-[80%] mx-auto items-center pb-4 min-h-full grid-cols-1 gap-x-0 lg:gap-y-20 gap-4">
         {tokenIds &&
           tokenIds.map((tokenId: any) => (
             <Link href={{ pathname: `/gallery/card/${tokenId}` }} key={tokenId}>
               <div className="flex justify-center rounded-xl w-full lg:w-[88%] shadow-lg p-2 m-auto h-auto transform transition-transform duration-300 hover:scale-105">
                 {svgData[tokenId] ? (
-                  <Image
-                    alt={`NFT ${tokenId}`}
-                    src={svgData[tokenId]}
-                    blurDataURL={placeholder}
-                    className="rounded-xl"
-                    width={400}
-                    height={600}
-                    placeholder="blur"
-                  />
+                  <>
+                    <Frame className="absolute inset-0" />
+                    <Image
+                      alt={`NFT ${tokenId}`}
+                      src={svgData[tokenId]}
+                      blurDataURL={placeholder}
+                      className="lg:mt-14 "
+                      width={350}
+                      height={400}
+                      placeholder="blur"
+                    />
+                  </>
                 ) : (
                   <div className="w-96 h-96 bg-slate-100 opacity-25 animate-pulse rounded-xl"></div>
                 )}

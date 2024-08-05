@@ -1,8 +1,9 @@
 import { FC } from "react";
 import Image from "next/image";
-import { Address } from "../scaffold-eth";
-import WarpcastIcon from "./buttons/WarpcastIcon";
+import { Address } from "../../scaffold-eth";
+import WarpcastIcon from "../buttons/WarpcastIcon";
 import { SocialIcon } from "react-social-icons";
+import { useDeployedContractInfo } from "~~/hooks/scaffold-eth";
 import { placeholder } from "~~/public/assets/placeholder";
 import { getShareUrl } from "~~/utils/scaffold-eth/share";
 
@@ -13,8 +14,9 @@ interface CardDetailsProps {
 }
 
 const CardDetails: FC<CardDetailsProps> = props => {
-  const shareUrl = window.location.href;
+  const { data: onchainMechaData } = useDeployedContractInfo("OnchainMecha");
 
+  const shareUrl = window.location.href;
   const platforms = [
     { name: "X", url: getShareUrl("x", props.tokenMetadata.name, shareUrl) },
     { name: "Telegram", url: getShareUrl("telegram", props.tokenMetadata.name, shareUrl) },
@@ -25,10 +27,11 @@ const CardDetails: FC<CardDetailsProps> = props => {
   const viewPlatforms = [
     {
       name: "OpenSea",
-      url: `https://opensea.io/assets/base/0xd130edbc5dafb8fe72a65a083f7b9c10c2cea96e/${props.tokenId}`,
+      url: `https://opensea.io/assets/base/${onchainMechaData?.address}/${props.tokenId}`,
     },
   ];
 
+  // console.log(props.tokenMetadata)
   const handleIconClick = (event: React.MouseEvent, url: string) => {
     event.preventDefault();
     window.open(url, "_blank");
@@ -52,12 +55,8 @@ const CardDetails: FC<CardDetailsProps> = props => {
         </div>
       </div>
       <div className="flex flex-col gap-y-4 mb-8 p-8 text-xl space-y-2">
-        <p className="mb-2">
-          {props.tokenMetadata.name.slice(0, 24)}...{props.tokenId.slice(-4)}
-        </p>
-        <p className="mb-2">
-          {props.tokenMetadata.description.slice(0, 32)}...{props.tokenId.slice(-4)}
-        </p>
+        <p className="mb-2">{props.tokenMetadata.name}</p>
+        <p className="mb-2">{props.tokenMetadata.description}</p>
         <p className="mb-2">{props.tokenMetadata.attributes[0].value} card</p>
         <div className="mb-2 flex gap-x-2 whitespace-nowrap">
           Owner <Address address={props.tokenMetadata.owner} />

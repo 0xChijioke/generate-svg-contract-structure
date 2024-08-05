@@ -22,17 +22,9 @@ const Slide5 = () => (
       <div className="absolute w-[70%] lg:w-[34%] h-full -top-[20%] lg:top-auto right-0">
         <Image src={mechaGroup3} alt="Gunner and Boulda" fill />
       </div>
-      {/* <div className="absolute w-[80%] lg:w-[40%] h-[40%] lg:h-[44%] bottom-0 left-8 lg:left-[34%]">
-                <Image
-                    src={}
-                    alt="SYD and Fifi"
-                    fill
-
-                />
-            </div> */}
     </div>
 
-    <div className="absolute object-contain w-[80%] lg:w-auto top-[26%] lg:top-[38%] right-[14%] md:right-[30%] transform -translate-y-1/2">
+    <div className="absolute object-contain w-[90%] lg:w-auto top-[26%] lg:top-[38%] right-[8%] md:right-[30%] transform -translate-y-1/2">
       <Image src={text5} alt="Text 4" width={450} height={200} />
     </div>
   </div>

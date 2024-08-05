@@ -30,7 +30,7 @@ const Slide8 = () => (
       <div className="w-full h-full bg-cover bg-center bg-no-repeat" style={{ backgroundImage: dynamicLines }} />
     </div>
 
-    <div className="absolute object-contain w-[80%] lg:w-auto top-[26%] lg:top-[38%] right-[14%] md:left-[10%] transform -translate-y-1/2">
+    <div className="absolute object-contain w-[92%] lg:w-auto top-[26%] lg:top-[38%] right-[5%] md:left-[10%] transform -translate-y-1/2">
       <Image src={text8} alt="Text 4" width={600} height={200} />
     </div>
   </div>

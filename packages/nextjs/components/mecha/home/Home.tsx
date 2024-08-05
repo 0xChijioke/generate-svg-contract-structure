@@ -1,13 +1,13 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import { aku } from "./base64Elements";
+import { aku } from "../base64Elements";
 import { motion } from "framer-motion";
 
-const Gunner = dynamic(() => import("./home/Gunner"), { ssr: false });
-const MechaKanji = dynamic(() => import("./home/MechaKanji"), { ssr: false });
-const OnchainKanji = dynamic(() => import("./home/OnchainKanji"), { ssr: false });
-const Samurai = dynamic(() => import("./home/Samurai"), { ssr: false });
-const Squido = dynamic(() => import("./home/Squido"), { ssr: false });
+const Gunner = dynamic(() => import("./Gunner"), { ssr: false });
+const MechaKanji = dynamic(() => import("./MechaKanji"), { ssr: false });
+const OnchainKanji = dynamic(() => import("./OnchainKanji"), { ssr: false });
+const Samurai = dynamic(() => import("./Samurai"), { ssr: false });
+const Squido = dynamic(() => import("./Squido"), { ssr: false });
 
 const Home = () => (
   <div className="relative w-screen" style={{ height: "100vh" }}>
@@ -17,7 +17,7 @@ const Home = () => (
 
     <div className="relative flex h-full w-full items-center justify-center">
       <motion.div
-        className="absolute lg:left-[16%] md:left-[8%] lg:top-[30%] md:top-[40%] top-[22%] flex items-center justify-center w-[40%] md:w-[20%]"
+        className="absolute lg:left-[16%] md:left-[8%] lg:top-[30%] md:top-[40%] top-[15%] flex items-center justify-center w-[42%] md:w-[20%]"
         initial={{ y: -100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
@@ -33,7 +33,7 @@ const Home = () => (
         <MechaKanji />
       </motion.div>
       <motion.div
-        className="absolute lg:left-[14%] md:-left-[30%] md:-top-[2%] lg:w-[42%] w-[90%] lg:bottom-[2%] lg:top-auto -left-24 top-[12%]"
+        className="absolute lg:left-[14%] md:-left-[30%] md:-top-[2%] lg:w-[42%] w-full lg:bottom-[2%] lg:top-auto -left-[30%] top-[6%]"
         initial={{ y: -100, opacity: 0, scale: 0.7 }}
         whileInView={{ y: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, ease: "easeIn" }}
@@ -41,7 +41,7 @@ const Home = () => (
         <Samurai />
       </motion.div>
       <motion.div
-        className="left-0 w-auto lg:w-[34%] md:w-[50%] md:bottom-[1%] lg:top-40 absolute bottom-[10%]"
+        className="left-0 w-auto lg:w-[34%] md:w-[50%] lg:top-40 absolute bottom-[1%]"
         initial={{ x: -100, opacity: 0, scale: 0.7 }}
         whileInView={{ x: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, ease: "easeIn" }}
@@ -49,7 +49,7 @@ const Home = () => (
         <Squido />
       </motion.div>
       <motion.div
-        className="bottom-20 sm:bottom-0 lg:bottom-0 w-[90%] md:w-[70%] right-0 absolute lg:w-[40%]"
+        className="bottom-0 lg:bottom-0 w-[90%] md:w-[70%] right-0 absolute lg:w-[40%]"
         initial={{ x: 100, opacity: 0, scale: 0.7 }}
         whileInView={{ x: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, ease: "easeIn" }}

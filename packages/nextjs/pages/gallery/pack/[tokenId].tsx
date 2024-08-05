@@ -6,11 +6,10 @@ import { NextPage } from "next";
 import { useAccount, useBlockNumber, useWalletClient } from "wagmi";
 import { Address } from "~~/components/scaffold-eth";
 import { openPack } from "~~/helpers/openpack";
-import { useScaffoldContract, useScaffoldEventHistory, useScaffoldEventSubscriber } from "~~/hooks/scaffold-eth";
+import { useScaffoldContract, useScaffoldEventSubscriber } from "~~/hooks/scaffold-eth";
 import { usePack } from "~~/hooks/usePack";
 import { useTransactor } from "~~/hooks/useTransactor";
 import { placeholder } from "~~/public/assets/placeholder";
-import scaffoldConfig from "~~/scaffold.config";
 
 const GalleryLayout = dynamic(() => import("~~/components/mecha/gallery/GalleryLayout"), { ssr: false });
 const Openpack = dynamic(() => import("~~/components/mecha/buttons/Openpack"), { ssr: false });
@@ -58,32 +57,6 @@ const Pack: NextPage = () => {
     walletClient,
   });
 
-  const { data: mintPackEvents } = useScaffoldEventHistory({
-    contractName: "OnchainMechaPacks",
-    eventName: "Transfer",
-    fromBlock: scaffoldConfig.fromBlock,
-    filters: { from: "0x0000000000000000000000000000000000000000", to: address },
-  });
-
-  const { data: mintCardEvents } = useScaffoldEventHistory({
-    contractName: "OnchainMecha",
-    eventName: "Transfer",
-    fromBlock: scaffoldConfig.fromBlock,
-    filters: { from: "0x0000000000000000000000000000000000000000", to: address },
-  });
-  console.log(mintCardEvents, mintPackEvents);
-
-  const {
-    data: transferEvent,
-    isLoading: transferEventLoading,
-    error: transferEventError,
-  } = useScaffoldEventHistory({
-    contractName: "OnchainMechaPacks",
-    eventName: "Transfer",
-    fromBlock: scaffoldConfig.fromBlock,
-  });
-
-  console.log(transferEvent);
 
   useScaffoldEventSubscriber({
     contractName: "OnchainMecha",
@@ -122,7 +95,7 @@ const Pack: NextPage = () => {
     if (opened) {
       router.push("/gallery");
     }
-  }, [opened]);
+  }, [opened, router]);
 
   if (error) {
     return (
@@ -140,7 +113,6 @@ const Pack: NextPage = () => {
         {loading ? (
           <span className="loading loading-spinner bg-red-700 loading-lg"></span>
         ) : (
-          // <div className="animate-pulse w-96 h-96 bg-gray-200 rounded-xl"></div>
           <>
             <div className="relative mt-60 w-96 h-96">
               <Image src={placeholder} alt={`Pack ${tokenId}`} width={100} height={100} className="w-full h-full" />

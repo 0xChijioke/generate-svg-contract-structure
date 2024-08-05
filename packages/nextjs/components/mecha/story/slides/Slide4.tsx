@@ -26,7 +26,7 @@ const Slide4 = () => (
       </div>
     </div>
 
-    <div className="absolute object-contain w-[80%] lg:w-auto top-[24%] right-[10%] md:right-[2%] transform -translate-y-1/2">
+    <div className="absolute object-contain w-[92%] lg:w-auto top-[24%] right-[4%] md:right-[2%] transform -translate-y-1/2">
       <Image src={text4} alt="Text 4" width={450} height={200} />
     </div>
   </div>

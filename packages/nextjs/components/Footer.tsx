@@ -16,7 +16,7 @@ export const Footer = () => {
 
   return (
     <div
-      className="fixed bottom-0 z-10 w-full h-24 bg-center bg-cover"
+      className="fixed bottom-0 z-10 w-full h-[5%] lg:h-24 bg-center bg-cover"
       style={{
         backgroundImage: isStory ? "none" : footerImage,
         backgroundColor: isStory ? "transparent" : "initial",
@@ -25,7 +25,7 @@ export const Footer = () => {
     >
       {isHome && <div className="fixed bottom-0 md:hidden left-4 w-[40%]">{/* <Fifi /> */}</div>}
       {router.pathname.startsWith("/gallery") && (
-        <div className="fixed bottom-4 lg:bottom-0 md:w-[20%] w-[30%] lg:w-[10%] right-2">
+        <div className="fixed bottom-4 lg:bottom-0 md:w-[20%] w-[30%] lg:w-[8%] right-2">
           <Panda />
         </div>
       )}
