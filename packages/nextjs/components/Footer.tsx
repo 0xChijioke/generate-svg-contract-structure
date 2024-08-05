@@ -16,7 +16,7 @@ export const Footer = () => {
 
   return (
     <div
-      className="fixed bottom-0 z-10 w-full h-24 bg-center bg-cover"
+      className="fixed bottom-0 z-10 w-full h-[5%] lg:h-24 bg-center bg-cover"
       style={{
         backgroundImage: isStory ? "none" : footerImage,
         backgroundColor: isStory ? "transparent" : "initial",
