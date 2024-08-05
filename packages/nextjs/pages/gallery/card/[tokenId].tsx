@@ -2,7 +2,7 @@ import React from "react";
 import dynamic from "next/dynamic";
 import { JsonRpcProvider } from "ethers";
 import { NextPage } from "next";
-import CardDetails from "~~/components/mecha/CardDetails";
+import CardDetails from "~~/components/mecha/gallery/CardDetails";
 import { getTokenDetails } from "~~/helpers/getTokenDetails";
 import { getTargetNetwork } from "~~/utils/scaffold-eth";
 
