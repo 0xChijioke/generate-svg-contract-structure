@@ -24,7 +24,7 @@ export const Header = () => {
 
   return (
     <div
-      className={`fixed flex z-20 justify-end w-full h-[13%] lg:h-44 bg-right bg-cover ${
+      className={`fixed flex z-20 justify-end w-full h-[14%] lg:h-44 bg-right bg-cover ${
         isStory ? "bg-transparent justify-end" : " md:justify-between"
       }`}
       style={{ backgroundImage: isStory ? "none" : headerImage, backgroundRepeat: "no-repeat" }}
