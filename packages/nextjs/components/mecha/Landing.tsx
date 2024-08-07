@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
 import Slideshow from "./story/Slideshow";
 import { AnimatePresence } from "framer-motion";
 

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { NextPage } from "next";
 import { MetaHeader } from "~~/components/MetaHeader";
-import HomeComponent from "~~/components/mecha/Home";
+import HomeComponent from "~~/components/mecha/home/Home";
 
 const Home: NextPage = () => {
   return (
