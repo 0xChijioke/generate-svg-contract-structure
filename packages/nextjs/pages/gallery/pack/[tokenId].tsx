@@ -57,6 +57,8 @@ const Pack: NextPage = () => {
     walletClient,
   });
 
+  console.log(packsContract);
+
   useScaffoldEventSubscriber({
     contractName: "OnchainMecha",
     eventName: "Transfer",

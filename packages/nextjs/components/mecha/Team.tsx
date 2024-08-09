@@ -1,7 +1,6 @@
-import dynamic from "next/dynamic";
+
 import Image from "next/image";
 import { teamImage } from "./base64Elements";
-import StarBurst from "./team/StarBurst";
 import { BottomKanji, Chijioke, Dan, Elliot, TopKanji } from "./team/TeamElements";
 
 const Team = () => {
