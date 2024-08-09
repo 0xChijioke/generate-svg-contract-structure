@@ -25,7 +25,7 @@ export const Footer = () => {
     >
       {isHome && <div className="fixed bottom-0 md:hidden left-4 w-[40%]">{/* <Fifi /> */}</div>}
       {router.pathname.startsWith("/gallery") && (
-        <div className="fixed bottom-4 lg:bottom-0 md:w-[20%] w-[30%] lg:w-[8%] right-2">
+        <div className="fixed bottom-1 lg:bottom-0 md:w-[20%] w-[20%] lg:w-[8%] right-2">
           <Panda />
         </div>
       )}

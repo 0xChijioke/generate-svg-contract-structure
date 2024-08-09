@@ -24,7 +24,7 @@ export const Header = () => {
 
   return (
     <div
-      className={`fixed flex z-20 justify-end w-full h-[14%] lg:h-44 bg-right bg-cover ${
+      className={`fixed flex z-20 justify-end w-full h-[15%] lg:h-44 bg-right bg-cover ${
         isStory ? "bg-transparent justify-end" : " md:justify-between"
       }`}
       style={{ backgroundImage: isStory ? "none" : headerImage, backgroundRepeat: "no-repeat" }}
@@ -40,7 +40,7 @@ export const Header = () => {
           {!isStory && <RainbowKitCustomConnectButton />}
           <motion.div
             onClick={() => setIsDrawerOpen(prevState => !prevState)}
-            className="cursor-pointer w-16 mr-2 lg:mr-6 md:w-24"
+            className="cursor-pointer w-16 mr-3 lg:mr-6 md:w-24"
             initial={false}
             animate={isDrawerOpen ? { rotate: 180, color: "#FF5722" } : { rotate: 0, color: "#000" }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
