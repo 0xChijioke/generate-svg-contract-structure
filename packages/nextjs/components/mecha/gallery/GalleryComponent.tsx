@@ -3,7 +3,6 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Frame from "./Frame";
 import { useAccount } from "wagmi";
 import { useTokenContext } from "~~/context/TokenContext";
 import { placeholder } from "~~/public/assets/placeholder";
@@ -31,7 +30,6 @@ const GalleryComponent: FC = () => {
     );
   }
 
-  console.log(status);
   if (status === "loading") {
     return (
       <div className="fixed inset-0 flex justify-center z-10 items-center bg-opacity-80 text-white">
@@ -56,21 +54,20 @@ const GalleryComponent: FC = () => {
       <div className="fixed top-[24%] opacity-60 md:opacity-auto z-10 lg:top-[20%] font-bold text-xl left-4">
         {userBalance} Cards
       </div>
-      <div className="grid lg:grid-cols-3 lg:w-[80%] mx-auto items-center pb-4 min-h-full grid-cols-1 gap-x-0 lg:gap-y-20 gap-4">
+      <div className="grid lg:grid-cols-3 lg:w-[80%] mx-auto items-center pb-4 min-h-full grid-cols-1 gap-y-4">
         {tokenIds &&
           tokenIds.map((tokenId: any) => (
             <Link href={{ pathname: `/gallery/card/${tokenId}` }} key={tokenId}>
-              <div className="flex justify-center rounded-xl w-full lg:w-[88%] shadow-lg p-2 m-auto h-auto transform transition-transform duration-300 hover:scale-105">
+              <div className="flex justify-center rounded-xl w-fit lg:w-[80%] shadow-lg p-2 m-auto h-auto transform transition-transform duration-300 hover:scale-105">
                 {svgData[tokenId] ? (
                   <>
-                    <Frame className="absolute inset-0" />
                     <Image
                       alt={`NFT ${tokenId}`}
                       src={svgData[tokenId]}
                       blurDataURL={placeholder}
-                      className="lg:mt-14 "
-                      width={350}
-                      height={400}
+                      className="rounded-xl"
+                      width={400}
+                      height={600}
                       placeholder="blur"
                     />
                   </>
