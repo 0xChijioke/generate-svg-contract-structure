@@ -8,7 +8,7 @@ const Team = () => {
   return (
     <>
       <MetaHeader title="Team | Mecha" />
-      <div className="w-[100%] h-[100%] bottom-10 fixed">
+      <div className="w-full h-full lg:bottom-10 fixed">
         <TeamComponent />
       </div>
     </>
