@@ -40,7 +40,6 @@ export async function getServerSideProps(context: any) {
   return {
     props: {
       tokenId,
-      // mechaType,
       tokenMetadata,
     },
   };

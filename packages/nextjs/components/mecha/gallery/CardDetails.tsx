@@ -31,18 +31,17 @@ const CardDetails: FC<CardDetailsProps> = props => {
     },
   ];
 
-  // console.log(props.tokenMetadata)
   const handleIconClick = (event: React.MouseEvent, url: string) => {
     event.preventDefault();
     window.open(url, "_blank");
   };
   return (
-    <div className="flex justify-center flex-col lg:pt-[8%] h-fit my-[15%] lg:my-0 lg:flex-row items-center w-full lg:max-h-screen">
-      <div className="pt-20 px-10 items-center">
+    <div className="flex justify-center flex-col lg:pt-[4%] h-fit my-[15%] lg:my-0 lg:flex-row items-center w-full lg:max-h-screen">
+      <div className="pt-10 lg:pt-20 px-10 items-center">
         <h1 className="text-2xl font-bold mb-4">
-          Card Details for Token: {props.tokenId.slice(0, 4)}...{props.tokenId.slice(-4)}
+          {props.tokenId.slice(0, 4)}...{props.tokenId.slice(-4)}
         </h1>
-        <div className="flex lg:w-[50%] lg:h-[50%]">
+        <div className="flex w-full h-full lg:w-[60%] lg:h-[50%]">
           <Image
             alt={`NFT ${props.tokenId}`}
             src={props.tokenMetadata.image}
@@ -54,15 +53,15 @@ const CardDetails: FC<CardDetailsProps> = props => {
           />
         </div>
       </div>
-      <div className="flex flex-col gap-y-4 mb-8 p-8 text-xl space-y-2">
+      <div className="flex flex-col gap-y-4 mb-8 lg:mt-20 p-4 lg:p-8 text-xl space-y-2">
         <p className="mb-2">{props.tokenMetadata.name}</p>
-        <p className="mb-2">{props.tokenMetadata.description}</p>
+        <p className="mb-2 lg:max-w-[40%]">{props.tokenMetadata.description}</p>
         <p className="mb-2">{props.tokenMetadata.attributes[0].value} card</p>
         <div className="mb-2 flex gap-x-2 whitespace-nowrap">
           Owner <Address address={props.tokenMetadata.owner} />
         </div>
         <div className="flex flex-col">
-          <p className="">Share on:</p>
+          <p className="">Share</p>
           <div className="gap-x-4 flex">
             {platforms.map(platform => (
               <a key={platform.name} href={platform.url} onClick={event => handleIconClick(event, platform.url)}>
@@ -76,7 +75,7 @@ const CardDetails: FC<CardDetailsProps> = props => {
           </div>
         </div>
         <div className="flex flex-col">
-          <p>View on</p>
+          <p></p>
           <div className="flex gap-x-4">
             {viewPlatforms.map(platform => (
               <a key={platform.name} href={platform.url} onClick={event => handleIconClick(event, platform.url)}>
