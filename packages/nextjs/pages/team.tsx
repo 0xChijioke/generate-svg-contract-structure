@@ -2,7 +2,7 @@ import React from "react";
 import dynamic from "next/dynamic";
 import { MetaHeader } from "~~/components/MetaHeader";
 
-const TeamComponent = dynamic(() => import("~~/components/mecha/Team"), { ssr: false });
+const TeamComponent = dynamic(() => import("~~/components/mecha/team/Team"), { ssr: false });
 
 const Team = () => {
   return (
