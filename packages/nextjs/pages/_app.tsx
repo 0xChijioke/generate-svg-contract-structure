@@ -12,7 +12,6 @@ import { WagmiConfig } from "wagmi";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
 import { BlockieAvatar } from "~~/components/scaffold-eth";
-import { EventProvider } from "~~/context/EventContext";
 import { TokenProvider } from "~~/context/TokenContext";
 import { wagmiConfig } from "~~/services/web3/wagmiConfig";
 import { appChains } from "~~/services/web3/wagmiConnectors";
@@ -52,11 +51,10 @@ const ScaffoldEthApp = ({ Component, pageProps }: AppProps) => {
   }, []);
 
   const wrapWithProviders = (component: React.ReactNode) => {
-    return (
-      <EventProvider>
-        {router.pathname.startsWith("/gallery") ? <TokenProvider>{component}</TokenProvider> : component}
-      </EventProvider>
-    );
+    if (router.pathname.startsWith("/gallery")) {
+      return <TokenProvider>{component}</TokenProvider>;
+    }
+    return component;
   };
 
   return (
