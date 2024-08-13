@@ -22,7 +22,7 @@ const MintComponent: FC = () => {
 
   return (
     <>
-      <div className="absolute top-[50%]">
+      <div className="absolute top-[42%]">
         <div className="flex flex-col w-full h-full justify-center items-center">
           <div className="w-full h-4 text-center">
             {minting && <p>Minting in progress...</p>}

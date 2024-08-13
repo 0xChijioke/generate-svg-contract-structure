@@ -16,7 +16,7 @@ const MintPage: NextPage = () => {
         style={{ backgroundImage: mintImage }}
       >
         <div className="relative w-full h-full">
-          <div className="absolute w-[50%] md:w-auto left-0 top-[20%]">
+          <div className="absolute w-[50%] md:w-auto left-0 lg:top-[20%] top-[16%]">
             <Goodluck />
           </div>
           <div className="absolute right-0 w-[50%] md:w-auto bottom-[10%]">

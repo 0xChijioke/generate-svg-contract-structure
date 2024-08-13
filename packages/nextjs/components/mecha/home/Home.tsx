@@ -41,7 +41,7 @@ const Home = () => (
         <Samurai />
       </motion.div>
       <motion.div
-        className="left-0 w-auto lg:w-[34%] md:w-[50%] lg:top-40 absolute bottom-[1%]"
+        className="left-0 w-auto lg:w-[34%] md:w-[50%] lg:top-40 absolute bottom-[5%]"
         initial={{ x: -100, opacity: 0, scale: 0.7 }}
         whileInView={{ x: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, ease: "easeIn" }}

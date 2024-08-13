@@ -67,7 +67,7 @@ export const TokenProvider: React.FC<{ children: ReactNode }> = ({ children }) =
     queryFn: fetchTokenIds,
     enabled: !!address,
     initialPageParam: 0,
-    getNextPageParam: (pages) => {
+    getNextPageParam: pages => {
       const totalFetchedTokens = pages.flat().length;
       return totalFetchedTokens < parseInt(userBalance) ? pages.length : undefined;
     },
