@@ -38,10 +38,7 @@ const CardDetails: FC<CardDetailsProps> = props => {
   return (
     <div className="flex justify-center w-full flex-col lg:pt-[4%] h-fit my-[15%] lg:my-0 lg:flex-row items-center lg:max-h-screen">
       <div className="pt-10 lg:pt-8 px-10 items-center">
-        <h1 className="text-2xl font-bold mb-4">
-          {props.tokenId.slice(0, 4)}...{props.tokenId.slice(-4)}
-        </h1>
-        <div className="flex w-full h-full lg:w-[60%]">
+        <div className="flex w-full mt-10 h-full lg:w-[60%]">
           <Image
             alt={`NFT ${props.tokenId}`}
             src={props.tokenMetadata.image}
@@ -53,8 +50,8 @@ const CardDetails: FC<CardDetailsProps> = props => {
           />
         </div>
       </div>
-      <div className="flex flex-col gap-y-4 text-left mb-8 w-1/2 lg:mt-20 p-4 lg:p-8 text-xl space-y-2">
-        <p className="mb-2">{props.tokenMetadata.name}</p>
+      <div className="flex flex-col gap-y-4 text-left mb-8 w-1/2 lg:mt-10 p-4 lg:p-8 text-xl space-y-2">
+        <p className="mb-2">{props.tokenMetadata.name} | {props.tokenId.slice(0, 4)}...{props.tokenId.slice(-4)}</p>
         <p className="mb-2 lg:m">{props.tokenMetadata.description}</p>
         <p className="mb-2">{props.tokenMetadata.attributes[0].value} card</p>
         <div className="mb-2 flex gap-x-2 whitespace-nowrap">
