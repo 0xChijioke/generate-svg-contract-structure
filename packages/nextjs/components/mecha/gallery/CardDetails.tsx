@@ -1,6 +1,7 @@
-import { FC } from "react";
+import { FC, useEffect, useState } from "react";
 import Image from "next/image";
 import { Address } from "../../scaffold-eth";
+import { motion } from "framer-motion";
 import WarpcastIcon from "../buttons/WarpcastIcon";
 import { SocialIcon } from "react-social-icons";
 import { useDeployedContractInfo } from "~~/hooks/scaffold-eth";
@@ -15,6 +16,33 @@ interface CardDetailsProps {
 
 const CardDetails: FC<CardDetailsProps> = props => {
   const { data: onchainMechaData } = useDeployedContractInfo("OnchainMecha");
+
+
+
+
+
+  const [rotateX, setRotateX] = useState(0);
+  const [rotateY, setRotateY] = useState(0);
+
+  const handleMouseMove = (event: MouseEvent) => {
+    const { clientX, clientY } = event;
+    const { innerWidth, innerHeight } = window;
+    const x = clientX / innerWidth - 0.5;
+    const y = clientY / innerHeight - 0.5;
+
+    setRotateY(x * 50);
+    setRotateX(-y * 50);
+  };
+
+  useEffect(() => {
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
+  }, []);
+
+
+
+
+
 
   const shareUrl = window.location.href;
   const platforms = [
@@ -38,17 +66,25 @@ const CardDetails: FC<CardDetailsProps> = props => {
   return (
     <div className="flex justify-center w-full flex-col lg:pt-[4%] h-fit my-[15%] lg:my-0 lg:flex-row items-center lg:max-h-screen">
       <div className="pt-10 lg:pt-8 px-10 items-center">
-        <div className="flex w-full mt-10 h-full lg:w-[60%]">
-          <Image
-            alt={`NFT ${props.tokenId}`}
-            src={props.tokenMetadata.image}
-            className="rounded-xl"
-            width={800}
-            blurDataURL={placeholder}
-            height={800}
-            placeholder={"blur"}
-          />
-        </div>
+        <motion.div
+            className="flex w-full mt-10 h-full lg:w-[60%]"
+            style={{
+              transformStyle: "preserve-3d",
+              rotateX: rotateX,
+              rotateY: rotateY,
+              transition: "transform 0.2s",
+            }}
+          >
+            <Image
+              alt={`NFT ${props.tokenId}`}
+              src={props.tokenMetadata.image}
+              className="rounded-xl"
+              width={800}
+              blurDataURL={placeholder}
+              height={800}
+              placeholder={"blur"}
+            />
+        </motion.div>
       </div>
       <div className="flex flex-col gap-y-4 text-left mb-8 w-1/2 lg:mt-10 p-4 lg:p-8 text-xl space-y-2">
         <p className="mb-2">{props.tokenMetadata.name} | {props.tokenId.slice(0, 4)}...{props.tokenId.slice(-4)}</p>
