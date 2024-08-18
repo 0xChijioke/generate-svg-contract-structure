@@ -19,7 +19,7 @@ const MintPage: NextPage = () => {
           <div className="absolute w-[50%] md:w-auto left-0 lg:top-[20%] top-[16%]">
             <Goodluck />
           </div>
-          <div className="absolute right-0 w-[50%] md:w-auto bottom-[5%]">
+          <div className="absolute right-0 w-[50%] md:w-auto lg:bottom-[10%] bottom-[5%]">
             <Badluck />
           </div>
         </div>
