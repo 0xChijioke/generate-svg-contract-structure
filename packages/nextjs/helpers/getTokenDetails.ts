@@ -14,10 +14,7 @@ export const getTokenDetails = async (tokenId: string, provider: ContractRunner)
     const json = atob(tokenURI.split(",")[1]);
     const tokenMetadata = JSON.parse(json);
 
-    // Fetch mecha type
-    // const mechaType = (await contract.getMechaType(tokenId)).toString();
-    // console.log(`Mecha Type: ${mechaType}`);
-
+    // console.log(tokenMetadata)
     return {
       tokenMetadata,
       // mechaType,
