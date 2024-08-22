@@ -1,8 +1,7 @@
-import { FC, useEffect } from "react";
+import { FC } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import { useAccount } from "wagmi";
 import { useTokenContext } from "~~/context/TokenContext";
 import { placeholder } from "~~/public/assets/placeholder";
@@ -13,14 +12,6 @@ const GalleryComponent: FC = () => {
   const { address, isConnected } = useAccount();
   const { tokenIds, userBalance, svgData, fetchMoreTokenIds, isFetchingNextPage, hasNextPage, status } =
     useTokenContext();
-
-  const router = useRouter();
-
-  useEffect(() => {
-    if (router.pathname === "/gallery") {
-      fetchMoreTokenIds();
-    }
-  }, [router.pathname]);
 
   if (!isConnected || !address) {
     return (
