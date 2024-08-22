@@ -10,6 +10,7 @@ export default async function handler(req: any, res: any) {
   const contract = getContractInstance(provider);
   const { address, batchIndex } = req.query;
 
+
   if (!address) {
     return res.status(400).json({ error: "User address is required" });
   }
@@ -19,6 +20,7 @@ export default async function handler(req: any, res: any) {
     const totalTokens = Number(balance);
     const end = totalTokens - batchIndex * BATCH_SIZE;
     const start = Math.max(end - BATCH_SIZE, 0);
+
 
     if (start < 0) {
       return res.status(200).json([]);
