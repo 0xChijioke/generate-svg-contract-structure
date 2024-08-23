@@ -16,7 +16,12 @@ import { TokenProvider } from "~~/context/TokenContext";
 import { wagmiConfig } from "~~/services/web3/wagmiConfig";
 import { appChains } from "~~/services/web3/wagmiConnectors";
 import "~~/styles/globals.css";
+import { Inter, Roboto } from 'next/font/google'
 
+const inter = Roboto({
+  subsets: ['latin'],
+  weight: "400"
+})
 const ScaffoldEthApp = ({ Component, pageProps }: AppProps) => {
   const router = useRouter();
   const queryClient = new QueryClient({
@@ -26,7 +31,7 @@ const ScaffoldEthApp = ({ Component, pageProps }: AppProps) => {
       },
     },
   });
-
+ 
   const { isDarkMode } = useDarkMode();
 
   useEffect(() => {
@@ -64,7 +69,7 @@ const ScaffoldEthApp = ({ Component, pageProps }: AppProps) => {
         <QueryClientProvider client={queryClient}>
           <div className="flex flex-col bg-black min-h-screen">
             <Header />
-            <main className="relative flex flex-col flex-1">{wrapWithProviders(<Component {...pageProps} />)}</main>
+            <main className={`relative ${inter.className} flex flex-col flex-1`}>{wrapWithProviders(<Component {...pageProps} />)}</main>
             <Footer />
           </div>
           <Toaster />

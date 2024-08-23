@@ -36,9 +36,9 @@ export const TokenProvider: React.FC<{ children: ReactNode }> = ({ children }) =
 
   useEffect(() => {
     if (address && tokenBalance) {
-      // console.log(tokenBalance);
       setUserBalance(tokenBalance.toString());
     }
+
     if (Number(tokenBalance) === 0) setUserBalance("0");
   }, [address, tokenBalance]);
 
@@ -67,12 +67,14 @@ export const TokenProvider: React.FC<{ children: ReactNode }> = ({ children }) =
     queryFn: fetchTokenIds,
     enabled: !!address,
     initialPageParam: 0,
-    getNextPageParam: pages => {
-      const totalFetchedTokens = pages.flat().length;
-      return totalFetchedTokens < parseInt(userBalance) ? pages.length : undefined;
-    },
-  });
-  // console.log(hasNextPage, status)
+    getNextPageParam: (lastPage, allPages) => {
+    const totalFetchedTokens = allPages.flat().length;
+    const totalTokens = parseInt(userBalance);
+    
+    const nextPageIndex = allPages.length;
+    return totalFetchedTokens < totalTokens ? nextPageIndex : undefined;
+  },
+});
 
   const fetchSVGs = async (newTokenIds: string[]) => {
     const newSvgData: { [key: string]: string } = {};
