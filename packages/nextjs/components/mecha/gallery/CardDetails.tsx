@@ -56,7 +56,7 @@ const CardDetails: FC<CardDetailsProps> = props => {
   };
   return (
     <div className="flex justify-center w-full flex-col lg:pt-[4%] h-fit my-[15%] lg:my-0 lg:flex-row items-center lg:max-h-screen">
-      <div className="pt-10 lg:pt-8 px-10 items-center">
+      <div className="pt-10 lg:pt-8 px-4 items-center">
         <motion.div
           className="flex w-full mt-10 h-full lg:w-[60%]"
           style={{
@@ -80,7 +80,7 @@ const CardDetails: FC<CardDetailsProps> = props => {
         </motion.div>
 
       </div>
-      <div className="flex flex-col gap-y-4 text-left mb-8 w-1/2 lg:mt-10 p-4 lg:p-8 text-xl space-y-2">
+      <div className="flex flex-col gap-y-4 text-left mb-8 lg:w-1/2 lg:mt-10 p-4 lg:p-8 text-xl space-y-2">
         <p className="mb-2">{props.tokenMetadata.name} | {props.tokenId.slice(0, 4)}...{props.tokenId.slice(-4)}</p>
         <p className="mb-2 lg:m">{props.tokenMetadata.description}</p>
         <p className="mb-2">{props.tokenMetadata.attributes[0].value} card</p>
@@ -88,7 +88,6 @@ const CardDetails: FC<CardDetailsProps> = props => {
           Owner <Address address={props.tokenMetadata.owner} />
         </div>
         <div className="flex flex-col">
-          <p className="">Share</p>
           <div className="gap-x-4 flex">
             {platforms.map(platform => (
               <a key={platform.name} href={platform.url} onClick={event => handleIconClick(event, platform.url)}>
