@@ -25,7 +25,8 @@ const MintComponent: FC = () => {
       <div className="absolute top-[42%]">
         <div className="flex flex-col w-full h-full justify-center items-center">
           <div className="w-full h-4 text-center">
-            {minting && <p>Minting in progress...</p>}
+            {minting && <p className="animate-pulse">Minting in progress...</p>}
+            {isSuccess && <p className="animate-pulse">Pack minted! Redirecting... </p>}
             {isError && <p>An error occurred. Please try again.</p>}
           </div>
           <button
