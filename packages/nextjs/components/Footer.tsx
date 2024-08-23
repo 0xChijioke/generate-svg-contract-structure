@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { footerImage } from "./mecha/base64Elements";
+import { useScaffoldContractRead } from "~~/hooks/scaffold-eth";
 
 // import Fifi from "./mecha/home/Fifi";
 
@@ -13,6 +14,15 @@ export const Footer = () => {
   const router = useRouter();
   const isHome = router.pathname === "/";
   const isStory = router.pathname === "/story";
+
+  
+
+
+  const { data: akuShardsFound } = useScaffoldContractRead({
+    contractName: "OnchainMecha",
+    functionName: "akuShardsFound"
+  });
+
 
   return (
     <div
@@ -29,6 +39,13 @@ export const Footer = () => {
           <Panda />
         </div>
       )}
+      <div className="text-white text-center font-semibold text-lg">
+        {akuShardsFound !== undefined ? (
+          <p>{Number(akuShardsFound)} / 7 Aku cards found!</p>
+        ) : (
+          <p></p>
+        )}
+      </div>
     </div>
   );
 };
