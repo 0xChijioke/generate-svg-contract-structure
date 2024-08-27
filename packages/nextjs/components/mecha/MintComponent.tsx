@@ -25,17 +25,17 @@ const MintComponent: FC = () => {
       <div className="absolute top-[42%]">
         <div className="flex flex-col w-full h-full justify-center items-center">
           <div className="w-full h-4 text-center">
-            {minting && <p className="animate-pulse">Minting in progress...</p>}
-            {isSuccess && <p className="animate-pulse">Pack minted! Redirecting... </p>}
+            {minting && <p className="animate-pulse text-lg font-bold">Minting in progress...</p>}
+            {isSuccess && <p className="animate-pulse text-lg font-bold">Pack minted! Redirecting... </p>}
             {isError && <p>An error occurred. Please try again.</p>}
           </div>
           <button
-            disabled={minting}
+            disabled={minting || isSuccess}
             className="btn btn-ghost focus:bg-transparent active:bg-transperent p-0 m-0 items-center mx-auto mt-10 hover:bg-transparent"
           >
             <MintButton onClick={mintPack} />
           </button>
-          <div className="w-full h-fit pt-4 text-center">Mint price: 0.0007777777 ETH</div>
+          <div className="w-full h-fit pt-4 text-center text-lg font-bold">0.000777 Ξ</div>
         </div>
       </div>
     </>
