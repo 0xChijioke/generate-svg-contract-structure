@@ -18,7 +18,7 @@ const MintComponent: FC = () => {
     if (isSuccess && tokenId) {
       router.push(`/gallery/pack/${tokenId}`);
     }
-  }, [isSuccess, tokenId, router]);
+  }, [tokenId]);
 
   return (
     <>
