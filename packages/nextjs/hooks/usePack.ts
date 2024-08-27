@@ -7,12 +7,6 @@ export const usePack = (tokenId: string | string[] | undefined) => {
   const [ownerAddr, setOwnerAddr] = useState<string>("");
   const [error, setError] = useState<string | null>(null);
 
-  //   const { data: tokenBalance } = useScaffoldContractRead({
-  //     contractName: "OnchainMechaPacks",
-  //     functionName: "balanceOf",
-  //     args: [address],
-  //   });
-
   // Fetch pack data
   const { data: packData, error: packError } = useScaffoldContractRead({
     contractName: "OnchainMechaPacks",

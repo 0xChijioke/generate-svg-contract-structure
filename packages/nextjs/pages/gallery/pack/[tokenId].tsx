@@ -57,8 +57,6 @@ const Pack: NextPage = () => {
     walletClient,
   });
 
-  console.log(packsContract);
-
   useScaffoldEventSubscriber({
     contractName: "OnchainMecha",
     eventName: "Transfer",
@@ -88,19 +86,17 @@ const Pack: NextPage = () => {
       setOpening,
     );
 
-    console.log(tx, opened, opening);
   };
 
   useEffect(() => {
-    console.log("Opened state changed", opened);
     if (opened) {
-      router.push("/gallery");
+      router.push("/latest");
     }
   }, [opened, router]);
 
   if (error) {
     return (
-      <GalleryLayout title={`Pack | Onchain Mecha`} description={`Pack details for token ${tokenId}`}>
+      <GalleryLayout title={` 🃏 Pack | Onchain Mecha`} description={`Pack details for token ${tokenId}`}>
         <div className="flex flex-col items-center justify-center min-h-screen py-8">
           <p className="text-red-500">Error: {error}</p>
         </div>
