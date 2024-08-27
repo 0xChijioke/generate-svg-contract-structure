@@ -13,12 +13,18 @@ export const useMintPack = () => {
     },
   });
 
+  const { data: balance } = useScaffoldContractRead({
+    contractName: "OnchainMechaPacks",
+    functionName: "balanceOf",
+    args: [address],
+  });
+  
   const { data: tokenId } = useScaffoldContractRead({
     contractName: "OnchainMechaPacks",
     functionName: "tokenOfOwnerByIndex",
-    args: [address, 0n],
+    args: [address, balance && balance - 1n],
   });
-
+  
   return {
     minting: isLoading || isMining,
     isError,
