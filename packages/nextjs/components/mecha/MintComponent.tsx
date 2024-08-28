@@ -1,9 +1,7 @@
 import { FC, useEffect } from "react";
-import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { useMintPack } from "~~/hooks/useMintPack";
-
-const MintButton = dynamic(() => import("~~/components/mecha/buttons/MintButton"), { ssr: false });
+import MintButton from "~~/components/mecha/buttons/MintButton";
 
 const MintComponent: FC = () => {
   const router = useRouter();
