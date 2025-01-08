@@ -1,7 +1,9 @@
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
+import { motion } from "framer-motion";
 import { footerImage } from "./mecha/base64Elements";
 import { useScaffoldContractRead } from "~~/hooks/scaffold-eth";
+import GotoMint from "./mecha/buttons/GotoMint";
 
 // import Fifi from "./mecha/home/Fifi";
 
@@ -32,16 +34,25 @@ export const Footer = () => {
         backgroundColor: isStory ? "transparent" : "initial",
         backgroundRepeat: "no-repeat",
       }}
-    >
-      {isHome && <div className="fixed bottom-0 md:hidden left-4 w-[40%]">{/* <Fifi /> */}</div>}
+      >
       {router.pathname.startsWith("/gallery") && (
         <div className="fixed bottom-1 lg:bottom-0 md:w-[20%] w-[20%] lg:w-[8%] right-2">
           <Panda />
         </div>
       )}
-      <div className="text-white text-center font-semibold text-lg">
+      {isHome && 
+        <motion.div 
+          className="w-full -mt-3 lg:p-8 flex justify-center"
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
+          >
+          <GotoMint className="lg:w-72 w-48" onClick={() => router.push("/mint")} />
+        </motion.div>
+      }
+      <div className="text-left fixed -bottom-5 pl-2 lg:-bottom-2 lg:pl-10 text-neutral-200 font-semibold text-base">
         {akuShardsFound !== undefined ? (
-          <p>{Number(akuShardsFound)} / 7 Aku cards found!</p>
+          <p>{Number(akuShardsFound)} / 7 Aku cards</p>
         ) : (
           <p></p>
         )}
