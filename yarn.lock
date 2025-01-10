@@ -3839,7 +3839,6 @@ __metadata:
     qrcode.react: ^3.1.0
     react: ^18.2.0
     react-blockies: ^1.4.1
-    react-canvas-confetti: ^2.0.7
     react-copy-to-clipboard: ^5.1.0
     react-dom: ^18.2.0
     react-fast-marquee: ^1.3.5
@@ -4403,13 +4402,6 @@ __metadata:
     "@types/node": "*"
     "@types/responselike": ^1.0.0
   checksum: d9b26403fe65ce6b0cb3720b7030104c352bcb37e4fac2a7089a25a97de59c355fa08940658751f2f347a8512aa9d18fdb66ab3ade835975b2f454f2d5befbd9
-  languageName: node
-  linkType: hard
-
-"@types/canvas-confetti@npm:^1.6.4":
-  version: 1.6.4
-  resolution: "@types/canvas-confetti@npm:1.6.4"
-  checksum: 0452e1f381e5d59471578be1b83f2908f0906ba0fddfe16f941a07e070f4ad91ceaf1a68bd84d84bb5e81214c95ef00137677d9d61d81119051425ca5ce307ba
   languageName: node
   linkType: hard
 
@@ -7154,13 +7146,6 @@ __metadata:
   version: 1.0.30001543
   resolution: "caniuse-lite@npm:1.0.30001543"
   checksum: 1a65c8b0b93913b6241c7d66e1e1f3ea0f194f7e140eefe500512641c2eb4df285991ec9869a1ba2856ea6f6d21e9f3d7bcd91971b5fb1721e3fa0390feec6f1
-  languageName: node
-  linkType: hard
-
-"canvas-confetti@npm:^1.9.2":
-  version: 1.9.3
-  resolution: "canvas-confetti@npm:1.9.3"
-  checksum: db044a9c9ca0e58eafd115f7dfc2f9ecc377be34d8a5dd75901dae0dafd4fb0b75fbbf8edd48bbefad2468653c5838348f0e768b79727a924259a9ada343ea30
   languageName: node
   linkType: hard
 
@@ -15183,18 +15168,6 @@ __metadata:
   peerDependencies:
     react: ">=15.0.0"
   checksum: 87139fc2cc682d34ff8633c58ce96f89826cc3127499b623fb1d8c99dd8e1fe21055750a051933ffc500ca9c88aa017930deae963ffc635135c02907e5d75e22
-  languageName: node
-  linkType: hard
-
-"react-canvas-confetti@npm:^2.0.7":
-  version: 2.0.7
-  resolution: "react-canvas-confetti@npm:2.0.7"
-  dependencies:
-    "@types/canvas-confetti": ^1.6.4
-    canvas-confetti: ^1.9.2
-  peerDependencies:
-    react: "*"
-  checksum: 256f0e6e01b35535d7f26ba43c85d4dad488b3ea77b3e36c6849c8ef76a9354a4d85d8908445cc3820e7553e77a1a7dfa1a86904cc9a74746d5ec12a66cdcd5f
   languageName: node
   linkType: hard
 
