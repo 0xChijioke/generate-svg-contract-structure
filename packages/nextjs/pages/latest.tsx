@@ -89,15 +89,22 @@ const Latest = () => {
               )}
             </div>
           </div>
-        )}<div className="mt-2">
-        <button 
-          onClick={() => router.push('/gallery')}
-          className="bg-transperent text-lg flex flex-row items-center text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105 focus:outline-none"
-        >
-          Go to Gallery
-          <ArrowRightCircleIcon className="ml-2 h-5 w-5" />
-        </button>
-      </div>
+        )}
+        <div className="mt-2 flex space-x-4">
+          <button 
+            onClick={() => router.push('/gallery')}
+            className="bg-transparent text-lg flex flex-row items-center text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105 focus:outline-none"
+          >
+            Go to Gallery
+          </button>
+          <button 
+            onClick={() => router.push('/mint')}
+            className="bg-transparent text-lg flex flex-row items-center text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105 focus:outline-none"
+          >
+            Go to Mint
+            <ArrowRightCircleIcon className="ml-2 h-5 w-5" />
+          </button>
+        </div>
       </div>
     </GalleryLayout>
   );

@@ -42,7 +42,7 @@ export const Footer = () => {
       )}
       {isHome && 
         <motion.div 
-          className="w-full -mt-3 lg:p-8 flex justify-center"
+          className="w-full -mt-3 lg:-mt-5 lg:p-8 flex justify-center"
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
@@ -50,7 +50,7 @@ export const Footer = () => {
           <GotoMint className="lg:w-72 w-48" onClick={() => router.push("/mint")} />
         </motion.div>
       }
-      <div className="text-left fixed -bottom-5 pl-2 lg:-bottom-2 lg:pl-10 text-neutral-200 font-semibold text-base">
+      <div className="text-center fixed -bottom-5 lg:-bottom-4 pl-2 w-full text-neutral-200 font-semibold text-base">
         {akuShardsFound !== undefined ? (
           <p>{Number(akuShardsFound)} / 7 Aku cards</p>
         ) : (
