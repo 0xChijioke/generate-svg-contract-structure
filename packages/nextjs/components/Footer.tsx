@@ -1,9 +1,9 @@
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
-import { motion } from "framer-motion";
 import { footerImage } from "./mecha/base64Elements";
-import { useScaffoldContractRead } from "~~/hooks/scaffold-eth";
 import GotoMint from "./mecha/buttons/GotoMint";
+import { motion } from "framer-motion";
+import { useScaffoldContractRead } from "~~/hooks/scaffold-eth";
 
 // import Fifi from "./mecha/home/Fifi";
 
@@ -17,14 +17,10 @@ export const Footer = () => {
   const isHome = router.pathname === "/";
   const isStory = router.pathname === "/story";
 
-  
-
-
   const { data: akuShardsFound } = useScaffoldContractRead({
     contractName: "OnchainMecha",
-    functionName: "akuShardsFound"
+    functionName: "akuShardsFound",
   });
-
 
   return (
     <div
@@ -34,28 +30,24 @@ export const Footer = () => {
         backgroundColor: isStory ? "transparent" : "initial",
         backgroundRepeat: "no-repeat",
       }}
-      >
+    >
       {router.pathname.startsWith("/gallery") && (
         <div className="fixed bottom-1 lg:bottom-0 md:w-[20%] w-[20%] lg:w-[8%] right-2">
           <Panda />
         </div>
       )}
-      {isHome && 
-        <motion.div 
+      {isHome && (
+        <motion.div
           className="w-full -mt-3 lg:-mt-5 lg:p-8 flex justify-center"
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
-          >
+        >
           <GotoMint className="lg:w-72 w-48" onClick={() => router.push("/mint")} />
         </motion.div>
-      }
+      )}
       <div className="text-center fixed -bottom-5 lg:-bottom-4 pl-2 w-full text-neutral-200 font-semibold text-base">
-        {akuShardsFound !== undefined ? (
-          <p>{Number(akuShardsFound)} / 7 Aku cards</p>
-        ) : (
-          <p></p>
-        )}
+        {akuShardsFound !== undefined ? <p>{Number(akuShardsFound)} / 7 Aku cards</p> : <p></p>}
       </div>
     </div>
   );
